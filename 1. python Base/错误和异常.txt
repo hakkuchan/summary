@@ -1,4 +1,4 @@
-""" 语法错误(SyntaxError: invalid syntax)，又称为解析错误。"""
+""" 语法错误(SyntaxError: invalid syntax)，又称为解析错误。指代码无法执行。"""
 
 """ 
 异常: 语法正确，但执行时引发了错误，包括：

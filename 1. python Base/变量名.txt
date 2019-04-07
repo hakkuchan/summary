@@ -1,4 +1,4 @@
-名词		
+名词	
 addr	地址	address
 chg	    变化	change
 clr	    颜色	color
