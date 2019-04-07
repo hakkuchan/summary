@@ -1,0 +1,26 @@
+一、Git 简介
+Git 版本库可以简单理解成一个仓库（文件夹形式）
+这个仓库里的所有文件,其修改、删除等操作，Git都能跟踪，在将来某个时刻可以“还原”
+
+二、Linux 操作命令
+操作 Git 的常用软件是 Git Bash，用 linux 命令操作，需要掌握5个简单命令：
+1) mkdir e\Work\Github    # 在 e\Work 路径创建名为 Github 的文件夹
+2) ls    # 查看当前文件夹下的所有文件
+3) cd Github    # 进入名为 Github 的文件夹
+4) cd ..    # 返回上一级文件夹
+5) cat readme.txt    # 打开 readme.txt 文件
+
+三、Git 操作
+1) 创建 Git 仓库：git init e\Work\Github。之后 Github 文件夹中会有一个隐藏文件 .git, 表明仓库已经创建好了
+2) Git 有两个工作区域：暂存区 和 版本库
+3) 增加、修改、删除 Git 文件夹中的文件后，需要：添加至暂存区 --> 提交至版本库
+4) 添加至暂存区： git add readme.txt。也可一次添加多个文件：git add 1.py 2.py 3.py
+5) 把暂存区的所有文件提交至版本库，并添加注释：git commit -m'Add 1.py 2.py 3.py'
+6) 查看版本库的状态：git status
+7) 查看临时修改记录: git log --pretty=oneline（会显示一长串数字，版本号）
+8) 查看全部修改记录：git reflog
+8) 回到某一版本：git reset --hard 版本号（前4~5位）
+
+四、远程仓库
+Git是分布式版本控制系统，同一个Git仓库，可以分布到不同的机器上。
+简单来说，就是别的机器可以“克隆”某一机器上的原始版本库，且每台机器的版本库都一样，无主次之分。

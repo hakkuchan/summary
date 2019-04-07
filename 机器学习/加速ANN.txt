@@ -1,0 +1,47 @@
+""" 
+在 GPU 上 运行 pytorch 有时可以加速 ANN 运算，特别是对涉及图像的任务，但有时反而比 CPU 慢。
+
+在安装 pytorch-gpu 版本之前，需要先安装 CUDA 和 CUDNN。
+
+CUDA 是 NVDIA 显卡上的驱动程序，相当于一个工具箱。
+
+CUDNN 可以理解为放在 CUDA 工具箱中的一个工具，但需要独立下载。
+
+首先检查显卡是否支持 CUDA 和计算能力，查询网站：https://developer.nvidia.com/cuda-gpus
+
+然后选择并下载合适的 CUDA 安装程序，以默认路径安装。唯一需要注意的是：选择自定义安装（custom），取消 visual studio intergration 选项。
+
+CUDA安装后，在 cmd 中输入 nvcc -V 可以查看 CUDA 版本号
+
+下载 CUDNN 压缩文件（官网下载需要账号、密码，不如在网盘里面找），CUDNN 压缩文件解压后，有 lib，bin，include 3个文件夹，分别包含 .lib，.bin，.h 文件
+
+把上述 .lib，.bin，.h 复制到 CUDA 中对应的 lib，bin，include 3个文件夹中
+
+把 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin 添加为系统变量
+（添加方法：右键此电脑 --> 属性 --> 高级系统设置 --> 环境变量 --> 系统变量 --> 点击 path --> 编辑 --> 新建）
+
+在 pytorch 官网选择对应的安装命令安装 pytorch-gpu 即可
+
+至此 pytorch-gpu 及其运行环境配置完成
+"""
+
+
+""" 检查 pytorch-gpu 能否成功运行 """
+import torch
+cuda = torch.cuda.is_available()
+print(cuda)    # True 说明运行正常，False 说明运行不正常
+
+
+""" 运行设备的转化 """
+
+device = torch.device('cuda:0')  # 设置运行设备为 GPU
+
+device = torch.device('cpu')     # 设置运行设备为 CPU
+
+X = X.to(device)    # 把 X 部署到 GPU/CPU 上，X 需是 tensor
+
+y = y.to(device)    # 把 y 部署到 GPU/CPU 上，y 需是 tensor
+
+model = Model(3,4,1).to(device)    # 实例化 ANN 时把 model 部署到 GPU/CPU 上
+
+""" 再次注意：并不是所有任务都是用 GPU 更快，需要判断 """
