@@ -14,7 +14,7 @@ Git 版本库可以简单理解成一个仓库（文件夹形式）
 1) 创建 Git 仓库：git init e\Work\Github。之后 Github 文件夹中会有一个隐藏文件 .git, 表明仓库已经创建好了
 2) Git 有两个工作区域：暂存区 和 版本库
 3) 增加、修改、删除 Git 文件夹中的文件后，需要：添加至暂存区 --> 提交至版本库
-4) 添加至暂存区： git add readme.txt。也可一次添加多个文件：git add 1.py 2.py 3.py
+4) 添加至暂存区： git add readme.txt。也可一次添加多个文件：git add 1.py 2.py 3.py。最方便的是添加全部改动：git add -A
 5) 把暂存区的所有文件提交至版本库，并添加注释：git commit -m'Add 1.py 2.py 3.py'
 6) 查看版本库的状态：git status
 7) 查看临时修改记录: git log --pretty=oneline（会显示一长串数字，版本号）
