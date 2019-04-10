@@ -20,6 +20,7 @@ Git 版本库可以简单理解成一个仓库（文件夹形式）
 7) 查看临时修改记录: git log --pretty=oneline（会显示一长串数字，版本号）
 8) 查看全部修改记录：git reflog
 8) 回到某一版本：git reset --hard 版本号（前4~5位）
+9) git bash 显示中文为数字：git config --global core.quetopath false
 
 四、远程仓库
 Git是分布式版本控制系统，同一个Git仓库，可以分布到不同的机器上。

@@ -1,0 +1,7 @@
+os.path.join()
+读写文件 with open
+pickle模块
+os.path.isdir()
+if __name__ == '__main__': 的用途
+img.transpose
+np.reshape(test_data[b'data'][i], (3, 32, 32))
