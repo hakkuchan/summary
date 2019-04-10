@@ -1,11 +1,35 @@
-""" """
-
+""" 处理 csv 文件 """
 import pandas as pd
-
-data = pd.read_csv('E:\Work\Jupyter\data\char_data.csv') # 读取csv格式
-
-eg：# 添加表头
+# 读取 csv 文件为 dataframe 格式
+data = pd.read_csv('E:\Work\Jupyter\data\char_data.csv') 
+# 如果需要添加表头：
 name = ['preg','plas','pres','skin','test','mass','pedi','age','class']
 diabetes_table = pd.read_csv('E:\DataAnalysis\Library\pima-indians-diabetes.csv',names=name)
 
-data.to_csv('123.csv', index=True)  # 将 data (Dataframe格式) 写入csv文件，index=True 保留行索引
+# 将 Dataframe 格式写入csv文件，index=True 保留行索引
+data.to_csv('123.csv', index=True)
+
+
+
+""" 读写文本文件 """
+
+""" 打开 - 读取文件（注意 / 和 \ 的作用） """
+with open('E:\Work\Jupyter/test.txt', 'r') as f: # 'r'表示以只读方式打开文件，还有其它选项，详见文档
+    print(f.read()) # .read() 表示读取文件整体
+
+with open('E:\Work\Jupyter/test.txt', 'r') as f:
+    for line in f:
+        print(line) # 逐行读取 
+
+with open('E:\Work\Jupyter/test.txt', 'r') as f:
+    for ele in f.read():
+        print(ele)  # 逐字读取
+
+
+""" 打开 - 写入文件"""
+with open('E:\Work\Jupyter/test.txt', 'w') as f: # 'w'表示以写入模式
+    for i in range(3):
+        f.write(str(i))
+        
+with open('E:\Work\Jupyter/test.txt', 'r') as f: # 'w'表示以写入模式
+    print(f.read())

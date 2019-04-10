@@ -3,18 +3,29 @@
 
 import os
 
-""" 获取当前工作路径 """
+""" os.getcwd() 获取当前工作路径 """
 now_dir = os.getcwd()
-print(now_dir)
+print(now_dir)   # >>> E:\Work\Jupyter
 
-""" 拼接目录 """
-need_dir = os.path.join('E','Work','Github','笔记.txt')
-print(need_dir)
+""" os.path.join() 拼接目录（不能后接文件） """
+need_dir = os.path.join('E:','Work','Jupyter')
+print(need_dir)  # >>> E\Work\Jupyter
 
-""" 分割目录与文件名 """
-path, filename = os.path.split(need_dir)
+""" os.path.split() 分割目录与文件名 """
+path, filename = os.path.split('E:\Work\Jupyter/trial.ipynb')
 print(path, filename)
 
-""" 判断某一路径是否是目录 """
-print(os.path.isdir(now_dir))  # 是目录
-print(os.path.isdir(need_dir)) # 不是目录
+""" os.path.isdir() 判断某一路径是否是目录 """
+print(os.path.isdir('E:\Work\Jupyter'))
+print(os.path.isdir('E:\Work\Jupyter/trial.ipynb'))
+
+""" os.path.isfile() 判断某一路径是否是文件 """
+print(os.path.isfile('E:\Work\Jupyter'))
+print(os.path.isfile('E:\Work\Jupyter/trial.ipynb'))
+
+""" 注意 / 和 \ 的用法：
+
+        上级目录\下级目录
+        
+        目录 / 文件
+"""
