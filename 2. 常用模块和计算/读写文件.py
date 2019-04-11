@@ -10,31 +10,28 @@ diabetes_table = pd.read_csv('E:\DataAnalysis\Library\pima-indians-diabetes.csv'
 data.to_csv('123.csv', index=True)
 
 
+""" 处理文本文件 """
 
-""" 读写文本文件 """
-
-""" 打开 - 读取文件（注意 / 和 \ 的作用） """
-with open('E:\Work\Jupyter/test.txt', 'r') as f: # 'r'表示以只读方式打开文件，还有其它选项，详见文档
-    print(f.read()) # .read() 表示读取文件整体
+""" 打开 - 读取文件 """
+with open('E:\Work\Jupyter/test.txt', 'r') as f:  # 指针'r'表示以只读方式打开文件
+    print(f.read())  # .read() 表示读取文件整体
 
 with open('E:\Work\Jupyter/test.txt', 'r') as f:
     for line in f:
-        print(line) # 逐行读取 
+        print(line)  # 逐行读取 
 
 with open('E:\Work\Jupyter/test.txt', 'r') as f:
     for ele in f.read():
-        print(ele)  # 逐字读取
-
-
+        print(ele)   # 逐字读取
+		
 """ 打开 - 写入文件"""
-with open('E:\Work\Jupyter/test.txt', 'w') as f: # 'w'表示以写入模式
-    for i in range(3):
-        f.write(str(i))
-        
-with open('E:\Work\Jupyter/test.txt', 'r') as f: # 'w'表示以写入模式
-    print(f.read())
+with open('E:\Work\Jupyter/test.txt', 'w') as f:  # 指针'w'表示以写入模式
+    f.write('123')
+
 
 """
+指针的含义：
+
 r : 读取文件，若文件不存在则会报错
 
 w: 写入文件，若文件不存在则会先创建再写入，会覆盖原文件
