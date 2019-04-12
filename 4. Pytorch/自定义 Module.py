@@ -1,7 +1,7 @@
 """ 直观上可将 MyModule 看成函数，调用 Module(input) 即可得到对应的结果 """
 
 """以 nn 内置的 Linear 函数为例："""
-
+import torch
 from torch import nn
 linear_std = nn.Linear(3, 1)
 param = linear_std.state_dict()
