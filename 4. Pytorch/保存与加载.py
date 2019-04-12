@@ -17,26 +17,25 @@ class Model(nn.Module):
         x = self.layer2(x)
         x = self.layer3(x)
         return x
-
 bpnn = Model(2, 4, 2, 1) # 实例化 ANN
 
 
-""" 保存 & 加载 bpnn 的参数 """
+""" 保存 bpnn 的参数 """
 torch.save(bpnn.state_dict(), 'E:/Work/Jupyter/data/bpnn.pt') # 保存 bpnn 的参数（假设已训练好）
+
+
+""" 加载 bpnn 的参数 """
 new_bpnn = Model(2, 4, 2, 1) # 实例化 new_bpnn，参数要与 bpnn 一致
 new_bpnn.load_state_dict(torch.load('E:/Work/Jupyter/data/bpnn.pt')) # 加载 bpnn 的参数给 new_bpnn
 
 
-
 """ 提取 bpnn 的参数 """
-
 param = bpnn.state_dict() # param 的类型是集合
-
 print('显示各层参数的名称：')
 for name, val in param.items(): # name 表示各层的参数名称，val 表示具体的参数值
     print(name) # 显示各层参数的名称
-
 print(param['layer1.0.weight'])
+
 
 # param['layer1.0.weight'].size() >>> [4, 2]    解析：2 个输入变量，分别与 layer1 中 4 个 nodes 连接，因此权重尺寸为 (4 X 2)
 # param['layer1.0.bias'].size()   >>> [4]       解析：layer1 的 4 个 nodes 各一个 bias

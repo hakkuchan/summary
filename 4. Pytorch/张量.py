@@ -58,7 +58,7 @@ x = torch.tensor(x_nd, requires_grad=True)
 # Build a computational graph.
 y = x ** 3
 # Compute gradients.
-y.backward(torch.ones_like(y))  # 求 dy/dx，注意 torch.ones_like(y) 的作用
+y.backward(torch.ones_like(y))  # 求 dy/dx，注意 torch.ones_like(y) 的作用 https://juejin.im/post/5b9b7a8cf265da0af1612bbd
 # print out the gradients.
 print(x.grad)
 
