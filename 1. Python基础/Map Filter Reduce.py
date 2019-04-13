@@ -37,5 +37,5 @@ func(x,y) 先以 nums 中的第 1、2 个元素为输入，
 """
 
 from functools import reduce
-out = reduce((lambda x, y: x * y), [1, 2, 3, 4])
-print(out)
+fibo = reduce((lambda x,y: x + y), range(100))
+print(fibo)
