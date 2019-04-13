@@ -17,8 +17,8 @@ if __name__ == '__main__':
 
 理解如下：__name__ 是当前文件的内置变量，存储着当前模块（.py 文件）的名字
 
-当模块（比如 hello_world.py）被运行时，其模块名是 __main__，进而 __name__=='__main__' is True，于是执行之后的代码，
+当模块被运行时，当前模块名是 __main__，因此 __name__=='__main__' is True，于是执行之后的代码，
 
-当模块被引入时，模块名是 hello_world. 因此 __name__=='__main__' is False，便不执行之后的代码。
+当模块（比如 hello_world.py）被引入时，模块名是 hello_world. 因此 __name__=='__main__' is False，便不执行之后的代码。
 
 综上，if __name__ == '__main__': 的作用判断当前模块是在被运行还是被引入，进而选择性执行之后的代码

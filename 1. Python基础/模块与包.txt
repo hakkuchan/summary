@@ -1,7 +1,7 @@
 模块（module)
     一个包含Python代码的.py文件（包含了函数、特殊值等），比如math模块
     import math >>> type(math) >>> module
-    查看module中定义的所有功能：dir(modulename)
+    查看module中定义的所有功能：dir(modulename)，比如 dir(math)
     导入module的方法，以math为例：
         
         直接导入：
@@ -12,6 +12,7 @@
         from math import pi, log
 		或
         from math import log as ln
+		
         只能一句一句import，不能像这样：from math import log, log10 as ln, lg
         也不能像这样导入： import math.log as ln
         import A.B 的语法不适用于module，只适用于package
