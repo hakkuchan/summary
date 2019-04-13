@@ -12,6 +12,12 @@ for i in range(num):
 for i in [1, 2, 3]:
 """
 
+""" 特殊循环有三种：
+items() 取出字典的键值对，
+enumerate() 取出索引和元素
+zip() 同时取出多个容器的元素
+"""
+
 """ 字典中循环时，用 items()可将关键字和对应值同时取出 """
 knights = {'gallahad': 'the pure', 'robin': 'the brave'}
 for k, v in knights.items():
