@@ -4,99 +4,65 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.metrics import r2_score
-from scipy import optimize, integrate
+from scipy import optimize
 %matplotlib inline
-
-""" 生成伪谱图 """
 np.random.seed(1)
-x = np.linspace(-50, 50, 300)
-y_pseudo = (6 / 6 / math.sqrt(2 * math.pi) * np.exp(-(x-0)**2/2/6**2)
-          + 6 / 4 / math.sqrt(2 * math.pi) * np.exp(-(x+15)**2/2/4**2)
-          + np.random.uniform(-0.02,0.02,300))
-		 
 
-""" 定义高斯函数，这个函数只能用来求子峰面积 """
-def gauss(x, A, S):
-    y = A / S / math.sqrt(2 * math.pi) * np.exp(-(x-0)**2/2/S**2)
-    return y
+""" 定义 Gauss 函数 """
+gauss = lambda p: p[0] / p[1] / math.sqrt(2 * math.pi) * np.exp(-(x-p[2])**2/2/p[1]**2)
 
+""" 生成 x, y, y_pseudo 数据 """
+x = np.linspace(-20, 20, 600)
+p1 = [2, 1, -3] # 子峰1：[峰面积, 峰宽因子, 峰位置]
+p2 = [1, 2,  1] # 子峰2：[峰面积, 峰宽因子, 峰位置]
+y = gauss(p1) + gauss(p2) 
+noise = np.random.uniform(-0.015,0.015,len(x))
+y_pseudo = y + noise
 
-""" 定义子峰函数
+""" 定义MSE函数 """
+def mse():
+    x = np.linspace(-20, 20, 600)
+    mse = lambda p: np.sum(np.power(
+                      (#面积   #峰宽                                      #位置      #峰宽
+                       (p[0] / p[1] / math.sqrt(2 * math.pi) * np.exp(-(x-p[2])**2/2/p[1]**2)) +  # Gauss 1
+                       (p[3] / p[4] / math.sqrt(2 * math.pi) * np.exp(-(x-p[5])**2/2/p[4]**2)) +  # Gauss 2
+                       (p[6] / p[7] / math.sqrt(2 * math.pi) * np.exp(-(x-p[8])**2/2/p[7]**2))    # Gauss 3
+                      ) - y_pseudo,2)/len(x))   
+    return mse
 
-    如果需要4个子峰，就要定义 4 个子峰函数
-	
-	注意：每个子峰的 u_fit 决定了峰位置
-"""
-def gauss_fit1(x, A, S):
-    u_fit1 = -20
-    y = A / S / math.sqrt(2 * math.pi) * np.exp(-(x-u_fit1)**2/2/S**2)    # Gauss function
-    return y, u_fit1
+""" 设定初值和约束条件 """
+init = np.array((1,1,-1,1,2,0.5,1,1,2))
+cons = (
+        {'type':'ineq', 'fun': lambda p: p[2] - (-3)},
+        {'type':'ineq', 'fun': lambda p: -2 - p[2]},
+        {'type':'ineq', 'fun': lambda p: p[5] - 0.5},
+        {'type':'ineq', 'fun': lambda p: 1 - p[5]},
+        {'type':'ineq', 'fun': lambda p: p[8] - 1},
+        {'type':'ineq', 'fun': lambda p: 2 - p[8]},
+       )
 
-def gauss_fit2(x, A, S):
-    u_fit2 = -14
-    y = A / S / math.sqrt(2 * math.pi) * np.exp(-(x-u_fit2)**2/2/S**2)    # Gauss function
-    return y, u_fit2
+""" 规划 """
+out = optimize.minimize(mse(), init, constraints=cons)
+p = out.x
+gauss1, gauss2, gauss3 =  gauss(p[0:3]), gauss(p[3:6]), gauss(p[6:9])
 
-def gauss_fit3(x, A, S):
-    u_fit3 = -1.5
-    y = A / S / math.sqrt(2 * math.pi) * np.exp(-(x-u_fit3)**2/2/S**2)    # Gauss function
-    return y, u_fit3
-
-def gauss_fit4(x, A, S):
-    u_fit4 = 3
-    y = A / S / math.sqrt(2 * math.pi) * np.exp(-(x-u_fit4)**2/2/S**2)    # Gauss function
-    return y, u_fit4
-
-
-""" 定义 MSE 函数 """
-def MSE(param):    
-    y_fit1, u_fit1 = gauss_fit1(x,*param[0:2])
-    y_fit2, u_fit2 = gauss_fit2(x,*param[2:4])
-    y_fit3, u_fit3 = gauss_fit3(x,*param[4:6])
-    y_fit4, u_fit4 = gauss_fit4(x,*param[6:8]) 
-    y_fit = y_fit1 + y_fit2 + y_fit3 + y_fit4
-    MSE = np.sum(np.power(y_fit - y_pseudo, 2)) / len(x)
-    return MSE
-
-
-""" 谱图拟合 """
-fit = optimize.minimize(MSE, [1, 1, 1, 1, 1, 1, 1, 1])
-A_fit1, S_fit1, A_fit2, S_fit2, A_fit3, S_fit3, A_fit4, S_fit4  = fit.x[0:8]
-y_fit1, u_fit1 = gauss_fit1(x, A_fit1, S_fit1)
-y_fit2, u_fit2 = gauss_fit2(x, A_fit2, S_fit2)
-y_fit3, u_fit3 = gauss_fit3(x, A_fit3, S_fit3)
-y_fit4, u_fit4 = gauss_fit4(x, A_fit3, S_fit4)
-y_fit = y_fit1 + y_fit2 + y_fit3 + y_fit4
-r2 = r2_score(y_pseudo, y_fit)
-
-""" 计算子峰面积及相对比例 """
-peak_param = list(fit.x)
-peak_seq = [num+1 for num in range(int(len(peak_param)/2))]
-peak_info = [peak_param[i:i+2] for i in range(0, len(peak_param), 2)]
-peak_area = [integrate.quad(gauss, -40, 40, args = tuple(ele))[0] for ele in peak_info]
-peak_ratio = [ele/sum(peak_area)*100 for ele in peak_area]
-print(11 * ' '+'|{:>10}|{:>10}|'.format('A', '%'))
-for r,s,t in zip(peak_seq, peak_area, peak_ratio):
-    print('    Gauss {}|{:>10.2f}|{:>10.2f}|'.format(r,s,t))
-
-
-""" 作图 """
-fig = plt.figure(figsize=(9,5))
+""" 结果及作图 """
+fitting = gauss1 + gauss2 + gauss3
+r2 = round(r2_score(y_pseudo, fitting),4)
+fig = plt.figure(figsize=(10,4))
 ax = fig.add_subplot(1,1,1)
-pseudo, = ax.plot(x, y_pseudo, label=('Pseudo: A=6|6   u=0|-15   S=6|4'),color='red',linewidth=1.25)
-Gauss1, = ax.plot(x, y_fit1, 
-                 label=('Gauss1: A='+str(round(A_fit1,2)))+'  u='+str(round(u_fit1,2))+'  S='+str(round(S_fit1,2)),
-                 color='green',linewidth=1.25)
-Gauss2, = ax.plot(x, y_fit2, 
-                 label=('Gauss2: A='+str(round(A_fit2,2)))+'  u='+str(round(u_fit2,2))+'  S='+str(round(S_fit2,2)),
-                 color='blue',linewidth=1.25)
-Gauss3, = ax.plot(x, y_fit3, 
-                 label=('Gauss3: A='+str(round(A_fit3,2)))+'  u='+str(round(u_fit3,2))+'  S='+str(round(S_fit3,2)),
-                 color='purple',linewidth=1.25)
-Gauss4, = ax.plot(x, y_fit4, 
-                 label=('Gauss4: A='+str(round(A_fit4,2)))+'  u='+str(round(u_fit4,2))+'  S='+str(round(S_fit4,2)),
-                 color='orange',linewidth=1.25)
-fitting, = ax.plot(x, y_fit, label=('Fitting line'),color='black',linewidth=1.5)
-plt.legend(loc='upper right',fontsize=10.5)
-plt.text(-40, 0.35, 'r2 ='+str(round(r2, 6)), fontdict={'size':12, 'color':'red'})
+pseudo, = ax.plot(x, y_pseudo, color='red', label='pseudo spectrum', linewidth=1.5)
+gauss1, = ax.plot(x, gauss1, color='blue', label='Guass1', linewidth=1.5)
+gauss2, = ax.plot(x, gauss2, color='purple', label='Guass2', linewidth=1.5)
+gauss3, = ax.plot(x, gauss3, color='orange', label='Guass3', linewidth=1.5)
+fitting, = ax.plot(x, fitting, color='black', label='Fitting line', linewidth=1.5)
+plt.legend(fontsize=12)
+plt.text(-15, 0.4,'r2='+str(r2), fontsize=12)
 plt.show()
+
+print('|            |{:>10}|{:>10}|{:>10}|'.format('Area','Position','Sigma'))
+print('|Gauss 1 real|{:>10.2f}|{:>10.2f}|{:>10.2f}|'.format(p1[0], p1[2], p1[1]))
+print('|Gauss 2 real|{:>10.2f}|{:>10.2f}|{:>10.2f}|'.format(p2[0], p2[2], p2[1]))
+print('|Gauss 1 fit |{:>10.2f}|{:>10.2f}|{:>10.2f}|'.format(p[0], p[2], p[1]))
+print('|Gauss 2 fit |{:>10.2f}|{:>10.2f}|{:>10.2f}|'.format(p[3], p[5], p[4]))
+print('|Gauss 3 fit |{:>10.2f}|{:>10.2f}|{:>10.2f}|'.format(p[6], p[8], p[7]))

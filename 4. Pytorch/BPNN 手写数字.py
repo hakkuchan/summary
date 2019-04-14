@@ -9,11 +9,11 @@ device = torch.device('cuda:0')
 """ 设定超参数  """
 batch_size = 32
 lr = 1e-2    # 学习率
-n_epoch = 1  # 迭代次数，n_epoch = 1 表示只 “训练-测试” 一遍
+n_epoch = 3  # 迭代次数，n_epoch = 1 表示只 “训练-测试” 一遍
 
 """ 准备数据集 """
-train_dataset = datasets.MNIST(root='./data', train=True, transform=transforms.ToTensor(), download=True)
-test_dataset = datasets.MNIST(root='./data', train=False, transform=transforms.ToTensor())
+train_dataset = datasets.MNIST(root='E:\Work\Jupyter\data', train=True, transform=transforms.ToTensor(), download=False)
+test_dataset = datasets.MNIST(root='E:\Work\Jupyter\data', train=False, transform=transforms.ToTensor())
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
@@ -76,20 +76,20 @@ for epoch in range(n_epoch):
     print('Finish {} epoch: Loss: {:.4f}, Acc: {:.4f}' # 输出所有训练集样本训练完成后，总的预测指标
           .format(epoch + 1, train_loss / (len(train_dataset)), train_acc / (len(train_dataset))))
     
-    # 测试 ANN
-    bpnn.eval()
-    eval_loss = 0.0
-    eval_acc = 0.0
-    for data in test_loader:
-        img, label = data
-        img = img.view(img.size(0), -1)
-        img = img.clone().detach().requires_grad_(True).to(device)
-        label = label.to(device)
-        out = bpnn(img)
-        loss = loss_func(out, label)
-        eval_loss += loss.item() * label.size(0)
-        pred = torch.max(out, 1)[1]
-        num_correct = (pred == label).sum()
-        eval_acc += num_correct.item()
-    print('Test Loss: {:.4f}, Acc: {:.4f}' # 输出测试集上的训练结果
-          .format(eval_loss / (len(test_dataset)), eval_acc / (len(test_dataset))))
+# 测试 ANN
+bpnn.eval()
+eval_loss = 0.0
+eval_acc = 0.0
+for data in test_loader:
+    img, label = data
+    img = img.view(img.size(0), -1)
+    img = img.clone().detach().requires_grad_(True).to(device)
+    label = label.to(device)
+    out = bpnn(img)
+    loss = loss_func(out, label)
+    eval_loss += loss.item() * label.size(0)
+    pred = torch.max(out, 1)[1]
+    num_correct = (pred == label).sum()
+    eval_acc += num_correct.item()
+print('Test Loss: {:.4f}, Acc: {:.4f}' # 输出测试集上的训练结果
+      .format(eval_loss / (len(test_dataset)), eval_acc / (len(test_dataset))))

@@ -8,7 +8,7 @@ import numpy as np
 from scipy.optimize import minimize
 
 # 定义函数
-def fun():
+def fn():
     y= lambda x: (2+x[0])/(1+x[1]) -3*x[0]+4*x[2]
     return y
 
@@ -25,7 +25,7 @@ cons = ({'type': 'ineq', 'fun': lambda x: x[0] - 0.1},
 
 #设置初始猜测值  
 x0 = np.array((0.5,0.5,0.5))
-res = minimize(fun(), x0, constraints=cons)
+res = minimize(fn(), x0, constraints=cons)
 
 print(res.fun)
 print(res.x)
