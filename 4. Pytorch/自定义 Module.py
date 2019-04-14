@@ -31,7 +31,7 @@ class MyLinear(nn.Module):
     def __init__(self, in_dim, out_dim):
         super(MyLinear, self).__init__()
         self.weight = nn.Parameter(torch.randn(in_dim, out_dim))    # 初始化 weight，并用封装为 parameter
-        self.bias = nn.Parameter(torch.randn(out_dim))    # 初始化 bias，并用封装为 parameter
+        self.bias = nn.Parameter(torch.randn(out_dim))              # 初始化 bias，并用封装为 parameter
         
     def forward(self, x):
         y = x.mm(self.weight) + self.bias
