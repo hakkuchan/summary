@@ -1,47 +1,50 @@
 """ 
-画图5步流程：画布 --> 画框 --> 画图 --> 修饰 --> 显示 
-	1) 画布：fig = plt.figure(figsize=(x,x))
-	2) 画框：ax = fig.add_subplot(1,1,1)
-	3) 画图：line1, = ax.plot(...)
-	      line2, = ax.scatter(...)
-    4) 修饰(以x为例)：set_xlabel, xticks, xlim, title
-    5) 显示：plt.legend(), plt.text(), plt.show()	
+5步：准备数据 --> 生成画布 --> 画图 --> 修饰 --> 显示/保存
 """
-
 import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline 
 
-""" 数据 """
-X = np.linspace(-1,1,200)                         # 在-1至1范围内生成200个x
-Y = 0.5 * X + 2 + np.random.uniform(-0.1,0.1,200) # 生成y
+""" 准备数据 """
+X = np.linspace(-10,10,200)
+Y1 = np.sin(X)
+Y2 = np.cos(X)
 
-""" 生成画布并绘图 """
-fig = plt.figure(figsize=(4,4))  # 设置画布
-ax = fig.add_subplot(1,1,1)      # 设置画框(1,1,1 表示 1 行 1 个画框 绘图在第一个画框中)
-line1, = ax.plot(X, Y, color='blue',label='Y1',linewidth=3)     # 添加一条曲线 line1, line1 后面必须有逗号,否则不显示图例
-line2, = ax.plot(X, Y+1, color='green',label='Y2',linewidth=1)  # 添加一条曲线 line2
-line3  = ax.scatter(X, Y+2, color='red',label='Y3', s=2)        # 添加一条散点线 line3 ,散点线 line3 后面不能加逗号
+""" 生成画布 """
+fig = plt.figure(figsize=(8,6))  # 设置画布
 
-""" 图修饰 """
-ax.grid()          # 背景添加网格
+""" 画图 """
+ax = fig.add_subplot(1,1,1)
+line1 = ax.plot(X, Y1, 
+                 color='blue', # 颜色
+                 #marker='o',  # 点线图中的点样式
+                 ls = '--',    # 线样式
+                 linewidth = 2,  # 线宽
+                 label='sin')    # 图例
+line2 = ax.scatter(X, Y2, color='red', label='cos', s=3)
+line3 = ax.plot(X, Y1+Y2, color='green', label='sin+cos')
 
-fig.tight_layout()   # 自动调整版面
+""" 修饰 """
+ax.grid()           # 背景添加网格
 
-ax.legend(loc='best')   # 显示图例
+fig.tight_layout()  # 自动调整版面
 
-ax.set_xlabel('X')      # 显示x轴名称
-ax.set_ylabel('Y')      # 显示y轴名称
-ax.set_title('X vs. Y') # 显示图名
+ax.legend(loc='best')   # 设置图例位置
 
-ax.set_xlim((-1.5, 1.5))    # 设置 x 轴范围
-ax.set_ylim((1, 5))         # 设置 y 轴范围
+ax.set_xlabel('X', fontsize=14, color='white')      # 显示x轴名称
+ax.set_ylabel('Y', fontsize=14, color='white')      # 显示y轴名称
+ax.set_title('X vs. Y', fontsize=16, color='white') # 显示图名
 
-new_ticks = np.linspace(-1.5, 1.5, 6) # 设置刻度
-ax.set_xticks(new_ticks)
+ax.set_xlim((-10, 10))    # 设置 x 轴范围
+ax.set_ylim((-2, 2))      # 设置 y 轴范围
 
-plt.text(0.5, 1.5, 'Example', fontdict={'size': 12, 'color': 'red'}) # 显示、设置标注
+ax.set_xticks(np.linspace(-10, 10, 9))  # 设置坐标轴刻度
+ax.tick_params(color='white', labelsize=14, labelcolor='white')  # 设置坐标轴样式
 
-plt.legend(fontsize=12) # 显示、设置图例字号
+plt.text(-3, 1.5, 'Trigonometric function', fontdict={'size': 14, 'color': 'red'})  # 显示、设置标注
 
-plt.show()    # 绘图
+plt.legend(fontsize=14)  # 显示、设置图例字号
+
+""" 显示/保存 """
+plt.savefig('example.png') # 设置画布的 figsize 参数可调节图大小 
+plt.show()  # 绘图
