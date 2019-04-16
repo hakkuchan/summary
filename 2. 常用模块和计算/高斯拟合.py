@@ -15,7 +15,7 @@ gauss = lambda p: p[0] / p[1] / math.sqrt(2 * math.pi) * np.exp(-(x-p[2])**2/2/p
 x = np.linspace(-20, 20, 600)
 p1 = [2, 1, -3] # 子峰1：[峰面积, 峰宽因子, 峰位置]
 p2 = [1, 2,  1] # 子峰2：[峰面积, 峰宽因子, 峰位置]
-y = gauss(p1) + gauss(p2) 
+y = gauss(p1) + gauss(p2)
 noise = np.random.uniform(-0.015,0.015,len(x))
 y_pseudo = y + noise
 
