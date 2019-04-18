@@ -10,7 +10,7 @@ name = ['preg','plas','pres','skin','test','mass','pedi','age','class']
 diabetes_table = pd.read_csv('E:\Work\Jupyter\data\pima-indians-diabetes.csv',names=name)
 
 # 将 Dataframe 格式写入csv文件，index=True 保留行索引
-oilshale_table.to_csv('filename.csv', index=True)
+oilshale_table.to_csv('E:\Work\Jupyter\data\write_csv.csv', index=True)
 
 
 
@@ -31,20 +31,17 @@ with open('E:\Work\Jupyter\data/write_text.txt', 'w') as f:
     print(math.pi, math.e, file=f, sep='|')   # sep 设定打印元素之间的符号，默认为空格
 
 
-""" 
+# 读写文本文件的总结：
 
-读写文本文件的总结：
+# with open('文件目录', '指针') as f: 创造上下文环境，with 控制块结束时，文件会自动关闭。
 
-with open('文件目录', '指针') as f: 创造上下文环境，with 控制块结束时，文件会自动关闭。
+# 文件目录中的 ‘\’ 和 ‘/’ 需要区分：目录之间用‘\’；文件与目录之间用‘/’，例如：'E:\Work\Jupyter\data/write_text.txt'
 
-文件目录中的 ‘\’ 和 ‘/’ 需要区分：目录之间用‘\’；文件与目录之间用‘/’，例如：'E:\Work\Jupyter\data/write_text.txt'
-
-指针规定文件操作类型，常用如下：
+# 指针规定文件操作类型，常用如下：
  
-r : 读取文件，若文件不存在则会报错
+# r : 读取文件，若文件不存在则会报错
 
-w: 写入文件，若文件不存在则会先创建再写入，会覆盖原文件
+# w: 写入文件，若文件不存在则会先创建再写入，会覆盖原文件
 
-a : 写入文件，若文件不存在则会先创建再写入，但不会覆盖原文件，而是追加在文件末尾
+# a : 写入文件，若文件不存在则会先创建再写入，但不会覆盖原文件，而是追加在文件末尾
 
-"""
