@@ -1,3 +1,11 @@
+""" 赋值推导式 """
+x = -1
+out = 0 if x < 0 else x
+print(out) # >>> 0
+x = 10
+out = 0 if x < 0 else x
+print(out) # >>> 10
+
 """ 列表推导式 """
 import math
 print([x**2 for x in range(10)])
