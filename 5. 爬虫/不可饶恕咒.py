@@ -33,4 +33,5 @@ for num, item in enumerate(f):
     if oldname[27:28] == '.':
         newname= path + str(oldname[24:27])+'.JPG'
         os.rename(oldname,newname)
+	time.sleep(random.uniform(1,3))
 print('Complete')
