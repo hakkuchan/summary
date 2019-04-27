@@ -19,6 +19,7 @@ for num, link in enumerate(img_links):
     f.close()
     print('进度： {}/{} '.format(num+1, len(img_links)), end='\r')
     time.sleep(random.uniform(1, 2))
+print('Download complete')
 
 path='E:\\Other\\Downloads\\Pic/'      
 f=os.listdir(path)
@@ -34,4 +35,4 @@ for num, item in enumerate(f):
         newname= path + str(oldname[24:27])+'.JPG'
         os.rename(oldname,newname)
 	time.sleep(random.uniform(1,3))
-print('Complete')
+print('Rename complete')
