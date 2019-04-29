@@ -13,6 +13,6 @@ print(html.status_code)
 
 """ 获取响应内容 """
 html = html.content
-html = html.decode('utf-8') # 解决中文乱码问题
-html = html.decode('gb18030') # 解决中文乱码问题
+html = html.decode('utf-8') # 解决中文乱码问题(需尝试)
+html = html.decode('gb18030') # 解决中文乱码问题(需尝试) 
 print(html) 
