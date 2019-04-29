@@ -1,0 +1,32 @@
+教程见（已下载）：怎样在Windows上安装解压版的MySQL数据库
+https://www.bilibili.com/video/av48488984?from=search&seid=2184123317684851700 
+
+安装、配置 MySQL：
+
+Step 1：解压 MySQL 免安装程序（假定文件名 MySQL）至特定目录（目录中不可有空格）
+
+Step 2：在 MySQL 文件中设置 my.ini 文件，注意其中的路径设置和编码设置
+
+Step 3（初始化数据库）：打开cmd，进入目录 D:\MySQL\bin, 运行 mysqld --defaults-file=D:\MySQL\my.ini --initialize --console
+
+Step 4（初次启动）：打开cmd，进入目录 D:\MySQL\bin, 运行 mysqld --console，并在结果中找到root@localhost后的密码，复制 - 粘贴 - 保存。
+
+Step 5（首次登录）：打开cmd，进入目录 D:\MySQL\bin，运行  mysql -u root -p (回车)，输入刚才记下的密码。
+
+Step 6（修改密码）：输入 ALTER USER 'root'@'localhost' IDENTIFIED BY '密码'
+
+Step 7（验证）：输入 show databases; >> 显示数据库
+
+Step 8（验证）：输入 create database test; >> 创建名为 test 的数据库
+
+Step 9（验证）：输入 exit；>> 退出数据库
+
+Step 10（验证）：输入 mysqladmin -u root -p shutdown >> 退出登录
+
+Step 11（验证）：打开cmd，进入目录 D:\MySQL\bin，运行  mysql -u root -p (回车)，输入新设定的密码，如果成功进入，说明配置成功
+
+可选步骤（最好选）：
+
+添加 D:\MySQL\bin 至环境变量，之后 cmd 操作可以不进入目录 D:\MySQL\bin
+
+添加Windows服务：进入cmd(管理员)，输入 mysqld --install mysql --defaults -file='D:\MySQL\my.ini'
