@@ -1,5 +1,0 @@
-命令行打开 MySQL 服务：mysqld --console
-新建命令行登录：mysql -u root -p >> 输入密码
-
-命令行退出登录：exit;
-命令行关闭  MySQL 服务：mysqladmin -u root -p shutdown

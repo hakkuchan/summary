@@ -29,4 +29,4 @@ Step 11（验证）：打开cmd，进入目录 D:\MySQL\bin，运行  mysql -u r
 
 添加 D:\MySQL\bin 至环境变量，之后 cmd 操作可以不进入目录 D:\MySQL\bin
 
-添加Windows服务：进入cmd(管理员)，输入 mysqld --install mysql --defaults -file='D:\MySQL\my.ini'
+在Windows中添加 mydql 服务：进入cmd(管理员)，输入 mysqld --install mysql # (注意，后面这个是自己命名的，也可以install mysql_ZB 等)

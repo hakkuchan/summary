@@ -1,0 +1,4 @@
+登录：mysql -u root -p >> 输入密码
+如果需要主机名和端口信息：
+mysql -h 主机名 -P 端口号 -u root -p >> 输入密码
+退出登录：exit;

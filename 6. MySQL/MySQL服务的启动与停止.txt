@@ -1,0 +1,3 @@
+管理员命令行启动 MySQL 服务：net start mysql（服务名） 或 mysqld --console
+
+管理员命令行停止 MySQL 服务：net start mysql（服务名）或 mysqladmin -u root -p shutdown
