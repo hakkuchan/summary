@@ -1,1 +1,12 @@
 Data Query Language (DQL) 数据查询语言
+
+# 1. 基础查询
+
+# (1) 查询表中单个字段
+SELECT last_name FROM employees;
+
+# (2) 查询表中多个字段
+SELECT first_name,salary,email FROM employees;
+
+# (3) 查询表中所有字段
+SELECT * FROM employees;

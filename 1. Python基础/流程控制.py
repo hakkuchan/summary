@@ -4,6 +4,9 @@ if……else……
 if……elif……elif……
 """
 
+
+
+
 """
 循环语句
 while：布尔条件
@@ -11,6 +14,14 @@ for：范围条件
 for i in range(num):
 for i in [1, 2, 3]:
 """
+
+""" 用 in 代替 or """
+x = 1
+if x == 1 or x ==2 or x == 3:
+    pass
+# 等价于：  
+if x in (1,2,3):
+    pass
 
 """ 特殊循环有三种：
 items() 取出字典的键值对，
