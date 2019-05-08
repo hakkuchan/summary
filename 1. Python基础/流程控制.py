@@ -4,9 +4,6 @@ if……else……
 if……elif……elif……
 """
 
-
-
-
 """
 循环语句
 while：布尔条件

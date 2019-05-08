@@ -1,19 +1,30 @@
-查看所有数据库：show databases;
+# 查看所有数据库：
+SHOW DATABASES; 
 
-打开指定的数据库：use 库名;
+# 打开指定的数据库：
+USE 库名;
 
-查看当前数据库的所有表：show tables;
+# 查看当前数据库的所有表：
+SHOW TABLES;
 
-查看其它库的所有表：show tables from 库名;
+# 查看其它库的表：
+SHOW TABLES 
+FROM 库名;
 
-创建表：
-create table 表名(
+# 创建表：
+CREATE TABLE  表名(
     列名 列类型，
 	列名 列类型，
 	……);
 	
-查看表结构：desc 表名;
+# 查看表结构：
+DESC 表名;
 
-查看服务器版本：
-方式一：select version();
-方式二：命令行 mysql --version
+# 查看服务器版本：
+
+# 方式一：
+SELECT
+	VERSION( );
+
+# 方式二：命令行 
+mysql --version
