@@ -12,8 +12,8 @@ lr = 1e-2    # 学习率
 n_epoch = 3  # 迭代次数，n_epoch = 1 表示只 “训练-测试” 一遍
 
 """ 准备数据集 """
-train_dataset = datasets.MNIST(root='E:\Work\Jupyter\data', train=True, transform=transforms.ToTensor(), download=False)
-test_dataset = datasets.MNIST(root='E:\Work\Jupyter\data', train=False, transform=transforms.ToTensor())
+train_dataset = datasets.MNIST(root='E:\Work\Jupyter\Data', train=True, transform=transforms.ToTensor(), download=False)
+test_dataset = datasets.MNIST(root='E:\Work\Jupyter\Data', train=False, transform=transforms.ToTensor())
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
