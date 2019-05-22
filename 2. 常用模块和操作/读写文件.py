@@ -1,17 +1,22 @@
-""" 读写 csv 文件 """
+""" 读写表格文件 """
 import math
 import pandas as pd
 
 # 读取 csv 文件
-oilshale_table = pd.read_csv('E:\Work\Jupyter\data\char_data.csv') 
+oilshale_table = pd.read_csv('E:\Work\Jupyter\data\char_data.csv')
+# 读取 excel 文件
+oilshale_table = pd.read_excel('E:\Work\Jupyter\data\char_data.xls')
 
 # 如果需要添加表头：
 name = ['preg','plas','pres','skin','test','mass','pedi','age','class']
 diabetes_table = pd.read_csv('E:\Work\Jupyter\data\pima-indians-diabetes.csv',names=name)
 
-# 将 Dataframe 格式写入csv文件，index=True 保留行索引
-oilshale_table.to_csv('E:\Work\Jupyter\data\write_csv.csv', index=True)
+name = ['NO','preg','plas','pres','skin','test','mas','pedi','age','class']
+diabetes_table = pd.read_excel('E:\Work\Jupyter\data\pima-indians-diabetes.xls', names=name)
 
+# 将 Dataframe 格式写入csv或excel文件，index=True 保留行索引
+oilshale_table.to_csv('E:\Work\Jupyter\data\write_csv.csv', index=True)
+oilshale_table.to_excel('E:\Work\Jupyter\data\write_excel.xls', index=True)
 
 
 """ 读写文本文件 """
