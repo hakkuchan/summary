@@ -1,0 +1,57 @@
+
+1、安装系统教学视频：https://www.bilibili.com/video/av45170351?from=search&seid=15005138527889379897
+
+   PE盘制作软件（在PE盘的“系统必备”中）：wepe_64
+
+
+2、硬盘操作：
+
+  （1）分区
+		
+		右键此电脑 → 管理 → 磁盘管理
+
+  （2）分区格式转换（一般是EMR转GPT）：
+  
+		1）在PE系统中打开cmd
+  
+		2）输入 diskpart，进入硬盘管理
+  
+		3）输入 list disk，显示电脑中的硬盘列表
+  
+		4）输入 select disk x，选择需要修改的硬盘
+  
+		5）输出 clean，注意：输入该命令前必须确认这个盘的内容已经备份或者可以丢弃，否则将会彻底删除这些数据
+
+		6）输入 convert gpt，完成。
+ 
+ 3、程序安装
+ 
+    win10系统1903（家庭版）：cn_windows_10_consumer_editions_version_1903_x64_dvd_8f05241d
+	
+	软件文件夹分两个文件夹：Program files 和 Portable program
+	
+	驱动（不能联网时安装）：dtl7_net_7.1.21.68
+	
+	安全：sysdiag-full-4.0.89.1
+	
+	查找：Listary
+	
+	硬件调度：processlassosetup64
+	
+	压缩工具：Bandizip-setup
+	
+	SSD检测：AS-SSD-Benchmark2.0.6821
+	
+	图片：HONEYVIEW-SETUP
+	
+	视频：PotPlayerSetup64 + PotPlayerSetup64
+	
+	词典：eudic_win
+	
+	chorme书签：bookmarks_2019_5_23
+	
+	chrome插件：Ghelper_1.4.6.beta
+	
+	Office：
+	
+	激活工具：
