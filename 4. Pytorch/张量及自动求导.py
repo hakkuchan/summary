@@ -16,6 +16,8 @@ data_nd = data_ts.numpy()
 print(data_ts.size())  # size(0): 行数，size(1) 列数
 # 改变行列数
 print(data_ts.view(-1,1))
+# 拼接
+print(torch.cat((data_ts, data_ts), dim=0)) # dim=0 行数增加，dim=1 列数增加
 # 索引，与numpy一样
 print(data_ts[:, 1])
 # 查数据类型
