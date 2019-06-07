@@ -11,22 +11,27 @@
 
 """ map作用：把输入列表的所有元素依次代入函数进行运算 """
 
-nums = [1,2,3,4,5,6]  # 输入列表
+nums = [1,2,3,4,5,6]
 
-def func(x):    # 函数
+def func(x):
     return x ** 2
 
-print(list(map(func, nums))) # 标准用法
+# 标准用法
+print(list(map(func, nums))) 
 
-print(list(map(lambda x: x**2, nums)))  # 函数也可用lambda表达式定义
+# 函数也可用lambda表达式定义
+print(list(map(lambda x: x**2, nums)))
 
-print(list(x**2 for x in nums))  # 也可用推导式实现 map 的功能，比 map 可读性更好
+# 也可用推导式实现 map 的功能，比 map 可读性更好
+print(list(x**2 for x in nums))
 
 
 """ filter:过滤列表中的元素，并且返回一个由所有符合要求的元素构成的列表 """
 nums = range(-5, 5)
 print(list(filter((lambda x: x < 0), nums)))
-print([x for x in nums if x < 0])  # 也可用推导式实现 filter 的功能
+
+# 也可用推导式实现 filter 的功能
+print([x for x in nums if x < 0])
 
 
 """

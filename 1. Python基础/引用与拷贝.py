@@ -20,9 +20,16 @@
 import copy
 
 a = [1, 2, 3, 4, ['a', 'b']]
-b = a # 赋值
-c = copy.copy(a) # 浅拷贝
-d = copy.deepcopy(a) # 深拷贝
+
+# 赋值
+b = a
+
+# 浅拷贝
+c = copy.copy(a)
+
+# 深拷贝
+d = copy.deepcopy(a)
+
 a.append(5)
 a[4].append('c')
 
