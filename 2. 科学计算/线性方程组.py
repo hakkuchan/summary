@@ -15,7 +15,7 @@ B=np.array([8,13,4])
 x=linalg.solve(A,B)
 print('方法 1 结果:',x)
 
-""" 方法 2：利用 scipy 中的 fsolve """
+""" 方法 2：利用 scipy 中的 fsolve （推荐）"""
 def fn(x):
     x1,x2,x3 = x.tolist()
     return np.array([

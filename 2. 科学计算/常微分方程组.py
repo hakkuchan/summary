@@ -12,22 +12,22 @@ dz/dt = xy - bz
 """
 
 """ 定义常微分方程组 """
-def dmove(point,t,sets):
+def lorentz(w,t,p,r,b):
     """
-    point：位置矢量
+    w：位置矢量
     t: 时间
-    sets：其他参数
+    p,r,b：其他参数
     """
-    p,r,b = sets
-    x,y,z = point
-    return np.array([p*(y-x),x*(r-z)-y,x*y-b*z])
+    x,y,z = w.tolist()
+    dx_dt = p*(y-x)
+    dy_dt = x*(r-z)-y
+    dz_dt = x*y - b*z
+    return dx_dt, dy_dt, dz_dt
  
-""" 调用 odeint 对常微分方程组 dmove 进行求解 """
+""" 调用 odeint 对常微分方程组 odeint 进行求解 """
 t = np.arange(0,30,0.01)  # 设定时间
-out = odeint(dmove,(0.,1.,0.),t,args = ([10,30,3],)) 
-# 其中，(0.,1.,0.)是point的初值; 
-# args设定的是常微分方程组中的参数 p,r,b
-# args = ([10,30,3],)中的逗号不可省略
+track = odeint(lorentz,(0,0,0),t,args = (10,30,3)) 
+# 其中，(0,0,0) 是位置矢量 w 的初值; args设定的是常微分方程组中的参数 p,r,b
 
 """ 画3维空间的曲线 """ 
 fig = plt.figure()

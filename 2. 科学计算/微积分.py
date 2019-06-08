@@ -21,5 +21,5 @@ print(drv)
 """ 数值积分 """
 x = np.linspace(-1,1,1000)
 y = x ** 2 + 2 * x + 3
-itg = integrate.simps(y,x)
-print(itg) # 辛普森积分方法，注意 y 在前，x 在后
+itg = integrate.simps(y,x) # 辛普森积分方法，注意 y 在前，x 在后
+print(itg) 
