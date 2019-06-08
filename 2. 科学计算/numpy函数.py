@@ -47,3 +47,28 @@ r3 = np.random.randint(0,100,3)
 np.random.seed(1)
 r4 = np.random.randint(0,100,3)
 print(r1,r2,r3,r4)
+
+""" 简单统计 """
+x = np.random.randint(0,10,(2,5))
+
+# 数组中所有元素之和
+print(x.sum())
+# 数组元素按行相加
+print(x.sum(axis=0))
+# 数组元素按列相加
+print(x.sum(axis=1))
+
+# 求平均
+print(x.mean())
+print(x.mean(axis=0))
+print(x.mean(axis=1))
+
+# 求标准差
+print(x.std())
+print(x.std(axis=0))
+print(x.std(axis=1))
+
+# 求方差
+print(x.var())
+print(x.var(axis=0))
+print(x.var(axis=1))
