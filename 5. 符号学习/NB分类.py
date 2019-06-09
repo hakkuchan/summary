@@ -15,9 +15,14 @@ models = {}
 
 models['Gauss'] = naive_bayes.GaussianNB()
 
-models['Multi'] = naive_bayes.MultinomialNB()
+models['Multi'] = naive_bayes.MultinomialNB(alpha=1.0, 
+                                            fit_prior=True, 
+                                            class_prior=None)
 
-models['Bernoulli'] = naive_bayes.BernoulliNB()
+models['Bernoulli'] = naive_bayes.BernoulliNB(alpha=1.0,
+                                              binarize=0.0,
+                                              fit_prior=True,
+                                              class_prior=None)
 
 
 print('|{:>10s}|{:>10s}|{:>10s}|{:>10s}|'.format('Batch', 'Gauss Acc', 'Multi Acc', 'Bernoulli Acc'))
