@@ -46,7 +46,7 @@ models['SVR'] = svm.SVR(kernel='rbf',
                         verbose=False,
                         max_iter=-1)
 
-print('|{:>10s}|{:>10s}|{:>10s}|'.format('Batch', 'LSVR MSE', 'SVR MSE'))
+print('|{:>10s}|{:>10s}|{:>10s}|'.format('Batch', 'LSVR r2', 'SVR r2'))
 kfold = model_selection.KFold(n_splits=10, random_state=1)
 batch = 1
 for train,test in kfold.split(X):

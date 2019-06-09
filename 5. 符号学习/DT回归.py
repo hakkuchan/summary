@@ -26,7 +26,7 @@ model = tree.DecisionTreeRegressor(
                                    presort=False
                                   )
 
-print('|{:>10s}|{:>10s}|'.format('Batch', 'KNN MSE'))
+print('|{:>10s}|{:>10s}|'.format('Batch', 'DT r2'))
 kfold = model_selection.KFold(n_splits=10, random_state=1)
 batch = 1
 for train,test in kfold.split(X):
