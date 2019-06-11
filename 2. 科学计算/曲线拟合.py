@@ -11,3 +11,5 @@ def fn(x, p0, p1, p2):
 p, p_covariance = optimize.curve_fit(fn, x, y)
 
 print(p)
+
+# 显然，用最优化问题的方法求解曲线拟合也是可以的，但不推荐。

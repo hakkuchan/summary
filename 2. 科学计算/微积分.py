@@ -1,5 +1,5 @@
 import numpy as np
-import sympy as smp
+import sympy as sy
 from scipy import misc, integrate
 
 """ 
@@ -16,26 +16,26 @@ from scipy import misc, integrate
 """
 
 """ 1. sympy 计算导函数 """
-x, y = smp.symbols('x, y')
+x, y = sy.symbols('x, y')
 
-f = x ** 2 * smp.sin(x)
-smp.diff(f, x, 1)  # 一阶导函数，参数（方程，自变量，阶数）
-smp.diff(f, x, 2)  # 二阶导函数
+f = x ** 2 * sy.sin(x)
+sy.diff(f, x, 1)  # 一阶导函数，参数（方程，自变量，阶数）
+sy.diff(f, x, 2)  # 二阶导函数
 
-f = x + y + x*y + smp.sin(x*y)
-smp.diff(f, x, 1, y, 2) # 偏导数，对 x 求 一阶导，对 y 求二阶导
+f = x + y + x*y + sy.sin(x*y)
+sy.diff(f, x, 1, y, 2) # 偏导数，对 x 求 一阶导，对 y 求二阶导
 
 
 """ 2. sympy 计算积分函数 """
-x, y, a, b, c, d = smp.symbols('x, y, a, b, c, d')
+x, y, a, b, c, d = sy.symbols('x, y, a, b, c, d')
 
-f = x ** 2 + smp.sin(x)
-smp.integrate(f, x) # 不定积分
-smp.integrate(f, (x,a,b)) # 定积分，从 a 积到 b
+f = x ** 2 + sy.sin(x)
+sy.integrate(f, x) # 不定积分
+sy.integrate(f, (x,a,b)) # 定积分，从 a 积到 b
 
-f = x * y + smp.sin(x) + smp.cos(y)
-smp.integrate(f, x, y) # 双重不定积分
-smp.integrate(f, (x,a,b), (y,c,d)) # 双重定积分, x 从 a 积到 b, y 从 c 积到 d
+f = x * y + sy.sin(x) + sy.cos(y)
+sy.integrate(f, x, y) # 双重不定积分
+sy.integrate(f, (x,a,b), (y,c,d)) # 双重定积分, x 从 a 积到 b, y 从 c 积到 d
 
 
 """ 3. 计算导数值 """
@@ -48,7 +48,7 @@ def f(x, a, b, c):
     return a * x ** 2 + b * x + c
 # step 2：计算一阶导数值
 x = np.linspace(0, 10, 11)
-drv = scp.misc.derivative(f, x, args=(1,2,3), dx=1e-6)
+drv = misc.derivative(f, x, args=(1,2,3), dx=1e-6)
 print(drv)
 
 
@@ -70,5 +70,5 @@ print(itg)
 """ 情况二：数值积分 """
 x = np.linspace(-1,1,1000)
 y = x ** 2 + 2 * x + 3
-itg = scp.integrate.simps(y,x) # 辛普森积分方法，注意 y 在前，x 在后
+itg = integrate.simps(y,x) # 辛普森积分方法，注意 y 在前，x 在后
 print(itg) 
