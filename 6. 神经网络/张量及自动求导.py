@@ -56,12 +56,13 @@ print(b.grad)    # 求 dy/db，此时 w, b 是常数
 
 """ 例 2 """
 # Create tensors.
+x_nd = np.array([[1.0,2.0],[2.0,3.0]])
 x = torch.tensor(x_nd, requires_grad=True)
 # Build a computational graph.
 y = x ** 3
 # Compute gradients.
-y.backward(torch.ones_like(y))  # 求 dy/dx，注意 torch.ones_like(y) 的作用 https://juejin.im/post/5b9b7a8cf265da0af1612bbd
-# print out the gradients.
+y.backward(torch.ones_like(y))  # 求 dy/dx，注意 torch.ones_like(y) 的作用见 pytorch自动求导机制.pdf
+# show the gradients.
 print(x.grad)
 
 """ 例 3 """
