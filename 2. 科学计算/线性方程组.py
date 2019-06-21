@@ -26,3 +26,18 @@ def fn(x):
 
 x = fsolve(fn,[0,0,0])
 print('方法 2 结果:',x)
+
+""" 
+高次方程组
+（高次方程本质上也是线性方程） 
+"""
+
+def fn(x):
+    x1,x2 = x.tolist()
+    return np.array([
+                     3 * x1 + 2 * x2 ** 2 - 4,
+                     x1 + x2 - 4
+                    ])
+
+x = fsolve(fn,[0,0])
+print(x)
