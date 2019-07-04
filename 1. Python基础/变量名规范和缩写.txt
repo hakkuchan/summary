@@ -1,10 +1,14 @@
+规范
+后跟s表示列表：比如 nums，表示数字列表
+一行信息（包含多个值），不加s。比如：out = [1,2,3,4,5]
+
 名词	
 addr	地址	address
 chg	    变化	change
 clr	    颜色	color
 col	    列	    column
 row	    行	    row
-comb	组合	combination
+cbn 	组合	combination
 delta	变化	
 db	    数据集	database
 diff	不同	different
