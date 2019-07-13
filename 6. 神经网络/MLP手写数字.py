@@ -7,12 +7,12 @@ from torchvision import datasets
 device = torch.device('cuda:0')
 
 """ 设定超参数  """
-batch_size = 32
-lr = 1e-2    # 学习率
-n_epoch = 3  # 迭代次数，n_epoch = 1 表示只 “训练-测试” 一遍
+batch_size = 32  # 表示更新一次参数所基于的梯度来自 32 个样本，假如有320个训练样本，那么一个 epoch 会依次更新 10 次
+lr = 1e-2        # 学习率
+n_epoch = 3      # 迭代次数，n_epoch = 1 表示只 “训练-测试” 一遍
 
 """ 准备数据集 """
-train_dataset = datasets.MNIST(root='E:\Work\Jupyter\Data', train=True, transform=transforms.ToTensor(), download=False)
+train_dataset = datasets.MNIST(root='E:\Work\Jupyter\Data', train=True, transform=transforms.ToTensor(), download=True)
 test_dataset = datasets.MNIST(root='E:\Work\Jupyter\Data', train=False, transform=transforms.ToTensor())
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
@@ -55,10 +55,10 @@ for epoch in range(n_epoch):
         out = bpnn(img)    # 首先计算预测值
         loss = loss_func(out, label)  # 然后计算 n 个预测值与真实值的平均偏差
         train_loss += loss.item() * label.size(0)    # 计算总偏差
-        pred = torch.max(out,1) [1]   
+        pred = torch.max(out,1)[1]   
         # 解析：输出层有10个节点，每个节点代表一个数字，
         # 每次预测出的 out 是一个 1行10列 的 tensor，比如[-8.2, -4.6, -8.9, -2.6, 8.3, -4.1, -8, 2.9, -4.6, 0.3]
-        # 最大值对应的索引就是所预测的数字，比如上述 out 的最大值 8.3 其索引为 4，所以这个 out 对应的预测数字是 4.
+        # 最大值对应的索引就是所预测的数字，比如上述 out 的最大值的索引为 4，所以这个 out 对应的预测数字是 4.
         # torch.max(out,1)表示返回每个 out 的最大值 [0] 及其索引 [1]
         # 因此 pred = torch.max(out,1)[1] 就是返回一个Batch中的预测结果
         num_correct = (pred == label).sum() # 计算一个batch中预测对了多少个样本

@@ -15,7 +15,7 @@ layer = nn.Conv2d(in_channels=3,   # 彩色图片，in_channels = 3
                   out_channels=33, # 用 33 个扫描器扫描
                   kernel_size=4,   # 扫描器的大小为 4x4，也可定义为 3x6，kernel_size=(3,6)
                   stride=(1,2),    # 扫描器横向每隔 1 个像素点扫描一次，扫描完一行后，向下移动 2 个像素点，进行下一轮扫描
-                  padding=(2,1))   # 在图片的横向补充两行 0，纵向补充1列 0，确保边缘目标被扫描到，也可以 padding = 2
+                  padding=(2,1))   # 在图片的横向补充两行 0，纵向补充1列 0，确保边缘目标被扫描到，也可以 padding = 2，相当于padding=(2,2)
 
 # 输出结果
 out = layer(X)

@@ -13,7 +13,7 @@ from torch import nn
 # 输入 2 个样本，每个样本有 3 个特征
 X = torch.tensor([[1,2,3], [4,5,6]]).float()
 
-# 实例化 torch.nn.Linear
+# 实例化 torch.nn.Linear 层
 layer = nn.Linear(3,1, bias=True)
 
 # 将 nn.Linear 中的权重和偏置项设置为 1

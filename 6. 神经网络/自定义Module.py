@@ -64,5 +64,5 @@ class Model(nn.Module):
         x = self.layer2(x)
         x = self.layer3(x)
         return x
-	
+
 """ 有时候用 MyLinear 代替 nn.Linear 时，ANN 的预测性能会改变，是因为 MyLinear 的初始化参数与 nn.Linear 的不同 """

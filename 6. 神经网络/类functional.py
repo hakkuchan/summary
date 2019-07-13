@@ -1,6 +1,6 @@
 """ class torch.nn.Functional """
 
-# nn.nn.Functional定义了很多函数
+# nn.Functional定义了很多函数
 # 需要注意，这些函数中的参数是不能被优化的
 
 # 示例：

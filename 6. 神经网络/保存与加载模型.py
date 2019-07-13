@@ -25,7 +25,7 @@ torch.save(bpnn.state_dict(), 'E:/Work/Jupyter/data/bpnn.pt') # 保存 bpnn 的�
 
 
 """ 加载 bpnn 的参数 """
-new_bpnn = Model(2, 4, 2, 1) # 实例化 new_bpnn，参数要与 bpnn 一致
+new_bpnn = Model(2, 4, 2, 1) # 实例化 new_bpnn，ANN结构要与 bpnn 一致
 new_bpnn.load_state_dict(torch.load('E:/Work/Jupyter/data/bpnn.pt')) # 加载 bpnn 的参数给 new_bpnn
 
 
