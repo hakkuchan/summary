@@ -1,10 +1,9 @@
 """ 赋值推导式 """
 x = -1
 out = 0 if x < 0 else x
-print(out) # >>> 0
-x = 10
-out = 0 if x < 0 else x
-print(out) # >>> 10
+print(out)
+
+print(0 if x < 0 else x) # 也可直接输出推导式
 
 """ 列表推导式 """
 import math

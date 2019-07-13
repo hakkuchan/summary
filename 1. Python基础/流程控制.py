@@ -7,9 +7,7 @@ if……elif……elif……
 """
 循环语句
 while：布尔条件
-for：范围条件
-for i in range(num):
-for i in [1, 2, 3]:
+for：范围条件，包括：1）for i in range(num)； 2）for i in [1, 2, 3]。
 """
 
 """ 用 in 代替 or """

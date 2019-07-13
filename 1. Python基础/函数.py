@@ -47,7 +47,7 @@ print(f(2))
 # 等价于：
 def g(x):
     return x ** 2 + 2 * x
-print(,g(2))
+print(g(2))
 
 # lambda表达式也可以定义多个变量
 f = lambda x, y: x + y
