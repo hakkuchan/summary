@@ -1,4 +1,4 @@
-# Tech-Summary
+# 技术总结
 ## 1. Python基础
 ### 1.1 数据结构与语法
 * [数值及简单运算](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E5%80%BC%E5%8F%8A%E7%AE%80%E5%8D%95%E8%BF%90%E7%AE%97.py)
