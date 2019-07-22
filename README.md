@@ -22,20 +22,19 @@
 ### 1.2 常用模块和操作
 * [读写文件 (I/O files)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
 * [模块os (os)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%A8%A1%E5%9D%97os.py)
-* [创建目录 (establish catalog)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95.py)
+* [创建目录 (Establish catalog)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95.py)
 * [批量重命名 (Volume rename)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
 * [模块progressbar (Progressbar module)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%A8%A1%E5%9D%97progressbar.py)
 * [模块random (random)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%A8%A1%E5%9D%97random.py)
-* [性能分析 (performance analysis)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90.py)
-* [Git命令 (control git)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/Git%E5%91%BD%E4%BB%A4.txt)
+* [性能分析 (Performance analysis)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%80%A7%E8%83%BD%E5%88%86%E6%9E%90.py)
+* [Git命令 (Control git)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/Git%E5%91%BD%E4%BB%A4.txt)
 ## 2. 科学计算
 ### 2.1 基本操作
-* [numpy基础](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/numpy%E5%9F%BA%E7%A1%80.py)
-* [numpy函数](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/numpy%E5%87%BD%E6%95%B0.py)
-* [自定义ufunc](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
-* [pandas基础](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/pandas%E5%9F%BA%E7%A1%80.py)
-* [模块itertools](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%A8%A1%E5%9D%97itertools.py)
-* [list numpy tensor操作对比](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/list%20numpy%20tensor%20%E6%93%8D%E4%BD%9C%E6%AF%94%E8%BE%83.xlsx)
+* [numpy基础 (numpy basics)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/numpy%E5%9F%BA%E7%A1%80.py)
+* [numpy函数 (numpy function)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/numpy%E5%87%BD%E6%95%B0.py)
+* [自定义ufunc (Custom ufunc)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
+* [pandas基础 (pandas basics)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/pandas%E5%9F%BA%E7%A1%80.py)
+* [模块itertools (itertools)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%A8%A1%E5%9D%97itertools.py)
 ### 2.2 计算样例
 * [线性方程组](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
 * [非线性方程组](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
