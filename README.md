@@ -1,12 +1,12 @@
 # 技术总结
-## 1. Python基础
-### 1.1 数据结构与语法
-* [数值及简单运算](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E5%80%BC%E5%8F%8A%E7%AE%80%E5%8D%95%E8%BF%90%E7%AE%97.py)
-* [特殊运算符](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E7%89%B9%E6%AE%8A%E8%BF%90%E7%AE%97%E7%AC%A6.py)
-* [字符串](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%AD%97%E7%AC%A6%E4%B8%B2.py)
-* [列表](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%88%97%E8%A1%A8.py)
-* [字典](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%AD%97%E5%85%B8.py)
-* [推导式](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%8E%A8%E5%AF%BC%E5%BC%8F.py)
+## 1. Python基础 (Basics)
+### 1.1 数据结构与语法 (Data structure & gramma)
+* [数值及简单运算 (number & math)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E5%80%BC%E5%8F%8A%E7%AE%80%E5%8D%95%E8%BF%90%E7%AE%97.py)
+* [特殊运算符 (special operator)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E7%89%B9%E6%AE%8A%E8%BF%90%E7%AE%97%E7%AC%A6.py)
+* [字符串 (string)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%AD%97%E7%AC%A6%E4%B8%B2.py)
+* [列表 (list)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%88%97%E8%A1%A8.py)
+* [字典 (dictionary)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%AD%97%E5%85%B8.py)
+* [推导式 (derivatives)](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%8E%A8%E5%AF%BC%E5%BC%8F.py)
 * [Map Filter Reduce](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/Map%20Filter%20Reduce.py)
 * [流程控制](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6.py)
 * [函数](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%87%BD%E6%95%B0.py)
