@@ -107,6 +107,6 @@
 ## #网页爬虫
 * [模块requests](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/%23%20%E8%8E%B7%E5%8F%96%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE/%E6%A8%A1%E5%9D%97requests.py)
 * [模块BeautifulSoup](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/%23%20%E8%8E%B7%E5%8F%96%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE/%E6%A8%A1%E5%9D%97BeautifulSoup.py)
-* [爬取国际沸石分子筛结构网实例](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/%23%20%E8%8E%B7%E5%8F%96%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE/get-zeolites-info.py)
+* [实例: 爬取国际沸石分子筛结构网](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/%23%20%E8%8E%B7%E5%8F%96%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE/get-zeolites-info.py)
 * [模块selenium](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/%23%20%E8%8E%B7%E5%8F%96%E7%BD%91%E7%BB%9C%E6%95%B0%E6%8D%AE/%E6%A8%A1%E5%9D%97selenium.py)
 
