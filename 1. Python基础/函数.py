@@ -26,7 +26,8 @@ print(out)
 
 # (2) 定义函数时，如果函数的参数不确定，可 def fun(*x)，使用函数时传入的所有参数都会保存在 x（tuple形式）中
 def func(*x):
-    return x
+    y = sum(x)
+    return y
 out = func(1,2,3,4,5,6) 
 print(out)
 
