@@ -36,7 +36,7 @@ print(out)
 # 定义函数时，使用 **参数 可以把字典作为参数传递给一个函数。
 def student_grade(**kwargs):
     for key, value in kwargs.items():
-        print("{}'s grade is' {}".format(key, value))
+        print("{}'s grade is {}".format(key, value))
 student_grade(**{'Jack':98, 'Mike':99, 'Lily':97})
 
 
