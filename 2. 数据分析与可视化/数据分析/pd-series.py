@@ -11,7 +11,7 @@ pandas中的series
 import numpy as np
 import pandas as pd  
 
-# (1) 概述
+''' (1) 概述 ''' 
 s = pd.Series(np.random.rand(5))
 print(s)        # 查看series
 print(type(s))  # 查看series类型
@@ -22,7 +22,7 @@ print(s.values,type(s.values)) # 查看series值
 # series和ndarray较相似，索引切片等功能差别不大
 # series和dict相比，series更像一个有顺序的字典（dict本身不存在顺序），其索引原理与字典相似（一个用key，一个用index)
 
-# (2) 创建方法
+''' (2) 创建方法 '''
 # a. 由字典创建
 print(pd.Series({'a':1 ,'b':2 , 'c':3, '4':4, '5':5}))
 # b. 由数组创建
@@ -31,7 +31,7 @@ print(pd.Series(np.random.randn(5), index = ['a','b','c','d','e'], dtype = np.ob
 # c. 由标量创建
 print(pd.Series(10, index = range(4)))
 
-# (3) 索引
+''' (3) 索引 '''
 s = pd.Series(np.random.rand(5), index = ['a','b','c','d','e'])
 # a. 位置索引
 print(s[1])
@@ -55,7 +55,7 @@ bs3 = s.notnull()
 print(bs3)
 print(s[bs3])     # 输出满足条件的值
 
-# (4) 操作
+''' (4) 操作 '''
 # a. 查看数据
 s = pd.Series(np.random.rand(50))
 print(s.head(10)) # 查看头部数据
