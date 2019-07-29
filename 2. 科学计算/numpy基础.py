@@ -64,7 +64,6 @@ nums = np.array([[1,2],[3,4],[5,6]])
 np.random.shuffle(nums)
 
 
-
 ''' 2. 操作数组 '''
 
 # (1) 索引和切片
