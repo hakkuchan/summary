@@ -1,0 +1,31 @@
+bokeh总览
+
+Line Properties → 线设置
+Fill Properties → 填充设置
+Text Properties → 字体设置
+
+1、Line Properties → 线设置
+（1）line_color，设置颜色
+（2）line_width，设置宽度
+（3）line_alpha，设置透明度
+（4）line_join，设置连接点样式：'miter' miter_join，'round' round_join，'bevel' bevel_join
+（5）line_cap，设置线端口样式，'butt' butt_cap，'round' round_cap，'square' square_cap
+（6）line_dash，设置线条样式，'solid'，'dashed'，'dotted'，'dotdash'，'dashdot'，或者整型数组方式（例如[6,4]）
+
+2、Fill Properties → 填充设置
+（1）fill_color，设置填充颜色
+（2）fill_alpha，设置填充透明度
+
+3、Text Properties → 字体设置
+（1）text_font，字体
+（2）text_font_size，字体大小，单位为pt或者em（ '12pt', '1.5em'）
+（3）text_font_style，字体风格，'normal' normal text，'italic' italic text，'bold' bold text
+（4）text_color，字体颜色
+（5）text_alpha，字体透明度
+（6）text_align，字体水平方向位置，'left', 'right', 'center'
+（7）text_baseline，字体垂直方向位置，'top'，'middle'，'bottom'，'alphabetic'，'hanging'
+
+4、可见性
+p.xaxis.visible = False
+p.xgrid.visible = False
+基本参数中都含有.visible参数，设置是否可见
