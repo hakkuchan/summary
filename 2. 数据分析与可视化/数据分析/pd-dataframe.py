@@ -130,6 +130,17 @@ print(df)
 print(df.drop(['d'], axis = 1)) # drop()删除列，需要加上axis = 1
 print(df)
 
+# 缺失值处理
+df = pd.DataFrame(np.random.randint(16, size=(4,4)), columns=['a','b','c','d'], index=['i1','i2','i3','i4'])
+df['b'].loc['i2'] = None
+print(df)
+df1 = df.dropna(axis=0)     # 删除有缺失值的样本
+print(df1)
+df2 = df.dropna(axis=1)     # 删除有缺失值的列
+print(df2)
+df3 = df.dropna(axis=0,subset=['b'])  # 删除特定列有缺失值的行
+print(df3)
+
 # 查
 df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, columns = ['a','b','c','d'])
 print(df)
@@ -157,3 +168,26 @@ print(df2.sort_index())
 df1 = pd.DataFrame(np.random.randn(10, 4), columns=['A', 'B', 'C', 'D'])
 df2 = pd.DataFrame(np.random.randn(7, 3), columns=['A', 'B', 'C'])
 print(df1 + df2)
+
+# 合并
+df1 = pd.DataFrame({'key': ['K0', 'K1', 'K2', 'K3'],
+                    'A': ['A0', 'A1', 'A2', 'A3'],
+                    'B': ['B0', 'B1', 'B2', 'B3']})
+df2 = pd.DataFrame({'key': ['K0', 'K1', 'K2', 'K3'],
+                    'C': ['C0', 'C1', 'C2', 'C3'],
+                    'D': ['D0', 'D1', 'D2', 'D3']})
+df3 = pd.DataFrame({'key1': ['K0', 'K0', 'K1', 'K2'],
+                    'key2': ['K0', 'K1', 'K0', 'K1'],
+                    'A': ['A0', 'A1', 'A2', 'A3'],
+                    'B': ['B0', 'B1', 'B2', 'B3']})
+df4 = pd.DataFrame({'key1': ['K0', 'K1', 'K1', 'K2'],
+                    'key2': ['K0', 'K0', 'K0', 'K0'],
+                    'C': ['C0', 'C1', 'C2', 'C3'],
+                    'D': ['D0', 'D1', 'D2', 'D3']})
+print(pd.merge(df1, df2, on='key'))  # merge合并 
+print(pd.merge(df3, df4, on=['key1','key2']))  # 多个链接键
+print(pd.merge(df3, df4,on=['key1','key2'], how = 'inner'))  # inner：默认，取交集
+print(pd.merge(df3, df4, on=['key1','key2'], how = 'outer'))  # outer：取并集，数据缺失范围NaN
+print(pd.merge(df3, df4, on=['key1','key2'], how = 'left'))   # left：按照df3为参考合并，数据缺失范围NaN
+print(pd.merge(df3, df4, on=['key1','key2'], how = 'right'))  # right：按照df4为参考合并，数据缺失范围NaN
+

@@ -98,11 +98,23 @@ print(ar + 10)    # 加法
 print(ar * 2)     # 乘法
 print(1 / (ar+1)) # 除法
 print(ar ** 0.5)  # 幂
+print(ar.sum())          # 所有元素求和
+print(ar.sum(axis=0))    # axis=0:每行数据求和; axis=1:按每列数据求和
+print(np.sum(ar,axis=0)) # axis=0:每行数据求和; axis=1:按每列数据求和
 print(ar.mean())  # 求平均值
 print(ar.max())   # 求最大值
 print(ar.min())   # 求最小值
 print(ar.std())   # 求标准差
 print(ar.var())   # 求方差
-print(ar.sum())   # 所有元素求和
-print(np.sum(ar,axis=0))    # axis=0:每行数据求和; axis=1:按每列数据求和
 print(np.sort(np.array([1,4,3,2,5,6])))  # 排序
+
+# (4) ufunc函数
+x = np.array([[1,2,3],[4,5,6],[7,8,9]])
+y = np.sin(x)
+y = np.cos(x)
+y = np.tan(x)
+y = np.exp(x)
+y = x**2
+
+# (5) 设置精度
+np.set_printoptions(precision=2)
