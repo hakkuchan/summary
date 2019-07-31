@@ -10,7 +10,7 @@ output_notebook() # notebook绘图命令
 # (1) 提取数据
 df = pd.DataFrame(np.random.randn(100,2),columns = ['A','B'])
 
-# (2) 创建绘图空间
+# (2) 创建绘图空间（画布）
 p = figure(plot_width=600, plot_height=400,         # 图表宽度、高度
            tools = 'pan, wheel_zoom, box_zoom, save, reset,help',  # 设置工具栏，默认全部显示
            toolbar_location='above',                # 工具栏位置："above"，"below"，"left"，"right"
