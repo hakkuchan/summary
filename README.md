@@ -117,7 +117,7 @@
 
 * [类functional](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E7%B1%BBfunctional.py)
 
-* ANN模型[搭建](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%90%AD%E5%BB%BAANN.py)
+* ANN模型: [搭建](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%90%AD%E5%BB%BAANN.py)
 & [保存和加载](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
 * [可视化tensorboardX](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%8F%AF%E8%A7%86%E5%8C%96tensorboardX.py)
