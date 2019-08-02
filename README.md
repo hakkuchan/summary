@@ -62,10 +62,10 @@
 # 3. 科学计算
 * [排列组合](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.py)
 
+* [微积分](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E5%BE%AE%E7%A7%AF%E5%88%86.py)
+
 * [线性方程组](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
 & [非线性方程组](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
-
-* [微积分](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E5%BE%AE%E7%A7%AF%E5%88%86.py)
 
 * [最优化问题](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%9C%80%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98.py)
 & [曲线拟合](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88.py)
