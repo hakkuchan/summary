@@ -86,14 +86,14 @@
 * [数据分割](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
 
 ## 4.2 传统模型
-* SVM: [分类](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/SVM%E5%88%86%E7%B1%BB.py)
+* 支持向量机: [分类](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/SVM%E5%88%86%E7%B1%BB.py)
 & [回归](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/SVM%E5%9B%9E%E5%BD%92.py)
 
-* DT:[分类](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%88%86%E7%B1%BB.py)
+* 决策树: [分类](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%88%86%E7%B1%BB.py)
 & [回归](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%9B%9E%E5%BD%92.py)
 & [图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%9B%BE.py)
 
-* KNN:[分类](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%88%86%E7%B1%BB.py)
+* 最近邻: [分类](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%88%86%E7%B1%BB.py)
 & [回归](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%9B%9E%E5%BD%92.py)
 
 * [集成算法](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E9%9B%86%E6%88%90%E7%AE%97%E6%B3%95.py)
