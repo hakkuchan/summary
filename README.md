@@ -77,7 +77,7 @@
 # 4. 机器学习
 ## 4.1 基本操作
 
-* [数据调整](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
+* [范围调整](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 & [标签转换](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
 
 * [特征选择](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
