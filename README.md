@@ -39,23 +39,24 @@
 * [numpy基础](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/np%E5%9F%BA%E7%A1%80.py)
 & [自定义ufunc](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
 
-* [pandas-series](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-series.py)
-& [pandas-dataframe](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-dataframe.py)
-& [pandas-timestamp](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-timestamp.py)
-& [pandas统计](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%BB%98%E5%9B%BE%E5%8F%8A%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
+* pandas：[Series](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-series.py)
+& [Dataframe](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-dataframe.py)
+& [Timestamp](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-timestamp.py)
+& [分析统计](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%BB%98%E5%9B%BE%E5%8F%8A%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
+
 * [读写操作](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
 
 ## 2.2 可视化
-* bokeh: [绘图及主要设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
+* Bokeh: [绘图及主要设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
 & [散点图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%95%A3%E7%82%B9%E5%9B%BE.py)
 & [折线图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
 & [辅助标注](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
 & [特殊坐标轴](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 & [多图表](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 
-* [seaborn绘制特殊图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
+* [Seaborn绘制特殊图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
 
-* matplotlib: [2D图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B62D%E5%9B%BE.py)
+* Matplotlib: [2D图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B62D%E5%9B%BE.py)
 & [3D图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B63D%E5%9B%BE.py)
 
 # 3. 科学计算
