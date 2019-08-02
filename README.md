@@ -54,7 +54,7 @@
 & [特殊坐标轴](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 & [多图表](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 
-* [Seaborn绘制特殊图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
+* Seaborn: [特殊图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
 
 * Matplotlib: [2D图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B62D%E5%9B%BE.py)
 & [3D图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B63D%E5%9B%BE.py)
