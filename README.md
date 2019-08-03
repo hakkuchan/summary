@@ -14,15 +14,10 @@
 | [模块的选择性执行](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E6%A8%A1%E5%9D%97%E7%9A%84%E9%80%89%E6%8B%A9%E6%80%A7%E6%89%A7%E8%A1%8C.txt)
 
 ## 1.2 常用模块与操作
-* [模块os](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97os.py)
-| [创建目录](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E5%88%9B%E5%BB%BA%E7%9B%AE%E5%BD%95.py)
-| [批量重命名](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
-
-* [模块random](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97random.py)
-
-* [模块datatime](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
-
-* [模块progressbar](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97progressbar.py)
+* 模块: [os](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97os.py)
+| [random](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97random.py)
+| [datatime](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
+| [progressbar](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97progressbar.py)
 
 * [动态变量名](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F%E5%90%8D.py)
 | [变量名规范与缩写](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E5%8F%98%E9%87%8F%E5%90%8D%E8%A7%84%E8%8C%83%E5%92%8C%E7%BC%A9%E5%86%99.txt)
