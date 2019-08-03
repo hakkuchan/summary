@@ -3,33 +3,33 @@
 一行信息（包含多个值），不加s。比如：out = [1,2,3,4,5]
 
 名词	
-addr	地址	address
+addr	  地址	address
 chg	    变化	change
 clr	    颜色	color
 col	    列	    column
 row	    行	    row
-cbn 	组合	combination
-delta	变化	
+cbn 	  组合	combination
+delta	  变化	
 db	    数据集	database
-diff	不同	different
+diff	  不同	different
 dir	    路径	directory
 dec	    减少	decrease
 inc	    增多	increase
 ele	    元素	element
 env	    环境	environment
 fn	    函数	function
-func	函数	function
+func	  函数	function
 idx	    索引	index
 img	    照片	image
 pic	    图片	picture
-info	信息	information
+info	  信息	information
 len	    长度	length
 lnk	    链接	link
 mul	    乘积	multiply
 qt	    商数	quotient
 sum	    和数	sum   
 out	    结果	outcome
-param	参数	parameter
+param	  参数	parameter
 var	    变量	variable
 pnt	    点	    point
 pos	    位置	position
@@ -37,44 +37,43 @@ psw	    密码	password
 ver	    版本	version
 
 形容词		
-anti	反抗	
-auto	自动的	
+anti	  反抗	
+auto	  自动的	
 avg	    平均	
-mean	平均	
-calcd	计算的	
-exptl	实验的	
+mean	  平均	
+calcd	  计算的	
+exptl	  实验的	
 ex	    前	
-prev	先前的	previous
-post	后	
-extra	超过	
-over	过	
-horz	水平的	horizontal
-vert	垂直的	vertical
-init	初始的	
+prev	  先前的	previous
+post	  后	
+extra	  超过	
+over	  过	
+horz	  水平的	horizontal
+vert	  垂直的	vertical
+init	  初始的	
 org	    初始的	original
 max	    最大	
 mid	    中间	
 min	    最小	
-mono	单一	
+mono	  单一	
 uni	    单一	
-multi	多	
+multi	  多	
 non	    非	
 re	    再次	
 sel	    选择的
 std     标准的   standard
 ctm     自定义的 custom 	
 sub	    亚	
-temp	临时的	temporary
-trans	转换	
+temp	  临时的	temporary
+trans	  转换	
 unk	    未知的	unknown
 
 格式后缀
 num	    数字	 number
 nums    数字列表 		
-lst 	列表	 list
-tp  	元组	 tuple
-dict	字典	 dictionary
+lst 	  列表	 list
+tp  	  元组	 tuple
+dict	  字典	 dictionary
 df	    表格	 Dataframe
-nd  	矩阵	 ndarray
+nd  	  矩阵	 ndarray
 ts	    张量	 tensor
-
