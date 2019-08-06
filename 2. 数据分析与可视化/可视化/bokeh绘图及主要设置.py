@@ -103,6 +103,7 @@ p.xaxis.axis_label_standoff = 30
 # 设置标签名称、字体
 p.yaxis.axis_label = "Bin Count"
 p.yaxis.axis_label_text_font_style = "italic"
+p.yaxis.axis_label_text_font_size = "22pt"
 show(p)
 
 ''' 背景网格线  '''
