@@ -35,3 +35,11 @@ d = 4
 print('in:', d in a, a, d)
 # not in
 print('not in:', d not in a, a, d)
+
+""" 用 in 代替 or """
+x = 1
+if x == 1 or x ==2 or x == 3:
+    pass
+# 等价于：  
+if x in (1,2,3):
+    pass
