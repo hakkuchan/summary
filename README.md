@@ -43,8 +43,17 @@
 * [读写操作](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
 
 ## 2.2 可视化
-* Matplotlib: [窗口设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
-| [2D图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B62D%E5%9B%BE.py)
+* Matplotlib: [绘图和主要设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%9B%BE%E5%92%8C%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
+| [窗口设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
+| [点线设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
+| [多子图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
+| [饼状图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
+| [箱线图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
+| [柱状图和堆叠图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
+| [直方图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
+| [面积图和填充面积](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%9D%A2%E7%A7%AF%E5%9B%BE%E5%92%8C%E5%A1%AB%E5%85%85%E9%9D%A2%E7%A7%AF.py)
+| [雷达图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
+| [窗口设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
 | [3D图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B63D%E5%9B%BE.py)
 
 * Seaborn: [柱状图](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E6%9F%B1%E7%8A%B6%E5%9B%BE.py)
