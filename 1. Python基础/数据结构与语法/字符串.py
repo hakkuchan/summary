@@ -21,6 +21,10 @@ word[2:5] = 'yto'
 word[:2] = 'Py'
 # Python中的字符串不能被修改
 
-""" 字符串的长度 """
-s = 'Python'
-len(s) = 6
+""" 序列的内置全局函数 (也适用于 list 和 tuple) """
+s = 'pythonn'
+print(len(s))
+print(max(s))
+print(min(s))
+print(s.count('n'))  # .count(obj)方法：计算值的出现次数
+print(s.index('n'))  # .index(obj)方法：从列表中找出某个值第一个匹配项的索引位置
