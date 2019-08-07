@@ -12,7 +12,7 @@ cbn 	组合	combination
 delta	变化	
 db	    数据集	database
 diff	不同	different
-dir	    路径	directory
+dirc    路径	directory
 dec	    减少	decrease
 inc	    增多	increase
 ele	    元素	element

@@ -3,6 +3,14 @@
 
 import os
 
+""" 文件路径 """
+path1 = 'E:/Work/Github/1. Python基础/常用模块与操作/模块os.py'       # 单个反斜杠：/
+path2 = 'E:\\Work\\Github\\1. Python基础\\常用模块与操作\\模块os.py'  # 两个斜杠：\\（第一个\是转义符）
+path3 = r'E:\Work\Github\1. Python基础\常用模块与操作\模块os.py'      # r用于防止字符转义
+print(path1)
+print(path2)
+print(path3)
+
 """ os.getcwd() 获取当前工作路径 """
 now_dir = os.getcwd()
 print(now_dir)   # >>> E:\Work\Jupyter
@@ -22,10 +30,3 @@ print(os.path.isdir('E:\Work\Jupyter/trial.ipynb'))
 """ os.path.isfile() 判断某一路径是否是文件 """
 print(os.path.isfile('E:\Work\Jupyter'))
 print(os.path.isfile('E:\Work\Jupyter/trial.ipynb'))
-
-""" 注意 / 和 \ 的用法：
-
-        上级目录\下级目录
-        
-        目录 / 文件
-"""
