@@ -15,6 +15,7 @@
 
 ## 1.2 常用模块与操作
 * 模块: [os](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97os.py)
+| [pickle](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97pickle.py)
 | [random](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97random.py)
 | [time](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97time.py)
 | [datatime](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
