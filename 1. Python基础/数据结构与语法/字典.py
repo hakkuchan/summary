@@ -1,50 +1,34 @@
-""" 直接构建 """
-grade = {'Jack': 98, 'Mike': 99}
-
-
-""" 关键字参数来指定键值对 """ 
-dict(Jack = 98, Mike = 99)
-
-
-""" dict构造函数 """
-dict([('Jack', 98), ('Mike', 99)])
-
+""" 构建字典 """
+grade = {'Jack': 98, 'Mike': 99}  # 直接构建法
+dict(Jack = 98, Mike = 99)        # dict函数构建法 1
+dict([('Jack',98), ('Mike',99)])  # dict构造构建法 2
 
 """ 合并字典 """
 x = {'a':1, 'b':2}
 y = {'c':3, 'd':4}
 z = {**x, **y}
 
+""" 嵌套字典 """
+info = {'name':'Mike', 'city':'Shanghai', 'contact':{'address':'somewhere', 'num':666}}
+print(info['contact']['address'])
 
-""" 通过.copy()方法，复制一个新的字典 """
-a = {'m':1 , 'n':2 , 'p':3}
+""" .copy() 复制一个新字典 (深拷贝) """
+a = {'m':1, 'n':2, 'p':3}
 b = a.copy()
 a.update({'q':4})
 print(a,b)
 
-
-""" 对于嵌套字典，输出嵌套内容，通过重复指向来输出 """
-poi = {'name':'shop', 'city':'shanghai', 'information':{'address':'somewhere', 'num':666}}
-print(poi['information']['address'])
-
-
-""" 字典的元素遍历 """
-poi = {'name':'shop', 'city':'shanghai', 'information':{'address':'somewhere', 'num':666}}
-for key in poi.keys():
+""" 遍历 """
+info = {'name':'Mike', 'city':'Shanghai', 'contact':{'address':'somewhere', 'num':666}}
+''' .keys() 取出键 '''
+for key in info.keys():
     print(key)
-print('-------')
-
-for value in poi.values():
+''' .values() 取出值 '''
+for value in info.values():
     print(value)
-print('-------')
-
-
-""" for函数遍历 """
-for (k,v) in poi.items():
-    print('key为 %s, value为 %s' %(k,v))
-print('-------')  
-
-
+''' .items()取出键和值 '''
+for (key, value) in info.items():
+    print(key, value)
 
 """ 字典取代多个 elif """
 def fun(x):
@@ -52,23 +36,21 @@ def fun(x):
         print('one')
     elif x == 2:
         print('two')
-    elif x == 3:
-        print('three')
-
 # 等价于:
 def fun(x):
-    return {1:'one', 2:'two', 3:'three'}.get(x)
+    return {1:'one', 2:'two'}.get(x)
 
-
-""" 字典的一种用法 """
+""" 利用字典对比模型 """
+'''
 models = {}
 models['LR'] = LogisticRegression(solver='liblinear')
+models['NB'] = GaussianNB()
+models['SVC'] = SVC(gamma='auto')
 models['LDA'] = LinearDiscriminantAnalysis()
 models['KNN'] = KNeighborsClassifier()
 models['CART'] = DecisionTreeClassifier()
-models['SVC'] = SVC(gamma='auto')
-models['NB'] = GaussianNB()
 kfold = KFold(n_splits=10,random_state=1)
-results = []
 for name in models:
     result = cross_val_score(models[name],X,Y,cv=kfold)
+print(result)
+'''
