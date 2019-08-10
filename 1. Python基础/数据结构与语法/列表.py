@@ -47,9 +47,6 @@ lst.append(2)
 """ 特定位置插入一个元素 """
 lst.insert(索引, 元素) eg: lst.insert(0, x) 在列表lst头部插入x
 
-""" 统计某个元素在列表中出现的次数 """
-lst.count(obj)
-
 """ 对原列表进行排序 """
 lst.sort(key=None, reverse=False)
 
