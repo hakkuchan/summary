@@ -21,6 +21,11 @@ print(df.quantile(q=0.75))   # quantile统计分位数，参数q确定位置
 print(df.skew())   # 求样本的偏度
 print(df.kurt())   # 求样本的峰度
 
+df = pd.DataFrame({'x':np.random.random(10), 'y':np.random.random(10), 'z':np.random.random(10)})
+df.corr(method='pearson')  # 求各个 x, y, z 两两之间的pearson相关系数
+df.corr(method='pearson')  # 求各个 x, y, z 两两之间的spearman相关系数
+df.corr(method='kendall')  # 求各个 x, y, z 两两之间的kendall相关系数
+
 s = pd.Series(list('asdvasdcfgg'))
 print(pd.Series(s.unique())) # 统计值的种类：.unique()
 
