@@ -47,6 +47,8 @@
 
 * [数据离散化](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
 
+* [KS检验](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/KS%E6%A3%80%E9%AA%8C.py)
+
 ## 2.2 可视化
 * Matplotlib: [绘图和主要设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%9B%BE%E5%92%8C%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
 | [窗口设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
