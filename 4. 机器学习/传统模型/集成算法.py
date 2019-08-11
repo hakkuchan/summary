@@ -1,10 +1,61 @@
 import pandas as pd
-from sklearn import model_selection
-from sklearn import preprocessing
+from sklearn.model_selection import KFold, cross_val_score
+
+name = ['preg','plas','pres','skin','test','mass','pedi','age','class']
+diabetes_table = pd.read_csv('E:\Work\Jupyter\Backup\Data\diabetes\pima-indians-diabetes.csv', names=name)
+diabetes = diabetes_table.values
+X = diabetes[:,0:8]
+Y = diabetes[:,8]
+
+
+""" Bagged Decision Tree """
 from sklearn.ensemble import BaggingClassifier
 from sklearn.tree import DecisionTreeClassifier
+cart = DecisionTreeClassifier()
+model = BaggingClassifier(base_estimator=cart,n_estimators=100,random_state=1)
+kfold = KFold(n_splits=10,random_state=2)
+result = cross_val_score(model,X,Y,cv=kfold)
+print(f'Bagged Decision Tree: {result.mean():>10}')
+
+
+""" 随机森林 """
+from sklearn.ensemble import RandomForestClassifier
+model = RandomForestClassifier(n_estimators=100,max_features=3,random_state=3)
+kfold = KFold(n_splits=10,random_state=2)
+result = cross_val_score(model,X,Y,cv=kfold)
+print(f'随机森林: {result.mean():>10}')
+
+
+""" 极端随机树 """
+from sklearn.ensemble import ExtraTreesClassifier
+model = ExtraTreesClassifier(n_estimators=100,max_features=7,random_state=3)
+kfold = KFold(n_splits=10,random_state=2)
+result = cross_val_score(model,X,Y,cv=kfold)
+print(f'极端随机树: {result.mean():>10}')
+
+
+""" Adaboost """
 from sklearn.ensemble import AdaBoostClassifier
+model = AdaBoostClassifier(n_estimators=30, random_state=1)
+kfold = KFold(n_splits=10,random_state=2)
+result = cross_val_score(model,X,Y,cv=kfold)
+print(f'Adaboost: {result.mean():>10}')
+
+
+""" 随机梯度提升 """
 from sklearn.ensemble import GradientBoostingClassifier
+model = GradientBoostingClassifier(n_estimators=30, random_state=1)
+kfold = KFold(n_splits=10,random_state=2)
+result = cross_val_score(model,X,Y,cv=kfold)
+print(f'随机梯度提升: {result.mean():>10}')
+
+
+""" voting """
+from sklearn.ensemble import VotingClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import KFold, cross_val_score
 
 name = ['preg','plas','pres','skin','test','mass','pedi','age','class']
 diabetes_table = pd.read_csv('E:\Work\Jupyter\Data\pima-indians-diabetes.csv',names=name)
@@ -12,61 +63,14 @@ diabetes = diabetes_table.values
 X = diabetes[:,0:8]
 y = diabetes[:,8]
 
-""" build models """
-models = {}
-models['Bag'] = DecisionTreeClassifier(class_weight=None, 
-                                       criterion='gini', 
-                                       max_depth=None,
-                                       max_features=None, 
-                                       max_leaf_nodes=None,
-                                       min_impurity_decrease=0.0, 
-                                       min_impurity_split=None,
-                                       min_samples_leaf=1, 
-                                       min_samples_split=2,            
-                                       min_weight_fraction_leaf=0.0, 
-                                       presort=False, 
-                                       random_state=None,
-                                       splitter='best')
+model_1 = DecisionTreeClassifier()
+model_2 = SVC(gamma='auto')
 
-models['Boost'] = AdaBoostClassifier(algorithm='SAMME.R', 
-                                     base_estimator=None,
-                                     learning_rate=1.0, 
-                                     n_estimators=30, 
-                                     random_state=1)
+models = []
+models.append(('DecisionTreeClassifier',model_1))
+models.append(('SVC',model_2))
 
-models['Grad'] = GradientBoostingClassifier(criterion='friedman_mse',
-                                            init=None,
-                                            learning_rate=0.1, 
-                                            loss='deviance', 
-                                            max_depth=3,
-                                            max_features=None, 
-                                            max_leaf_nodes=None,
-                                            min_impurity_decrease=0.0, 
-                                            min_impurity_split=None,
-                                            min_samples_leaf=1, 
-                                            min_samples_split=2,
-                                            min_weight_fraction_leaf=0.0, 
-                                            n_estimators=30,
-                                            n_iter_no_change=None, 
-                                            presort='auto', 
-                                            random_state=1,
-                                            subsample=1.0, 
-                                            tol=0.0001, 
-                                            validation_fraction=0.1,
-                                            verbose=0, 
-                                            warm_start=False)
-
-kfold = model_selection.KFold(n_splits=10, random_state=2)
-
-print('|{:>10s}|{:>10s}|{:>10s}|{:>10s}|'.format('Batch', 'Bag', 'Boost', 'Grad'))
-batch = 1
-for train,test in kfold.split(X):
-    X_train,X_test = X[train],X[test]
-    y_train,y_test = y[train],y[test]
-    results = []
-    for name in models:
-        model = models[name]
-        model.fit(X_train, y_train)
-        results.append(round(model.score(X_test, y_test),4))
-    print('|{:>10.0f}|{:>10.4f}|{:>10.4f}|{:>10.4f}|'.format(batch,results[0],results[1],results[2]))
-    batch += 1
+ensemble_model = VotingClassifier(estimators=models)
+kfold = KFold(n_splits=10,random_state=2)
+result = cross_val_score(ensemble_model,X,y,cv=kfold)
+print(f'Voting: {result.mean():>10}')
