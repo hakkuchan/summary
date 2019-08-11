@@ -84,6 +84,8 @@ b3 = df[['a','b']] > 50
 print(b3,type(b3))
 print(df[b3])  
 print(df[['a','b']] > 50)
+print(df[(df['a'] > 50) & (df['b'] > 20)]) # 且
+print(df[(df['a'] > 50) | (df['b'] > 60)]) # 或
 # 多行判断
 b4 = df.loc[['x1','x3']] < 50
 print(b4,type(b4))
