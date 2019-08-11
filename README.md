@@ -118,6 +118,8 @@
 
 * [集成算法](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E9%9B%86%E6%88%90%E7%AE%97%E6%B3%95.py)
 
+* [分类结果评估](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20机器学习/传统模型/分类结果评估.py)
+
 ## 4.3 神经网络与深度学习
 ### 4.3.1 Pytorch基础
 * [张量](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%BC%A0%E9%87%8F.py)
