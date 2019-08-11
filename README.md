@@ -43,6 +43,10 @@
 
 * [缺失值处理](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
 
+* [异常值处理](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
+
+* [数据离散化](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
+
 ## 2.2 可视化
 * Matplotlib: [绘图和主要设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%9B%BE%E5%92%8C%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
 | [窗口设置](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
