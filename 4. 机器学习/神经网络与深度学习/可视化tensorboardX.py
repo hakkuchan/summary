@@ -1,7 +1,7 @@
 """ tensorboard 启动 """
 
-# 比如日志文件夹的目录是：E:\Work\Jupyter\Log
-# 在上一级目录的地址栏（即 E:\Work\Jupyter）中输入cmd --> 输入命令:tensorboard --logdir=Log
+# 比如日志文件夹的目录是：E:\Work\Jupyter\Data\Log
+# 在上一级目录的地址栏（即 E:\Work\Jupyter\Data）中输入cmd --> 输入命令:tensorboard --logdir=Log
 # 在chrome输入网址： cmd 中给出的网址 或 http://localhost:6006/
 
 
@@ -19,7 +19,7 @@
 
 import torch
 from tensorboardX import SummaryWriter
-writer = SummaryWriter('E:\Work\Jupyter\Log') # 创建日志文件夹
+writer = SummaryWriter('E:\Work\Jupyter\Data\Log') # 创建日志文件夹
 for n_iter in range(100):
     s = torch.rand(1)
     writer.add_scalar('random_scalar', s[0], n_iter)
@@ -37,7 +37,7 @@ writer.close()
 import numpy as np
 import torch
 from tensorboardX import SummaryWriter
-writer = SummaryWriter('E:\Work\Jupyter\Log') # 创建日志文件夹
+writer = SummaryWriter('E:\Work\Jupyter\Data\Log') # 创建日志文件夹
 for n_iter in range(1, 100):
     writer.add_scalars('two trigonometrics', {"xsinx": n_iter * np.sin(n_iter), "xcosx": n_iter * np.cos(n_iter),}, n_iter)
 writer.close()
@@ -63,6 +63,6 @@ class Model(nn.Module):
     
 X = torch.rand(100, 10)
 mlp = Model(10, 20, 1)
-writer = SummaryWriter('E:\Work\Jupyter\Log')  # 创建日志文件夹
+writer = SummaryWriter('E:\Work\Jupyter\Data\Log')  # 创建日志文件夹
 writer.add_graph(mlp, (X,))
 writer.close()

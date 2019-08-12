@@ -73,6 +73,6 @@ class ResNet34(nn.Module):
 X = torch.randn(1, 3, 244, 244)
 model = ResNet34()
 
-writer = SummaryWriter('E:\Work\Jupyter\Log')  # 创建日志文件夹
+writer = SummaryWriter('E:\Work\Jupyter\Data\Log')  # 创建日志文件夹
 writer.add_graph(model, (X,))
 writer.close()
