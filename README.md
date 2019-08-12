@@ -151,10 +151,10 @@
 | [可视化tensorboardX](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%8F%AF%E8%A7%86%E5%8C%96tensorboardX.py)
 
 ### 4.3.2 模型与案例
-* [模型MLP-MNIST](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/MLP%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
+* [MLP-MNIST](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/MLP%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
 
-* [模型CNN-MNIST](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CNN%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
+* [CNN-MNIST](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CNN%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
 
-* [模型LSTM-MNIST](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/LSTM%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
+* [LSTM-MNIST](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/LSTM%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
 
-* [模型ResNet34](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%A8%A1%E5%9E%8BResNet34.py)
+* [ResNet34](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%A8%A1%E5%9E%8BResNet34.py)
