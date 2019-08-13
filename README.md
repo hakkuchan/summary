@@ -19,7 +19,6 @@
 | [random](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97random.py)
 | [time](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97time.py)
 | [datetime](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
-| [progressbar](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97progressbar.py)
 
 * [动态变量名](https://github.com/ZhouBinTGL/Tech-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F%E5%90%8D.py)
 
