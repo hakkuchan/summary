@@ -188,7 +188,7 @@ df4 = pd.DataFrame({'key1': ['K0', 'K1', 'K1', 'K2'],
                     'D': ['D0', 'D1', 'D2', 'D3']})
 print(pd.merge(df1, df2, on='key'))  # merge合并 
 print(pd.merge(df3, df4, on=['key1','key2']))  # 多个链接键
-print(pd.merge(df3, df4,on=['key1','key2'], how = 'inner'))  # inner：默认，取交集
+print(pd.merge(df3, df4, on=['key1','key2'], how = 'inner'))  # inner：默认，取交集
 print(pd.merge(df3, df4, on=['key1','key2'], how = 'outer'))  # outer：取并集，数据缺失范围NaN
 print(pd.merge(df3, df4, on=['key1','key2'], how = 'left'))   # left：按照df3为参考合并，数据缺失范围NaN
 print(pd.merge(df3, df4, on=['key1','key2'], how = 'right'))  # right：按照df4为参考合并，数据缺失范围NaN
