@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 
 ''' 1. 创建数组 '''
 
-# (1) array()
+# (1) array() 直接创建
 print(np.array(range(10)))                 # 整型
 print(np.array([1,2,3.14,4,5]))            # 浮点型
 print(np.array([[1,2,3],('a','b','c')]))   # 二维数组：嵌套序列（列表，元祖均可）
 
-# (2) Dataframe → ndarray
+# (2) Dataframe 创建数组
 df = pd.read_csv('E:\Work\Jupyter\Data\char_data.csv')
 ar = df.values
 
