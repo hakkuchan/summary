@@ -1,4 +1,4 @@
-""" NumPy操作的是多维数组对象, 即 n-dimensional array，简写为 ndarray """
+""" Numpy用于创建、操作多维数组（n-dimensional array），即 ndarray 对象 """
 
 import numpy as np
 import pandas as pd
