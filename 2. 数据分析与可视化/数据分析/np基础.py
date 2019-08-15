@@ -16,13 +16,14 @@ print(np.array([[1,2,3],('a','b','c')]))   # 二维数组：嵌套序列（列�
 df = pd.read_csv('E:\Work\Jupyter\Data\char_data.csv')
 ar = df.values
 
-# (3) arange()
+# (3) arange() 指定步长
 print(np.arange(10))    # 返回0-9，整型
 print(np.arange(10.0))  # 返回0.0-9.0，浮点型
 print(np.arange(5,12))  # 返回5-11
 print(np.arange(5.0,12,2))  # 返回5.0-12.0，步长为2
+print(np.arange(5.0,8,0.5))  # 返回5.0-8.0，步长为0.5
 
-# (4) linspace()
+# (4) linspace() 指定分割成多少段
 print(np.linspace(2.0, 3.0, num=5)) # 以 2 开始，3 结束
 print(np.linspace(2.0, 3.0, num=5, endpoint=False)) # endpoint=False: 不包含结束值，True包含
 print(np.linspace(2.0, 3.0, num=5, retstep=True))   # retstep = True：显示步长，False不显示
@@ -76,8 +77,8 @@ print(ar[:,[1,3,5]])  # 第1,3,5列数据
 
 # (2) 基础操作
 print(ar)          # 注意单行数组的格式：中括号，元素之间没有逗号（和列表区分）
-print(ar.ndim)     # 数组行数
-print(ar.shape)    # 数组的维度 (m, n)
+print(ar.ndim)     # 数组维数
+print(ar.shape)    # 数组的行列数 (m, n)
 print(ar.shape[0]) # 数组的行数
 print(ar.shape[1]) # 数组的列数
 print(ar.size)     # 数组的元素总数
