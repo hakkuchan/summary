@@ -7,7 +7,8 @@ import pandas as pd
     可以保存任何数据类型（整数，字符串，浮点数，Python对象等）
     轴标签统称为索引，从0开始
     当只看 series 的值的时候，就是一个一维数组
-    series 和 ndarray 较相似，索引切片等功能差别不大 '''
+    series 和 ndarray 较相似，索引切片等功能差别不大 
+'''
 
 s = pd.Series(np.random.randint(0,3,5))
 print(s)         # 查看series
