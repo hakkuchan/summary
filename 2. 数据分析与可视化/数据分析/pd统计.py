@@ -1,67 +1,68 @@
 import numpy as np
 import pandas as pd
 
-''' (1) 基础操作 '''
-df = pd.DataFrame({'x':np.arange(10), 'y':np.arange(91,101)})
-print(df)
+''' (1) 内置方法 '''
+df = pd.DataFrame({'x':np.arange(10), 'y':np.arange(91,101), 'z':np.random.random(10)})
+print(df.describe()) # 输出 8 个主要统计量：count, mean, std, min, 25%, 50%, 75%, max 
 print(df.count())    # 统计非 NaN 值的数量
-print(df.min())      # 统计最小值
-print(df['y'].max()) # 特定列的最大值
+print(df.min())      # 最小值
+print(df.max())      # 最大值
+print(df.mean())     # 平均值
+print(df.mean(skipna=False)) # skipna参数：是否忽略 NaN，默认True，如 False，有 NaN 的列统计结果仍为NaN
+print(df.std())      # 标准差
+print(df.var())      # 方差
+print(df.skew())     # 偏度（数据的不对称程度）
+print(df.kurt())     # 峰度（正态分布的数据的峰度值为 0；峰度值越显著偏离 0，数据越不服从正态分布。）
+print(df.median())   # 中位数，50%分位数
+print(df.quantile(q=0.75))   # 分位数，参数 q 确定位置
 
-print(df.sum())        # sum求和
-print(df.sum(axis=1))  # axis参数: 规定按行还是按列
-print(df.mean())       # mean求平均值\n')
-print(df.mean(skipna=False)) # skipna参数：是否忽略NaN，默认True，如False，有NaN的列统计结果仍为NaN
-print(df.std())    # 求标准差
-print(df.var())    # 求方差
+df = pd.DataFrame({'x':[1,2,3,3,4], 'y':[11,11,12,11,13], 'z':[22,12,22,11,22]})
+print(df.mode())    # 众数
 
-print(df.median()) # median求算数中位数，50%分位数
-print(df.quantile(q=0.75))   # quantile统计分位数，参数q确定位置
+df = pd.DataFrame({'x':np.arange(10), 'y':np.arange(91,101), 'z':np.random.random(10)})
+print(df.corr(method='pearson'))  # 求各个 x, y, z 两两之间的 pearson 相关系数
+print(df.corr(method='kendall'))  # 求各个 x, y, z 两两之间的 kendall 相关系数
+print(df.corr(method='pearson'))  # 求各个 x, y, z 两两之间的 spearman 相关系数
 
-print(df.skew())   # 求样本的偏度
-print(df.kurt())   # 求样本的峰度
 
-df = pd.DataFrame({'x':np.random.random(10), 'y':np.random.random(10), 'z':np.random.random(10)})
-df.corr(method='pearson')  # 求各个 x, y, z 两两之间的pearson相关系数
-df.corr(method='pearson')  # 求各个 x, y, z 两两之间的spearman相关系数
-df.corr(method='kendall')  # 求各个 x, y, z 两两之间的kendall相关系数
+''' （2）按行列或列名统计（以 mean 为例） '''
+df = pd.DataFrame({'x':np.arange(10), 'y':np.arange(91,101), 'z':np.random.random(10)})
+print(df.mean(axis=0))  # axis=0 求每列数据的平均
+print(df.mean(axis=1))  # axis=1 求每行数据的平均
+print(df['x'].mean())   # 按列名求平均
+print(df[['x','z']].mean())   # 按列名求平均
 
-s = pd.Series(list('asdvasdcfgg'))
-print(pd.Series(s.unique())) # 统计值的种类：.unique()
 
-s = pd.Series(np.arange(10,15))
-df = pd.DataFrame({'key1':list('asdcbvasd'),'key2':np.arange(4,13)})
-print(s, s.isin([5,14]))          # 成员资格:isin(); s 的值为 [5,14]
-print(df.isin(['a','bc','10',8])) # df 的值为 ['a','bc','10',8]
-
-''' (2) 分组统计 '''
+''' (3) 分组统计 '''
 df = pd.DataFrame({'name' : ['A', 'B', 'A', 'B','A', 'A', 'A', 'B'],
                    'var1' : ['1d', '2d', '1d', '3d', '2d', '2d', '1d', '3d'],
                    'var2' : np.random.randn(8),
                    'var3' : np.random.randn(8)})
-print(df) 
-print(df.groupby(['name']).get_group('A')) # .get_group()提取分组后的组
-print(df.groupby('name').mean())           # 以 name 分组求 mean (基础统计里的函数可以直接套用过来)
+print(df)
+print(df.groupby(['name']).get_group('A'))  # .get_group()提取满足条件的组
+print(df.groupby('name').mean())            # 以 name 分组求 mean (基础统计里的函数可以直接套用过来)
 print(df.groupby(['name','var1']).mean())
 print(df.groupby(['name'])['var3'].mean())  # 以 name 分组，算 var3 的平均值
 
-''' (4) apply '''
-df = pd.DataFrame({'key':['one','two','one','two','one'], 'data1':np.random.rand(5), 'data2':np.random.rand(5)})
-# Case 1:
-print(df.groupby('key').apply(lambda x: x.describe())) # apply直接运行其中的函数
-# Case 2:
-def fn(d,n):
-    return(d.sort_index()[:n])
-print(df.groupby('key').apply(fn,2))
+''' (4) .apply(函数)，对表格中的元素依次进行计算，并输出结果 '''
+df = pd.DataFrame({'x':np.arange(1,3), 'y':np.arange(11,13)})
+print(df.apply(lambda x: x**2))
+print(df['y'].apply(lambda x: x**2))
 
-''' (3) 透视表：pivot_table '''
-# pd.pivot_table(data, values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, dropna=True, margins_name='All')
-# data：DataFrame对象
+# 与分组统计结合
+df = pd.DataFrame({'key':['A','B','A','B','A'], 'data1':np.random.rand(5), 'data2':np.random.rand(5)})
+print(df.groupby('key').apply(lambda x: x.describe())) # apply直接运行其中的函数
+# 等价于
+def fn(d):
+    return(d.describe())
+print(df.groupby('key').apply(fn))
+
+''' (5) 透视表：pivot_table '''
 # values：要聚合的列或列的列表
 # index：数据透视表的index，从原数据的列中筛选
 # columns：数据透视表的columns，从原数据的列中筛选
-# aggfunc：用于聚合的函数，默认为numpy.mean，支持numpy计算方法
-date = ['2017-5-1','2017-5-2','2017-5-3']*3
+# aggfunc：用于指定函数，支持 numpy 中的 ufunc 函数，默认为 np.mean。
+date = ['2017-5-1','2017-5-2','2017-5-3'] * 3
 rng = pd.to_datetime(date)
 df = pd.DataFrame({'date':rng, 'key':list('abcabcabc'), 'values':np.random.rand(9)*10})
 print(df)
