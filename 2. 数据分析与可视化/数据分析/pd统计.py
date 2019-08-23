@@ -39,7 +39,7 @@ df = pd.DataFrame({'name' : ['A', 'B', 'A', 'B','A', 'A', 'A', 'B'],
                    'var2' : np.random.randn(8),
                    'var3' : np.random.randn(8)})
 print(df)
-print(df.groupby(['name']).get_group('A'))  # .get_group()提取满足条件的组，注意，这种方法不如 df[df['name']=='A'] 方便
+print(df.groupby(['name']).get_group('A'))  # .get_group()提取满足条件的组（注意：这种方法不如 df[df['name']=='A'] 方便）
 print(df.groupby('name').mean())            # 以 name 分组求 mean (基础统计里的函数可以直接套用过来)
 print(df.groupby(['name','var1']).mean())
 print(df.groupby(['name'])['var3'].mean())  # 以 name 分组，算 var3 的平均值
