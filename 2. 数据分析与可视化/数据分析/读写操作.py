@@ -49,6 +49,7 @@ with open(r'E:\Work\Jupyter\Data\write_text.txt', 'w') as f:
 
 
 """ 3. 其它对象的读写 —— pickle模块 """
+
 ''' (1) pickle.dump() 将对象以文件的形式存储在磁盘上'''
 data = {'a':[1,2,3,4], 'b':('string','abc'), 'c':'hello'} # 创建一个字典变量data
 dirc = open(r'E:\Work\Jupyter\Data\data.pkl', 'wb')   # 以二进制来存储： wb
