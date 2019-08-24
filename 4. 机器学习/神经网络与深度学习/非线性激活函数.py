@@ -20,6 +20,7 @@ x = torch.from_numpy(np.arange(-10,10,0.1)).view(-1,1)
 y = torch.nn.functional.leaky_relu(x,negative_slope=0.1)
 fig.add_subplot(2,4,1)
 plt.plot(x.numpy(),y.numpy(),label='leaky_relu')
+plt.text(-9.5, 3, 'leaky_relu:\nneg slope=0.1', fontdict={'size':12, 'color':'red'})
 plt.legend(fontsize=12)
 
 ''' rrelu '''
@@ -27,6 +28,7 @@ x = torch.from_numpy(np.arange(-10,10,0.1)).view(-1,1)
 y = torch.nn.functional.rrelu(x,lower=0.15, upper=0.5)
 fig.add_subplot(2,4,1)
 plt.plot(x.numpy(),y.numpy(),label='rrelu')
+plt.text(1, -2, 'rrelu:\nlower=0.15\nupper=0.5', fontdict={'size':12, 'color':'red'})
 plt.legend(fontsize=12)
 
 ''' elu '''
@@ -111,6 +113,7 @@ x = torch.from_numpy(np.arange(-10,10,0.1)).view(-1,1)
 y = torch.nn.functional.threshold(x,threshold=2,value=5)
 fig.add_subplot(2,4,7)
 plt.plot(x.numpy(),y.numpy(),label='threshold')
+plt.text(-7, 6, 'value=5\nthreshold=2', fontdict={'size': 12, 'color': 'red'})
 plt.legend(fontsize=12)
 
 plt.show()
