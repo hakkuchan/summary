@@ -18,7 +18,8 @@
     当语法上需要一个语句，但程序需要什么动作也不做时，可以使用 pass。
 """
 
-""" 3种特殊循环"""
+
+""" 三种特殊循环"""
 
 # items() 取出字典的键值对
 knights = {'Mike': 99, 'Julia': 97}
@@ -34,7 +35,8 @@ questions = ['name', 'age']
 answers = ['Mike', '27']
 for a, b in zip(questions, answers):
      print((f'What is your {a}?  It is {b}.'))
-        
+   
+   
 """ input()函数 """
 score = input('请输入成绩：')  # 注意：input()返回结果都为字符串
 print('该学生成绩为：' + score)

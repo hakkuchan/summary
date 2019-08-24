@@ -1,6 +1,6 @@
 """ 输出原始字符串 """
 print('C:\some\name') 
-print(r'C:\some\name')
+print(r'C:\some\name') # 当字符串为目录时使用
 
 """ 字符串的拼接 """
 print(3 * 'a' + 'b') # 字符串可以用 + 进行连接，也可以用 * 进行重复
