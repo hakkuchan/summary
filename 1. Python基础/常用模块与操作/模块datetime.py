@@ -1,30 +1,29 @@
-'''
-日期和时间模块：datetime; dateutil.parser (日期解析方法)
+""" 日期和时间模块：
+    datetime; dateutil.parser (日期解析方法)
+    主要掌握：datetime.date(), datetime.datetime(), datetime.timedelta()
+"""
 
-主要掌握：datetime.date(), datetime.datetime(), datetime.timedelta()
-
-'''
 import datetime
 from dateutil.parser import parse
 
-# date
+''' 1. date '''
 print(datetime.date.today())    # 返回今日日期，输出格式为 date类
 print(datetime.date(1949,10,1)) # (年,月,日) → 直接得到当时日期
 
-# datatime
+''' 2. datatime '''
 print(datetime.datetime.now())
 print(datetime.datetime(1949,10,1,9,30,0))
 t1, t2 = datetime.datetime(1950,10,1,9,30,0), datetime.datetime(1949,10,1,10,30,0), 
 print(t1-t2)
 
-# datetime.timedelta：时间差
+''' 3. datetime.timedelta：时间差 '''
 today = datetime.datetime.today()
 yestoday = today - datetime.timedelta(1)
 print(today)
 print(yestoday)
 print(today - datetime.timedelta(7))
 
-# 日期时间解析
+'''4. 日期时间解析 '''
 date = '12-21-2017'
 print(parse(date)) # 直接将str转化成datetime.datetime
 print(parse('2000-1-1'))
