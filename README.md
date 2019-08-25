@@ -56,7 +56,7 @@
 | [多子图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
 | [窗口设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
 
-* Matplotlib特殊图: [饼状图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
+* Matplotlib进阶: [饼状图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
 | [箱线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
 | [柱状图和堆叠图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
 | [直方图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
