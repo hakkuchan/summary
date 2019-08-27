@@ -1,6 +1,5 @@
 """ 1. 测试一段代码的运行时间 """
 import time
-
 start = time.time()
 for i in range(10000000):
     pass

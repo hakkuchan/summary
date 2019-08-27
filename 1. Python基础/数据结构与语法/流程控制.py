@@ -21,16 +21,16 @@
 
 """ 三种特殊循环"""
 
-# items() 取出字典的键值对
+''' items() 取出字典的键值对 '''
 knights = {'Mike': 99, 'Julia': 97}
 for k, v in knights.items():
     print(k, v)
     
-# enumerate() 取出索引和元素
+''' enumerate() 取出索引和元素 '''
 for i, j in enumerate(['a', 'b', 'c']):
     print(i, j)
     
-# zip() 同时取出多个容器的元素
+''' zip() 同时取出多个容器的元素 '''
 questions = ['name', 'age']
 answers = ['Mike', '27']
 for a, b in zip(questions, answers):
