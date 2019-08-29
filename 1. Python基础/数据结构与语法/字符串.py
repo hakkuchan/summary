@@ -25,3 +25,14 @@ print(max(s))
 print(min(s))
 print(s.count('n'))  # .count(obj)方法：计算值的出现次数
 print(s.index('n'))  # .index(obj)方法：从列表中找出某个值第一个匹配项的索引位置
+
+"""eval()函数"""
+''' (1) 把字符串转化为相应的表达式 '''
+print(eval('pow(10,2)'))
+print(eval("100 + 4"))
+
+''' (2) 把字符串转化为相应的对象 '''
+a = "[1,2,3,4,5,6]"
+print(eval(a))
+a = '1,2,3,4,5,6'
+print(eval(a))

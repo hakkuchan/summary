@@ -29,6 +29,10 @@ for k, v in knights.items():
 ''' enumerate() 取出索引和元素 '''
 for i, j in enumerate(['a', 'b', 'c']):
     print(i, j)
+	
+for i, j in enumerate(['a', 'b', 'c'], 3): # 索引起始值从3开始
+    print(i, j)
+
     
 ''' zip() 同时取出多个容器的元素 '''
 questions = ['name', 'age']
