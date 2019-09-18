@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 
 """ 1. df直接绘制箱线图 """
-fig,axes = plt.subplots(2,1,figsize=(10,6))
+fig, axes = plt.subplots(2,1,figsize=(10,6))
 df = pd.DataFrame(np.random.rand(10, 5), columns=['A', 'B', 'C', 'D', 'E'])
 color = dict(boxes='DarkGreen',     # boxes → 箱线
              whiskers='DarkOrange', # whiskers → 分位数与error bar横线之间竖线的颜色
@@ -21,8 +21,7 @@ plt.show()
 
 
 """ 2. bodplot()绘制箱线图 """
-# 创建数据
-df = pd.DataFrame(np.random.rand(10, 5), columns=['A', 'B', 'C', 'D', 'E'])
+df = pd.DataFrame(np.random.rand(10, 5), columns=['A', 'B', 'C', 'D', 'E']) # 创建数据
 
 plt.figure(figsize=(10,4))
 f = df.boxplot(sym = 'o',    # 异常点形状，参考marker
