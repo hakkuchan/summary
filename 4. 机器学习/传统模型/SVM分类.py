@@ -4,10 +4,10 @@ from sklearn import datasets
 from sklearn import svm
 from sklearn import model_selection
 
-""" SVM分类主要包括：NuSVC、SVC、LinearSVC
-    其中，SVC 和 NuSVC 差不多，区别仅仅在于对损失的度量方式不同，并且NuSVC可以使用参数来控制支持向量的个数
+""" SVM分类主要包括：SVC、NuSVC、LinearSVC
+    其中，SVC 和 NuSVC 差不多，区别仅在于对损失的度量方式不同，以及NuSVC可以使用参数来控制支持向量的个数
     LinearSVC不接受关键词 kernel，仅仅支持线性核函数，对线性不可分的数据不能使用
-    主要以SVC为例：
+    下面的实例以SVC为代表：
 """
 
 """ 1. 基本方法 """
