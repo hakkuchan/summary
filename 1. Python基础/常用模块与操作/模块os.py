@@ -34,3 +34,9 @@ print(os.path.isdir(r'E:\Work\Jupyter\trial.ipynb'))
 ''' 7. os.path.isfile() 判断某一路径是否是文件 '''
 print(os.path.isfile(r'E:\Work\Jupyter'))
 print(os.path.isfile(r'E:\Work\Jupyter\Data\Test\test.txt'))
+
+''' 8. os.listdir() 读取路径下所有文件、文件夹名 '''
+path = r'E:\Work\Github\1. Python基础\数据结构与语法'
+f = os.listdir(path)
+for i in f:
+    print(i)
