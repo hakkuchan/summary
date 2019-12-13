@@ -28,36 +28,35 @@
 &nbsp; [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
 
 ### 2. 数据分析与可视化
-### 2.1 数据分析
-* Numpy: [基础](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/np%E5%9F%BA%E7%A1%80.py)
-| [自定义ufunc](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
 
-* Pandas: [Series](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-series.py)
-| [Dataframe](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-dataframe.py)
-| [Timestamp](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-timestamp.py)
-| [分析统计](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd%E7%BB%9F%E8%AE%A1.py)
+#### 2.1 数据分析
+* **Numpy：**
+[基础](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/np%E5%9F%BA%E7%A1%80.py)
+&nbsp; [自定义ufunc](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
+* **Pandas:**
+[Series](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-series.py)
+&nbsp; [Dataframe](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-dataframe.py)
+&nbsp; [Timestamp](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd-timestamp.py)
+&nbsp; [分析统计](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/pd%E7%BB%9F%E8%AE%A1.py)
+* **常用操作：** 
+[stats统计](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/st%E7%BB%9F%E8%AE%A1.py)
+&nbsp; [缺失值处理](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
+&nbsp; [异常值处理](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
+&nbsp; [数据离散化](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
 
-* [stats统计](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/st%E7%BB%9F%E8%AE%A1.py)
-
-* [缺失值处理](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
-
-* [异常值处理](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
-
-* [数据离散化](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
-
-### 2.2 可视化
-* Matplotlib基础: [绘图和主要设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%9B%BE%E5%92%8C%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
-| [窗口设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
-| [点线设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
-| [多子图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
-
-* Matplotlib进阶: [饼状图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
-| [箱线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
-| [柱状图和堆叠图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
-| [直方图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
-| [面积图和填充面积](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%9D%A2%E7%A7%AF%E5%9B%BE%E5%92%8C%E5%A1%AB%E5%85%85%E9%9D%A2%E7%A7%AF.py)
-| [雷达图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
-| [3D图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B63D%E5%9B%BE.py)
+#### 2.2 可视化
+* **Matplotlib：** 
+[绘图和主要设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%9B%BE%E5%92%8C%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
+&nbsp; [窗口设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
+&nbsp; [点线设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
+&nbsp; [多子图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
+&nbsp; [饼状图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
+&nbsp; [箱线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
+&nbsp; [柱状图和堆叠图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
+&nbsp; [直方图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
+&nbsp; [面积图和填充面积](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%9D%A2%E7%A7%AF%E5%9B%BE%E5%92%8C%E5%A1%AB%E5%85%85%E9%9D%A2%E7%A7%AF.py)
+&nbsp; [雷达图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
+&nbsp; [3D图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B63D%E5%9B%BE.py)
 
 * Seaborn: [柱状图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E6%9F%B1%E7%8A%B6%E5%9B%BE.py)
 | [箱线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
