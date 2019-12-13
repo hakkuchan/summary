@@ -1,8 +1,8 @@
 ## 1. Python基础
 
 ### 1.1 数据结构与语法
->数据结构：[数值及运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E6%95%B0%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py) 
-, [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
+* 数据结构：[数值及运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E6%95%B0%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py) 
+[字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 [列表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E5%88%97%E8%A1%A8.py)
 [字典](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E5%AD%97%E5%85%B8.py)
 
