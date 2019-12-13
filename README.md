@@ -1,5 +1,4 @@
 ### 1. Python基础
---------------
 * **数据结构：**
 [数值及运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E6%95%B0%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py) 
 &nbsp; [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
@@ -28,8 +27,9 @@
 &nbsp; [time](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97time.py)
 &nbsp; [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
 
-### 2. 数据分析与可视化
+------
 
+### 2. 数据分析与可视化
 #### 2.1 数据分析
 * **Numpy：**
 [基础](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/np%E5%9F%BA%E7%A1%80.py)
@@ -59,18 +59,22 @@
 &nbsp; [雷达图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
 &nbsp; [3D图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%88%B63D%E5%9B%BE.py)
 
-* Seaborn: [柱状图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E6%9F%B1%E7%8A%B6%E5%9B%BE.py)
-| [箱线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
-| [密度直方图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E5%AF%86%E5%BA%A6%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
-| [综合散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%BC%E5%90%88%E6%95%A3%E7%82%B9%E5%9B%BE.py)
-| [矩阵散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%9F%A9%E9%98%B5%E6%95%A3%E7%82%B9%E5%9B%BE.py)
+* **Seaborn：** 
+[柱状图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E6%9F%B1%E7%8A%B6%E5%9B%BE.py)
+&nbsp; [箱线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
+&nbsp; [密度直方图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E5%AF%86%E5%BA%A6%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
+&nbsp; [综合散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%BC%E5%90%88%E6%95%A3%E7%82%B9%E5%9B%BE.py)
+&nbsp; [矩阵散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%9F%A9%E9%98%B5%E6%95%A3%E7%82%B9%E5%9B%BE.py)
 
-* Bokeh: [绘图及主要设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
-| [散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%95%A3%E7%82%B9%E5%9B%BE.py)
-| [折线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
-| [辅助标注](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
-| [特殊坐标轴](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
-| [多图表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
+* **Bokeh:**
+[绘图及主要设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
+&nbsp; [散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%95%A3%E7%82%B9%E5%9B%BE.py)
+&nbsp; [折线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
+&nbsp; [辅助标注](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
+&nbsp; [特殊坐标轴](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
+&nbsp; [多图表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
+
+------
 
 ## 3. 科学计算
 
