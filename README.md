@@ -39,8 +39,8 @@
 | [time](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97time.py)
 | [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
 
-# 2. 数据分析与可视化
-## 2.1 数据分析
+## 2. 数据分析与可视化
+### 2.1 数据分析
 * Numpy: [基础](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/np%E5%9F%BA%E7%A1%80.py)
 | [自定义ufunc](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
 
@@ -57,7 +57,7 @@
 
 * [数据离散化](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
 
-## 2.2 可视化
+### 2.2 可视化
 * Matplotlib基础: [绘图和主要设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%BB%98%E5%9B%BE%E5%92%8C%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
 | [窗口设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
 | [点线设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/mpl%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
@@ -84,7 +84,7 @@
 | [特殊坐标轴](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 | [多图表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 
-# 3. 科学计算
+## 3. 科学计算
 
 * [排列组合](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.py)
 
@@ -103,8 +103,8 @@
 * [最优化问题](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%9C%80%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98.py)
 | [高斯拟合](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E9%AB%98%E6%96%AF%E6%8B%9F%E5%90%88.py)
 
-# 4. 机器学习
-## 4.1 基本操作
+## 4. 机器学习
+### 4.1 基本操作
 
 * [范围调整](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 
@@ -114,7 +114,7 @@
 
 * [数据分割](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
 
-## 4.2 传统模型
+### 4.2 传统模型
 * 线性模型: [分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%88%86%E7%B1%BB.py)
 | [回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%9B%9E%E5%BD%92.py)
 
@@ -140,7 +140,7 @@
 
 * [保存加载模型](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
-## 4.3 神经网络与深度学习
+### 4.3 神经网络与深度学习
 ### 4.3.1 Pytorch基础
 * [张量](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%BC%A0%E9%87%8F.py)
 | [自动求导](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
