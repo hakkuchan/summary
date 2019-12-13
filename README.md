@@ -27,13 +27,12 @@
 &nbsp; [读写操作](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
 &nbsp; [批量重命名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
 
-&nbsp;&nbsp;&nbsp;&nbsp; 
 * **常用模块：**
 [random](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97random.py)
 &nbsp;&nbsp; [time](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97time.py)
 &nbsp;&nbsp; [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97%E4%B8%8E%E6%93%8D%E4%BD%9C/%E6%A8%A1%E5%9D%97datetime.py)
 
-## 2. 数据分析与可视化
+### 2. 数据分析与可视化
 ### 2.1 数据分析
 * Numpy: [基础](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/np%E5%9F%BA%E7%A1%80.py)
 | [自定义ufunc](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
