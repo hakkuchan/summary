@@ -158,3 +158,8 @@
 &nbsp; [ResNet34](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%A8%A1%E5%9E%8BResNet34.py)
 ------
 ### MySQL
+* **基础：**
+[安装与配置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/%23%20MySQL/MySQL%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.txt)
+&nbsp; [启动与停止](https://github.com/ZhouBinTGL/Code-Summary/blob/master/%23%20MySQL/MySQL%E6%9C%8D%E5%8A%A1%E7%9A%84%E5%90%AF%E5%8A%A8%E4%B8%8E%E5%81%9C%E6%AD%A2.txt)
+&nbsp; [登录与退出](https://github.com/ZhouBinTGL/Code-Summary/blob/master/%23%20MySQL/MySQL%E6%9C%8D%E5%8A%A1%E7%9A%84%E7%99%BB%E5%BD%95%E5%92%8C%E9%80%80%E5%87%BA.txt)
+&nbsp; [常见命令](https://github.com/ZhouBinTGL/Code-Summary/blob/master/%23%20MySQL/MySQL%E7%9A%84%E5%B8%B8%E8%A7%81%E5%91%BD%E4%BB%A4.txt)
