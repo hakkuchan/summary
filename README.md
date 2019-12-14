@@ -93,22 +93,25 @@
 ------
 
 ### 4. 机器学习
-* **预处理：**
+#### 4.1 预处理
 [范围调整](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 &nbsp; [标签转换](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
 &nbsp; [特征选择](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
 &nbsp; [数据分割](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
-* **凸优化模型：**
-[[Linear分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%88%86%E7%B1%BB.py)
+#### 4.2 凸优化模型
+Linear：[分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%88%86%E7%B1%BB.py)
 | [Linear回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%9B%9E%E5%BD%92.py)]
+
+&nbsp; KNN：[分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%88%86%E7%B1%BB.py)
+| [回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%9B%9E%E5%BD%92.py)
+
 &nbsp; [SVM分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/SVM%E5%88%86%E7%B1%BB.py)
 | [SVM回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/SVM%E5%9B%9E%E5%BD%92.py)
 &nbsp; [DT分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%88%86%E7%B1%BB.py)
 | [DT回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%9B%9E%E5%BD%92.py)
 | [DT图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%9B%BE.py)
 
-* 最近邻: [分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%88%86%E7%B1%BB.py)
-| [回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%9B%9E%E5%BD%92.py)
+
 
 * [集成算法](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E9%9B%86%E6%88%90%E7%AE%97%E6%B3%95.py)
 
