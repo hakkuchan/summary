@@ -1,5 +1,5 @@
 ## Python
-### 1. Python基础
+### 1. 基础
 * **数据结构：**
 [数值及运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E6%95%B0%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py) 
 &nbsp; [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
@@ -34,8 +34,6 @@
 &nbsp; [request](https://github.com/ZhouBinTGL/Code-Summary/blob/master/%23%20%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/%E6%A8%A1%E5%9D%97requests.py)
 &nbsp; [BeautifulSoup](https://github.com/ZhouBinTGL/Code-Summary/blob/master/%23%20%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/%E6%A8%A1%E5%9D%97BeautifulSoup.py)
 &nbsp; [selenium](https://github.com/ZhouBinTGL/Code-Summary/blob/master/%23%20%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/%E6%A8%A1%E5%9D%97selenium.py)
-
-================================================================================================
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
@@ -80,8 +78,6 @@
 &nbsp; [特殊坐标轴](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 &nbsp; [多图表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 
-------
-
 ### 3. 科学计算
 * **初等：**
 [排列组合](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.py)
@@ -97,8 +93,6 @@
 &nbsp; [高斯拟合](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E9%AB%98%E6%96%AF%E6%8B%9F%E5%90%88.py)
 * **其它：**
 [蒙特卡洛模拟](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A8%A1%E6%8B%9F.py)
-
-------
 
 ### 4. 机器学习
 #### 4.1 sklearn常用操作
@@ -162,5 +156,5 @@
 &nbsp; [CNN](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CNN%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
 &nbsp; [LSTM](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/LSTM%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
 &nbsp; [ResNet34](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%A8%A1%E5%9E%8BResNet34.py)
-
+------
 ## MySQL
