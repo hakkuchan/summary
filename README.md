@@ -144,7 +144,7 @@
 [functional](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E7%B1%BBfunctional.py)
 #### 4.3.2 通用操作与模型
 * **通用操作（以BPNN为例）：**
-[搭建模型](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%90%AD%E5%BB%BAANN.py)
+[搭建模型](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%90%AD%E5%BB%BA%E6%A8%A1%E5%9E%8B.py)
 &nbsp; [保存和加载](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 &nbsp; [自定义Module](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E8%87%AA%E5%AE%9A%E4%B9%89Module.py)
 &nbsp; [权值初始化](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E4%B8%8E%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E6%9D%83%E5%80%BC%E5%88%9D%E5%A7%8B%E5%8C%96.py)
