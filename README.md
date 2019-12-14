@@ -115,14 +115,14 @@
 * **Linear model：**
 [分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%88%86%E7%B1%BB.py)
 &nbsp; [回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%9B%9E%E5%BD%92.py)
-* **K nearest neighbors：**
+* **K Nearest Neighbors：**
 [分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%88%86%E7%B1%BB.py)
 &nbsp; [回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/KNN%E5%9B%9E%E5%BD%92.py)
 * **Decision Tree：**
 [分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%88%86%E7%B1%BB.py)
 &nbsp; [回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%9B%9E%E5%BD%92.py)
 &nbsp; [树结构图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/DT%E5%9B%BE.py)
-* **Support vector machine：**
+* **Support Vector Machine：**
 [分类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/SVM%E5%88%86%E7%B1%BB.py)
 &nbsp; [回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/SVM%E5%9B%9E%E5%BD%92.py)
 * **Clustering：**
