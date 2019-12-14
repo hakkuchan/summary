@@ -71,7 +71,7 @@
 &nbsp; [密度直方图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E5%AF%86%E5%BA%A6%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
 &nbsp; [综合散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%BC%E5%90%88%E6%95%A3%E7%82%B9%E5%9B%BE.py)
 &nbsp; [矩阵散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%9F%A9%E9%98%B5%E6%95%A3%E7%82%B9%E5%9B%BE.py)
-* **Bokeh:**
+* **Bokeh：**
 [绘图及主要设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/sns%E7%BB%98%E5%88%B6%E7%89%B9%E6%AE%8A%E5%9B%BE.py)
 &nbsp; [散点图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%95%A3%E7%82%B9%E5%9B%BE.py)
 &nbsp; [折线图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/2.%20%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96/%E5%8F%AF%E8%A7%86%E5%8C%96/bokeh%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
