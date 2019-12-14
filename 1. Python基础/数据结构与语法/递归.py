@@ -44,6 +44,6 @@ def good_fibonacci(n):
         (a, b) = good_fibonacci(n-1) # 只调用 good_fibonacci(n-1) 的结果, 运算量随 n 呈线性增加, O(n)
         return (a + b, a)
 
-%time print(bad_fibonacci(30))
-%time print(good_fibonacci(30)[0])
+%time print(bad_fibonacci(32))
+%time print(good_fibonacci(32)[0])
 
