@@ -84,7 +84,7 @@
 &nbsp; [曲线拟合](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88.py)
 &nbsp; [线性方程组](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
 &nbsp; [非线性方程组](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
-* **动力学：**
+* **微积分：**
 [微积分](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E5%BE%AE%E7%A7%AF%E5%88%86.py)
 &nbsp; [常微分方程](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B.py)
 &nbsp; [常微分方程组](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E7%BB%84.py)
