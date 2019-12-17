@@ -114,7 +114,7 @@
 &nbsp; [标签转换](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
 &nbsp; [特征选择](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
 &nbsp; [数据分割](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
-* **性能评估与比较：**
+* **评估与比较：**
 [分类结果评估](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20机器学习/传统模型/分类结果评估.py)
 &nbsp; [分类模型比较](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [回归模型比较](https://github.com/ZhouBinTGL/Code-Summary/blob/master/4.%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E4%BC%A0%E7%BB%9F%E6%A8%A1%E5%9E%8B/%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
