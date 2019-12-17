@@ -11,9 +11,9 @@
 &nbsp; [函数](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E5%87%BD%E6%95%B0.py)
 &nbsp; [类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E7%B1%BB.py)
 &nbsp; [模块与包](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.txt)
-&nbsp; [错误_异常_警告](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E9%94%99%E8%AF%AF_%E5%BC%82%E5%B8%B8_%E8%AD%A6%E5%91%8A.py)
+&nbsp; [错误-异常-警告](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E9%94%99%E8%AF%AF_%E5%BC%82%E5%B8%B8_%E8%AD%A6%E5%91%8A.py)
 &nbsp; [推导式](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E6%8E%A8%E5%AF%BC%E5%BC%8F.py) 
-&nbsp; [Map_Filter_Reduce](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E9%94%99%E8%AF%AF_%E5%BC%82%E5%B8%B8_%E8%AD%A6%E5%91%8A.py)
+&nbsp; [Map-Filter-Reduce](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E9%94%99%E8%AF%AF_%E5%BC%82%E5%B8%B8_%E8%AD%A6%E5%91%8A.py)
 &nbsp; [装饰器](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 * **算法：** 
 [递归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/1.%20Python%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E8%AF%AD%E6%B3%95/%E9%80%92%E5%BD%92.py)
@@ -92,7 +92,7 @@
 [静态优化](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E6%9C%80%E4%BC%98%E5%8C%96%E9%97%AE%E9%A2%98.py)
 &nbsp; [高斯拟合](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E9%AB%98%E6%96%AF%E6%8B%9F%E5%90%88.py)
 * **其它：**
-[蒙特卡洛模拟](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A8%A1%E6%8B%9F.py)
+[蒙特卡洛](https://github.com/ZhouBinTGL/Code-Summary/blob/master/3.%20%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A8%A1%E6%8B%9F.py)
 
 ### 4. 机器学习
 #### 4.1 Sklearn常用操作
