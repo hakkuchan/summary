@@ -48,18 +48,18 @@
 
 #### 2.1 数据分析
 * **Numpy：**
-[基础]()
-&nbsp; [自定义ufunc]()
+[基础](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/np%E5%9F%BA%E7%A1%80.py)
+&nbsp; [自定义ufunc](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/%E8%87%AA%E5%AE%9A%E4%B9%89ufunc.py)
 * **Pandas：**
-[Series]()
-&nbsp; [Dataframe]()
-&nbsp; [Timestamp]()
-&nbsp; [分析统计]()
+[Series](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/pd-series.py)
+&nbsp; [Dataframe](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/pd-dataframe.py)
+&nbsp; [Timestamp](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/pd-timestamp.py)
+&nbsp; [分析统计](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/pd%E7%BB%9F%E8%AE%A1.py)
 * **常用操作：** 
-[stats统计]()
-&nbsp; [缺失值处理]()
-&nbsp; [异常值处理]()
-&nbsp; [数据离散化]()
+[stats统计](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/st%E7%BB%9F%E8%AE%A1.py)
+&nbsp; [缺失值处理](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
+&nbsp; [异常值处理](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
+&nbsp; [数据离散化](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
 
 #### 2.2 可视化
 * **Matplotlib基础：** 
