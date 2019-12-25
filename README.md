@@ -9,14 +9,14 @@
 * **语法：** 
 [数值运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC%E8%BF%90%E7%AE%97.py)
 &nbsp; [特殊运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%89%B9%E6%AE%8A%E8%BF%90%E7%AE%97%E7%AC%A6.py)
-&nbsp; [控制流]() 
-&nbsp; [函数]()
-&nbsp; [类]()
-&nbsp; [模块与包]()
-&nbsp; [错误-异常-警告]()
-&nbsp; [推导式]() 
-&nbsp; [Map-Filter-Reduce]()
-&nbsp; [装饰器]()
+&nbsp; [控制流](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
+&nbsp; [函数](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%87%BD%E6%95%B0.py)
+&nbsp; [类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%B1%BB.py)
+&nbsp; [模块与包](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.txt)
+&nbsp; [错误-异常-警告](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%94%99%E8%AF%AF-%E5%BC%82%E5%B8%B8-%E8%AD%A6%E5%91%8A.py)
+&nbsp; [推导式](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A8%E5%AF%BC%E5%BC%8F.py) 
+&nbsp; [Map-Filter-Reduce](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/Map-Filter-Reduce.py)
+&nbsp; [装饰器](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 
 * **数据结构：**
 
