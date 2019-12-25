@@ -1,14 +1,14 @@
 ## Python
 ### 1. 基础
 * **数据类型：**
-[数值]()
-&nbsp; [字符串]() 
-&nbsp; [列表]()
-&nbsp; [字典]()
+[数值](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC.txt)
+&nbsp; [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
+&nbsp; [列表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%88%97%E8%A1%A8.py)
+&nbsp; [字典](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E5%85%B8.py)
 
 * **语法：** 
-[数值运算]()
-&nbsp; [特殊运算]()
+[数值运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC%E8%BF%90%E7%AE%97.py)
+&nbsp; [特殊运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%89%B9%E6%AE%8A%E8%BF%90%E7%AE%97%E7%AC%A6.py)
 &nbsp; [控制流]() 
 &nbsp; [函数]()
 &nbsp; [类]()
