@@ -1,11 +1,11 @@
 ## Python
 ### 1. 基础
+#### 1.1 数据类型与语法
 * **数据类型：**
 [数值](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC.txt)
 &nbsp; [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 &nbsp; [列表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%88%97%E8%A1%A8.py)
 &nbsp; [字典](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E5%85%B8.py)
-
 * **语法：** 
 [数值运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC%E8%BF%90%E7%AE%97.py)
 &nbsp; [特殊运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%89%B9%E6%AE%8A%E8%BF%90%E7%AE%97%E7%AC%A6.py)
@@ -18,11 +18,13 @@
 &nbsp; [Map-Filter-Reduce](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/Map-Filter-Reduce.py)
 &nbsp; [装饰器](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 
+#### 1.2 数据结构与算法
 * **数据结构：**
 
 * **算法：** 
 [算法分析]()
 
+#### 1.3 常用操作与模块
 * **常用操作：**
 [格式化输出]()
 &nbsp; [引用与拷贝]()
