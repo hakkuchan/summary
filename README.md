@@ -63,10 +63,10 @@
 
 #### 2.2 可视化
 * **Matplotlib基础：** 
-[绘图和主要设置]()
-&nbsp; [窗口设置]()
-&nbsp; [点线设置]()
-&nbsp; [多子图]()
+[折线图和主要设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Visualization/mpl%E7%BB%98%E5%9B%BE%E5%92%8C%E4%B8%BB%E8%A6%81%E8%AE%BE%E7%BD%AE.py)
+&nbsp; [窗口设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Visualization/mpl%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
+&nbsp; [点线设置](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Visualization/mpl%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
+&nbsp; [多子图](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Visualization/mpl%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
 * **Matplotlib进阶：** 
 [饼状图]()
 &nbsp; [直方图]()
@@ -107,8 +107,7 @@
 * **其它：**
 [蒙特卡洛]()
 
-### 4. 机器学习
-#### 4.1 Sklearn
+#### 3.2 Sklearn
 * **分类：**
 [Linear]()
 &nbsp; [KNN]()
@@ -135,7 +134,7 @@
 &nbsp; [回归模型比较]()
 * [保存和加载模型]()
 
-#### 4.2 Pytorch
+#### 3.2 Pytorch
 * **基础：**
 [张量]()
 &nbsp; [自动求导]()
