@@ -33,7 +33,7 @@
 &nbsp; [动态变量名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F%E5%90%8D.py)
 &nbsp; [读写操作](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
 &nbsp; [批量重命名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
-&nbsp; [爬虫](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%E5%AE%9E%E4%BE%8B.pym)
+&nbsp; [爬虫](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%E5%AE%9E%E4%BE%8B.py)
 
 * **常用模块：**
 [os](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97os.py)
