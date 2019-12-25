@@ -1,5 +1,8 @@
 import time
 
+""" time.time() """
+print(time.time()) # 从1970年00:00:00至今经历了多少秒，可用于计算程序执行时间，详见性能分析
+
 """ time.sleep() 程序暂停 () 秒 """
 for i in range(2):
     print('hello')
