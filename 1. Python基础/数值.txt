@@ -1,0 +1,5 @@
+python有2种数值类型：int（整型）, float（浮点型);
+
+int(), float() 用来分别创建int和float类型数值;
+
+bool型是int型的子类，bool(0) = False, bool(任何非零数) = True。
