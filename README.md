@@ -135,31 +135,31 @@
 &nbsp; [回归模型比较](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 * [保存和加载模型](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
-#### 3.2 Pytorch
+#### 3.3 Pytorch
 * **基础：**
-[张量]()
-&nbsp; [自动求导]()
-&nbsp; [线性回归]()
+[张量](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%BC%A0%E9%87%8F.py)
+&nbsp; [自动求导](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
+&nbsp; [线性回归](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.py)
 * **容器：**
-[Sequential]()
+[Sequential](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%AE%B9%E5%99%A8Sequential.py)
 * **层：**
-[Linear]()
-&nbsp; [BatchNorm]()
-&nbsp; [Conv2d]()
-&nbsp; [Pooling]()
+[Linear](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%B1%82Linear.py)
+&nbsp; [BatchNorm](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%B1%82BatchNorm.py)
+&nbsp; [Conv2d](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%B1%82Conv2d.py)
+&nbsp; [Pooling](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%B1%82Pooling.py)
 * **类：**
-[functional]()
+[functional](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E7%B1%BBfunctional.py)
 * **激活函数：**
-[代码]()
-&nbsp; [图示]()
+[代码](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.py)
+&nbsp; [图示](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E5%9B%BE%E7%A4%BA.png)
 * **通用操作（以BPNN为例）：**
-[搭建模型]()
-&nbsp; [保存和加载]()
-&nbsp; [自定义Module]()
-&nbsp; [权值初始化]()
-&nbsp; [tensorboardX]()
+[搭建模型](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E6%90%AD%E5%BB%BA%E6%A8%A1%E5%9E%8B.py)
+&nbsp; [保存和加载](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
+&nbsp; [自定义Module](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E8%87%AA%E5%AE%9A%E4%B9%89Module.py)
+&nbsp; [权值初始化](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E6%9D%83%E5%80%BC%E5%88%9D%E5%A7%8B%E5%8C%96.py)
+&nbsp; [tensorboardX](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%8F%AF%E8%A7%86%E5%8C%96tensorboardX.py)
 * **通用模型（以MNIST为例）：**
-[BPNN]()
-&nbsp; [CNN]()
-&nbsp; [LSTM]()
-&nbsp; [ResNet34]()
+[BPNN](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/MLP%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
+&nbsp; [CNN](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/CNN%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
+&nbsp; [LSTM](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/LSTM%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97.py)
+&nbsp; [ResNet34](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E6%A8%A1%E5%9E%8BResNet34.py)
