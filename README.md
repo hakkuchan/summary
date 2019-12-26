@@ -20,7 +20,7 @@
 
 #### 1.2 数据结构与算法
 * **数据结构：**
-[栈]()
+[栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 * **算法：** 
 [算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
 &nbsp; [运行时间](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
