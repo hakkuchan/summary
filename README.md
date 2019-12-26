@@ -2,13 +2,12 @@
 ### 1. 基础
 #### 1.1 数据类型与语法
 * **数据类型：**
-[数值](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC.txt)
+[数值及运算](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py)
 &nbsp; [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 &nbsp; [列表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%88%97%E8%A1%A8.py)
 &nbsp; [字典](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E5%85%B8.py)
 * **语法：** 
-[数值运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC%E8%BF%90%E7%AE.py)
-&nbsp; [特殊运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%89%B9%E6%AE%8A%E8%BF%90%E7%AE%97.py)
+[特殊运算](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%89%B9%E6%AE%8A%E8%BF%90%E7%AE%97.py)
 &nbsp; [控制流](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
 &nbsp; [函数](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%87%BD%E6%95%B0.py)
 &nbsp; [类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%B1%BB.py)
