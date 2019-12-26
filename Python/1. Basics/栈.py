@@ -45,67 +45,7 @@ s.push(5)
 s.push('cat')
 s.push(100)
 print(s.isEmpty())
-s.peek()
-s.size()
+print(s.peek())
+print(s.size())
 print(s.pop())
 print(s.pop())
-
-
-""" 3. 栈的应用 """
-
-''' (1) 括号匹配识别算法 '''
-
-def parchecker_1(string):
-    ''' 识别小括号是否左右匹配 '''
-    s = Stack()
-    balanced = True  # 假定括号匹配成功
-    index = 0
-    while index < len(string) and balanced:
-        symbol = string[index]  # 提取 string 的第 index 个元素
-        if symbol == '(':
-            s.push(symbol)      # 如果是左括号，就将其加入栈
-        else:
-            if s.isEmpty():     # 如果是右括号，且栈空了，说明右括号多了，匹配失败 
-                balanced = False
-            else:               # 如果是右括号，且栈未空，从栈里面移出一个与这个右括号匹配的左括号
-                s.pop()
-        index = index + 1
-    if balanced and s.isEmpty(): # 如果遍历字符串全部元素后，栈空了，匹配成功
-        return True
-    else:                        # 如果遍历字符串全部元素后，栈未空，说明左括号多了
-        return False
-
-print(parchecker_1('(()(()()))'))
-print(parchecker_1('(()))'))
-
-
-def parchecker_2(string):
-    ''' 识别各类括号是否左右匹配 '''
-    s = Stack()
-    balanced = True  # 假定括号匹配成功
-    index = 0
-    while index < len(string) and balanced:
-        symbol = string[index]  # 提取 string 的第 index 个元素
-        if symbol in '([{':
-            s.push(symbol)      # 如果是左括号，就将其加入栈
-        else:
-            if s.isEmpty():     # 如果是右括号，且栈空了，说明右括号多了，匹配失败 
-                balanced = False
-            else:               # 如果是右括号，且栈未空
-                top = s.pop()   # 从栈顶移出一个元素
-                if not matches(top, symbol):  # 利用matches函数检查括号类型是否匹配
-                    balanced = False
-        index = index + 1
-    if balanced and s.isEmpty(): # 如果遍历字符串全部元素后，栈空了，匹配成功
-        return True
-    else:                        # 如果遍历字符串全部元素后，栈未空，说明左括号多了
-        return False
-
-def matches(left, right):
-    lefts = '([{'
-    rights = ')]}'
-    return lefts.index(left) == rights.index(right) # 检查左括号和右括号的索引是否一致，一致说明类型匹配
-matches('(',']')
-
-print(parchecker_2('{[()][]}'))
-print(parchecker_2('{[(]]}'))
