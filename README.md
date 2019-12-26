@@ -22,11 +22,11 @@
 * **数据结构：**
 [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
-
 * **算法：** 
+[栈应用](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88%E5%BA%94%E7%94%A8.py)
+* **其它：** 
 [算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
 &nbsp; [运行时间](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
-&nbsp; [栈应用](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88%E5%BA%94%E7%94%A8.py)
 
 #### 1.3 常用操作与模块
 * **常用操作：**
@@ -37,7 +37,6 @@
 &nbsp; [读写操作](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
 &nbsp; [批量重命名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
 &nbsp; [爬虫](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%E5%AE%9E%E4%BE%8B.py)
-
 * **常用模块：**
 [os](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97os.py)
 &nbsp; [random](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97random.py)
