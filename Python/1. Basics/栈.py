@@ -93,7 +93,7 @@ def parchecker_2(string):
                 balanced = False
             else:               # 如果是右括号，且栈未空
                 top = s.pop()   # 从栈顶移出一个元素
-                if not matches(top, symbol):  # 利用matches函数检查这个元素是否括号类型匹配
+                if not matches(top, symbol):  # 利用matches函数检查括号类型是否匹配
                     balanced = False
         index = index + 1
     if balanced and s.isEmpty(): # 如果遍历字符串全部元素后，栈空了，匹配成功
@@ -104,7 +104,7 @@ def parchecker_2(string):
 def matches(left, right):
     lefts = '([{'
     rights = ')]}'
-    return lefts.index(left) == rights.index(right) # 检查索引是否一致
+    return lefts.index(left) == rights.index(right) # 检查左括号和右括号的索引是否一致，一致说明类型匹配
 matches('(',']')
 
 print(parchecker_2('{[()][]}'))
