@@ -8,7 +8,8 @@
 &nbsp; [列表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%88%97%E8%A1%A8.py)
 &nbsp; [字典](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E5%85%B8.py)
 * **语法：** 
-[控制流](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
+[赋值与拷贝](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
+&nbsp; [控制流](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
 &nbsp; [函数](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%87%BD%E6%95%B0.py)
 &nbsp; [类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%B1%BB.py)
 &nbsp; [模块与包](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.txt)
@@ -29,8 +30,7 @@
 
 #### 1.3 常用操作与模块
 * **常用操作：**
-[引用与拷贝](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%BC%95%E7%94%A8%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
-&nbsp; [格式化输出](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BA.py)
+[格式化输出](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BA.py)
 &nbsp; [变量命名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8F%98%E9%87%8F%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83.txt)
 &nbsp; [动态变量名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F%E5%90%8D.py)
 &nbsp; [读写操作](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
