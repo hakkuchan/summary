@@ -5,7 +5,7 @@
     · int(num) 创建int型数值
     · Python不限制int型数值大小
     · bool型是int型的子类，bool(0) = False, bool(任何非零数) = True
-	
+    
 (2) float（浮点型）
     · float(num) 创建float型数值
     · float型数值最多有17位有效数字
