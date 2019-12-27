@@ -4,7 +4,6 @@
 (1) int（整型）
     · int(num) 创建int型数值
     · Python不限制int型数值大小
-    · bool型是int型的子类，bool(0) = False, bool(任何非零数) = True
     
 (2) float（浮点型）
     · float(num) 创建float型数值
@@ -36,19 +35,18 @@
 
 
 """ 
-3. 数值（非复数）运算 
-"""
+3. 数值（非复数）运算 """
 
 ''' 
-(1) 简单运算包括:
+(1) 简单运算:
     · 加(+)、减(-)、乘(*)、除(/)、乘方（**）
     · 整除（//）：5 // 2 = 2
     · 取余（%）：5 % 2 = 1
 '''
 
 '''
-(2) 内置运算函数
-'''
+(2) 内置运算函数 '''
+
 print(divmod(5, 2))       # 同时整除和取余
 print(abs(-1.234))        # 取绝对值
 print(round(51.234, 2))   # 四舍五入至小数点后两位
@@ -56,15 +54,15 @@ print(round(51.234, -2))  # 四舍五入至百位
 
 
 ''' 
-(3) math模块 (注：math中所有函数的返回值都是float型) 
-'''
+(3) math模块 (注：math中所有函数的返回值都是float型) '''
+
 import math 
 
-''' a) 特殊常数 '''
+# a) 特殊常数
 e = math.e
 pi = math.pi
 
-''' b) 常用计算 '''
+# b) 常用计算
 print(math.factorial(5)) # 返回5的阶乘
 print(math.log(e**3))    # 求以e为底数，num的对数，即 ln(num)
 print(math.log(81,3))    # 以a为底数，num的对数(记忆:逗号后面是底数)
@@ -75,4 +73,4 @@ print(math.ceil(1.2))    # 返回不小于num的最小整数
 print(math.floor(10.9))  # 返回 ≦ num的最大整数
 print(math.gcd(17,51))   # 返回两个数的最大公约数
 
-''' c) 其余运算（如三角函数、双曲函数等）见math文档 '''
+# c) 其余运算（如三角函数、双曲函数等）见math文档
