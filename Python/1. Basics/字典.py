@@ -1,36 +1,65 @@
-""" 构建字典 """
-grade = {'Jack': 98, 'Mike': 99}  # 直接构建法
-dict(Jack = 98, Mike = 99)        # dict函数构建法 1
-dict([('Jack',98), ('Mike',99)])  # dict构造构建法 2
+""" 1. 字典概述
+    
+    · 字典中包含着一系列 key : value 对，通过 key 来索引 value
+    
+    · 字典是可变类型，
+      但其中的 key 必须是不可变类型（数值、逻辑值、字符串、元组），
+      value 可以是任何数据类型
+"""
 
-""" 合并字典 """
-x = {'a':1, 'b':2}
-y = {'c':3, 'd':4}
-z = {**x, **y}
 
-""" 嵌套字典 """
+
+""" 2. 字典操作 """
+
+# 构建
+r = {'Jack': 98, 'Mike': 99}          # 直接构建法
+s = dict(Jack = 98, Mike = 99)        # dict函数构建法 1
+t = dict([('Jack',98), ('Mike',99)])  # dict构造构建法 2
+print(r == s == t) # >>> True
+
+# 嵌套字典
 info = {'name':'Mike', 'city':'Shanghai', 'contact':{'address':'somewhere', 'num':666}}
 print(info['contact']['address'])
 
-""" .copy() 复制一个新字典 (深拷贝) """
-a = {'m':1, 'n':2, 'p':3}
-b = a.copy()
-a.update({'q':4})
-print(a,b)
+# 添加
+m = {'a':1, 'b':2}
+m.update({'c':3})  # .update()添加数据
+print(m)  # >>> {'a': 1, 'b': 2, 'c': 3}
 
-""" 遍历 """
-info = {'name':'Mike', 'city':'Shanghai', 'contact':{'address':'somewhere', 'num':666}}
-''' .keys() 取出键 '''
-for key in info.keys():
-    print(key)
-''' .values() 取出值 '''
-for value in info.values():
-    print(value)
-''' .items()取出键和值 '''
-for (key, value) in info.items():
-    print(key, value)
+# 合并
+m = {'a':1, 'b':2}
+n = {'c':3, 'd':4}
+print({**m, **n}) # >>> {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
-""" 字典取代多个 elif """
+# 删除
+m = {'a':1, 'b':2}
+del m['a']  # del删除指定标签的数据项
+print(m)    # >>> {'b': 2}
+
+m = {'a':1, 'b':2}
+n = m.pop('b')  # .pop()删除指定标签的数据项并返回数据值
+print(m, n)     # >>> {'a': 1} 2
+
+m = {'a':1, 'b':2}
+m.clear()  # 清空字典
+print(m)   # >>> {}
+
+# 字典大小
+m = {'a':1, 'b':2}
+print(len(m))
+
+# 提取
+m = {'a':1, 'b':2}
+print(m.get('a')) # .get() 提取 key 'a' 对应的 value
+print(m.keys())   # .keys() 提取 key
+print(m.values()) # .values() 提取 value
+print(m.items())  # .items() 提取键值对
+
+
+
+""" 3. 技巧 """
+
+''' (1) 字典取代多个 elif '''
 def fun(x):
     if x == 1:
         print('one')
@@ -40,17 +69,15 @@ def fun(x):
 def fun(x):
     return {1:'one', 2:'two'}.get(x)
 
-""" 利用字典对比模型 """
-'''
-models = {}
-models['LR'] = LogisticRegression(solver='liblinear')
-models['NB'] = GaussianNB()
-models['SVC'] = SVC(gamma='auto')
-models['LDA'] = LinearDiscriminantAnalysis()
-models['KNN'] = KNeighborsClassifier()
-models['CART'] = DecisionTreeClassifier()
-kfold = KFold(n_splits=10,random_state=1)
-for name in models:
-    result = cross_val_score(models[name],X,Y,cv=kfold)
-print(result)
+
+''' (2) 利用字典对比模型 
+    
+    models = {}
+    models['LR'] = LogisticRegression(solver='liblinear')
+    models['SVC'] = SVC(gamma='auto')
+    models['KNN'] = KNeighborsClassifier()
+    kfold = KFold(n_splits=10,random_state=1)
+    for name in models:
+        result = cross_val_score(models[name],X,Y,cv=kfold)
+    print(result)
 '''
