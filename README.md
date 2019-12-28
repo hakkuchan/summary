@@ -11,9 +11,9 @@
 &nbsp; [赋值与拷贝](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
 &nbsp; [控制流](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
 &nbsp; [函数](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%87%BD%E6%95%B0.py)
+&nbsp; [类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%B1%BB.py)
 * **进阶：**
-[类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%B1%BB.py)
-&nbsp; [模块与包](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.txt)
+[模块与包](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.txt)
 &nbsp; [推导式](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A8%E5%AF%BC%E5%BC%8F.py) 
 &nbsp; [装饰器](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 &nbsp; [错误-异常-警告](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%94%99%E8%AF%AF-%E5%BC%82%E5%B8%B8-%E8%AD%A6%E5%91%8A.py)
