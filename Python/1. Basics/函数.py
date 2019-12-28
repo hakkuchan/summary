@@ -15,7 +15,7 @@ def f():
     m, n = 3, 4  # 在函数内定义的变量是局部变量，只在该函数定义范围内有效
     return m, n
 print('函数内的 m 和 n：',f())  # >>> (3, 4)
-print('函数外的 m 和 n：', (m, n))  # >>> (1, 1)
+print('函数外的 m 和 n：', (m, n))  # >>> (1, 2)
 
 # global关键字
 m, n = 1, 2 
@@ -119,7 +119,7 @@ print(f(2,3))
       返回值标注的定义方式是加上一个组合符号 ->，后跟标注，该标注位于形参列表和表示 def 语句结束的冒号之间。
 """
 
-# 例：
+# 例：函数标注
 def f(sys: int, unit: str = 'bits') -> str:
     print("Annotations:", f.__annotations__)
     print("Arguments:", sys, unit)
