@@ -1,45 +1,50 @@
-""" 1. 条件语句: 
-        (1) if……else……  
-        (2) if……elif……elif……  
+""" 1. if 条件分支
+    
+    · if…… 
+    · if…… else……  
+    · if…… elif…… elif……  
 
-    2. 循环语句: 
-        (1) while 布尔条件 
-        (2) for 范围条件，包括 2 种用法：
-            (a) for i in range(num)
-            (b) for i in [1, 2, 3]
 
-    3. break 和 continue 语句：
-        (1) break 用于终止最近的 for 或 while 循环，执行之后的代码; 
-        (2) continue 跳过当前循环的剩余语句，然后继续进行下一轮循环。
-        (3) 慎用break和continue。
 
-    4. pass 语句：
-        当语法上需要一个语句，但程序需要什么动作也不做时，可以使用 pass。
+    2. while 条件循环
+    
+    · while <逻辑表达式，布尔条件>
+    · while…… else……
+    
+    
+    
+    3. for 迭代循环
+    
+    · for i in range(num)
+    · for i in [1, 2, 3]
+    · 两种特殊 for循环 见后面
+    
+    
+    
+    4. break 和 continue 语句：
+    
+    · break 用于终止最近的 for 或 while 循环，执行之后的代码; 
+    · continue 跳过当前 for 或 while 循环的剩余语句，然后继续进行下一轮循环。
+    · 慎用break和continue。
+
+
+
+    5. pass 语句：
+    
+    · 当语法上需要一个语句，但需要程序不做任何操作时，可以使用 pass。
 """
 
-""" 5. 三种特殊循环 """
 
-''' items() 取出字典的键值对 '''
-knights = {'Mike': 99, 'Julia': 97}
-for k, v in knights.items():
-    print(k, v)
-    
-''' enumerate() 取出索引和元素 '''
+'''  两种特殊for循环 '''
+# (1) enumerate()取出索引和元素
 for i, j in enumerate(['a', 'b', 'c']):
     print(i, j)
 
 for i, j in enumerate(['a', 'b', 'c'], 3): # 索引起始值从3开始
     print(i, j)
-
     
-''' zip() 同时取出多个容器的元素 '''
-questions = ['name', 'age']
-answers = ['Mike', '27']
-for a, b in zip(questions, answers):
-     print((f'What is your {a}?  It is {b}.'))
-   
-   
-""" 6. input()函数 """
-score = input('请输入成绩：')  # 注意：input()返回结果都为字符串
-print('该学生成绩为：' + score)
-print(type(score))
+# (2) zip()同时取出多个容器的元素
+item = ['name:', 'age:']
+info = ['Michael', '27']
+for m, n in zip(item, info):
+     print(m, n)
