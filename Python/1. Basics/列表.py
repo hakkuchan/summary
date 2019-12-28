@@ -1,54 +1,100 @@
-""" 列表中可以是任何结构的数据，eg: a = [[1,2,3], 1, 'a'] """
+""" 1. 列表 & 元组
+    
+    · 创建列表：[1, 2, 3] or list(1, 2, 3)
+      创建元组：(1, 2, 3) or tuple(1, 2, 3)
+      也可用生成器创建
+      
+    · 列表和元组中可以是任何结构的数据，
+      eg: [[1,2,3], True, 'a']
+      
+    · 列表是可变类型：可以随时改变数据对象
+      元组是不可变类型：一旦创建就无法改变数据对象
+    
+    · 可变类型（列表）会花费一些计算或存储代价去维持可变性
+      所以，如果数据对象不需要改变，建议用不可变类型（元组）
+"""
+# 例：生成器创建列表和元组
+print(list(range(3)))  # >>> [0, 1, 2]
+print(list(range(1, 3)))  # >>> [1, 2]
+print(tuple(range(0, 6, 2)))  # >>> [0, 2, 4]
 
-""" 索引 """
-squares = [1, 4, 9, 16, 25]
-squares[0] = 1
 
-""" 切片 """ 
-squares[2:] = [9, 16, 25]
-squares[-3:] = [9, 16, 25]
+""" 2. 列表和元组的操作 """
 
-""" 步长 """
-lst = [1,2,3,4,5,6,7,8,9,0]
-print(lst[0:5:2])  # List[i:j:n]代表：索引 i - 索引 j，以n为步长
-print(lst[::2])    # 按照2为步长，从第一个值开始截取lst数据
-print(lst[1::2])   # 按照2为步长，从第二个值开始截取lst数据
+''' (1) 通用操作 '''
 
-""" 序列的内置全局函数 (也适用于 str 和 tuple) """
-lst = [1,2,3,4,5,6,7,8,9,0]
-print(len(lst))
-print(max(lst))
-print(min(lst))
-print(sum(lst))
-lst = [1,1,2,3,3,4,4,4,4,5,6]
-print(lst.count(4))  # .count(obj)方法：计算值的出现次数
-print(lst.index(3))  # .index(obj)方法：从列表中找出某个值第一个匹配项的索引位置
+# 索引 & 切片
+m = [1, 2, 3, 4]
+print(m[0])  # >>> 1
+print(m[-1]) # >>> 4
+print(m[0:2]) # >>> [1, 2]
+print(m[:2])  # >>> [1, 2]
+print(m[0: 5: 2]) # m(start: end: step)  >>> [1, 3]
 
-""" range 生成器 """
-print(list(range(5)))       # 代表指向了0,1,2,3,4这几个值
-print(list(range(2,5)))     # 代表指向了2,3,4这几个值，注意这里不是使用:
-print(range(0,10,2))        # 代表指向了0,2,4,6,8这几个值，最后的2代表步长
+# 拼接
+m = [1, 2] 
+n = [3, 4]
+print(m + n)  # 1, 2, 3, 4]
+print(2 * m + n)      # >>> [1, 2, 1, 2, 3, 4]
+print(2 * [m] + [n])  # >>> [[1, 2], [1, 2], [3, 4]]
 
-""" 拼接 """
-squares = [1, 4, 9, 16, 25] 
-cubes = [1, 8, 27, 64, 125]
-print(squares + cubes)
+# 其它
+m = [1, 2, 3, 4]
+print(len(m))  # >>> 4
+print(max(m))  # >>> 4
+print(min(m))  # >>> 1
+print(sum(m))  # >>> 10
+print(m.count(4))  # >>> 1  计算 4 的出现次数
+print(m.index(3))  # >>> 2  从列表中找出 3 的第一个匹配项的索引
 
-""" 重复 """
-lst3 = [1,2,3]
-lst3 = lst3 * 3
-print(lst3)
 
-""" 添加 """
-lst.append(2)        # .append() 末尾添加对象
-lst.insert(2, 9)   # .insert() 索引 2 处添加 9
+''' (2) 列表操作 '''
 
-""" 排序 """
-lst.sort(key=None, reverse=False)
+# 添加
+m = [1, 2, 3]
+m.append(4)  # .append() 末尾添加元素
+print(m)     # >>> [1, 2, 3, 4]
 
-""" 删除 """
-lst.remove(3)  # .remove() 删除列表中第一个值为x的元素
-del lst[2]     # del 删除索引 2 的元素
-lst.pop()      # .pop() 删除并返回列表中的最后一个元素
-lst.pop(2)     # .pop() 删除并返回列表中索引为 2 的元素
-lst.clear()    # .clear()  删除列表中的所有元素
+n = [1, 2, 3]
+n.insert(2, True)  # .insert() 索引 2 处添加 True
+print(n)        # >>> [1, 2, True, 3]
+
+m, n = [1, 2, 3], [4, 5, 6]
+m.extend(n)  # .extend() 末尾添加序列
+print(m)     # >>> [1, 2, 3, 4, 5, 6]
+
+
+# 删除
+m = [1, 2, 3, 4]
+m.remove(3)  # .remove() 删除列表中第一个值为x的元素
+print(m)  # >>> [1, 2, 4]
+
+m = [1, 2, 3]  
+del m[1]  # del 删除索引 1 的元素
+print(m)  # >>> [1, 3]
+
+m = [1, 2, 3]
+i = m.pop()  # .pop() 删除并返回列表中的最后一个元素
+print(m, i)  # >>> [1, 2] 3
+
+m = [1, 2, 3]
+j = m.pop(1) # .pop(1) 删除并返回列表中索引为 1 的元素
+print(m, j)  # >>> [1, 3] 2
+
+m = [1, 2, 3]
+m.clear() # .clear() 删除列表中的所有元素
+print(m)  # >>> []  
+
+
+# 排序
+m = [3, 1, 2, 0]
+m.sort(reverse=False)  # .sort(reverse=False) 按照元素值排列（正序）
+print(m)  # >>> [0, 1, 2, 3]
+
+m = [3, 1, 2, 0]
+m.sort(reverse=True)  # .sort(reverse=True) 按照元素值排列（倒序）
+print(m)  # >>> [3, 2, 1, 0]
+
+m = [3, 1, 2, 0]
+m.reverse()  # .reverse() 按照元素索引倒序排列
+print(m)  # >>> [0, 2, 1, 3]
