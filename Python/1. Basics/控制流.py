@@ -17,7 +17,7 @@
     
     · for i in range(num)
     · for i in [1, 2, 3]
-    · 两种特殊 for循环 见后面
+    · 两种特殊for循环见最后
     
     
     
