@@ -31,7 +31,7 @@
 
 #### 1.3 常用操作与模块
 * **操作：**
-[格式化输出](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BA.py)
+[输入与输出](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
 &nbsp; [读写操作](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
 &nbsp; [Map-Filter-Reduce](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/Map-Filter-Reduce.py)
 &nbsp; [动态变量名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F%E5%90%8D.py)
