@@ -3,20 +3,20 @@
 #### 1.1 数据类型与语法
 * **数据类型：**
 [数值](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py)
-&nbsp; [逻辑值](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%80%BB%E8%BE%91%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py)
 &nbsp; [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 &nbsp; [列表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%88%97%E8%A1%A8.py)
 &nbsp; [字典](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%AD%97%E5%85%B8.py)
 * **语法：** 
-[赋值与拷贝](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
+[逻辑运算](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%80%BB%E8%BE%91%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py)
+&nbsp; [赋值与拷贝](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
 &nbsp; [控制流](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
 &nbsp; [函数](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%87%BD%E6%95%B0.py)
-&nbsp; [类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%B1%BB.py)
+* **进阶：**
+[类](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%B1%BB.py)
 &nbsp; [模块与包](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.txt)
-&nbsp; [错误-异常-警告](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%94%99%E8%AF%AF-%E5%BC%82%E5%B8%B8-%E8%AD%A6%E5%91%8A.py)
 &nbsp; [推导式](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A8%E5%AF%BC%E5%BC%8F.py) 
-&nbsp; [Map-Filter-Reduce](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/Map-Filter-Reduce.py)
 &nbsp; [装饰器](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%A3%85%E9%A5%B0%E5%99%A8.py)
+&nbsp; [错误-异常-警告](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%94%99%E8%AF%AF-%E5%BC%82%E5%B8%B8-%E8%AD%A6%E5%91%8A.py)
 
 #### 1.2 数据结构与算法
 * **数据结构：**
@@ -29,13 +29,14 @@
 &nbsp; [运行时间](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
 
 #### 1.3 常用操作与模块
-* **常用操作：**
+* **操作：**
 [格式化输出](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%BC%E5%BC%8F%E5%8C%96%E8%BE%93%E5%87%BA.py)
 &nbsp; [读写操作](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
+&nbsp; [Map-Filter-Reduce](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/Map-Filter-Reduce.py)
 &nbsp; [动态变量名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F%E5%90%8D.py)
 &nbsp; [批量重命名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
 &nbsp; [爬虫](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8%E5%AE%9E%E4%BE%8B.py)
-* **常用模块：**
+* **模块：**
 [os](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97os.py)
 &nbsp; [random](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97random.py)
 &nbsp; [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97datetime.py)
