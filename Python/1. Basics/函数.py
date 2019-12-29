@@ -45,6 +45,7 @@ out = f(1, 2, 3, 4)
 print(out)  # >>> 10
 
 
+
 """ 4. ** 的作用 """
 
 # 定义函数时，使用 **参数 可以把字典作为参数传递给一个函数。
@@ -55,10 +56,7 @@ student_grade(**{'Jack':98, 'Mike':99, 'Lily':97})
 
 
 
-""" 5. 传递函数：
-    
-    · 调用函数时，函数名后不加括号，函数就不会被执行，而可以被传递。
-"""
+""" 5. 传递函数：调用函数时，函数名后不加括号，函数就不会被执行，而可以被传递 """
 
 def fn(a,b):
     return a + b
@@ -86,14 +84,51 @@ print(f(2,3))
 
 
 
-""" 7. ufunc函数
+""" 7. map、filter、reduce 函数
+
+    · 结果列表 = list(map(函数名, 自变量列表))
+    · 结果列表 = list(filter(条件式, 自变量列表))
+    · 结果 = reduce(函数名, 自变量列表)
+"""
+
+''' (1) map() 把输入列表的所有元素依次代入函数进行运算 '''
+
+# 标准用法：
+nums = [1,2,3,4,5,6]
+def fn(x):
+    return x ** 2
+print(list(map(fn, nums)))  # nums中的元素被依次带入fn并返回结果
+
+# 等价于推导式（推荐）：
+print(list(x**2 for x in nums))
+
+# 函数也可用lambda表达式定义：
+print(list(map(lambda x: x**2, nums)))
+
+
+''' (2) filter() 过滤列表中的元素，并且返回一个由所有符合要求的元素构成的列表 '''
+nums = range(-5, 5)
+print(list(filter((lambda x: x < 0), nums)))
+# 等价推导式（推荐）：
+print([x for x in nums if x < 0])
+
+
+''' (3) reduce() 先以 nums 中的第 1、2 个元素为 fn 输入, 得到的结果再与第 3 个数据作为 fn 的输入，以此类推 '''
+from functools import reduce
+nums = range(-5, 5)
+fibo = reduce((lambda x,y: x + y), range(100))
+print(fibo)
+
+
+
+""" 8. ufunc函数
     
     · 当循环利用某个函数时，将函数转换为 “ufunc函数” 可大幅度提高效率，
       详见 Numpy 部分的 《自定义ufunc》
       
     
     
-    8. apply函数
+    9. apply函数
     
     · apply函数用于把 pandas 中的数据类型作为输入，
       输出也为 pandas 的数据类型，
@@ -101,17 +136,16 @@ print(f(2,3))
       
       
       
-    9. 说明文档
+    10. 说明文档
     
     · 若函数复杂，其第一部分应该是说明文档，内容和格式如下：
-      
       第1行：3个引号开头，简要概述函数目的；
       第2行：空行，以视觉上区分概述和具体描述；
       第3行起：描述函数的调用约定、示例、副作用等； 
       最后一行：3个引号结尾
 
     
-    10. 函数标注
+    11. 函数标注
     
     · 函数标注 以字典的形式存放在函数的 __annotations__ 属性
       函数标注不会影响函数的任何其他部分
