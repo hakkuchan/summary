@@ -17,7 +17,7 @@
 [模块与包](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.txt)
 &nbsp; [推导式](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%8E%A8%E5%AF%BC%E5%BC%8F.py) 
 &nbsp; [装饰器](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%A3%85%E9%A5%B0%E5%99%A8.py)
-&nbsp; [错误-异常-警告](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%94%99%E8%AF%AF-%E5%BC%82%E5%B8%B8-%E8%AD%A6%E5%91%8A.py)
+&nbsp; [例外及处理](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E4%BE%8B%E5%A4%96%E5%8F%8A%E5%A4%84%E7%90%86.py)
 
 #### 1.2 数据结构与算法
 * **数据结构：**
