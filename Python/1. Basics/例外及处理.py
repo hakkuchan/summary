@@ -32,13 +32,13 @@ def test(m):
     try:  # 尝试执行 Try 子句，如无异常，跳过 except 子句，完成 try 子句的执行。
         print('Try……')
         print(10 / m)
-    except TypeError:  # 如果异常类型和 except 后面的异常匹配，则执行 except子句
+    except TypeError:  # 如果异常类型和 except 后面的异常名匹配，则执行 except 子句
         print('Input has wrong type.')
     except ZeroDivisionError:
         print('Division by zero.')
-    else:  # 没有出现异常，补充执行的代码
+    else:     # 如无异常，补充执行的代码
         print('No error.')
-    finally:  # 无论出错与否，都会执行的代码
+    finally:  # 无论是否出现异常，都会执行的代码
         print('End')
 
 test(2)   # >>> 5.0 
