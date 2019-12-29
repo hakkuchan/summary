@@ -31,12 +31,12 @@
 [算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
 &nbsp; [运行时间](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
 
-#### 1.3 常用操作与模块
-* **操作：**
+#### 1.3 其它
+* **常用操作：**
 [输入与输出](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
-&nbsp; [读写操作](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%93%8D%E4%BD%9C.py)
-&nbsp; [动态变量名](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F%E5%90%8D.py)
-* **模块：**
+&nbsp; [读写文件](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
+&nbsp; [动态变量](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
+* **基本模块：**
 [os](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97os.py)
 &nbsp; [random](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97random.py)
 &nbsp; [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97datetime.py)
