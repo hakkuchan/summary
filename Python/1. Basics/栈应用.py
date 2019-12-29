@@ -1,6 +1,6 @@
-""" 栈的应用：一般用于次序倒转的操作 """
+""" 栈的应用：一般用于倒转次序的操作 """
 
-''' 定义栈类 '''
+''' 定义栈 '''
 class Stack:
     def __init__(self):
         self.items = []
@@ -21,7 +21,7 @@ class Stack:
         return len(self.items)
 
 
-''' 例1. 识别小括号是否左右匹配 '''
+''' 例 1：识别小括号是否左右匹配 '''
 def parchecker(string):
     s = Stack()
     balanced = True  # 假定括号匹配成功
@@ -45,7 +45,7 @@ print(parchecker('(()(()()))'))
 print(parchecker('(()))'))
 
 
-''' 例2. 识别各类括号是否左右匹配 '''
+''' 例 2：识别各类括号是否左右匹配 '''
 def parchecker(string):
     s = Stack()
     balanced = True  # 假定括号匹配成功
@@ -76,7 +76,7 @@ print(parchecker('{[()][]}'))
 print(parchecker('{[(}]}'))
 
 
-''' 例3. 十进制转化为二进制 '''
+''' 例 3：十进制转化为二进制 '''
 # 将十进制整数不断除以 2，每次得到的余数就是由低到高的二进制数，输出则是从高到低，所以需要一个栈来反转次序
 def dec_bin(dec_num):
     remstack = Stack()
@@ -90,10 +90,9 @@ def dec_bin(dec_num):
     return bin_num
 
 print(dec_bin(35)) # ans = 100011
-# 注：二进制转十进制，以 100011 为例，十进制为 1*2^5 + 0*2^4 + 0*2^3 + 0*2^2 + 1*2^1 + 1*2^0 = 35
 
 
-''' 例4. 十进制转化为十六位以下的任意进制 '''
+''' 例 4: 十进制转化为十六位以下的任意进制 '''
 def dec_base(dec_num, base):     # base表示几进制
     digits = '0123456789ABCDEF'  # 十六进制中，A表示10，B表示11，以此类推，F表示15
     remstack = Stack()
@@ -107,4 +106,3 @@ def dec_base(dec_num, base):     # base表示几进制
     return base_num
 
 print(dec_base(92, 16)) # ans = 5C
-# 注：十六进制转十进制，以 5C 为例，十进制为 5*16^1 + 12 = 92
