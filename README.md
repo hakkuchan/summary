@@ -148,9 +148,8 @@
 &nbsp; [Pooling](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E5%B1%82Pooling.py)
 * **类：**
 [functional](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E7%B1%BBfunctional.py)
-* **激活函数：**
-[代码](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.py)
-&nbsp; [图示](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E5%9B%BE%E7%A4%BA.png)
+&nbsp; [激活函数代码](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.py)
+&nbsp; [激活函数图示](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E5%9B%BE%E7%A4%BA.png)
 * **通用操作：**
 [搭建模型](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E6%90%AD%E5%BB%BA%E6%A8%A1%E5%9E%8B.py)
 &nbsp; [保存和加载](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Pytorch/%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
