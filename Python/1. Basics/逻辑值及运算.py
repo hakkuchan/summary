@@ -1,12 +1,14 @@
-""" 1. 判断与真值
+""" 1. 逻辑值
+    
+	· 逻辑值（bool型）：True 和 False
     · bool型是int型的子类
-    · bool(0) = False, bool("") = False, bool([]) = False
-    · bool(任何非零数、非空序列) = True
+    · bool(0), bool(""), bool([]), bool({}) >>> False 
+    · bool(任何非零数、非空容器) >>> True
 """
 
 
 
-""" 2. 逻辑运算 """
+""" 2. 和、并、否 """
 i = 1
 j = 4
 m = [1, 2, 3]
