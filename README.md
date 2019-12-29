@@ -37,9 +37,9 @@
 [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
 * **算法：** 
-[算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
-&nbsp; [栈应用](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88%E5%BA%94%E7%94%A8.py)
-
+[栈](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88%E5%BA%94%E7%94%A8.py)
+&nbsp; [算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
+ 
 
 
 ### 2. 数据分析与可视化
