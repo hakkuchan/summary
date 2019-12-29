@@ -1,6 +1,6 @@
 """ 1. 逻辑值
     
-	· 逻辑值（bool型）：True 和 False
+    · 逻辑值（bool型）：True 和 False
     · bool型是int型的子类
     · bool(0), bool(""), bool([]), bool({}) >>> False 
     · bool(任何非零数、非空容器) >>> True
