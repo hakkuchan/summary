@@ -37,7 +37,7 @@
 [算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
 &nbsp; [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
-
+&nbsp; [双端队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
