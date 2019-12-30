@@ -40,7 +40,7 @@
 [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
-&nbsp; [单向链表](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8D%95%E5%90%91%E9%93%BE%E8%A1%A8.py)
+&nbsp; [无序表](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%97%A0%E5%BA%8F%E8%A1%A8.py)
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
