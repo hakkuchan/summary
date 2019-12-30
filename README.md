@@ -1,4 +1,6 @@
 ## Python
+
+
 ### 1. 基础
 #### 1.1 数据类型与语法
 * **数据类型：**
@@ -31,19 +33,13 @@
 &nbsp; [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97datetime.py)
 &nbsp; [time](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97time.py)
 
-
 #### 1.3 数据结构与算法
-* **数据结构：**
-[栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
+[算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
+&nbsp; [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
-* **算法：** 
-[栈](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88%E5%BA%94%E7%94%A8.py)
-&nbsp; [算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
- 
 
 
 ### 2. 数据分析与可视化
-
 #### 2.1 数据分析
 * **Numpy：**
 [基础](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Data%20Analysis/np%E5%9F%BA%E7%A1%80.py)
@@ -86,6 +82,7 @@
 &nbsp; [辅助标注](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Visualization/bokeh%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
 &nbsp; [特殊坐标轴](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Visualization/bokeh%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 &nbsp; [多图表](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/2.%20Data%20Analysis%20%26%20Visualization/Visualization/bokeh%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
+
 
 ### 3. 数学建模
 #### 3.1 科学计算
