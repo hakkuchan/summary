@@ -26,7 +26,6 @@
 [输入与输出](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
 &nbsp; [读写文件](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
 &nbsp; [动态变量](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
-&nbsp; [运行时间](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
 * **模块：**
 [os](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97os.py)
 &nbsp; [random](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97random.py)
@@ -34,7 +33,10 @@
 &nbsp; [time](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97time.py)
 
 #### 1.3 数据结构与算法
-[算法分析](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
+* **算法分析：**
+[数量级](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
+&nbsp; [运行时间](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
+* **线性结构：**
 &nbsp; [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
