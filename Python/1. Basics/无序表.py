@@ -1,125 +1,163 @@
 """ 1. 无序表（Unordered list）
-
-    · 一种数据项按照相对位置存放的容器
-	  其中数据项只按照存放位置来索引，如第1个、第2个……、最后一个等
-	 
-    · Python 内置数据类型 list 就是一种无序表
     
-	
-	
-    2. 基于单向链表实现无序表 
+    · 无序表是一种容器，其中数据项按照相对位置存放的，如第1个、第2个……
+      Python 内置的 list 数据类型就是一种无序表
     
-    · 单向链表由若干个节点组成，每个节点包含 信息 和 指针：
-      信息即节点包含的数据对象，
-      指针从当前节点指向下一节点，
-      链表中最后一个节点的指针指向空值，
-      对单向链表的访问要通过从头部开始，依序往下读取
-    
-    · 链表中数据前后位置的保持，是通过指针实现的，并不要求数据存放在连续的存储空间
-	
-    · 具体如下：
+    · 无序表可基于链表实现
+      链表由若干个节点串联组成，每个节点包含 信息 和 指针：
+      信息即节点包含的数据，指针从当前节点指向下一节点，
+      链表中数据前后位置的保持，是通过指针实现的，并不要求数据存放在连续的存储空间
 """
 
+''' 例：基于链表创建无序表 '''
 
-''' 创建节点类 '''
-class Node: 
-    def __init__(self, info):
-        self.info = info     # 信息：存放数据
-        self.pointer = None  # 指针：指向上一个节点，默认为 None
-        
-        
-''' 创建单向链表类 '''
-class SingleLinkedList:
+''' (1) 创建节点类 '''
+class Node:
+
+    ''' 初始化节点 '''
+    def __init__(self, initdata):
+        self.data = initdata  # 把数据传进节点
+        self.next = None      # 下一个节点设置为空
     
-    ''' 初始化单向链表，头节点(self.head)设置为 None '''
+    ''' 返回节点的数据 '''
+    def getData(self):
+        return self.data
+    
+    ''' 返回节点的下一个节点 '''
+    def getNext(self):
+        return self.next
+    
+    ''' 修改节点的数据项 '''
+    def setData(self, newdata):
+        self.data = newdata
+    
+    ''' 修改节点的下一个节点 '''
+    def setNext(self, newnext):
+        self.next = newnext
+
+temp = Node(5)
+print(temp.getData())  # >>> 5
+print(temp.getNext())  # >>> None
+temp.setData(100)
+print(temp.getData())  # >>> 100
+print(temp.getNext())  # >>> None
+temp.setNext(1000)
+print(temp.getNext())  # >>> 1000
+
+
+''' (2) 创建无序表类 '''
+class UnorderedList:
     def __init__(self):
-        self.head = None
+        self.head = None  # 设置表头，默认为 None（注意：表头本身不是节点，而是指向链表中的第一个节点）
     
-    ''' 从表首加入数据 data '''
-    def addFront(self, data):
-        node = Node(data)  # 实例化节点
-        if self.head == None:  # 如果当前头节点为 None，说明是空链表
-            self.head = node   # 把当前头节点指向刚实例化的节点
-        else: # 如果当前头节点不为 None
-            node.pointer = self.head # 令刚实例化的节点指向头节点（上一个节点）的内存位置
-            self.head = node         # 令当前头节点指向刚实例化的节点（新节点 → 头节点）
-    
-    ''' 从表尾加入数据 data '''
-    def addTail(self, data):
-        node = Node(data)  # 实例化节点
-        if self.head == None:  # 如果当前头节点为 None，说明是空链表
-            self.head = node   # 把当前头节点指向刚实例化的节点
-        else: # 如果当前链表不为空
-            cursor = self.head     # 令游标 cursor 指向当前头节点
-            while cursor.pointer != None:  # 如果当前游标所指的下一个节点不是 None
-                cursor = cursor.pointer    # 是 cursor 不断指向下一个节点
-            cursor.pointer = node  # 当游标 cursor 的下个节点变成 None 时，让它指向刚实例化的节点
     
     ''' 判断链表是否为空 '''
-    def is_empty(self):
+    def isEmpty(self):
         if self.head is None:
             return True
         else:
             return False
     
-    ''' 返回链表中元素个数 '''
-    def length(self):
-        count = 0
-        cursor = self.head    # 设置一个游标，指向头节点所处的位置
-        while cursor != None: # 如果头节点不为 None
-            count += 1  # 计数
-            cursor = cursor.pointer # 游标指向下一个节点
-        return count
+    
+    ''' 在表首增加节点 ——— 相当于list的 .insert(0,data) '''
+    def addFront(self, item):
+        new_node = Node(item)  # 实例化一个新node
+        new_node.setNext(self.head)  # 令新node指向表头当前所指向的第一个节点
+        self.head = new_node   # 把表头指向新node，如此一来，新node就成了第一个节点
+    
     
     ''' 遍历 '''
     def travel(self):
-        cursor = self.head    # 使游标指向头节点
-        while cursor != None: # 只要当前游标不为空
-            print(cursor.info, end=' ')  # 打印当前节点的信息
-            cursor = cursor.pointer  # 游标指向下一节点
+        current = self.head    # 令current指向表头指向的第一个节点
+        while current != None:
+            print(current.getData(), end=' ')  # 打印当前节点的信息
+            current = current.getNext()        # current指向下一节点
         print()
     
-    ''' 查找某个数据对象是否在链表中 '''
-    def search(self, data):
-        cursor = self.head     # 让游标指向当前头节点 
-        while cursor != None:  # 如果当前游标不是 None 
-            if cursor.info == data:  # 检查当前节点的信息是否匹配
-                return True 
-            else:
-                cursor = cursor.pointer    # 如不匹配，让游标移动至下一个节点
-        return False
     
-    ''' 删除特定数据的第一个符合值 '''
-    def remove(self, data):
-        if self.is_empty(): # 若链表为空，直接返回
-            return
-        cursor1 = None      # 设置 游标-1 为 None
-        cursor2 = self.head # 令 游标-2 为当前头节点
- 
-        while cursor2 != None:  # 只要游标-2不为空
-            if cursor2.info != data:      # 如果游标-2的信息不匹配
-                cursor1 = cursor2         # 游标-1 指向 游标-2
-                cursor2 = cursor2.pointer # 游标-2 指向下一个节点
-            else:  # 如果 游标-2 的信息匹配
-                if cursor2 == self.head:  # 如果要删除的点是头节点（此时 游标2 指向头节点）
-                    self.head = cursor2.pointer  # 让头节点指向 游标2 指向的节点，相当于把当前头节点跳过去，实现了删除
-                    break
-                else: # 如果要删除的点不是头节点
-                    cursor1.pointer = cursor2.pointer  # 让 游标-1指向的节点，指向 游标-2指向的节点，相当于跳过了游标-2
-                    break
+    ''' 元素个数 ——— 相当于list的 len() '''
+    def size(self):
+        current = self.head    # 令current指向表头指向的第一个节点
+        count = 0
+        while current != None: # 只要current不为 None
+            count += 1         # 计数
+            current = current.getNext() # current指向下一节点
+        return count
+    
+    
+    ''' 在表尾增加节点 ——— 相当于list的.append() '''
+    def addTail(self, item):
+        new_node = Node(item)  # 实例化一个新node
+        if self.head == None:  # 如果表头指向空（说明是空链表）
+            self.head = new_node  # 把表头指向新node
+        else: # 如果不是空列表
+            current = self.head   # 令current指向表头指向的第一个节点
+            while current.getNext() != None: # 只要current的下一个节点不是None
+                current = current.getNext()  # 令current指向下一节点
+            current.setNext(new_node)  # 当current的下一个节点为None时，将current的下一个节点设定为新node
+    
+    
+    ''' 是否存在特定元素 '''
+    def search(self, item):
+        current = self.head  # 令current指向表头指向的第一个节点
+        found = False  # 假定 “未找到特定元素”
+        while current != None and not found:  # 只要表不为空且 “未找到特定元素” 为真
+            if current.getData() == item:     # 检查当前current是否与待查数据匹配
+                found = True  # 如果匹配，令 found = True，此时 “未找到特定数据” 为假，跳出循环
+            else:
+                 current = current.getNext()  # 如不匹配，current指向下一节点
+        return found
+    
+    
+    ''' 删除特定数据 ——— 相当于list的 .remove() '''
+    def remove(self, item):
+        current = self.head  # 令current指向表头指向的第一个节点
+        previous = None      # 令current的前一个节点previous为 None
+        found = False        # 假定未找到需删除的特定数据
+        while current != None and not found:  # 只要表不为空且 “未找到特定数据” 为真
+            if current.getData() == item: # 检查当前节点是不是特定数据
+                found = True  # 如是，说明找到了
+            else:  # 如不是，current和previous依次向后移动：
+                previous = current # previous 指向 current
+                current = current.getNext() # current 指向下一个节点
+        # 当找到了待删除的特定数据
+        if previous == None:  # 如果第一个节点就是特定数据
+            self.head = current.getNext()  # 直接把表头指向current的下一个节点，实现对当前节点current的删除
+        else:  # 如果第一个节点不是特定数据
+            previous.setNext(current.getNext())  # 令previous的下一个节点指向current的下一个节点，实现对当前节点current的删除
+    
+    
+    ''' 删除并返回最后一个数据（相当于list的.pop()） '''
+    def del_re_tail(self):
+        current = self.head  # 令current指向表头指向的第一个节点
+        previous = None      # 令current的前一个节点previous为 None
+        if current == None:  # 如果链表为空
+            return None      # 返回None
+        else:
+            while current.getNext() != None:  # 如果current的下一个节点不为空
+                previous = current  # previous前进一步
+                current = current.getNext()  # current前进一步
+            previous.setNext(current.getNext())  # 当current移动至最后一个节点，
+                                                 # 让它的前一个节点 previous 直接指向current的下一节点 None
+                                                 # 实现了对最后一个节点的删除
+            return current.getData()  # 返回当前current中的数据
+    
 
-                    
-mylist = SingleLinkedList()
-print(mylist.is_empty())  # >>> True
-mylist.addFront(5)
-mylist.addFront(6)    
-mylist.addTail(True)
-mylist.addFront(5)    
-mylist.travel()  # >>> 5 6 5 True
-mylist.remove(5)
-mylist.travel()  # >>> 6 5 True
-mylist.remove(True)
-mylist.travel()  # >>> 6 5
-print(mylist.length())     # >>> 2
-print(mylist.search(6))    # >>> True
-print(mylist.search('a'))  # >>> False
+mylist = UnorderedList()
+print(mylist.isEmpty())     # >>> True
+mylist.addFront(3)
+mylist.addFront(2)
+mylist.addFront(1)
+mylist.addTail('hello')
+mylist.addTail('world')
+print(mylist.isEmpty())     # >>> False
+print(mylist.size())        # >>> 5
+mylist.travel()  # >>> 1 2 3 hello world 
+
+print(mylist.search(1))     # >>> True
+print(mylist.search(100))   # >>> False
+
+mylist.remove('hello')
+mylist.travel()  # >>> 1 2 3 world 
+print(mylist.del_re_tail()) # >>> world
+mylist.travel()  # >>> 1 2 3
