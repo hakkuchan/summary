@@ -33,15 +33,15 @@
 &nbsp; [time](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97time.py)
 
 #### 1.3 数据结构与算法
-* **算法分析：**
-[数量级](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
-&nbsp; [运行时间](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
 * **线性结构：**
 [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
 &nbsp; [无序表](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%97%A0%E5%BA%8F%E8%A1%A8.py)
 &nbsp; [有序表](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%9C%89%E5%BA%8F%E8%A1%A8.py)
+* **算法：**
+[数量级分析](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
+&nbsp; [时间分析](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
