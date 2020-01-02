@@ -41,6 +41,7 @@
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
 &nbsp; [无序表](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%97%A0%E5%BA%8F%E8%A1%A8.py)
+&nbsp; [有序表](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%9C%89%E5%BA%8F%E8%A1%A8.py)
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
