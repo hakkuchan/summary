@@ -115,7 +115,7 @@
 [Linear](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B-%E5%88%86%E7%B1%BB.py)
 &nbsp; [KNN](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/KNN%E5%88%86%E7%B1%BB.py)
 &nbsp; [DT](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/DT%E5%88%86%E7%B1%BB.py)
-[(图)](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/DT%E5%9B%BE.py)
+[& 生成图代码](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/DT%E5%9B%BE.py)
 &nbsp; [SVC](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/SVM%E5%88%86%E7%B1%BB.py)
 &nbsp; [NB](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/NB%E5%88%86%E7%B1%BB.py)
 &nbsp; [Clustering](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/3.%20Mathematical%20models/Sklearn/%E9%9B%86%E6%88%90%E7%AE%97%E6%B3%95.py)
