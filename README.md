@@ -34,8 +34,8 @@
 
 #### 1.3 数据结构与算法
 * **算法分析：**
-[数量级](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90.py)
-&nbsp; [运行时间](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
+[数量级](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
+&nbsp; [运行时间](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
 * **线性结构：**
 [栈](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E9%98%9F%E5%88%97.py)
