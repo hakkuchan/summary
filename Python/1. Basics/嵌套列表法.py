@@ -49,7 +49,6 @@ mytree = BinaryTree(1)
 mytree.insertLeft(2)
 mytree.insertLeft(3)
 mytree.insertRight(4)
-
-print(mytree.travel())
-print(mytree.getLeftChild())
-print(mytree.getRightChild())
+print(mytree.travel())  # >>> [1, [3, [2, [], []], []], [4, [], []]]
+print(mytree.getLeftChild())  # >>> [3, [2, [], []], []]
+print(mytree.getRightChild()) # >>> [4, [], []]
