@@ -1,15 +1,11 @@
-""" 无序表（Unordered list）
+""" 有序表（Ordered list）
     
-    · 无序表是一种容器，其中数据项按照相对位置存放的，如第1个、第2个……
-      Python 内置的 list 数据类型就是一种无序表
+    · 表中数据依照某可比性质（如整数大小、字母先后）排位
     
-    · 无序表可基于链表实现
-      链表由若干个节点串联组成，每个节点包含 信息 和 指针：
-      信息即节点包含的数据，指针从当前节点指向下一节点，
-      链表中数据前后位置的保持，是通过指针实现的，并不要求数据存放在连续的存储空间
+    · 有序表也可基于链表实现
 """
 
-''' 例：基于链表创建无序表 '''
+''' 例：基于链表创建有序表 '''
 
 ''' (1) 创建节点类 '''
 class Node:
@@ -45,11 +41,47 @@ temp.setNext(1000)
 print(temp.getNext())  # >>> 1000
 
 
-''' (2) 创建无序表类 '''
-class UnorderedList:
+''' (2) 创建有序表类 '''
+class OrderedList:
     def __init__(self):
         self.head = None  # 设置表头，默认为 None（注意：表头本身不是节点，而是指向链表中的第一个节点）
     
+    
+    ''' 在表中增加节点 ——— 按照顺序添加 '''
+    def add(self, item):
+        current = self.head   # 令current指向表头指向的第一个节点
+        previous = None       # 令current的前一个节点previous为 None
+        stop = False
+        while current != None and not stop:  # 只要当前节点不为空且未到达插入位置
+            if current.getData() > item:  # 如果发现当前节点比待增加的数据大，说明到了插入位置
+                stop = True  # 跳出循坏
+            else:
+                previous = current  # previous前进一个节点
+                current = current.getNext()  # current前进一个节点
+        # while循环所包含的语句其目的是找到插入位置
+        new_node = Node(item) # 实例化新节点
+        if previous == None:  # 如果第一个节点前是插入位置（此时current指向第一个节点，previous为None）
+            new_node.setNext(self.head)  # 让新节点指向表头指向的第一个节点
+            self.head = new_node  # 让表头指向新节点（新节点变为第一个节点）
+        else:  # 如果插在表中
+            new_node.setNext(current)  # 让新节点指向current
+            previous.setNext(new_node) # 让previous指向新节点，就把新节点插在previous和current之间了
+        
+        
+    ''' 是否存在特定元素 '''
+    def search(self, item):
+        current = self.head  # 令current指向表头指向的第一个节点
+        found = False  # 假定 “未找到特定元素”
+        stop = False   # 如果待查找数据已大于当前current，说明肯定表中不存在待找数据，此时stop，先假定stop为假
+        while current != None and not found and not stop:  # 只要表不为空，且 “未找到特定元素” 为真，且stop为假
+            if current.getData() == item:  # 检查当前current是否与待查数据匹配
+                found = True  # 如果匹配，令 found = True，此时 “未找到特定数据” 为假，跳出循环
+            if current.getData() > item:
+                stop = True
+            else:
+                current = current.getNext()  # 如不匹配，current指向下一节点
+        return found
+        
     
     ''' 判断链表是否为空 '''
     def isEmpty(self):
@@ -57,13 +89,6 @@ class UnorderedList:
             return True
         else:
             return False
-    
-    
-    ''' 在表首增加节点 ——— 相当于list的 .insert(0,data) '''
-    def addFront(self, item):
-        new_node = Node(item)  # 实例化一个新node
-        new_node.setNext(self.head)  # 令新node指向表头当前所指向的第一个节点
-        self.head = new_node   # 把表头指向新node，如此一来，新node就成了第一个节点
     
     
     ''' 遍历 '''
@@ -84,31 +109,7 @@ class UnorderedList:
             current = current.getNext() # current指向下一节点
         return count
     
-    
-    ''' 在表尾增加节点 ——— 相当于list的.append() '''
-    def addTail(self, item):
-        new_node = Node(item)  # 实例化一个新node
-        if self.head == None:  # 如果表头指向空（说明是空链表）
-            self.head = new_node  # 把表头指向新node
-        else: # 如果不是空列表
-            current = self.head   # 令current指向表头指向的第一个节点
-            while current.getNext() != None: # 只要current的下一个节点不是None
-                current = current.getNext()  # 令current指向下一节点
-            current.setNext(new_node)  # 当current的下一个节点为None时，将current的下一个节点设定为新node
-    
-    
-    ''' 是否存在特定元素 '''
-    def search(self, item):
-        current = self.head  # 令current指向表头指向的第一个节点
-        found = False  # 假定 “未找到特定元素”
-        while current != None and not found:  # 只要表不为空且 “未找到特定元素” 为真
-            if current.getData() == item:     # 检查当前current是否与待查数据匹配
-                found = True  # 如果匹配，令 found = True，此时 “未找到特定数据” 为假，跳出循环
-            else:
-                 current = current.getNext()  # 如不匹配，current指向下一节点
-        return found
-    
-    
+
     ''' 删除特定数据 ——— 相当于list的 .remove() '''
     def remove(self, item):
         current = self.head  # 令current指向表头指向的第一个节点
@@ -143,21 +144,18 @@ class UnorderedList:
             return current.getData()  # 返回当前current中的数据
     
 
-mylist = UnorderedList()
-print(mylist.isEmpty())     # >>> True
-mylist.addFront(3)
-mylist.addFront(2)
-mylist.addFront(1)
-mylist.addTail('hello')
-mylist.addTail('world')
-print(mylist.isEmpty())     # >>> False
-print(mylist.size())        # >>> 5
-mylist.travel()  # >>> 1 2 3 hello world 
-
-print(mylist.search(1))     # >>> True
-print(mylist.search(100))   # >>> False
-
-mylist.remove('hello')
-mylist.travel()  # >>> 1 2 3 world 
-print(mylist.del_re_tail()) # >>> world
-mylist.travel()  # >>> 1 2 3
+mylist = OrderedList()
+print(mylist.isEmpty())  # >>> True
+mylist.add(7)
+mylist.add(9)
+mylist.add(5)
+mylist.add(3)
+print(mylist.isEmpty())  # >>> False
+mylist.travel()  # >>> 3 5 7 9
+mylist.remove(7)
+mylist.travel()  # >>> 3 5 9
+print(mylist.size())  # >>> 3
+print(mylist.search(9))  # >>> True
+print(mylist.search(100))  # >>> False
+print(mylist.del_re_tail())  # >>> 9
+mylist.travel()  # >>> 3 5
