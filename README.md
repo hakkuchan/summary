@@ -23,14 +23,14 @@
 
 #### 1.2 基本操作 & 模块
 * **操作：**
-[输入与输出](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
-&nbsp; [读写文件](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
-&nbsp; [动态变量](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
+[输入与输出](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
+&nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
+&nbsp; [动态变量](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
 * **模块：**
-[os](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97os.py)
-&nbsp; [random](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97random.py)
-&nbsp; [datetime](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97datetime.py)
-&nbsp; [time](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/1.%20Basics/%E6%A8%A1%E5%9D%97time.py)
+[os](https://github.com/ZBTGL/summary/blob/master/Basics/module_os.py)
+&nbsp; [random](https://github.com/ZBTGL/summary/blob/master/Basics/module_random.py)
+&nbsp; [datetime](https://github.com/ZBTGL/summary/blob/master/Basics/module_datetime.py)
+&nbsp; [time](https://github.com/ZBTGL/summary/blob/master/Basics/module_time.py)
 
 #### 1.3 数据结构 & 算法
 * **线性结构：**
