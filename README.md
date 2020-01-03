@@ -140,18 +140,19 @@
 
 #### 3.3 Pytorch
 * **基础：**
-[张量]()
-&nbsp; [自动求导]()
+[张量](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E5%BC%A0%E9%87%8F.py)
+&nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
 * **容器：**
-[Sequential]()
+[Sequential](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E5%AE%B9%E5%99%A8Sequential.py)
 * **层：**
-[Linear]()
-&nbsp; [BatchNorm]()
-&nbsp; [Conv2d]()
-&nbsp; [Pooling]()
-[functional]()
-&nbsp; [激活函数]()
-& [图示]()
+[Linear](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E5%B1%82Linear.py)
+&nbsp; [BatchNorm](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E5%B1%82BatchNorm.py)
+&nbsp; [Conv2d](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E5%B1%82Conv2d.py)
+&nbsp; [Pooling](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E5%B1%82Pooling.py)
+* **层：**
+[functional](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E7%B1%BBfunctional.py)
+&nbsp; [激活函数](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.py)
+& [图示](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E5%9B%BE%E7%A4%BA.png)
 * **通用操作：**
 [搭建模型]()
 &nbsp; [保存和加载]()
