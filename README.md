@@ -1,6 +1,4 @@
 ## Python
-
-
 ### 1. 基础
 #### 1.1 数据类型 & 语法
 * **数据类型：**
@@ -48,6 +46,7 @@
 [数量级分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
 &nbsp; [时间分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
 
+
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
 * **Numpy：**
@@ -63,7 +62,6 @@
 &nbsp; [缺失值处理](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
 &nbsp; [异常值处理](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
 &nbsp; [数据离散化](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
-
 
 #### 2.2 可视化
 * **Matplotlib基础：** 
@@ -111,33 +109,34 @@
 &nbsp; [高斯拟合](https://github.com/ZBTGL/summary/blob/master/Models/Math/%E9%AB%98%E6%96%AF%E6%8B%9F%E5%90%88.py)
 * **其它：**
 [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Models/Math/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A8%A1%E6%8B%9F.py)
+
 #### 3.2 Sklearn
 * **分类：**
-[Linear]()
-&nbsp; [KNN]()
-&nbsp; [DT]()
-& [生成DT图]()
-&nbsp; [SVC]()
-&nbsp; [NB]()
-&nbsp; [Clustering]()
+[Linear](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/clf_linear.py)
+&nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/clf_KNN.py)
+&nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/clf_DT.py)
+& [图](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/clf_DT%E5%9B%BE.py)
+&nbsp; [SVC](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/clf_SVM.py)
+&nbsp; [NB](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/clf_NB.py)
+&nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/clf_clustering.py)
 * **回归：**
-[Linear]()
-&nbsp; [KNN]()
-&nbsp; [DT]()
-&nbsp; [SVR]()
+[Linear](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/regr_linear.py)
+&nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/regr_KNN.py)
+&nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/regr_DT.py)
+&nbsp; [SVR](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/regr_SVM.py)
 * **调参：**
-[Pipeline]()
-&nbsp; [Search]()
+[Pipeline](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/tune_Pipeline.py)
+&nbsp; [Search](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/tune_Search.py)
 * **预处理：** 
-[范围调整]()
-&nbsp; [标签转换]()
-&nbsp; [特征选择]()
-&nbsp; [数据分割]()
+[范围调整](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
+&nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
+&nbsp; [特征选择](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
+&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
 * **评估与比较：**
-[分类结果评估]()
-&nbsp; [分类模型比较]()
-&nbsp; [回归模型比较]()
-* [保存和加载模型]()
+[分类结果评估](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E8%AF%84%E4%BC%B0.py)
+&nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E8%AF%84%E4%BC%B0.py)
+&nbsp; [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
+* [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
 #### 3.3 Pytorch
 * **基础：**
