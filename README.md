@@ -6,7 +6,7 @@
 * **数据类型：**
 [数值](https://github.com/ZBTGL/Code-Summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py)
 &nbsp; [逻辑值](https://github.com/ZBTGL/Code-Summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC%E5%8F%8A%E8%BF%90%E7%AE%97.py)
-&nbsp; [字符串](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/Basics/obj_%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
+&nbsp; [字符串](https://github.com/ZBTGL/Code-Summary/blob/master/Python/Basics/obj_%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 &nbsp; [列表与元组](https://github.com/ZBTGL/Code-Summary/blob/master/Python/Basics/obj_%E5%88%97%E8%A1%A8%E4%B8%8E%E5%85%83%E7%BB%84.py)
 &nbsp; [字典](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/Basics/obj_%E5%AD%97%E5%85%B8.py)
 &nbsp; [集合](https://github.com/ZBTGL/Code-Summary/blob/master/Python/Basics/obj_%E9%9B%86%E5%90%88.py)
@@ -19,7 +19,7 @@
 &nbsp; [推导式](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/Basics/syntax_%E6%8E%A8%E5%AF%BC%E5%BC%8F.py)
 &nbsp; [生成器](https://github.com/ZBTGL/Code-Summary/blob/master/Python/Basics/syntax_%E7%94%9F%E6%88%90%E5%99%A8.py)
 &nbsp; [装饰器](https://github.com/ZhouBinTGL/Code-Summary/blob/master/Python/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
-&nbsp; [例外及处理](https://github.com/ZBTGL/Code-Summary/blob/master/Python/1.%20Basics/%E4%BE%8B%E5%A4%96%E5%8F%8A%E5%A4%84%E7%90%86.py)
+&nbsp; [例外及处理](https://github.com/ZBTGL/Code-Summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96%E5%8F%8A%E5%A4%84%E7%90%86.py)
 
 #### 1.2 基本操作 & 模块
 * **操作：**
