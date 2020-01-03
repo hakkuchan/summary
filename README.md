@@ -140,27 +140,28 @@
 
 #### 3.3 Pytorch
 * **基础：**
-[张量]()
-&nbsp; [自动求导]()
+[张量](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
+&nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/basics_%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
+* **层：**
+[Linear](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/layer_Linear.py)
+& [线性回归示例](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/layer_%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.py)
+&nbsp; [BatchNorm](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/layer_BatchNorm.py)
+&nbsp; [Conv2d](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/layer_Conv2d.py)
+&nbsp; [Pooling](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/layer_Pooling.py)
 * **容器：**
-[Sequential]()
-* **层：**
-[Linear]()
-&nbsp; [BatchNorm]()
-&nbsp; [Conv2d]()
-&nbsp; [Pooling]()
-* **层：**
-[functional]()
-&nbsp; [激活函数]()
-& [图示]()
+[Sequential](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/%E5%AE%B9%E5%99%A8Sequential.py)
+* **函数：**
+[functional](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/fn_functional.py)
+&nbsp; [激活函数](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/fn_%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.py)
+& [图示](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/fn_%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E5%9B%BE%E7%A4%BA.png)
 * **通用操作：**
-[搭建模型]()
-&nbsp; [保存和加载]()
-&nbsp; [自定义Module]()
-&nbsp; [权值初始化]()
-&nbsp; [tensorboardX]()
+[搭建模型](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/op_%E6%90%AD%E5%BB%BA%E6%A8%A1%E5%9E%8B.py)
+&nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/op_%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
+&nbsp; [自定义Module](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/op_%E8%87%AA%E5%AE%9A%E4%B9%89Module.py)
+& [权值初始化](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/op_%E6%9D%83%E5%80%BC%E5%88%9D%E5%A7%8B%E5%8C%96.py)
+&nbsp; [tensorboardX](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/op_tensorboardX.py)
 * **通用模型：**
-[BPNN]()
-&nbsp; [CNN]()
-&nbsp; [LSTM]()
-&nbsp; [ResNet34]()
+[BPNN](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/model_BPNN.py)
+&nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/model_CNN.py)
+&nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/model_LSTM.py)
+&nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Models/Pytorch/model_ResNet34.py)
