@@ -38,7 +38,7 @@
 &nbsp; [栈](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E9%98%9F%E5%88%97.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
-&nbsp; [无序表](https://github.com/ZBTGL/summary/blob/master/Basics/DS_tree_%E6%97%A0%E5%BA%8F%E8%A1%A8.py)
+&nbsp; [无序表](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E6%97%A0%E5%BA%8F%E8%A1%A8.py)
 &nbsp; [有序表](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E6%9C%89%E5%BA%8F%E8%A1%A8.py)
 * **树结构：**
 [概述](https://github.com/ZBTGL/summary/blob/master/Basics/DS_tree_%E6%A6%82%E8%BF%B0.py)
