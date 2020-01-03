@@ -70,7 +70,7 @@
 &nbsp; [点线设置](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/mpl_%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
 &nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/mpl_%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
 * **Matplotlib进阶：** 
-[饼状图](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/mpl_%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
+[饼状图](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/mpl_%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
 &nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/mpl_%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
 &nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/mpl_%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
 &nbsp; [3D图](https://github.com/ZBTGL/summary/blob/master/DA%26Vis/mpl_3D%E5%9B%BE.py)
@@ -134,7 +134,7 @@
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
 * **评估与比较：**
 [分类结果评估](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E8%AF%84%E4%BC%B0.py)
-&nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E8%AF%84%E4%BC%B0.py)
+&nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 * [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
