@@ -11,7 +11,7 @@
 &nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Basics/obj_%E5%AD%97%E5%85%B8.py)
 &nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Basics/obj_%E9%9B%86%E5%90%88.py)
 * **语法：** 
-[赋值与拷贝]()
+[赋值与拷贝](https://github.com/ZBTGL/summary/blob/master/Basics/syntax_%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
 &nbsp; [控制流](https://github.com/ZBTGL/summary/blob/master/Basics/syntax_%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
 &nbsp; [函数](https://github.com/ZBTGL/summary/blob/master/Basics/syntax_%E5%87%BD%E6%95%B0.py)
 &nbsp; [类](https://github.com/ZBTGL/summary/blob/master/Basics/syntax_%E7%B1%BB.py)
