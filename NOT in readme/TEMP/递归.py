@@ -46,4 +46,3 @@ def good_fibonacci(n):
 
 %time print(bad_fibonacci(32))
 %time print(good_fibonacci(32)[0])
-
