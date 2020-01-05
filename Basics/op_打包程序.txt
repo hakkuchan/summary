@@ -6,14 +6,15 @@
 · 安装或更新：
   pip install pyinstaller
   pip install --upgrade pyinstaller
-  
+
+
+
 2. 使用方法
 
-(1) 假定 E:\Work\Jupyter\EXE 路径下保存有 example.py 文件
+(1) 假定 E:\Work\Jupyter\EXE 路径下保存有 example.py 文件，
+    在该路径下打开 cmd 命令行
 
-(2) 在该路径下打开 cmd 命令行
-
-(3) 输入：pyinstaller -F example.py
+(2) 输入：pyinstaller -F example.py
     回车确认后，pyinstaller 会生成：
     · 文件夹：__pycache__, build, dist
     · 文件：example.spec
