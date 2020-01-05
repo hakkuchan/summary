@@ -27,10 +27,11 @@
 &nbsp; [时间分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
 &nbsp; [算法分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
 * **模块：**
-[os](https://github.com/ZBTGL/summary/blob/master/Basics/module_os.py)
-&nbsp; [random](https://github.com/ZBTGL/summary/blob/master/Basics/module_random.py)
-&nbsp; [datetime](https://github.com/ZBTGL/summary/blob/master/Basics/module_datetime.py)
+[datetime](https://github.com/ZBTGL/summary/blob/master/Basics/module_datetime.py)
 &nbsp; [time](https://github.com/ZBTGL/summary/blob/master/Basics/module_time.py)
+&nbsp; [calendar](https://github.com/ZBTGL/summary/blob/master/Basics/module_calendar.py)
+&nbsp; [os](https://github.com/ZBTGL/summary/blob/master/Basics/module_os.py)
+&nbsp; [random](https://github.com/ZBTGL/summary/blob/master/Basics/module_random.py)
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
