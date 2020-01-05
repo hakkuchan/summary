@@ -19,19 +19,19 @@
 &nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 &nbsp; [例外及处理](https://github.com/ZBTGL/summary/blob/master/Basics/syntax_%E4%BE%8B%E5%A4%96%E5%8F%8A%E5%A4%84%E7%90%86.py)
 
-#### 1.2 基本操作 & 模块
-* **操作：**
-[输入与输出](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
-&nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
-&nbsp; [动态变量](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
-&nbsp; [时间分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
-&nbsp; [算法分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
+#### 1.2 基本模块 & 操作
 * **模块：**
 [datetime](https://github.com/ZBTGL/summary/blob/master/Basics/module_datetime.py)
 &nbsp; [time](https://github.com/ZBTGL/summary/blob/master/Basics/module_time.py)
 &nbsp; [calendar](https://github.com/ZBTGL/summary/blob/master/Basics/module_calendar.py)
 &nbsp; [os](https://github.com/ZBTGL/summary/blob/master/Basics/module_os.py)
 &nbsp; [random](https://github.com/ZBTGL/summary/blob/master/Basics/module_random.py)
+* **操作：**
+[输入与输出](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
+&nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
+&nbsp; [动态变量](https://github.com/ZBTGL/summary/blob/master/Basics/op_%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
+&nbsp; [时间分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
+&nbsp; [算法分析](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
