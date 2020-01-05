@@ -9,17 +9,13 @@
   
 2. 使用方法
 
-· 假定 E:\Work\Jupyter\EXE 路径下保存有 example.py 文件
+(1) 假定 E:\Work\Jupyter\EXE 路径下保存有 example.py 文件
 
-· 在当前路径下打开 cmd 命令行
+(2) 在该路径下打开 cmd 命令行
 
-· 输入：pyinstaller -F example.py
-  回车确认后，pyinstaller便会生成一系列文件，包括：
-  文件夹：__pycache__, build, dist
-  文件：example.spec
-  
- · 其中文件夹 dist 中包含着 example.exe 文件
-   可以删除的：__pycache__, build, example.spec
-  
-
-
+(3) 输入：pyinstaller -F example.py
+    回车确认后，pyinstaller 会生成：
+    · 文件夹：__pycache__, build, dist
+    · 文件：example.spec
+    · 其中文件夹 dist 中包含着 example.exe 文件
+      可以删除的：__pycache__, build, example.spec
