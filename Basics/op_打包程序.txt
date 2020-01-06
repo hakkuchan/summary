@@ -1,7 +1,7 @@
 1. 概述
 
 · PyInstaller 用于把 .py文件 打包为 .exe可执行的程序（Windows系统）
-  也支持把 .py文件打包为Mac或Linux系统上的程序
+  也支持把 .py文件打包为Mac或Linux系统上的可执行程序
   
 · 安装或更新：
   pip install pyinstaller
@@ -19,4 +19,4 @@
     · 文件夹：__pycache__, build, dist
     · 文件：example.spec
     · 其中文件夹 dist 中包含着 example.exe 文件
-      可以删除的：__pycache__, build, example.spec
+      可以删除 __pycache__, build, example.spec
