@@ -217,7 +217,7 @@ appear/seem to
 appear/seem/look like 
 appear/seem/look as if/though 看起来好像
 
-和，也，而且，换句话说
+和，也，而且，换句话说，连接词
 and/also/as well (as)/too 
 not only…… but also……
 apart from/besides
@@ -228,6 +228,10 @@ that is（to say）也就是说namely即
 in other words (i.e.) 换句话说
 what's more另外，更重要的是
 either…… or……
+another
+for one thing
+likewise
+next
 
 转折，但是，然而，虽然
 nevertheless虽然如此
@@ -253,3 +257,21 @@ have nothing to do with
 be dependent/independent on
 correlate with
 be correlated to
+
+强调词 —— 提醒读者需要关注的重点，常见包括：
+especially
+important to note
+most of all
+a primary concern
+a key feature
+the main value
+most noteworthy
+remember that
+a major event
+the chief outcome
+the principal item
+pay particular attention to
+the chief factor
+a vital force
+a central issue
+the most substantial issue
