@@ -1,4 +1,5 @@
 ## Python
+[其它](https://github.com/ZBTGL/summary/blob/master/Other/README.md)
 ### 1. 基础
 #### 1.1 数据类型 & 语法
 * **数据类型：**
