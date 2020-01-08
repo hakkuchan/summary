@@ -48,8 +48,7 @@ def preorder(tree):
         print(tree.getRootVal(), end=' ')
         preorder(tree.getLeftChild())
         preorder(tree.getRightChild())
-    
-
+		
 def inorder(tree):
     ''' 中序遍历：先递归地中序访问左子树，再访问根节点，最后中序访问右子树 '''
     if tree:
