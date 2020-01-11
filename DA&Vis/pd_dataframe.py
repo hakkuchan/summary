@@ -87,6 +87,10 @@ print(df['a'].loc[['x1','x3']])       # 选择a列的one，three行
 print(df[['b','c','d']].iloc[::2])    # 选择 b，c，d 列的 x1，x3行
 print(df[df['a'] < 50].iloc[:2])      # 选择满足判断索引的前两行数据
 
+# e. 更新索引
+df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, index = ['x1','x2','x3','x4'], columns = ['a','b','c','d'])
+df.set_index(np.array(['y1','y2','y3','y4']))
+
 
 ''' (3) 基本操作 '''
 # a. 快速操作
