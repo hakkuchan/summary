@@ -16,7 +16,7 @@ class Queue:
     def __init__(self):
         self.items = []
     
-    def isEmpty(self):
+    def is_empty(self):
         ''' 测试是否为空队列 '''
         return self.items == []
     
@@ -33,12 +33,12 @@ class Queue:
         return len(self.items)
 
 q = Queue()
-print(q.isEmpty())
+print(q.is_empty())
 q.enqueue(4)
 q.enqueue('Dog')
 q.enqueue(8)
 print(q.size())
-print(q.isEmpty())
+print(q.is_empty())
 print(q.dequeue())
 print(q.dequeue())
 print(q.size())

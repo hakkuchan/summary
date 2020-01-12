@@ -1,7 +1,7 @@
 """ 1. 概述
     
     · 栈 (stack) 是一个有次序的数据集；
-      每个数据项仅从“栈顶”加入到栈中，从栈顶中移除；
+      每个数据项仅从“栈顶”加入栈，并从“栈顶”移除；
       可以想像成一摞盘子，只能从最上面加盘子和拿走盘子；
     
     · 栈具有后进先出的特性，可用于需要倒转次序的操作
@@ -16,7 +16,7 @@ class Stack:
     def __init__(self):
         self.items = []
     
-    def isEmpty(self):
+    def is_empty(self):
         ''' 检查是否为空栈 '''
         return self.items == []
     
@@ -37,11 +37,11 @@ class Stack:
         return len(self.items)
 
 s = Stack()
-print(s.isEmpty())  # >>> True
+print(s.is_empty())  # >>> True
 s.push(5)
 s.push('cat')
 s.push(100)
-print(s.isEmpty())  # >>> False
+print(s.is_empty())  # >>> False
 print(s.peek())     # >>> 100
 print(s.size())     # >>> 3
 print(s.pop())      # >>> 100
@@ -59,20 +59,21 @@ def parchecker(string):
     while index < len(string) and balanced:
         symbol = string[index]  # 提取 string 的第 index 个元素
         if symbol == '(':
-            s.push(symbol)      # 如果是左括号，就将其加入栈
+            s.push(symbol)    # 如果是左括号，就将其加入栈
         else:
-            if s.isEmpty():     # 如果是右括号，且栈空了，说明右括号多了，匹配失败 
+            if s.is_empty():  # 如果是右括号，且栈空了，说明右括号多了，匹配失败 
                 balanced = False
-            else:               # 如果是右括号，且栈未空，从栈里面移出一个与这个右括号匹配的左括号
+            else:  # 如果是右括号，且栈未空，从栈里面移出一个与这个右括号匹配的左括号
                 s.pop()
         index = index + 1
-    if balanced and s.isEmpty(): # 如果遍历字符串全部元素后，栈空了，匹配成功
+    if balanced and s.is_empty(): # 如果遍历字符串全部元素后，栈空了，匹配成功
         return True
-    else:                        # 如果遍历字符串全部元素后，栈未空，说明左括号多了
+    else:                         # 如果遍历字符串全部元素后，栈未空，说明左括号多了
         return False
 
 print(parchecker('(()(()()))'))  # >>> True
 print(parchecker('(()))'))       # >>> False
+
 
 
 # 例 2：识别各类括号是否左右匹配
@@ -85,14 +86,14 @@ def parchecker(string):
         if symbol in '([{':
             s.push(symbol)      # 如果是左括号，就将其加入栈
         else:
-            if s.isEmpty():     # 如果是右括号，且栈空了，说明右括号多了，匹配失败 
+            if s.is_empty():     # 如果是右括号，且栈空了，说明右括号多了，匹配失败 
                 balanced = False
             else:               # 如果是右括号，且栈未空
                 top = s.pop()   # 从栈顶移出一个元素
                 if not matches(top, symbol):  # 利用matches函数检查括号类型是否匹配
                     balanced = False
         index = index + 1
-    if balanced and s.isEmpty(): # 如果遍历字符串全部元素后，栈空了，匹配成功
+    if balanced and s.is_empty(): # 如果遍历字符串全部元素后，栈空了，匹配成功
         return True
     else:                        # 如果遍历字符串全部元素后，栈未空，说明左括号多了
         return False
@@ -115,7 +116,7 @@ def dec_bin(dec_num):
         remstack.push(rem)      # 将余数存入栈
         dec_num = dec_num // 2  # 整除
     bin_num = ''
-    while not remstack.isEmpty():
+    while not remstack.is_empty():
         bin_num = bin_num + str(remstack.pop())  # 从栈顶依次取出余数，拼接成二进制数
     return bin_num
 
@@ -131,7 +132,7 @@ def dec_base(dec_num, base):     # base表示几进制
         remstack.push(rem)    # 将余数存入栈
         dec_num = dec_num // base  # 整除
     base_num = ''
-    while not remstack.isEmpty():
+    while not remstack.is_empty():
         base_num = base_num + digits[remstack.pop()]  # 从栈顶依次取出余数，拼接成base进制数
     return base_num
 

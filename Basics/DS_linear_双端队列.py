@@ -13,23 +13,23 @@ class Deque:
     def __init__(self):
         self.items = []
     
-    def isEmpty(self):
+    def is_empty(self):
         ''' 检查双端队列是否未空 '''
         return self.items == []
     
-    def addFront(self, item):
+    def add_front(self, item):
         ''' 队首加入数据 '''
         self.items.append(item)
     
-    def addRear(self, item):
+    def add_rear(self, item):
         ''' 队尾加入数据 '''
         self.items.insert(0, item)
     
-    def removeFront(self):
+    def remove_front(self):
         ''' 队首移除并返回数据 '''
         return self.items.pop()
     
-    def removeRear(self):
+    def remove_rear(self):
         ''' 队尾移除并返回数据 '''
         return self.items.pop(0)
     
@@ -38,15 +38,15 @@ class Deque:
         return len(self.items)
     
 d = Deque()
-print(d.isEmpty())  # >>> Fasle
-d.addRear(4)
-d.addRear('dog')
-d.addFront('cat')
-d.addFront(True)
+print(d.is_empty())  # >>> Fasle
+d.add_rear(4)
+d.add_rear('dog')
+d.add_front('cat')
+d.add_front(True)
 print(d.size())    # >>> 4
-print(d.isEmpty()) # >>> False
-print(d.removeRear())  # >>> dog
-print(d.removeFront()) # >>> True
+print(d.is_empty()) # >>> False
+print(d.remove_rear())  # >>> dog
+print(d.remove_front()) # >>> True
 
 
 
@@ -63,11 +63,11 @@ print(d.removeFront()) # >>> True
 def palchecker(astring):
     char_deque = Deque()
     for ele in astring:
-        char_deque.addRear(ele)  # 把输入字符串中的字符加入双端队列
+        char_deque.add_rear(ele)  # 把输入字符串中的字符加入双端队列
     stillEqual = True  # 假定其是回文词
     while char_deque.size() > 1 and stillEqual: # 当上端队列中元素多于 1 个且当前 stillEqual 为 True 时
-        first = char_deque.removeFront()  # 从队首移除并返回一个元素
-        last = char_deque.removeRear()    # 从队尾移除并返回一个元素
+        first = char_deque.remove_front()  # 从队首移除并返回一个元素
+        last = char_deque.remove_rear()    # 从队尾移除并返回一个元素
         if first != last:  # 如果队首和队尾移除的元素不相同
             stillEqual = False  # 说明不是回文词
         return stillEqual
