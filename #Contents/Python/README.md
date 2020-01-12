@@ -40,15 +40,7 @@
 &nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
 &nbsp; [无序表](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E6%97%A0%E5%BA%8F%E8%A1%A8.py)
 &nbsp; [有序表](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E6%9C%89%E5%BA%8F%E8%A1%A8.py)
-* **树结构：**
-[概述](https://github.com/ZBTGL/summary/blob/master/Basics/DS_tree_%E6%A6%82%E8%BF%B0.py)
-&nbsp; [嵌套列表法](https://github.com/ZBTGL/summary/blob/master/Basics/DS_tree_%E5%B5%8C%E5%A5%97%E5%88%97%E8%A1%A8%E6%B3%95.py)
-&nbsp; [链表法及遍历](https://github.com/ZBTGL/summary/blob/master/Basics/DS_tree_%E9%93%BE%E8%A1%A8%E6%B3%95%E5%8F%8A%E9%81%8D%E5%8E%86.py)
-* **图算法：**
-[概述](https://github.com/ZBTGL/summary/blob/master/Basics/DS_graph_%E6%A6%82%E8%BF%B0.txt)
-* **算法分析：**
-[数量级](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
-[运行时间](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
+
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
