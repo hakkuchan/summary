@@ -7,3 +7,6 @@
 &nbsp; [语言的简洁性](https://github.com/ZBTGL/summary/blob/master/Other/English/1-5%20%E8%AF%AD%E8%A8%80%E7%9A%84%E7%AE%80%E6%B4%81.txt)
 &nbsp; [语言的一致性](https://github.com/ZBTGL/summary/blob/master/Other/English/1-6%20%E8%AF%AD%E8%A8%80%E7%9A%84%E4%B8%80%E8%87%B4%E6%80%A7.txt)
 &nbsp; [句式的多样性](https://github.com/ZBTGL/summary/blob/master/Other/English/1-7%20%E5%8F%A5%E5%BC%8F%E7%9A%84%E5%A4%9A%E6%A0%B7%E6%80%A7.txt)
+
+### 2. 修辞手法
+[简介](https://github.com/ZBTGL/summary/blob/master/Other/English/2-1%20%E4%BF%AE%E8%BE%9E%E7%AE%80%E4%BB%8B.txt)
