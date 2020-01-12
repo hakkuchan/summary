@@ -47,7 +47,7 @@
 * **图算法：**
 [概述](https://github.com/ZBTGL/summary/blob/master/Basics/DS_graph_%E6%A6%82%E8%BF%B0.txt)
 * **算法分析：**
-[复杂度](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
+[数量级](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%95%B0%E9%87%8F%E7%BA%A7%E5%88%86%E6%9E%90.py)
 [运行时间](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4%E5%88%86%E6%9E%90.py)
 
 ### 2. 数据分析与可视化
