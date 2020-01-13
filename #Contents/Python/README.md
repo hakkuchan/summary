@@ -40,9 +40,11 @@
 &nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
 &nbsp; [无序表](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E6%97%A0%E5%BA%8F%E8%A1%A8.py)
 &nbsp; [有序表](https://github.com/ZBTGL/summary/blob/master/Basics/DS_linear_%E6%9C%89%E5%BA%8F%E8%A1%A8.py)
-* **递归：**
-[概述](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E9%80%92%E5%BD%92%E6%A6%82%E8%BF%B0.py)
-
+* **算法：**
+[递归](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E9%80%92%E5%BD%92%E6%A6%82%E8%BF%B0.py)
+[查找](https://github.com/ZBTGL/summary/blob/master/Basics/algr_%E6%9F%A5%E6%89%BE.py)
+[复杂度]()
+[运行时间]()
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
