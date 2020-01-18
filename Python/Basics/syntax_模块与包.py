@@ -16,7 +16,7 @@ print(type(ln))  # >>> <class 'builtin_function_or_method'>
 
 # 注意事项：
 # a) 只能逐句import，不能 from math import log, log10 as ln, lg
-# b)也不能 import math.log as ln （import A.B 的语法不适用于module，只适用于package）
+# b) 也不能 import math.log as ln （import A.B 的语法不适用于module，只适用于package）
 
 
 ''' (2) 导入自定义module（比如 my_module.py）
