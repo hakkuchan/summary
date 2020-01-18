@@ -2,7 +2,7 @@
 ### 1. 基础
 #### 1.1 数据类型 & 语法
 * **数据类型：**
-[数值](https://github.com/ZBTGL/summary/blob/master/Basics/obj_%E6%95%B0%E5%80%BC.py)
+[数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
 &nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
 &nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Basics/obj_%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 &nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Basics/obj_%E5%88%97%E8%A1%A8%E4%B8%8E%E5%85%83%E7%BB%84.py)
