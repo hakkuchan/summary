@@ -31,7 +31,7 @@ print(m == n)
 # 利用生成器创建列表和元组
 print(list(range(3)))  # >>> [0, 1, 2]
 print(list(range(1, 3)))  # >>> [1, 2]
-print(tuple(range(0, 6, 2)))  # >>> [0, 2, 4]  range(start: end: step)
+print(tuple(range(0, 6, 2)))  # >>> (0, 2, 4)  range(start: end: step)
 
 
 ''' (2) 通用操作 '''
