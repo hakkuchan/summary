@@ -14,34 +14,38 @@
 
 class Queue:
     def __init__(self):
-        self.items = []
+        ''' 初始化一个空队列 '''
+        self.queue = []
     
     def is_empty(self):
         ''' 测试是否为空队列 '''
-        return self.items == []
+        return self.queue == []
     
-    def enqueue(self, item):
+    def add_head(self, data):
         ''' 在 queue 首端添加数据 '''
-        self.items.insert(0, item)
+        self.queue.insert(0, data)
     
-    def dequeue(self):
+    def pop_tail(self):
         ''' 在 queue 尾端移除数据 '''
-        return self.items.pop()
+        return self.queue.pop()
     
     def size(self):
         ''' 返回队列中数据项的个数 '''
-        return len(self.items)
+        return len(self.queue)
+    
+    def show(self):
+        ''' 显示队列 '''
+        return self.queue
 
 q = Queue()
-print(q.is_empty())
-q.enqueue(4)
-q.enqueue('Dog')
-q.enqueue(8)
-print(q.size())
-print(q.is_empty())
-print(q.dequeue())
-print(q.dequeue())
-print(q.size())
+print(q.is_empty()) # >>> True
+q.add_head(5)
+q.add_head('Dog')
+q.add_head(6)
+print(q.show()) # >>> [6, 'Dog', 5]
+print(q.size()) # >>> 3
+print(q.is_empty()) # >>> False
+print(q.pop_tail()) # >>> 5
 
 
 
@@ -56,11 +60,11 @@ print(q.size())
 def deliver(names, num):
     game_queue = Queue()
     for name in names:
-        game_queue.enqueue(name)  # 把名字列表中的名字加入队列
+        game_queue.add_head(name) # 把名字列表中的名字加入队列
     while game_queue.size() > 1:  # 只要队列中人数超过 1 人，游戏继续
         for i in range(num):      # 每轮的传递次数为 num 次
-            game_queue.enqueue(game_queue.dequeue())  # 把队尾的人名取出，添加到队首，相当于花传给了队尾的人
-        game_queue.dequeue()      # 每轮结束后，让队尾的人出局
-    return game_queue.dequeue()   # 返回最后剩下的人名
+            game_queue.add_head(game_queue.pop_tail())  # 把队尾的人名取出，添加到队首，相当于花传给了当前队尾的人
+        game_queue.pop_tail()      # 每轮 num 结束后，让队尾的人出局
+    return game_queue.pop_tail()   # 返回最后剩下的人名
 
 print(deliver(['Amy','Bill','Dave','Eva','Kay','Mike'], 12))

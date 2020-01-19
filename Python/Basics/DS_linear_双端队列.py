@@ -7,46 +7,53 @@
 """
 
 
+
 """ 2. 基于list实现双端队列 """
 
 class Deque:
     def __init__(self):
-        self.items = []
+        ''' 初始化双端队列 '''
+        self.deque = []
     
     def is_empty(self):
         ''' 检查双端队列是否未空 '''
-        return self.items == []
+        return self.deque == []
     
-    def add_front(self, item):
-        ''' 队首加入数据 '''
-        self.items.append(item)
+    def add_head(self, data):
+        ''' 从队首加入数据 '''
+        self.deque.insert(0, data)
     
-    def add_rear(self, item):
-        ''' 队尾加入数据 '''
-        self.items.insert(0, item)
+    def add_tail(self, data):
+        ''' 从队尾加入数据 '''
+        self.deque.append(data)
+       
+    def pop_head(self):
+        ''' 从队首移除并返回数据 '''
+        return self.deque.pop(0)
     
-    def remove_front(self):
-        ''' 队首移除并返回数据 '''
-        return self.items.pop()
-    
-    def remove_rear(self):
-        ''' 队尾移除并返回数据 '''
-        return self.items.pop(0)
+    def pop_tail(self):
+        ''' 从队尾移除并返回数据 '''
+        return self.deque.pop()
     
     def size(self):
         ''' 查看双端队列中元素的个数 '''
-        return len(self.items)
+        return len(self.deque)
+    
+    def show(self):
+        ''' 遍历双端队列 '''
+        return self.deque
     
 d = Deque()
-print(d.is_empty())  # >>> Fasle
-d.add_rear(4)
-d.add_rear('dog')
-d.add_front('cat')
-d.add_front(True)
-print(d.size())    # >>> 4
+print(d.is_empty())  # >>> True
+d.add_tail(4)
+d.add_tail('dog')
+d.add_head('cat')
+d.add_head(True)
+print(d.show())     # >>> [True,'cat', 4, 'dog']
+print(d.size())     # >>> 4
 print(d.is_empty()) # >>> False
-print(d.remove_rear())  # >>> dog
-print(d.remove_front()) # >>> True
+print(d.pop_tail()) # >>> dog
+print(d.pop_head()) # >>> True
 
 
 
@@ -63,14 +70,14 @@ print(d.remove_front()) # >>> True
 def palchecker(astring):
     char_deque = Deque()
     for ele in astring:
-        char_deque.add_rear(ele)  # 把输入字符串中的字符加入双端队列
-    stillEqual = True  # 假定其是回文词
-    while char_deque.size() > 1 and stillEqual: # 当上端队列中元素多于 1 个且当前 stillEqual 为 True 时
-        first = char_deque.remove_front()  # 从队首移除并返回一个元素
-        last = char_deque.remove_rear()    # 从队尾移除并返回一个元素
-        if first != last:  # 如果队首和队尾移除的元素不相同
-            stillEqual = False  # 说明不是回文词
-        return stillEqual
+        char_deque.add_tail(ele)  # 把输入字符串中的字符加入双端队列
+    huiwen = True  # 假定其是回文词
+    while char_deque.size() > 1 and huiwen: # 当上端队列中元素多于 1 个且当前 huiwen 为 True 时
+        head = char_deque.pop_head()  # 从队首移除并返回一个元素
+        tail = char_deque.pop_tail()  # 从队尾移除并返回一个元素
+        if head != tail:  # 如果队首和队尾移除的元素不相同
+            huiwen = False  # 说明不是回文词
+        return huiwen
 
 print(palchecker('a-b-c-b-a')) # >>> True
 print(palchecker('a-b-c-d'))   # >>> False
