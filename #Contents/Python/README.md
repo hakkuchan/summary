@@ -42,7 +42,7 @@
 &nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%93%BE%E8%A1%A8.py)
 * **算法：**
 [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
-&nbsp; [递归](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E9%80%92%E5%BD%92%E6%A6%82%E8%BF%B0.py)
+&nbsp; [递归](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E9%80%92%E5%BD%92.py)
 &nbsp; [查找](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%9F%A5%E6%89%BE.py)
 
 
