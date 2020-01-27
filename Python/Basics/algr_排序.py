@@ -40,3 +40,27 @@ def select_sort(data):
 alist = [54, 26, 93, 17, 77, 31, 6, 55, 20]
 select_sort(alist)
 print(alist)  # >>> [6, 17, 20, 26, 31, 54, 55, 77, 93]
+
+
+
+""" 3. 插入排序
+    
+    · 插入排序的比对主要用来寻找“新项”的插入位置
+      第1趟，子列表仅包含第1个数据项，将第2个数据项作为“新项”插入到子列表的合适位置中，
+      第2趟，再继续将第3个数据项跟前2个数据项比对，并插入到合适位置中
+      经过n-1趟比对和插入，子列表扩展到全表，排序完成
+    · 插入排序的对比复杂度为 O(n^2)
+"""
+
+def insert_sort(data):
+    for i in range(1, len(data)):
+        pos = i
+        now_val = data[i]  # 新项
+        while pos > 0 and data[pos-1] > now_val:  # 只要新项不在首位且新项前面有比它小的值
+            data[pos] = data[pos-1]  # 调换新项与前一个项的位置
+            pos = pos - 1
+        data[pos] = now_val # 把新项插入合适的位置
+
+alist = [54, 26, 93, 16, 77, 31, 6, 55, 20]
+insert_sort(alist)
+print(alist)  # >>> [6, 16, 20, 26, 31, 54, 55, 77, 93]
