@@ -45,7 +45,7 @@ def bad_fibonacci(n):
         out = bad_fibonacci(n-2) + bad_fibonacci(n-1)
         return out
 
-# (2) 高效方法 -- 调用结果 """
+# (2) 高效方法
 def good_fibonacci(n):
     if n <= 1:
         return (n, 0)

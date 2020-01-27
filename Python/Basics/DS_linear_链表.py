@@ -65,7 +65,7 @@ class UnorderedList:
         new_node = Node(data)  # 实例化一个新node
         if self.head == None:  # 如果表头指向空（说明是空链表）
             self.head = new_node  # 把表头指向新node
-        else: # 如果不是空列表
+        else: # 如果不是空链表
             current = self.head   # 令current指向表头指向的第一个节点
             while current.get_next() != None: # 只要current的下一个节点不是None
                 current = current.get_next()  # 令current指向下一节点
@@ -159,19 +159,19 @@ class OrderedList:
         ''' 初始化一个空有序表 '''
         self.head = None  # 设置表头，默认为 None（注意：表头本身不是节点，而是指向链表中的第一个节点）
     
-    def add(self, item):
+    def add(self, data):
         ''' 在表中增加节点 ——— 按照顺序添加 '''
         current = self.head   # 令current指向表头指向的第一个节点
         previous = None       # 令current的前一个节点previous为 None
         stop = False
         while current != None and not stop:  # 只要当前节点不为空且未到达插入位置
-            if current.get_data() > item:  # 如果发现当前节点比待增加的数据大，说明到了插入位置
+            if current.get_data() > data:    # 如果发现当前节点比待增加的数据大，说明到了插入位置
                 stop = True  # 跳出循坏
             else:
                 previous = current  # previous前进一个节点
                 current = current.get_next()  # current前进一个节点
         # while循环所包含的语句其目的是找到插入位置
-        new_node = Node(item) # 实例化新节点
+        new_node = Node(data) # 实例化新节点
         if previous == None:  # 如果第一个节点前是插入位置（此时current指向第一个节点，previous为None）
             new_node.set_next(self.head)  # 让新节点指向表头指向的第一个节点
             self.head = new_node  # 让表头指向新节点（新节点变为第一个节点）
@@ -179,15 +179,15 @@ class OrderedList:
             new_node.set_next(current)  # 让新节点指向current
             previous.set_next(new_node) # 让previous指向新节点，就把新节点插在previous和current之间了
         
-    def search(self, item):
+    def search(self, data):
         ''' 查找特定元素 '''
         current = self.head  # 令current指向表头指向的第一个节点
         found = False  # 假定 “未找到特定元素”
         stop = False   # 如果待查找数据已大于当前current，说明肯定表中不存在待找数据，此时stop，先假定stop为假
         while current != None and not found and not stop:  # 只要表不为空，且 “未找到特定元素” 为真，且stop为假
-            if current.get_data() == item:  # 检查当前current是否与待查数据匹配
+            if current.get_data() == data:  # 检查当前current是否与待查数据匹配
                 found = True  # 如果匹配，令 found = True，此时 “未找到特定数据” 为假，跳出循环
-            if current.get_data() > item:
+            if current.get_data() > data:
                 stop = True
             else:
                 current = current.get_next()  # 如不匹配，current指向下一节点
@@ -205,9 +205,8 @@ class OrderedList:
             current = current.get_next()        # current指向下一节点
         print()
     
-    
-    ''' 元素个数 '''
     def size(self):
+        ''' 元素个数 '''
         current = self.head    # 令current指向表头指向的第一个节点
         count = 0
         while current != None: # 只要current不为 None
@@ -215,9 +214,8 @@ class OrderedList:
             current = current.get_next() # current指向下一节点
         return count
     
-
-    ''' 删除特定数据 '''
     def remove(self, data):
+        ''' 删除特定数据 '''
         current = self.head  # 令current指向表头指向的第一个节点
         previous = None      # 令current的前一个节点previous为 None
         found = False        # 假定未找到需删除的特定数据
@@ -232,10 +230,9 @@ class OrderedList:
             self.head = current.get_next()  # 直接把表头指向current的下一个节点，实现对当前节点current的删除
         else:  # 如果第一个节点不是特定数据
             previous.set_next(current.get_next())  # 令previous的下一个节点指向current的下一个节点，实现对当前节点current的删除
-    
-    
-    ''' 删除并返回最后一个数据 '''
+
     def pop_tail(self):
+        ''' 删除并返回最后一个数据 '''
         current = self.head  # 令current指向表头指向的第一个节点
         previous = None      # 令current的前一个节点previous为 None
         if current == None:  # 如果链表为空
