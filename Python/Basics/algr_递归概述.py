@@ -100,6 +100,6 @@ sys.getrecursionlimit()  # >>> 5000
       (4) 用下一个最大面值的硬币 nickle (1 nickle = 5 美分) ，可找零 1 nickle，找零余额为 1 美分
       (5) 用下一个最大面值的硬币 penny (1 Penny = 1 美分)，可找零 1 penny
       共用硬币 4 个：1 half dollar、1 quarter、1 nickle、1 penny
-	 
-	· 从上述过程可以看出，贪心策略也可用递归算法实现
+	
+	· 贪心策略也可用递归算法实现
 """
