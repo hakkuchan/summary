@@ -51,7 +51,6 @@ print(alist)  # >>> [6, 17, 20, 26, 31, 54, 55, 77, 93]
       经过n-1趟比对和插入，子列表扩展到全表，排序完成
     · 插入排序的对比复杂度为 O(n^2)
 """
-
 def insert_sort(data):
     for i in range(1, len(data)):
         pos = i
