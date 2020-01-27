@@ -40,7 +40,7 @@
 &nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%98%9F%E5%88%97.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
 &nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%93%BE%E8%A1%A8.py)
-* **树结构**
+* **树结构：**
 [二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_tree_%E4%BA%8C%E5%8F%89%E6%A0%91.py)
 * **算法：**
 [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
