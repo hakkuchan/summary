@@ -17,7 +17,7 @@
 &nbsp; [推导式](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E6%8E%A8%E5%AF%BC%E5%BC%8F.py)
 &nbsp; [生成器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E7%94%9F%E6%88%90%E5%99%A8.py)
 &nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
-&nbsp; [例外及处理](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96%E5%8F%8A%E5%A4%84%E7%90%86.py)
+&nbsp; [例外](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96.py)
 
 #### 1.2 基本模块 & 操作
 * **模块：**
