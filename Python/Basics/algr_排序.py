@@ -63,3 +63,61 @@ def insert_sort(data):
 alist = [54, 26, 93, 16, 77, 31, 6, 55, 20]
 insert_sort(alist)
 print(alist)  # >>> [6, 16, 20, 26, 31, 54, 55, 77, 93]
+
+
+
+""" 4. 希尔排序
+    
+    · 希尔排序首先它把大数据集合分割成若干个小组（逻辑分组，即没有进行实际的分组操作），
+      然后对每一个小组分别进行插入排序，此时由于插入排序所作用的数据量较小，插入的效率较高
+    · 分组间隔由大变小，也就是说子列表元素由少变多，直至扩展到全部数据集
+"""
+def shell_sort(data):
+    gap = len(data) // 2  # 设定间隔为全部数据的一半
+    while gap > 0:
+        for start in range(gap):
+            gap_insert_sort(data, start, gap)  # 对每个子列表进行插入排序
+        gap = gap // 2   # 将新一轮排序的间隔设定为当前间隔的一半
+
+def gap_insert_sort(data, start, gap):  # 对子列表进行插入排序
+    for i in range(start+gap, len(data), gap):
+        pos = i
+        now_val = data[i]
+        while pos >= gap and data[pos-gap] > now_val:
+            data[pos] = data[pos-gap]
+            pos = pos - gap
+        data[pos] = now_val
+
+alist = [54, 26, 93, 16, 77, 31, 6, 55, 20]
+shell_sort(alist)
+print(alist)  # >>> [6, 16, 20, 26, 31, 54, 55, 77, 93]
+
+
+
+""" 5. 归并排序
+  
+    · 归并排序分为两个过程：分裂和合并
+      分裂是将数据表持续分为两半，对两半分别进行排序
+      合并是将排好序的子表合并为总表
+    · 分裂的复杂度为 O(log(n))，合并的复杂度为 O(n)，总复杂度为 O(nlog(n))
+"""
+def merge_sort(data):
+    # 递归结束条件
+    if len(data) <= 1:
+        return data
+    # 缩小问题规模，调用自身
+    mid = len(data) // 2
+    left = merge_sort(data[:mid])  # 对左半部分进行排序
+    right = merge_sort(data[mid:]) # 对右半部分进行排序
+    out = []
+    # 合并左、右部分
+    while left and right: # 只要 left 和 right 中有数据
+        if left[0] <= right[0]: # 比较左半部分和右半部分第一个数据，并加入 out
+            out.append(left.pop(0))
+        else:
+            out.append(right.pop(0))
+    out.extend(left if left else right) # 如果最终左半部分或右半部分有剩余元素，整体加入 out
+    return out
+
+alist = [54, 26, 93, 16, 77, 31, 6, 55, 20]
+merge_sort(alist)  # >>> [6, 16, 20, 26, 31, 54, 55, 77, 93]
