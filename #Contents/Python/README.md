@@ -35,13 +35,12 @@
 &nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E6%89%93%E5%8C%85%E7%A8%8B%E5%BA%8F.txt)
 
 #### 1.3 数据结构 & 算法
-* **线性结构：**
+* **数据结构：**
 [栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%98%9F%E5%88%97.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
 &nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%93%BE%E8%A1%A8.py)
-* **树结构：**
-[二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_tree_%E4%BA%8C%E5%8F%89%E6%A0%91.py)
+&nbsp; [二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_tree_%E4%BA%8C%E5%8F%89%E6%A0%91.py)
 &nbsp; [二叉堆](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_tree_%E4%BA%8C%E5%8F%89%E5%A0%86.py)
 * **算法：**
 [递归](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E9%80%92%E5%BD%92.py)
