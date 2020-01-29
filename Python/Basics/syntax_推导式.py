@@ -15,7 +15,7 @@ print(adict)
 # 等价于：
 print({i:j for i,j in zip(['a','b','c'], [1,2,3])})
 
-''' 与 .items() 联合使用 '''
+# 与 .items() 联合使用
 adict = {'a':1, 'b':2, 'c':3, 'd':4}
 print({v+100:k for k,v in adict.items()})
 
