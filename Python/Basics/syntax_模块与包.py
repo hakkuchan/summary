@@ -1,6 +1,26 @@
+""" · 目录
+    |
+    |—— 1. 模块
+    |   |
+    |   |—— 1.1 导入module
+    |   |
+    |   |—— 1.2 导入自定义module
+    |   |
+    |   |—— 1.3 module的选择性执行
+    |   |
+    |   |—— 1.4 查看module
+    |
+    |—— 2. 包
+        |
+        |—— 2.1 导入包
+        |
+        |—— 2.2 __init__.py文件
+"""
+
+
 """ 1. 模块（module)：包含Python代码的.py文件（包含了函数、特殊值等）"""
 
-''' (1) 导入现有模块 (以math模块为例) '''
+''' 1.1 导入module (以math模块为例) '''
 import math
 import math as m
 print(type(math))  # >>> <class 'module'>
@@ -19,7 +39,7 @@ print(type(ln))  # >>> <class 'builtin_function_or_method'>
 # b) 也不能 import math.log as ln （import A.B 的语法不适用于module，只适用于package）
 
 
-''' (2) 导入自定义module（比如 my_module.py）
+''' 1.2 导入自定义module（比如 my_module.py）
 
     方法1：查看现有包（如pandas）所在路径，将my_module.py存入该路径
     import pandas
@@ -29,13 +49,9 @@ print(type(ln))  # >>> <class 'builtin_function_or_method'>
     import sys
     sys.path.append('E:/Work/')
     之后便可 import my_module
-'''
 
-''' (3) 查看模块 '''
-dir(math)  # 查看模块中的所有方法名
-help(math) # 查看文档
-
-''' (4) 模块的选择型运行 (if __name__ == '__main__': 的作用)
+    
+    1.3 module的选择型运行 (if __name__ == '__main__': 的作用)
 
     · Python 是解释型语言，从脚本第一行开始运行。
       导入一个模块（本质上，一个 .py 文件）时，程序会从模块顶层代码直接运行
@@ -60,18 +76,22 @@ help(math) # 查看文档
       简言之，if __name__ == '__main__': 的作用判断当前模块是在被运行还是被引入，进而选择性执行之后的代码
 '''
 
+''' 1.4 查看module '''
+dir(math)  # 查看模块中的所有方法名
+help(math) # 查看文档
+
 
 
 """ 2. 包 (package)：包含了多个module或子包(内含module和子包)的文件夹，比如sklearn """    
 
-''' (1) 导入(以 sklearn 为例) '''
+''' 2.1 导入包(以 sklearn 为例) '''
 import sklearn  # 直接导入
-import klearn.preprocessing  # 导入内部模块或子包，可以连续(如A.B.C)
+import sklearn.preprocessing  # 导入内部模块或子包，可以连续(如A.B.C)
 import sklearn.preprocessing as preproecss
 from sklearn import preprocessing as preprocess
 ''' from sklearn import *   不推荐，耗时且可能有副作用'''
 
-''' (2) __init__.py 文件 
+''' 2.2 __init__.py 文件 
     
     · 包中必然包含__init__.py 文件，其作用是将普通文件夹变为一个包，
       在导入一个包时，实际上是导入了其 __init__.py 文件，

@@ -10,7 +10,7 @@
         
         # 关于警告的更多信息，可参考 cookbook 中 14.11 输出警告信息
     
-    
+  
     (3) 异常：语法正确，但执行时引发了错误
         
         · AttributeError：对象没有这个属性
@@ -24,9 +24,7 @@
 """
 
 
-
 """ 2. 异常处理（try…… except…… else…… finally……） """
-
 # 例：
 def test(m):
     try:  # 尝试执行 Try 子句，如无异常，跳过 except 子句，完成 try 子句的执行。
