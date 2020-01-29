@@ -1,4 +1,17 @@
-""" 1. 字典概述
+""" · 目录
+    |
+    |—— 1. 概述
+    |
+    |—— 2. 操作：创建、嵌套、添加、合并、大小
+    |            删除（del, pop, clear）
+    |            提取（get, keys, values, items） 
+    |
+    |—— 3. 技巧：取代elif、对比模型            
+"""
+
+
+
+""" 1. 概述
     
     · 字典中包含着一系列 key : value 对，通过 key 来索引 value
     
@@ -9,15 +22,15 @@
 
 
 
-""" 2. 字典操作 """
+""" 2. 操作 """
 
-# 构建
-r = {'Jack': 98, 'Mike': 99}          # 直接构建法
-s = dict(Jack = 98, Mike = 99)        # dict函数构建法 1
-t = dict([('Jack',98), ('Mike',99)])  # dict构造构建法 2
+# 创建
+r = {'Jack': 98, 'Mike': 99}          # 直接创建法
+s = dict(Jack = 98, Mike = 99)        # dict函数创建法 1
+t = dict([('Jack',98), ('Mike',99)])  # dict构造创建法 2
 print(r == s == t) # >>> True
 
-# 嵌套字典
+# 嵌套
 info = {'name':'Mike', 'city':'Shanghai', 'contact':{'address':'somewhere', 'num':666}}
 print(info['contact']['address'])
 
@@ -31,6 +44,10 @@ m = {'a':1, 'b':2}
 n = {'c':3, 'd':4}
 print({**m, **n}) # >>> {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
+# 大小
+m = {'a':1, 'b':2}
+print(len(m))
+
 # 删除
 m = {'a':1, 'b':2}
 del m['a']  # del删除指定标签的数据项
@@ -43,10 +60,6 @@ print(m, n)     # >>> {'a': 1} 2
 m = {'a':1, 'b':2}
 m.clear()  # 清空字典
 print(m)   # >>> {}
-
-# 字典大小
-m = {'a':1, 'b':2}
-print(len(m))
 
 # 提取
 m = {'a':1, 'b':2}
