@@ -1,9 +1,3 @@
-""" Numpy用于创建、操作多维数组（n-dimensional array），即 ndarray 对象 """
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-%matplotlib inline
-
 """ · 目录
     |
     |—— 1. 创建
@@ -29,6 +23,10 @@ import matplotlib.pyplot as plt
         |—— 2.6 自定义ufunc函数
 """
 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplotlib inline
 
 """ 1. 创建 """
 
