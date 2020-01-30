@@ -8,19 +8,19 @@ import numpy as np
 import pandas as pd
 import datetime
 
-''' (1) datetime.datetime → timestamp '''
+''' 1.1 datetime.datetime → timestamp '''
 date1 = datetime.datetime(2016,12,1,12,45,30)
 print(date1, type(date1))
 time1 = pd.Timestamp(date1)
 print(time1, type(time1))
 
-''' (2) str → timestamp '''
+''' 1.2 str → timestamp '''
 date2 = '2017-12-21'
 print(date2, type(date2))
 time2 = pd.Timestamp(date2)
 print(time2, type(t2))
 
-''' (3) list → timestamp '''
+''' 1.3 list → timestamp '''
 date3 = [ '2017-12-21', '2017-12-22', '2017-12-23'] # 多个时间数据
 time3 = pd.to_datetime(date3)
 print(time3, type(time3)) # 数据结构为 DatetimeIndex
@@ -37,9 +37,8 @@ print(data)
 print(data.index)
 
 
-""" 
-    3. pd.date_range 用来生成DatetimeIndex（时间序列）
-       
+""" 3. pd.date_range 用来生成DatetimeIndex（时间序列）
+      
        pd.date_range(start=None,    # 开始时间
                      end=None,      # 结束时间
                      periods=None,  # 周期
@@ -48,15 +47,15 @@ print(data.index)
                      normalize=False)  # 当为 True 时，将时间转化为到 00:00:00
 """
 
-''' (1) 指定开始时间、结束时间，生成时间序列 '''
+''' 3.1 指定开始时间、结束时间，生成时间序列 '''
 print(pd.date_range('1/1/2019','1/10/2019', normalize=True))
 
 
-''' (2) 指定开始时间，周期 '''
+''' 3.2 指定开始时间，周期 '''
 print(pd.date_range(start='1/1/2019', periods=3))
 
 
-''' (3) 增加时、分、秒数据 '''
+''' 3.3 增加时、分、秒数据 '''
 print(pd.date_range(end='1/30/2019 15:00:00', periods=3))
 
 print(pd.date_range(start='1/1/2019 15:30', periods = 3, 
@@ -64,14 +63,14 @@ print(pd.date_range(start='1/1/2019 15:30', periods = 3,
                     normalize=True))      # normalize：时间正则化到午夜时间（直接变 15:30:00 为 0:00:00）
 
 
-''' (4) 将字符串转化为 DatetimeIndex '''
+''' 3.4 将字符串转化为 DatetimeIndex '''
 print(pd.date_range('20190101','20190103'))
 print(pd.date_range('20190101','20190103',closed='right')) # right则左开右闭
 print(pd.date_range('20190101','20190103',closed='left'))  # left则左闭右开
 print(pd.bdate_range('20190101','20190103'))   # pd.bdate_range()默认频率为工作日
 print(pd.date_range('2019/1/1','2019/1/3'))    # 默认freq = 'D'：每自然日
 
-''' freq参数 的各种用法 '''
+''' 3.5 freq的各种用法 '''
 print(pd.date_range('2019/1/1','2019/1/3', freq = 'B'))                    # B：每工作日
 print(pd.date_range('2019/1/1','2019/1/3', freq = 'H'))                    # H：每小时
 print(pd.date_range('2019/1/1 12:00','2019/1/1 12:10', freq = 'T'))        # T/min：每分
@@ -102,13 +101,13 @@ print(pd.date_range('2018','2020', freq = 'BMS'))     # BM：每月第一个工�
 print(pd.date_range('2018','2020', freq = 'BQS-DEC')) # BQ-月：指定月为季度末，每个季度末最后一月的第一个工作日 
 print(pd.date_range('2018','2020', freq = 'BAS-DEC')) # BA-月：每年指定月份的第一个工作日
 
-''' (5) asfreq 改变频率 '''
+''' 3.6 asfreq 改变频率 '''
 s = pd.Series(np.random.rand(4), index = pd.date_range('20170101','20170104'))
 print(s)
 print(s.asfreq('4H', # 改变频率，这里是D改为4H
                 method = 'ffill')) # method：插值模式，None不插值，ffill用之前值填充，bfill用之后值填充
 
-""" (6) 时间戳与列数据的相对位移 """
+''' 3.7 时间戳与列数据的相对位移 '''
 ts = pd.Series(np.random.rand(3), index = pd.date_range('20170101','20170103'))
 print(ts)
 print(ts.shift(2))  # 正数：数值后移（滞后）
