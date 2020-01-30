@@ -63,7 +63,7 @@
 
 #### 2.2 可视化
 * **Matplotlib I：** 
-&nbsp; [基础/折线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%BB%98%E5%9B%BE%E5%8F%8A%E8%AE%BE%E7%BD%AE.py)
+[基础/折线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%BB%98%E5%9B%BE%E5%8F%8A%E8%AE%BE%E7%BD%AE.py)
 &nbsp; [窗口类型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
 &nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
 &nbsp; [子图设置](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
