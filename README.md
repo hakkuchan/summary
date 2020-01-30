@@ -82,7 +82,7 @@
 &nbsp; [综合散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%BB%BC%E5%90%88%E6%95%A3%E7%82%B9%E5%9B%BE.py)
 &nbsp; [矩阵散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%9F%A9%E9%98%B5%E6%95%A3%E7%82%B9%E5%9B%BE.py)
 * **Bokeh：**
-[绘图及设置](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%BB%98%E5%9B%BE%E5%8F%8A%E8%AE%BE%E7%BD%AE.py)
+[基础](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%BB%98%E5%9B%BE%E5%8F%8A%E8%AE%BE%E7%BD%AE.py)
 &nbsp; [散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E6%95%A3%E7%82%B9%E5%9B%BE.py)
 &nbsp; [折线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
 &nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
