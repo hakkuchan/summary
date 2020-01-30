@@ -51,7 +51,7 @@
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
 * **对象：**
-[numpy](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
+[ndarray](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
 &nbsp; [Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
 &nbsp; [Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_dataframe.py)
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
