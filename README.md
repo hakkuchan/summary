@@ -52,10 +52,10 @@
 #### 2.1 数据分析
 * **模块：**
 [numpy](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
-&nbsp; pandas ( [Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
+&nbsp; pandas [ [Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
 &nbsp; [Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_dataframe.py)
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
-&nbsp; [统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py) )
+&nbsp; [统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py) ]
 * **操作：** 
 [stats统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/stats_%E7%BB%9F%E8%AE%A1.py)
 &nbsp; [缺失值处理](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
