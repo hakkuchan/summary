@@ -8,9 +8,7 @@
         |
         |—— 2.2 通用操作：索引&切片、拼接、内置函数
         |
-        |—— 2.3 列表操作：添加(append, insert, extend)
-        |                 删除(remove, del, pop, clear)
-        |                 排序
+        |—— 2.3 列表操作：添加(append, insert, extend)、删除(remove, del, pop, clear)、排序
 """
 
 

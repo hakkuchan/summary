@@ -2,9 +2,7 @@
     |
     |—— 1. 概述
     |
-    |—— 2. 操作：创建、嵌套、添加、合并、大小
-    |            删除（del, pop, clear）
-    |            提取（get, keys, values, items） 
+    |—— 2. 操作：创建、嵌套、添加、合并、大小、删除(del, pop, clear)、提取(get, keys, values, items)
     |
     |—— 3. 技巧：取代elif、对比模型            
 """

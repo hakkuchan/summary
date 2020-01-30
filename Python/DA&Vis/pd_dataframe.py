@@ -1,18 +1,49 @@
-""" pandas 中的 Dataframe，是一个表格型的数据结构。"""
+""" · 目录
+    |
+    |—— 1. 创建：数组、Series、字典
+    |   
+    |—— 2. 切片和索引
+    |   |
+    |   |—— 2.1 按标签选择列 (df[列名])
+    |   |
+    |   |—— 2.2 按标签选择行 (df.loc[行名])
+    |   |
+    |   |—— 2.3 按索引选择多行 (df.iloc[])
+    |   |
+    |   |—— 2.4 布尔型索引 (按条件提取数据)
+    |   |
+    |   |—— 2.5 重置索引
+    |
+    |—— 3. 操作
+        |
+        |—— 3.1 查看
+        |
+        |—— 3.2 增改
+        |
+        |—— 3.3 删
+        |
+        |—— 3.4 排序：单列、多列、按行
+        |
+        |—— 3.5 运算和自动对齐
+        |
+        |—— 3.6 合并
+"""
+
 import numpy as np
 import pandas as pd
 
-''' (1) 创建方法 '''
-# a. 由数组创建
+""" 1. 创建 """
+
+''' 1.1 由数组创建 '''
 ar = np.random.rand(9).reshape(3,3)
 print(pd.DataFrame(ar, index=['a','b','c'], columns=['x1','x2','x3'])) # 如果不指定index和columns，两者均返回默认数字格式
 
-# b. 由Series组成的字典
+''' 1.2 由Series创建 '''
 s = {'x1':pd.Series(np.random.rand(2), index = ['a','b']),
      'x2':pd.Series(np.random.rand(3), index = ['a','b','c'])}
 print(pd.DataFrame(s))
 
-# c. 由字典组成的字典
+''' 1.3 由字典创建 '''
 # 方法 1:
 data = {'a':[1,2,3], 'b':[3,4,5], 'c':[5,6,7]}  # 字典的键对应的是列名
 print(pd.DataFrame(data))
@@ -28,14 +59,16 @@ print(pd.DataFrame(data, columns = ['Mary','Jack','Mike'])) # columns参数可�
 print(pd.DataFrame(data, index = ['a','b','c'])) # index在这里和并不能改变原有index，如果指向新的标签，值为NaN (非常重要)。
 
 
-''' (2) 切片和索引 '''
-# a. 按标签选择列 (df[col]一般用于选择列，[]中写列名)
+
+""" 2. 切片和索引 """
+
+''' 2.1 按标签选择列 (df[列名]) '''
 data = {'name':['Jack','Mike','Mary'], 'age':[18,19,20], 'gender':['m','m','w']}
 df = pd.DataFrame(data)
 print(df['age'])
 print(df[['name','gender']])
 
-# b. 按标签选择行（df.loc[]）
+''' 2.2 按标签选择行 (df.loc[行名]) '''
 data = {'name':['Jack','Mike','Mary'], 'age':[18,19,20], 'gender':['m','m','w']}
 df = pd.DataFrame(data)
 print(df)
@@ -43,14 +76,14 @@ print(df.loc[[0,2]])
 df = pd.DataFrame(data, index=['p1','p2','p3'])
 print(df.loc[['p1','p3']])
 
-# c. 按索引选择多行 (df.iloc[])
+''' 2.3 按索引选择多行 (df.iloc[]) '''
 df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, index = ['x1','x2','x3','x4'], columns = ['a','b','c','d'])
 print(df)
 print(df.iloc[-1])      # 单位置索引
 print(df.iloc[[3,2,1]]) # 多位置索引
 print(df.iloc[::2])     # 切片索引
 
-# d. 布尔型索引 (按条件提取数据)
+''' 2.4 布尔型索引 (按条件提取数据) '''
 # 方法 1：所有数据判断
 df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, index = ['x1','x2','x3','x4'], columns = ['a','b','c','d'])
 print(df)
@@ -87,13 +120,15 @@ print(df['a'].loc[['x1','x3']])       # 选择a列的one，three行
 print(df[['b','c','d']].iloc[::2])    # 选择 b，c，d 列的 x1，x3行
 print(df[df['a'] < 50].iloc[:2])      # 选择满足判断索引的前两行数据
 
-# e. 更新索引
+''' 2.5 重置索引 '''
 df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, index = ['x1','x2','x3','x4'], columns = ['a','b','c','d'])
 df.set_index(np.array(['y1','y2','y3','y4']))
 
 
-''' (3) 基本操作 '''
-# a. 快速操作
+
+""" 3. 操作 """
+
+''' 3.1 查看 '''
 df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, columns = ['a','b','c','d'])
 print(df)
 print(df.head(2))  # .head()查看头部数据
@@ -107,7 +142,7 @@ print(df.shape)    # 表格维度
 print(df.shape[1]) # 列数
 print(df.shape[0]) # 行数
 
-# b. 增、改
+''' 3.2 增改 '''
 df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, columns = ['a','b','c','d'])
 print(df)
 df['e'] = df['d']/10  # 新增列并赋值
@@ -116,7 +151,7 @@ print(df)
 df[['a','c']] = 100   # 索引后直接修改值
 print(df)
 
-# c. 删
+''' 3.3 删 '''
 df = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, columns = ['a','b','c','d'])
 print(df)
 del df['a'] # del语句- 删除列
@@ -127,7 +162,7 @@ print(df)
 print(df.drop(['d'], axis = 1)) # drop()删除列，需要加上axis = 1
 print(df)
 
-# d. 排序
+''' 3.4 排序 '''
 # 方法 1：单列排序
 df1 = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, columns = ['a','b','c','d'])
 print(df1)
@@ -145,14 +180,14 @@ df2 = pd.DataFrame(np.random.rand(16).reshape(4,4)*100, index = ['x2','x3','x1',
 print(df2)
 print(df2.sort_index())
 
-# e. DataFrame对象间的运算和自动对齐
+''' 3.5 运算和自动对齐 '''
 df1 = pd.DataFrame(np.random.randn(10, 4), columns=['A', 'B', 'C', 'D'])
 df2 = pd.DataFrame(np.random.randn(7, 3), columns=['A', 'B', 'C'])
 print(df1)
 print(df2)
 print(df1 / df2) # 对应位置元素进行计算，并自动对齐，缺失位置补充为 NaN
 
-# f. 合并
+''' 3.6 合并 '''
 df1 = pd.DataFrame({'key': ['K0', 'K1', 'K2', 'K3'],
                     'A': ['A0', 'A1', 'A2', 'A3'],
                     'B': ['B0', 'B1', 'B2', 'B3']})
