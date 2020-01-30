@@ -50,15 +50,14 @@
 
 ### 2. 数据分析与可视化
 #### 2.1 数据分析
-* **对象：**
-[ndarray](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
-&nbsp; [Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
-&nbsp; [Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_dataframe.py)
-&nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
-
+* **模块：**
+[numpy](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
+&nbsp; [pandas_Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
+&nbsp; [pandas_Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_dataframe.py)
+&nbsp; [pandas_Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
+&nbsp; [pandas统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 * **操作：** 
-[pandas统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
-&nbsp; [stats统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/stats_%E7%BB%9F%E8%AE%A1.py)
+[stats统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/stats_%E7%BB%9F%E8%AE%A1.py)
 &nbsp; [缺失值处理](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
 &nbsp; [异常值处理](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
 &nbsp; [数据离散化](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
