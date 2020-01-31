@@ -51,7 +51,7 @@
 #### 2.1 数据分析
 * **模块：**
 [numpy](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
-&nbsp; pandas{[Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
+&nbsp; pandas-{[Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
 &nbsp; [Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_dataframe.py)
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
 &nbsp; [统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)}
