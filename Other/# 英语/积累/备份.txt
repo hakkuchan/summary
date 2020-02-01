@@ -1,13 +1,14 @@
-1. 面对，面临
+面对，面临
 · face
 · be confronted with
+
 充当、作为、用途
 · act/serve as
 · be used for doing
 
 考虑到
-· allow for 
-· considering 
+· allow for
+· considering
 · take...into account/consideration
 
 排除、除了、例外
@@ -209,6 +210,13 @@ next
 nevertheless虽然如此
 however/yet/but whereas然而，尽管
 while
+煤化程度
+· span/across the rank range
+· the rank/coalification progression
+· with increasing rank
+· when the rank increase
+· the rank transition from XX% C to XX% C
+· as coalification proceeds from low rank to medium rank coal
 
 表明，展示
 confirm 已经被证实的成果
