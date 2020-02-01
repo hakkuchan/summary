@@ -1,0 +1,11 @@
+1-3 信号词
+
+· 信号词用于组织文章逻辑，使读者更易于理解。
+  例如，下面两个句子：
+  I love drinking coffee.  It keeps me awake at night.
+  · 一方面可以理解为：喜欢喝咖啡是因为咖啡能使我在夜晚保持清醒。
+  · 另一方面也可理解为：即便喝咖啡会让我晚上难以入睡，我也爱喝咖啡
+    可以看出，缺乏信号词会使读者困惑。
+  · 加上信号词后，语义清晰：
+	I love drinking coffee, because it keeps me awake at night.
+	I love drinking cofee, even though it keeps me awake at night.

@@ -1,0 +1,22 @@
+1-6 语言的一致性
+
+· 人称和数量一致
+  例 1：People should not drive when you have been drinking.
+  改正：People should not drive when they have been drinking
+  
+  例 2：One should not drive when they have been drinking.
+  改正：One should not drive when he or she has been drinking.
+
+· 时态一致：主句和从句动词的时态要一致（中文无时态概念，故此处易出错，需小心）
+  例：He said he will come to our home tomorrow.
+  改正：He said he would come to our home tomorrow.
+
+· 主语一致：一个句子的主语只有一个
+  例 1：Conscientious students begin to prepare for tests immediately after the first class is attended.
+  改正：Conscientious students begin to prepare for tests immediately after they attend the first class.
+  
+  例 2：In class they listen carefully and good notes are taken.
+  改正：In class they listen carefully and take good notes.
+  
+  例3：If students learn how to study efficiently, much better grades will be made.
+  改正：If students learn how to study efficiently, they will get much better grades on tests.

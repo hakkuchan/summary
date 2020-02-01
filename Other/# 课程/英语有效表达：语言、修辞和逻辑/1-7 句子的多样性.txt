@@ -1,0 +1,20 @@
+1-7 句式的多样性
+
+· 改变句子的长度和结构
+  例：The moon is now drifting away from the earth.
+      It moves away at the rate of about one inch a year.
+	  This movement is lengthening our days.
+	  They increase a thousandth of a second every year.
+  改正：The moon is now drifting away from the earth about one inch a year. 
+        At a thousandth of a second every century, this movement is lengthening our days.
+
+· 使句子开头变化
+  例：The defendant's lawyer was determined to break the prosecution's witness. 
+      She relentlessly cross-examined the stubborn witness for a week.
+  改正：把副词提前
+      The defendant's lawyer was determined to break the prosecution's witness. 
+      Relentlessly, for a week, she cross-examined the stubborn witness.
+      
+  注：seldom, hardly, rarely, in no case, not until做句首时，要倒装
+  例：Hardy we see such an honest man like you.
+  改正：Hardly do we see such an honest man like you.

@@ -1,0 +1,19 @@
+1-5 语言的简洁
+
+· 修改 There are 或 It is 句型
+  例 1：There are thirteen courses ofered by the Department of Languages.
+  改正：The Department of Languages offered thirteen courses.
+  
+  例2：It is the governor who signs bills.
+  改正：The governor signs bill.
+	
+· 从句 → 短语 →单词
+  例：The Titanic, which was a huge ocean liner, sank in 1812.
+  改正：The Titanic,a huge ocean liner, sank in 1812.
+
+· 避免重复的表述
+  例 1：Many unskilled workers without training in a particular job are unemployed and do not have any work.
+  改正：Many unskilled workers are unemployed.
+  
+  例 2：Preschool instructors play a role in the child's understanding of male and female roles.
+  改正：Preschool instructors play a part in the child's understanding of male and female roles.（注意：第一句的第一个role被换为part）
