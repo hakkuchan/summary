@@ -1,3 +1,0 @@
-psychiatrist 精神病医生
-psychologist 心理学家
-pysiologist  生理学家
