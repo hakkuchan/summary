@@ -1,5 +1,5 @@
-### 1. Python基础
-#### 1.1 数据类型 & 语法
+## 1. Python基础
+### 1.1 数据类型 & 语法
 * **数据类型：**
 [数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
 &nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
@@ -18,7 +18,7 @@
 &nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 &nbsp; [例外](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96.py)
 
-#### 1.2 基本模块 & 操作
+### 1.2 基本模块 & 操作
 * **模块：**
 [datetime](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_datetime.py)
 &nbsp; [time](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_time.py)
@@ -33,7 +33,7 @@
 &nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
 &nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E6%89%93%E5%8C%85%E7%A8%8B%E5%BA%8F.txt)
 
-#### 1.3 数据结构 & 算法
+### 1.3 数据结构 & 算法
 * **数据结构：**
 [栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%98%9F%E5%88%97.py)
@@ -47,8 +47,8 @@
 &nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%8E%92%E5%BA%8F.py)
 &nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
 
-### 2. 数据分析、可视化
-#### 2.1 数据分析
+## 2. 数据分析和可视化
+### 2.1 数据分析
 * **模块：**
 [numpy](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
 &nbsp; pandas-[[Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
@@ -60,7 +60,7 @@
 &nbsp; [异常值处理](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
 &nbsp; [数据离散化](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
 
-#### 2.2 可视化
+### 2.2 可视化
 * **Matplotlib I：** 
 [基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%9F%BA%E7%A1%80%E5%8F%8A%E7%82%B9%E7%BA%BF%E5%9B%BE.py)
 &nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
@@ -88,8 +88,8 @@
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 &nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 
-### 3. 模型
-#### 3.1 科学计算
+## 3. 模型
+### 3.1 科学计算
 * **初等：**
 [排列组合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.py)
 &nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88.py)
@@ -106,7 +106,7 @@
 * **其它：**
 [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A8%A1%E6%8B%9F.py)
 
-#### 3.2 Sklearn
+### 3.2 Sklearn
 * **分类：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
@@ -134,7 +134,7 @@
 &nbsp; [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 * [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
-#### 3.3 Pytorch
+### 3.3 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
@@ -162,7 +162,7 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-### 4. 网络爬虫
+## 4. 网络爬虫
 * **模块及框架：**
 [requests](https://github.com/ZBTGL/summary/blob/master/Python/Web/module_requests.py)
 &nbsp; [BeautifulSoup](https://github.com/ZBTGL/summary/blob/master/Python/Web/module_BeautifulSoup.py)
