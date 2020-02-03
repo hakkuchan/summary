@@ -87,10 +87,9 @@
 &nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 &nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
-
-#### 2.4 网络爬虫
-[requests]()
-
+#### 2.3 网络爬虫
+* **模块：**
+[requests](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_requests.py)
 
 ### 3. 模型
 #### 3.1 科学计算
