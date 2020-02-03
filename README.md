@@ -47,7 +47,7 @@
 &nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%8E%92%E5%BA%8F.py)
 &nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
 
-### 2. 数据分析、可视化和网络爬虫
+### 2. 数据分析、可视化
 #### 2.1 数据分析
 * **模块：**
 [numpy](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
@@ -87,9 +87,6 @@
 &nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 &nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
-#### 2.3 网络爬虫
-* **模块：**
-[requests](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_requests.py)
 
 ### 3. 模型
 #### 3.1 科学计算
@@ -164,3 +161,13 @@
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
+
+
+### 4. 网络爬虫
+* **模块及框架：**
+[requests](https://github.com/ZBTGL/summary/blob/master/Python/Web/module_requests.py)
+[BeautifulSoup](https://github.com/ZBTGL/summary/blob/master/Python/Web/module_BeautifulSoup.py)
+* **操作：**
+[修改user-agent](https://github.com/ZBTGL/summary/blob/master/Python/Web/op_%E4%BF%AE%E6%94%B9user-agent.py)
+[爬取图片](https://github.com/ZBTGL/summary/blob/master/Python/Web/op_%E6%8A%93%E5%8F%96%E5%9B%BE%E7%89%87.py)
+[搜索关键词](https://github.com/ZBTGL/summary/blob/master/Python/Web/op_%E5%85%B3%E9%94%AE%E8%AF%8D.py)
