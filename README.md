@@ -2,7 +2,7 @@
 ### 1.1 数据类型 & 语法
 * **数据类型：**
 [数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
-<br/> [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
+&nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
 &nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 &nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%88%97%E8%A1%A8%E4%B8%8E%E5%85%83%E7%BB%84.py)
 &nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%AD%97%E5%85%B8.py)
@@ -31,7 +31,6 @@
 &nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%9B%E5%BA%A6%E6%8F%90%E7%A4%BA.py)
 &nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
 &nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E6%89%93%E5%8C%85%E7%A8%8B%E5%BA%8F.txt)
-
 ### 1.3 数据结构 & 算法
 * **数据结构：**
 [栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E6%A0%88.py)
@@ -59,7 +58,6 @@
 [缺失值处理](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E7%BC%BA%E5%A4%B1%E5%80%BC%E5%A4%84%E7%90%86.py)
 &nbsp; [异常值处理](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E5%BC%82%E5%B8%B8%E5%80%BC%E5%A4%84%E7%90%86.py)
 &nbsp; [数据离散化](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/%E6%95%B0%E6%8D%AE%E7%A6%BB%E6%95%A3%E5%8C%96.py)
-
 ### 2.2 可视化
 * **Matplotlib I：** 
 [基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%9F%BA%E7%A1%80%E5%8F%8A%E7%82%B9%E7%BA%BF%E5%9B%BE.py)
@@ -106,7 +104,6 @@
 &nbsp; [高斯拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E9%AB%98%E6%96%AF%E6%8B%9F%E5%90%88.py)
 * **其它：**
 [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A8%A1%E6%8B%9F.py)
-
 ### 3.2 Sklearn
 * **分类：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
@@ -134,7 +131,6 @@
 &nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 * [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
-
 ### 3.3 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
@@ -162,6 +158,7 @@
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
+<\br>
 
 ## 4. 网络爬虫
 * **模块及框架：**
