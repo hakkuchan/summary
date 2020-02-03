@@ -2,7 +2,7 @@
 ### 1.1 数据类型 & 语法
 * **数据类型：**
 [数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
-&nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
+<br/> [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
 &nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
 &nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%88%97%E8%A1%A8%E4%B8%8E%E5%85%83%E7%BB%84.py)
 &nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%AD%97%E5%85%B8.py)
@@ -17,7 +17,6 @@
 &nbsp; [生成器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E7%94%9F%E6%88%90%E5%99%A8.py)
 &nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 &nbsp; [例外](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96.py)
-
 ### 1.2 基本模块 & 操作
 * **模块：**
 [datetime](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_datetime.py)
@@ -46,6 +45,7 @@
 &nbsp; [查找](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%9F%A5%E6%89%BE.py)
 &nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%8E%92%E5%BA%8F.py)
 &nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
+<br/>
 
 ## 2. 数据分析和可视化
 ### 2.1 数据分析
@@ -88,6 +88,7 @@
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
 &nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 <br/>
+
 ## 3. 模型
 ### 3.1 科学计算
 * **初等：**
