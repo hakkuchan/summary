@@ -3,7 +3,7 @@
     · 某些网站会检查来访 HTTP 协议头的 User‐Agent 域（即"来源审查"）
       只响应浏览器或友好爬虫的访问
     
-	· 反来源审查方法：修改User‐Agent
+    · 反来源审查方法：修改User‐Agent
 """
 
 import requests
