@@ -84,15 +84,15 @@ print(type(soup.find_all(['img', 'a'])))  # >>> <class 'bs4.element.ResultSet'>
 print(soup.find_all('img', attrs={'width':'100'}))
 
 ''' 3.3.2 select()方法 '''
-# (1) 按标签查找(与 find_all()用法一样)
+# (1) 按标签查找 (与 find_all()用法一样)
 for i in soup.select('img'):
     print(i['alt'], i['src'])
-# (2) 按照 selector path 查找
+# (2) 按照 selector path 查找 (推荐)
 #     先在浏览器中 Copy selector
 #     例如：#content > div > div.article > ol > li:nth-child(1) > div > div.pic > a > img
 #     观察规律，对该路径做一定修改，进而查找全部内容
 for num in range(1,11):
-    path = 'div > div.article > ol > li:nth-child('+str(num)+') > div > div.pic > a > img'
+    path = '#content > div > div.article > ol > li:nth-child('+str(num)+') > div > div.pic > a > img'
     print(soup.select(path)[0]['alt'])
 	
 
