@@ -24,6 +24,8 @@
 &nbsp; [calendar](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_calendar.py)
 &nbsp; [os](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_os.py)
 &nbsp; [random](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_random.py)
+&nbsp; [requests](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_requests.py)
+&nbsp; [BeautifulSoup](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_BeautifulSoup.py)
 * **操作：**
 [输入与输出](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
 &nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
@@ -158,13 +160,3 @@
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
-<br/>
-
-## 4. 网络爬虫
-* **模块及框架：**
-[requests](https://github.com/ZBTGL/summary/blob/master/Python/Web/module_requests.py)
-&nbsp; [BeautifulSoup](https://github.com/ZBTGL/summary/blob/master/Python/Web/module_BeautifulSoup.py)
-* **操作：**
-[修改user-agent](https://github.com/ZBTGL/summary/blob/master/Python/Web/op_%E4%BF%AE%E6%94%B9user-agent.py)
-&nbsp; [爬取图片](https://github.com/ZBTGL/summary/blob/master/Python/Web/op_%E6%8A%93%E5%8F%96%E5%9B%BE%E7%89%87.py)
-&nbsp; [搜索关键词](https://github.com/ZBTGL/summary/blob/master/Python/Web/op_%E6%90%9C%E7%B4%A2%E5%85%B3%E9%94%AE%E8%AF%8D.py)
