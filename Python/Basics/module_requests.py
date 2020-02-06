@@ -93,7 +93,7 @@ print(r.status_code)  # >>> 200  访问正常
 # 图片资源的 url 一般以 .jpg 结尾
 pic_url = 'https://pic4.zhimg.com/v2-45ed9cc0da397cbbfb8d3450c8c9cbfe_1200x500.jpg'
 # 设置文件夹路径
-folder = 'E:\\Other\\Downloads\\Pic\\'
+folder = 'E:\\Other\\Downloads\\Done\\'
 # 设置图片名
 name = 'p.jpg'
 # 设置完整文件路径
