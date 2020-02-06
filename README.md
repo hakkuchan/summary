@@ -24,6 +24,7 @@
 &nbsp; [calendar](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_calendar.py)
 &nbsp; [os](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_os.py)
 &nbsp; [random](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_random.py)
+&nbsp; [re](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_re.py)
 &nbsp; [requests](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_requests.py)
 &nbsp; [BeautifulSoup](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_BeautifulSoup.py)
 * **操作：**
