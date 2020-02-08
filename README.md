@@ -30,7 +30,6 @@
 * **操作：**
 [输入与输出](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
 &nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
-&nbsp; [批量重命名](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D.py)
 &nbsp; [动态变量](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
 &nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%9B%E5%BA%A6%E6%8F%90%E7%A4%BA.py)
 &nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
