@@ -5,8 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # 网址池
-urls = [	
-       ]
+urls = []
 
 # 函数
 def get_soup(url):
@@ -26,7 +25,7 @@ def get_link(soup):
 
 def get_path(soup, links):
     paths = []
-    folder = 'E:\\Other\\Downloads\\Pic\\' + soup.find('h4').string + '\\'
+    folder = os.getcwd() + "\\" + soup.find('h4').string + "\\"
     for num in range(len(links)):
         if num < 10:
             name = '00' + str(num) + '.jpg'
@@ -39,7 +38,7 @@ def get_path(soup, links):
 
 def get_img(soup, img_paths, img_urls):
     count = 0
-    folder = 'E:\\Other\\Downloads\\Pic\\' + soup.find('h4').string + '\\'
+    folder = os.getcwd() + "\\" + soup.find('h4').string + "\\"
     for path, url in zip(img_paths, img_urls):
         if not os.path.exists(folder):
             os.mkdir(folder)

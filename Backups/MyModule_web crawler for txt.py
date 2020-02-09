@@ -5,8 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # 网址池
-urls = [''
-       ]
+urls = []
 
 # 函数
 def get_soup(url):
@@ -24,7 +23,7 @@ def get_text(soup):
             return out.split('。')
 
 def save_txt(soup, text):
-    folder = 'E:\\Other\\Downloads\\程序\\C6\\txt\\'
+    folder = os.getcwd() + "\\"
     name = soup.select('h4')[0].text + '.txt'
     path = folder + name
     if not os.path.exists(folder):
