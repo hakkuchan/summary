@@ -90,7 +90,7 @@
 &nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 <br/>
 
-## 3. 模型
+## 3. 机器学习
 ### 3.1 Sklearn
 * **分类：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
@@ -146,7 +146,7 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-### 待分类
+### * 待分类
 [排列组合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.py)
 &nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88.py)
 &nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
