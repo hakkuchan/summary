@@ -92,6 +92,9 @@
 
 ## 3. 机器学习
 ### 3.1 Sklearn
+* **线性模型：**
+[算法笔记](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
+
 * **分类：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
