@@ -107,14 +107,12 @@
 &nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Monte_Carlo.py)
 
 ### 3.2 Sklearn
-* **算法：**
-[Linear](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
-* **回归：**
+* **回归模型：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
 &nbsp; [SVR](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
-* **分类：**
+* **分类模型：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
 &nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
@@ -122,19 +120,22 @@
 &nbsp; [SVC](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [NB](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 &nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
-* **调参：**
-[Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Pipeline.py)
-&nbsp; [Search](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Search.py)
-* **预处理：** 
+* **算法笔记：**
+[Linear](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
+
+* **参数处理：** 
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 &nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
 &nbsp; [特征选择](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
-* **后处理：**
+* **模型处理：**
 [分类结果评估](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E8%AF%84%E4%BC%B0.py)
 &nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
+&nbsp; 超参数调整-[[Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Pipeline.py),
+&nbsp; [Search](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Search.py)]
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
+
 ### 3.3 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
