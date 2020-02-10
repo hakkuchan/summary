@@ -97,7 +97,7 @@
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Integration.py)
 &nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODE.py)
 &nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODEs.py)
-* **最优化模型：**
+* **最优化：**
 [通用方法](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Optimization.py)
 &nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Curve_fitting.py)
 * **其它：**
