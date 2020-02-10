@@ -90,7 +90,7 @@
 &nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 <br/>
 
-## 3. 数学模型
+## 3. 模型
 ### 3.1 科学计算
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
