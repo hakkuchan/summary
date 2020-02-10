@@ -91,6 +91,13 @@
 <br/>
 
 ## 3. 数学模型
+### 3.1 科学计算
+* **微积分: **
+[微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
+[积分]()
+[常微分方程]()
+[常微分方程组]()
+
 ### 3.1 Sklearn
 * **线性模型：**
 [算法笔记](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
@@ -148,15 +155,3 @@
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
-### 3.3 科学计算及其它数学模型
-* **科学计算：**
-[排列组合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88.py)
-&nbsp; [微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E5%BE%AE%E5%88%86.py)
-&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E7%A7%AF%E5%88%86.py)
-&nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E6%9B%B2%E7%BA%BF%E6%8B%9F%E5%90%88.py)
-&nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
-&nbsp; [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E9%9D%9E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84.py)
-&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B.py)
-&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E7%BB%84.py)
-* **最优化模型：**
-[概述 & Python求解](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Math_optimization.py)
