@@ -109,6 +109,11 @@
 ### 3.2 Sklearn
 * **算法：**
 [Linear](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
+* **回归：**
+[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
+&nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
+&nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
+&nbsp; [SVR](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
 * **分类：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
@@ -117,11 +122,6 @@
 &nbsp; [SVC](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [NB](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 &nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
-* **回归：**
-[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
-&nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
-&nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
-&nbsp; [SVR](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
 * **调参：**
 [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Pipeline.py)
 &nbsp; [Search](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Search.py)
