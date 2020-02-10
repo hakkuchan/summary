@@ -110,7 +110,7 @@
 * **算法：**
 [Linear](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
 * **分类：**
-[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
+[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
 &nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
 & [图](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT%E5%9B%BE.py)
@@ -118,7 +118,7 @@
 &nbsp; [NB](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 &nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
 * **回归：**
-[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
+[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
 &nbsp; [SVR](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
