@@ -1,3 +1,6 @@
+# 曲线拟合本质上是最优化问题
+# 由于scipy库提供了 curve_fit 方法，不必采用求解最优化模型的标准方法
+
 import numpy as np
 from scipy import optimize
 
@@ -11,5 +14,3 @@ def fn(x, p0, p1, p2):
 p, p_covariance = optimize.curve_fit(fn, x, y)
 
 print(p)
-
-# 显然，用最优化问题的方法求解曲线拟合也是可以的，但不推荐。
