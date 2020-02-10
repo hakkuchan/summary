@@ -158,9 +158,6 @@
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E7%A7%AF%E5%88%86.py)
 &nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B.py)
 &nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E7%BB%84.py)
-&nbsp; [静态优化](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E9%9D%99%E6%80%81%E4%BC%98%E5%8C%96.py)
-&nbsp; [高斯拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E9%AB%98%E6%96%AF%E6%8B%9F%E5%90%88.py)
-&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/%E8%92%99%E7%89%B9%E5%8D%A1%E6%B4%9B%E6%A8%A1%E6%8B%9F.py)
 
 ## 4. 科学计算及其它问题
 ### 4.1 科学计算
