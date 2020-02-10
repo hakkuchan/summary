@@ -91,22 +91,7 @@
 <br/>
 
 ## 3. 模型
-### 3.1 科学计算
-* **微积分：**
-[微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
-&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Integration.py)
-&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODE.py)
-&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODEs.py)
-* **最优化：**
-[通用方法](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Optimization.py)
-&nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Curve_fitting.py)
-* **其它：**
-[排列组合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Combination.py)
-&nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Linear_Eqs.py)
-&nbsp; [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Nonlinear_Eqs.py)
-&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Monte_Carlo.py)
-
-### 3.2 Sklearn
+### 3.1 Sklearn
 * **回归模型：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
 &nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
@@ -122,7 +107,6 @@
 &nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
 * **算法笔记：**
 [Linear](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
-
 * **参数处理：** 
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 &nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
@@ -136,7 +120,7 @@
 &nbsp; [Search](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Search.py)]
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
-### 3.3 Pytorch
+### 3.2 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
@@ -163,3 +147,18 @@
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
+
+### 3.1 科学计算
+* **微积分：**
+[微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
+&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Integration.py)
+&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODE.py)
+&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODEs.py)
+* **最优化：**
+[通用方法](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Optimization.py)
+&nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Curve_fitting.py)
+* **其它：**
+[排列组合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Combination.py)
+&nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Linear_Eqs.py)
+&nbsp; [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Nonlinear_Eqs.py)
+&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Monte_Carlo.py)
