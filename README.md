@@ -148,7 +148,7 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-### 3.1 科学计算
+### 3.3 科学计算
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Integration.py)
