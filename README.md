@@ -92,21 +92,21 @@
 
 ## 3. 模型
 ### 3.1 Sklearn
-* **回归模型：**
-[线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
+* **回归：**
+[线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
 &nbsp; [最近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
 
-* **分类模型：**
-[线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
+* **分类：**
+[线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
 &nbsp; [最近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [朴素贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 &nbsp; [聚类](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
 * **算法笔记：**
-[线性](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
+[线性模型](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
 * **参数处理：** 
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 &nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
