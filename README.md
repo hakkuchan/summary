@@ -97,7 +97,6 @@
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
 &nbsp; [最近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
-
 * **分类：**
 [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
@@ -115,7 +114,7 @@
 * **模型处理：**
 [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
-&nbsp; [分类指标](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E8%AF%84%E4%BC%B0.py)
+&nbsp; [分类性能](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E8%AF%84%E4%BC%B0.py)
 &nbsp; [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Pipeline.py)
 & [Search](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Search.py)
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
