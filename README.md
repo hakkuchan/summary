@@ -125,7 +125,7 @@
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
 * **层：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_Linear.py)
-& [线性回归示例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.py)
+& [示例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.py)
 &nbsp; [BatchNorm](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_BatchNorm.py)
 &nbsp; [Conv2d](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_Conv2d.py)
 &nbsp; [Pooling](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_Pooling.py)
@@ -134,7 +134,6 @@
 * **函数：**
 [functional](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/fn_functional.py)
 &nbsp; [激活函数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/fn_%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0.py)
-& [图示](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/fn_%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0%E5%9B%BE%E7%A4%BA.png)
 * **通用操作：**
 [搭建模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/op_%E6%90%AD%E5%BB%BA%E6%A8%A1%E5%9E%8B.py)
 &nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/op_%E4%BF%9D%E5%AD%98%E4%B8%8E%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
