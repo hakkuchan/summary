@@ -93,16 +93,16 @@
 ## 3. 模型
 ### 3.1 Sklearn
 * **回归模型：**
-[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
-&nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
-&nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
-&nbsp; [SVR](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
+[线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
+&nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py)
+&nbsp; [最近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
+&nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
+
 * **分类模型：**
-[Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
-&nbsp; [KNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
-&nbsp; [DT](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
-& [图](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT%E5%9B%BE.py)
-&nbsp; [SVC](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
+[线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
+&nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
+&nbsp; [最近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
+&nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [NB](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 &nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
 * **算法笔记：**
