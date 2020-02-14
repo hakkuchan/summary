@@ -1,6 +1,6 @@
 """ · 目录
     |
-    |—— 1. 纯线性回归
+    |—— 1. 普通线性回归
     |
     |—— 2. 正则化的线性回归
     |   |
@@ -13,7 +13,7 @@
 
 from sklearn import linear_model
 
-""" 1. 纯线性回归 """
+""" 1. 普通线性回归 """
 
 # 建模
 model = linear_model.LinearRegression(copy_X=True,         # 对 X 进行复制还是重写
