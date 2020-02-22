@@ -106,6 +106,7 @@
 &nbsp; [聚类](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
 * **算法：**
 [线性模型](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
+&nbsp; [决策树](https://www.yuque.com/zbtgl/eu94xc/xxxmbk)
 * **参数处理：** 
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 &nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
