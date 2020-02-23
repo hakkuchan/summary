@@ -6,27 +6,27 @@ from sklearn import model_selection
 from sklearn.tree import export_graphviz
 import pydotplus
 
-# 准备数据
+''' 准备数据 '''
 db = datasets.load_diabetes()
 X = db.data
 y = db.target
 
-# 建立决策树模型
+''' 建立决策树模型 '''
 model = tree.DecisionTreeRegressor(
-                                   criterion='mse',
-                                   splitter='best',
-                                   max_depth=None,
-                                   min_samples_split=2,
-                                   min_samples_leaf=1,
-                                   min_weight_fraction_leaf=0.,
-                                   max_features=None,
-                                   random_state=None,
-                                   max_leaf_nodes=None,
-                                   min_impurity_decrease=0.,
-                                   presort=False
+                                   criterion='mse', # 设置划分准则
+                                   splitter='best', # 设置划分原则 
+                                   max_depth=4,  # 树的最大深度，可用于预剪枝
+                                   min_samples_split=2, # 每个内部节点最少包含的样本数，可用于预剪枝
+                                   min_samples_leaf=1,  # 每个叶节点最少包含的样本数，可用于预剪枝
+                                   min_weight_fraction_leaf=0.0, # 叶节点中样本的最小权重系数
+                                   max_features=None,   # 寻找best split时考虑的特征数量
+                                   random_state=1,      # 设置随机种子
+                                   max_leaf_nodes=None, # 指定最大的叶节点数量
+                                   min_impurity_decrease=0.0,
+                                   presort=False  # 是否提前排序数据，从而加速寻找最优划分的过程（而对于大样本量的数据集，排序过程慢，不建议使用）
                                   )
 
-# 学习及预测
+''' 学习及预测 '''
 print('|{:>10s}|{:>10s}|'.format('Batch', 'R^2'))
 kfold = model_selection.KFold(n_splits=10, random_state=1)
 batch = 1
@@ -39,7 +39,7 @@ for train,test in kfold.split(X):
 out = model_selection.cross_val_score(model, X, y, cv=kfold)
 print(f'Mean R^2：{out.mean():.4f} ± {out.std():.4f}')
 
-# 生成决策树图
+''' 生成决策树图 '''
 model.fit(X,y)
 dot_data = tree.export_graphviz(model, out_file=None) 
 graph = pydotplus.graph_from_dot_data(dot_data) 
