@@ -4,26 +4,24 @@ from sklearn import datasets
 from sklearn import neighbors
 from sklearn import model_selection
 
-
-""" datasets for regression """
+''' 准备数据 '''
 db = datasets.load_diabetes()
 X = db.data
 y = db.target
 
-
-""" build models """
+''' 建立模型 '''
 model = neighbors.KNeighborsRegressor(
-                                      n_neighbors= 3,
-                                      weights='uniform',
-                                      algorithm='kd_tree',
-                                      leaf_size=30,
-                                      p=2,
-                                      metric='minkowski',
+                                      n_neighbors= 3, # 指定k值
+                                      weights='uniform',   # 指定投票的权重类型，uniform指权重相同
+                                      algorithm='kd_tree', # 指点最近邻算法
+                                      leaf_size=30,   # 当最近算法为 BallTree 或 KDTree 时，该参数指定叶节点规模
+                                      metric='minkowski',  # 指定距离度量
+                                      p=2,  # 指定距离度量的指数，对于Minkowski度量，p=1表示曼哈顿距离，p=2表示欧拉距离
                                       metric_params=None,
-                                      n_jobs=-1
+                                      n_jobs=-1  # 指定并行数，-1表示派发任务到所有可用CPU核
                                      )
 
-
+''' 学习及预测 '''
 print('|{:>10s}|{:>10s}|'.format('Batch', 'KNN r2'))
 kfold = model_selection.KFold(n_splits=10, random_state=1)
 batch = 1
