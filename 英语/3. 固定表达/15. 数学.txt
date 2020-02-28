@@ -1,0 +1,33 @@
+序数词
+• 21st：twenty first
+• 32nd：thirty second
+• 43rd：forty third
+• 57th：fifty seventh
+小数
+• 8.3：eight point three
+分数
+• ：Three quarters
+• ：One and two thirds
+负数
+• -100：negtive one hundred
+大数字
+• 形式：xxx,xxx,xxx,xxx
+• 从左往右第一个逗号：billion， 第二个逗号：miillion，  第三个逗号：thousand
+• 逗号之间的每三个数：百位与十位/个位(十位为0时)之间加 and
+• 例：
+     9,172,000,001: nine billion one hundred seventy two milion and one
+     321,123,200,905: three hundred and twenty one billion one hundred and twenty three million two hundred thousand nine hundred and five
+单位
+• 32%：thirty two percent
+• 26°: twenty six degrees
+运算
+• 3 × 5：three by five
+• 10m × 3m：Ten metres by three metres
+• 3^2: three squared
+• 4^3: four cubed
+• 5^5: five to the power of five
+平均
+average/mean
+rectangular
+round
+oval
