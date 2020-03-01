@@ -1,0 +1,72 @@
+如果
+
+if …… will …… 
+	
+	用法1：陈述一件事发生会引起另一件事 （will 可省略）
+	Open a window if it (will) help(s) you to sleep. 
+	If I made the wrong decision then I (will) apologise.
+	If water is frozen, it (will) expand(s).
+
+	用法2：请求，要求（will 不可省略）
+	If anyone phones, tell them I will be back at 11:00.
+	If you leave now, you'll be home in two hours.
+
+if + 一般过去时/过去进行时 …… would/could/might/should ……
+	用法：假想一件事如果发生，那么会怎么样
+	If you were driving from London to Moscow, which way would you go?
+	I'd offer to give you a lift if I had my car here.
+
+if + 过去完成时 …… would/could/might/should have ……
+	用法：假想一件本该做但未做的事如果发生，会怎么样
+	If I had known how difficult the job was, I wouldn't have taken it.
+	If she hadn't been ill, she would have gone to the concert.
+	They might have found a better hotel if they havd driven a fow more kilometers.
+
+	有时候时态需要调整：
+	If Bob wasn't so lazy, he would passed the exam.
+	If the doctor had been called earlier, she would still be alive today.
+
+if were to …… would/could/might/should ……
+	用法：假想将来一件事发生，会怎么样
+	If the technology were to become available, we would be able to expand the business.
+
+if it was/were not for  / had not been for + noun
+	用法：要不是……
+	例句1：If it wasn't/weren't for Vivian, the conference wouldn't be going ahead.
+              = Were it not for Vivian, …… 
+              = But for Vivian, ……
+	例句2： If it hadn't been for my parents, I would never gone to university.
+              = Had it not been for my parents, ……
+              = But for my parents, ……
+
+if only
+	含义：多希望……，如果……就好了（虚拟语气）
+	例句：
+	If only it were that simple.（如果真有那么简单就好了）
+	If only I had his confidence.（我有他那么自信就好了）
+
+If …… happen to  
+	含义：表示可能发生（常用于口语，不可用于虚拟语气）
+	例句：If you happen to be in our area, drop in and see us.
+
+if倒装句
+	使用条件：正式语或书面语中，if从句中should、were、had为第一个动词时，句子倒装
+	例句：
+	Should any of this cost anything (= If any of this should cost anything), send me the bill.
+	It would be embrassing, were she to find out the truth (If she were to find out the truth).
+    Had they not rushed Dan to hospital (If they hadn't runshed Dan to hospital), he would have died.
+
+if …… then ……
+	含义：如果……那么……
+	例句：If you must have some junk food then order small and share them. （如果你一定要吃垃圾食品，点一个小份并和别人一起吃）
+
+unless / if…not
+	unless可以理解为“除非”，和 if…not… 完全等价
+	例句：Unless you work much harder, you won't pass the exam. (= If you don't work much harder, you won't pass the exam.)
+	注：使用unless有警告的意味。
+
+in case of / that
+	含义：如果（注意：和 in case 含义不一样）
+	例句：
+	In case of fire (= If there is a fire), please leave the building as quickly as possible.
+	In case that (= If) users just use this APP for communications, they can install the lite version.

@@ -1,37 +1,41 @@
 and (conj.  和/而且/然后)
-• 连接相同结构的成分
+	用法：连接相同结构的成分
+
 as well as (和/也)
-• as well as 和 and 的含义、用法完全相同
-• as well 置于句尾，表示“也”
-• as well 不可置于句首
+	(1) as well as 和 and 的含义、用法完全相同
+	(2) as well 置于句尾，表示“也”
+	(3) as well 不可置于句首
+
+too （adv. 也）
+	用法：通常位于句尾，表示“也”
+
 not only … but also… (不仅…而且…)
-• 连接相同的成分
-• 例句：
-      a. 连接主语：Not only Jim but also his wife saw her.
-      b. 连接谓语：US and UK not only speak the same language but also share many social customs.
-      c. 连接宾语：The problem for the recipient was trying to guess not only who the sender was, but also what his secret feelings might be.
-d. 连接宾补：Light and bright colors make people not only happier but more active.
-e. 连接表语：Shakespeare was not only a writer but (also) an actor.
-f. 连接状语：If your friend reminds you kindly of your faults, take what he says not merely pleasantly but thank fully.
-g. 连接从句：He didn't let us off the hook until we had proved not only that we knew what an organism was but also that we had the fortitude to stand up for the truth. 
-Man has become master not only of the sky but also of the space. 
-h. 连接句子：I not only heard it, but (also) I saw it.
-i. 连接句子且not only置于句首时，注意倒装：Not only has he a first-class brain but also he is a tremendously hard worker.
+	连接相同的成分
+	例句：
+	a. 连接主语：Not only Jim but also his wife saw her.
+    b. 连接谓语：US and UK not only speak the same language but also share many social customs.
+    c. 连接宾语：The problem for the recipient was trying to guess not only who the sender was, but also what his secret feelings might be.
+	d. 连接宾补：Light and bright colors make people not only happier but more active.
+	e. 连接表语：Shakespeare was not only a writer but (also) an actor.
+	f. 连接状语：If your friend reminds you kindly of your faults, take what he says not merely pleasantly but thank fully.
+	g. 连接从句：He didn't let us off the hook until we had proved not only that we knew what an organism was but also that we had the fortitude to stand up for the truth. / Man has become master not only of the sky but also of the space. 
+	h. 连接句子：I not only heard it, but (also) I saw it.
+	i. 连接句子且not only置于句首时，注意倒装：Not only has he a first-class brain but also he is a tremendously hard worker.
+
 or （或/否则/和）
-• 表示“或”(意味着选择)：Would you like tea or water ?
-• 祈使句+or 句型中，表示“否则”：Study hard , or you will fail. 
-• 否定句中，表示“和”：He can't read or write .
+	表示“或”(意味着选择)：Would you like tea or water ?
+	祈使句+or 句型中，表示“否则”：Study hard , or you will fail. 
+	否定句中，表示“和”：He can't read or write .
  
 either…or…（两者中的一个）
-• 就近原则：Either you or he has to go = Either he or you have to go .
-• 例句：
-I either take taxis or walk everywhere.
-I could do either interviews or just send around a paper questionnaire.
-neither…nor… （既不…也不…）
-• Graduate teaching assistants are neither completely students nor teachers.
-• 就近原则：Neither you nor I am right .= Neither I nor you are right .
-too （adv. 也）
-• 用法：通常位于句尾，表示“也”
-likewise / similarly （adv. 也/同样地）
-• 书面语
-• 例句：On one band, the lagger of the rural area binders the development of the education, likewise, the unadvanced education in such areas differ the development in other many aspects.
+	就近原则：Either you or he has to go = Either he or you have to go .
+	例句：
+	I either take taxis or walk everywhere.
+	I could do either interviews or just send around a paper questionnaire.
+
+neither…nor… （既不…也不…）	
+	Graduate teaching assistants are neither completely students nor teachers.
+	就近原则：Neither you nor I am right .= Neither I nor you are right .
+
+likewise / similarly （adv. 也/同样地  书面语）
+	例句：On one band, the lagger of the rural area binders the development of the education, likewise, the unadvanced education in such areas differ the development in other many aspects.

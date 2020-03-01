@@ -51,12 +51,12 @@ with open(r'E:\Work\Jupyter\Data\write_text.txt', 'w') as f:
 """ 3. 其它对象的读写 —— pickle模块 """
 
 ''' (1) pickle.dump() 将对象以文件的形式存储在磁盘上'''
-data = {'a':[1,2,3,4], 'b':('string','abc'), 'c':'hello'} # 创建一个字典变量data
-dirc = open(r'E:\Work\Jupyter\Data\data.pkl', 'wb')   # 以二进制来存储： wb
+data = {'a':[1,2,3,4], 'b':('string','abc'), 'c':'hello'}  # 创建一个字典变量data
+dirc = open(r'E:\Work\Jupyter\Data\data.pkl', 'wb')  # 设置存储路径为 dirc，'wb'表示以二进制存储
 pickle.dump(data, dirc)  # 将一个字典数据存成了pkl文件
 dirc.close()
 
 ''' (2) pickle.load() 读取文件 '''
-f = open(r'E:\Work\Jupyter\Data\data.pkl', 'rb') # 以二进制来读取：rb,
+f = open(r'E:\Work\Jupyter\Data\data.pkl', 'rb') # 'rb'表示以二进制读取
 data = pickle.load(f)
 print(data)

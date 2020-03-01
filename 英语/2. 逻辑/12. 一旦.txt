@@ -1,0 +1,15 @@
+in case / once
+	含义：一旦，万一，以防
+	用法 1：in case + 一般现在时：现在做某事，以防将来会发生什么
+	例句：I don't want to go out in case / once he phones.
+		(注：in case 后跟的事件虽然是将来发生的，但不要用将来时态 (in case he will phone 不对))
+	
+	用法 2：in case + 过去时：解释过去做某事的目的
+	例句：I drew a map in case / once she couldn't find the house.
+
+just in case (+ 句子)：表示更小的可能性，可以理解成“以防万一”，可以用逗号隔开
+	I don't think it will rain but I'll take an umbrella, just in case.
+
+by any chance
+	或许：Do you know it by any chance?
+	万一：If by any chance you want to cancel this trip, please notify us in writting at least one month in advance.

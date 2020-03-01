@@ -21,6 +21,7 @@
 
 import requests
 import os
+import random
 
 """ 1. get()操作 """
 r = requests.get('https://www.baidu.com/')  # 请求获取网页Response对象
@@ -73,20 +74,36 @@ print(get_html_text(url))
 
 """ 2. 技巧 """
 
-''' 2.1 反来源审查
-    
-    · 某些网站会检查来访 HTTP 协议头的 User‐Agent 域（即"来源审查"）
-      只响应浏览器或友好爬虫的访问
-    · 反来源审查方法：修改User‐Agent
-'''
-url = 'https://movie.douban.com/top250'  # 豆瓣电影排行网页
-r = requests.get(url)
-print(r.request.headers)  # >>> {'User-Agent': 'python-requests/2.22.0' …… } 说明我们在用爬虫访问
-print(r.status_code)      #  由于豆瓣网站进行了来源审查，因此无法访问
-# 修改 User-Agent:
-kv = {'user-agent': 'Chrome 79.0'}  # 设置字典，其中 'Chrome 79.0'为浏览器版本
-r = requests.get(url, headers=kv)   # 替换 headers 中 User-Agent
-print(r.status_code)  # >>> 200  访问正常
+''' 2.1 反反爬 '''
+# 操作 1：设置 user-agent 列表，随机选取，以应对来源审查
+agent_list = [
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+    'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6; rv:2.0.1) Gecko/20100101 Firefox/4.0.1',
+    'Mozilla/5.0 (Windows NT 6.1; rv:2.0.1) Gecko/20100101 Firefox/4.0.1',
+    'Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.8.131 Version/11.11',
+    'Opera/9.80 (Windows NT 6.1; U; en) Presto/2.8.131 Version/11.11',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11',
+    'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Maxthon 2.0)',
+    'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; TencentTraveler 4.0)']
+# 操作 2：设置 proxies 列表，随机选取，以应对针对同一 IP 多次访问的反爬机制
+# proxy 可从该网站下载：https://www.xicidaili.com/
+proxy_list = [
+    '180.103.42.164',
+    '113.116.106.212']
+# 操作 3：设置 referer，表示访问是从 referer页面发起的，以应对针对用户行为的反爬机制
+referer = 'https://www.baidu.com/'
+# 注意：操作 1，2，3 不一定全要使用，
+# 操作 4：随机生成 headers 和 proxy，并请求（可设为循环，多次尝试）
+headers = {'User-Agent' : random.choice(agent_list), 'referer': referer}
+proxy = {'http' : 'http://' + random.choice(proxy_list)}
+# 示例：
+url = 'https://www.zhihu.com/'
+r = requests.get(url) # 直接用爬虫请求
+print(r.status_code) # >>> 400
+r = requests.get(url, headers=headers, proxies=proxy, timeout=20) # 伪装后请求
+print(r.status_code) # >>> 200
 
 
 ''' 2.2 爬取图片 '''
