@@ -60,7 +60,7 @@ def cov(data1, data2):
 # 生成协方差矩阵
 combs = list(itertools.product([1,2,3,4], [1,2,3,4]))
 cov_mat_1 = [cov(eval('v'+str(comb[0])), eval('v'+str(comb[1]))) for comb in combs]
-cov_mat_1 = np.array(cov_mat).reshape(4,4)
+cov_mat_1 = np.array(cov_mat_1).reshape(4,4)
 
 
 ''' 2.2 矩阵运算 '''
