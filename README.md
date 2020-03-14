@@ -1,5 +1,5 @@
-## 1. Python基础
-### 1.1 数据类型 & 语法
+# 1. Python基础
+## 1.1 数据类型 & 语法
 * **数据类型：**
 [数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
 &nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
@@ -17,7 +17,7 @@
 &nbsp; [生成器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E7%94%9F%E6%88%90%E5%99%A8.py)
 &nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 &nbsp; [例外](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96.py)
-### 1.2 基本模块 & 操作
+## 1.2 基本模块 & 操作
 * **模块：**
 [datetime](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_datetime.py)
 &nbsp; [time](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_time.py)
@@ -34,7 +34,7 @@
 &nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%9B%E5%BA%A6%E6%8F%90%E7%A4%BA.py)
 &nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
 &nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E6%89%93%E5%8C%85%E7%A8%8B%E5%BA%8F.txt)
-### 1.3 数据结构 & 算法
+## 1.3 数据结构 & 算法
 * **数据结构：**
 [栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E6%A0%88.py)
 &nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%98%9F%E5%88%97.py)
@@ -49,8 +49,8 @@
 &nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
 <br/>
 
-## 2. 数据分析和可视化
-### 2.1 基础模块
+# 2. 数据分析和可视化
+## 2.1 基础模块
 * **numpy：**
 [array](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
 &nbsp; [matrix]()
@@ -60,44 +60,15 @@
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
 &nbsp; [统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py) )
 
-### 2.2 预处理
+## 2.2 预处理
 * **参数处理：** 
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
 &nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
 &nbsp; [特征选择](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
 
-### 2.3 可视化
-* **Matplotlib I：** 
-[基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%9F%BA%E7%A1%80%E5%8F%8A%E7%82%B9%E7%BA%BF%E5%9B%BE.py)
-&nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
-&nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
-&nbsp; [窗口设置](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
-* **Matplotlib II：** 
-[饼状图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
-&nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
-&nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
-&nbsp; [雷达图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
-&nbsp; [柱状/堆叠图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
-&nbsp; [面积/填充面积图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_(%E5%A1%AB%E5%85%85)%E9%9D%A2%E7%A7%AF%E5%9B%BE.py)
-&nbsp; [3D图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_3D%E5%9B%BE.py)
-* **Seaborn：** 
-[柱状图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E6%9F%B1%E7%8A%B6%E5%9B%BE.py)
-&nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
-&nbsp; [密度直方图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E5%AF%86%E5%BA%A6%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
-&nbsp; [综合散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%BB%BC%E5%90%88%E6%95%A3%E7%82%B9%E5%9B%BE.py)
-&nbsp; [矩阵散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%9F%A9%E9%98%B5%E6%95%A3%E7%82%B9%E5%9B%BE.py)
-* **Bokeh：**
-[基础](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%9F%BA%E7%A1%80.py)
-&nbsp; [散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E6%95%A3%E7%82%B9%E5%9B%BE.py)
-&nbsp; [折线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
-&nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
-&nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
-&nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
-<br/>
-
-### 2.3 建模
-#### 2.3.1 Sklearn
+## 2.3 建模
+### 2.3.1 Sklearn
 * **回归：**
 [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
@@ -164,3 +135,31 @@
 &nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Linear_Eqs.py)
 &nbsp; [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Nonlinear_Eqs.py)
 &nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Monte_Carlo.py)
+
+## 2.4 可视化
+* **Matplotlib I：** 
+[基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%9F%BA%E7%A1%80%E5%8F%8A%E7%82%B9%E7%BA%BF%E5%9B%BE.py)
+&nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
+&nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
+&nbsp; [窗口设置](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
+* **Matplotlib II：** 
+[饼状图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
+&nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
+&nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
+&nbsp; [雷达图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
+&nbsp; [柱状/堆叠图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
+&nbsp; [面积/填充面积图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_(%E5%A1%AB%E5%85%85)%E9%9D%A2%E7%A7%AF%E5%9B%BE.py)
+&nbsp; [3D图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_3D%E5%9B%BE.py)
+* **Seaborn：** 
+[柱状图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E6%9F%B1%E7%8A%B6%E5%9B%BE.py)
+&nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
+&nbsp; [密度直方图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E5%AF%86%E5%BA%A6%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
+&nbsp; [综合散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%BB%BC%E5%90%88%E6%95%A3%E7%82%B9%E5%9B%BE.py)
+&nbsp; [矩阵散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/sns_%E7%9F%A9%E9%98%B5%E6%95%A3%E7%82%B9%E5%9B%BE.py)
+* **Bokeh：**
+[基础](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%9F%BA%E7%A1%80.py)
+&nbsp; [散点图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E6%95%A3%E7%82%B9%E5%9B%BE.py)
+&nbsp; [折线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
+&nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
+&nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
+&nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
