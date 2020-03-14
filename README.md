@@ -87,7 +87,7 @@
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [朴素贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
-&nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
+&nbsp; [集成模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_ensemble.py)
 * **模型处理：**
 [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
