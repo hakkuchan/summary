@@ -16,3 +16,20 @@ print(pd.value_counts(cats))    # 按照区间计数
 print(pd.cut(ages,[18,26,36,61,100],right=False)) # 通过right函数修改闭端，默认为True
 group_names=['Youth','YoungAdult','MiddleAged','Senior']
 print(pd.cut(ages, bins, labels=group_names))     # 可以设置自己的区间名称，用labels参数
+
+
+''' 标签转换 '''
+zeolites_df = pd.read_csv('E:\Work\Jupyter\Data\zeolites.csv')
+zeolites = (zeolites_df.values)[:,1:]
+np.random.shuffle(zeolites)
+heads = ['name', 'crystal_sys', 'space_group', 'a', 'b', 'c', 'alpha', 'beta', 'gamma', 'vol', 'RDLS', 'FDS',
+         'TD10', 'TD', 'ring_size', 'dim_topo', 'inc_sphere', 'diff_a', 'diff_b', 'diff_c', 'access_vol']
+for num, head in enumerate(heads):
+    locals()[head] = zeolites[:,num].reshape(-1,1)
+
+y = crystal_sys.ravel()
+print(y[0:5])
+
+# 关键代码
+new_y = preprocessing.LabelEncoder().fit_transform(crystal_sys.ravel())
+print(new_y[0:5])

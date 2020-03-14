@@ -19,12 +19,6 @@ print(rfe.n_features_)  # 输出所选择的特征个数
 print(rfe.support_)     # 输出所选择的特征
 print(rfe.ranking_)     # 所有特征重要性排序
 
-""" 主成分分析（PCA 和 LDA）"""
-from sklearn.decomposition import PCA
-pca = PCA(n_components=3).fit(X)
-print('解释方差：%s' % pca.explained_variance_ratio_)
-print(pca.components_)
-
 """ 决策树计算特征重要性 """
 from sklearn.ensemble import ExtraTreesClassifier
 DT = ExtraTreesClassifier(n_estimators=10).fit(X,y)
