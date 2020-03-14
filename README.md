@@ -50,15 +50,24 @@
 <br/>
 
 ## 2. 数据分析和可视化
-### 2.1 数据分析
-* **模块：**
-[numpy](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
-&nbsp; pandas-( [Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
+### 2.1 基础模块
+* **numpy：**
+[array](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
+&nbsp; [matrix]()
+* **pandas：**
+[Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
 &nbsp; [Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_dataframe.py)
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
 &nbsp; [统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py) )
 
-### 2.2 可视化
+### 2.2 预处理
+* **参数处理：** 
+[范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
+&nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
+&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
+&nbsp; [特征选择](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
+
+### 2.3 可视化
 * **Matplotlib I：** 
 [基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%9F%BA%E7%A1%80%E5%8F%8A%E7%82%B9%E7%BA%BF%E5%9B%BE.py)
 &nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
@@ -87,8 +96,8 @@
 &nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
 <br/>
 
-## 3. 模型
-### 3.1 Sklearn
+### 2.3 建模
+#### 2.3.1 Sklearn
 * **回归：**
 [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
@@ -105,11 +114,7 @@
 [K近邻](https://www.yuque.com/zbtgl/eu94xc/sg6v8r)
 &nbsp; [线性模型](https://www.yuque.com/zbtgl/eu94xc/quo5gu)
 &nbsp; [决策树](https://www.yuque.com/zbtgl/eu94xc/xxxmbk)
-* **参数处理：** 
-[范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
-&nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
-&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
-&nbsp; [特征选择](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
+
 * **模型处理：**
 [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
@@ -118,7 +123,7 @@
 & [Search](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Search.py)
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
-### 3.2 Pytorch
+### 2.3.2 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
@@ -145,7 +150,7 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-### 3.3 科学计算
+### 2.3.3 科学计算
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Integration.py)
