@@ -63,7 +63,7 @@
 
 ### 2.2 预处理
 * **数据清洗：**
-[缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_%E7%BC%BA%E5%A4%B1%E5%80%BC.py)
+[缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_nan.py)
 
 * **特征选择：** 
 
