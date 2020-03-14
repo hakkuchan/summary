@@ -50,7 +50,7 @@
 <br/>
 
 ## 2. 数据分析
-### 2.1 基础模块
+### 2.1 基本模块
 * **numpy：**
 [array](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np_array.py)
 &nbsp; [matrix](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np_matrix.py)
@@ -70,7 +70,7 @@
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
 
 * **特征选择：** 
-[xxxx](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
+
 * **数据降维：** 
 [PCA]()
 
