@@ -62,17 +62,20 @@
 &nbsp; [常用统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 
 ### 2.2 预处理
-* **规范化：**
+* **数据清洗：**
 [缺失值]()
 &nbsp; [异常值]()
-&nbsp; [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E8%B0%83%E6%95%B4.py)
-&nbsp; [标签转换](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%A0%87%E7%AD%BE%E8%BD%AC%E6%8D%A2.py)
-&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E6%95%B0%E6%8D%AE%E5%88%86%E5%89%B2.py)
+&nbsp; [特征编码]()
 
 * **特征选择：** 
 
 * **数据降维：** 
 [PCA]()
+
+* **其它：**
+[范围调整]()
+&nbsp; [数据分割]()
+
 
 ### 2.3 建模
 #### 2.3.1 Sklearn
@@ -87,7 +90,7 @@
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [朴素贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
-&nbsp; [Clustering](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_clustering.py)
+&nbsp; [集成模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_ensemble.py)
 * **模型处理：**
 [回归模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%9B%9E%E5%BD%92%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
 &nbsp; [分类模型比较](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E5%88%86%E7%B1%BB%E7%AE%97%E6%B3%95%E6%AF%94%E8%BE%83.py)
