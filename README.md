@@ -49,7 +49,7 @@
 &nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
 <br/>
 
-## 2. 数据分析和可视化
+## 2. 数据分析
 ### 2.1 基础模块
 * **numpy：**
 [array](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
@@ -68,7 +68,7 @@
 &nbsp; [特征选择](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E7%89%B9%E5%BE%81%E9%80%89%E6%8B%A9.py)
 
 ### 2.3 建模
-### 2.3.1 Sklearn
+#### 2.3.1 Sklearn
 * **回归：**
 [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
@@ -94,7 +94,7 @@
 & [Search](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/tune_Search.py)
 &nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_%E4%BF%9D%E5%AD%98%E5%8A%A0%E8%BD%BD%E6%A8%A1%E5%9E%8B.py)
 
-### 2.3.2 Pytorch
+#### 2.3.2 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
@@ -121,7 +121,7 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-### 2.3.3 科学计算
+#### 2.3.3 科学计算
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Integration.py)
