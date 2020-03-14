@@ -63,18 +63,17 @@
 
 ### 2.2 预处理
 * **数据清洗：**
-[缺失值]()
-&nbsp; [异常值]()
-&nbsp; [特征编码]()
+[缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_%E7%BC%BA%E5%A4%B1%E5%80%BC.py)
 
 * **特征选择：** 
 
 * **数据降维：** 
-[PCA]()
+[PCA](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_PCA.py)
+&nbsp; []()
 
 * **其它：**
-[范围调整]()
-&nbsp; [数据分割]()
+[Rescale](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_rescale.py)
+&nbsp; [Split](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
 
 
 ### 2.3 建模
