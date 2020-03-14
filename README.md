@@ -52,8 +52,9 @@
 ## 2. 数据分析
 ### 2.1 基础模块
 * **numpy：**
-[array](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np.py)
-&nbsp; [matrix]()
+[array](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np_array.py)
+&nbsp; [matrix](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np_matrix.py)
+&nbsp; [ufunc](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/np_ufunc.py)
 * **pandas：**
 [Series](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_series.py)
 &nbsp; [Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_dataframe.py)
