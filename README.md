@@ -66,12 +66,12 @@
 [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_nan.py)
 &nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_abnorm.py)
 &nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_FeatureCoding.py)
-
 * **特征选择：** 
-
+[过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_filter.py)
+&nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_model.py)
+&nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_recur.py)
 * **数据降维：** 
 [PCA](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_PCA.py)
-
 * **其它：**
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_rescale.py)
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
