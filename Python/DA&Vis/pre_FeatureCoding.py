@@ -1,6 +1,7 @@
 """ 特征编码
     1. 标签转换
     2. 离散化
+	3. 阈值转换
 """
 
 import numpy as np
@@ -37,3 +38,12 @@ print(pd.value_counts(cats))
 # 设置区间名称
 names=['Youth','YoungAdult','MiddleAged','Senior']
 print(pd.cut(ages, bins, labels=names))
+
+
+""" 3. 阈值转换
+    · 比如大于阈值设为1，小于阈值设为0
+	· 用于形成bool型新特征
+"""
+Y = np.array([-1, -2, 0, 5, 10]).reshape(-1,1)
+newY = preprocessing.Binarizer(threshold=1.5).fit_transform(Y)
+print('after Binarizer: \n', newY, '\n')
