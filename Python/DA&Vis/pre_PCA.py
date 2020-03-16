@@ -1,7 +1,12 @@
+""" PCA是一种最常用的降维方法
+    其核心思想是把高维特征处理成尽可能相互正交的低维特征
+"""
+
 import numpy as np
 from sklearn import datasets
 from sklearn import decomposition
 
+# Data：Iris
 iris = datasets.load_iris()
 X = iris.data
 print('Shape of X:', X.shape) # >>> (150, 4) 150个样本，4个特征
@@ -16,7 +21,6 @@ proj = Xm.I @ Xr
 print('Shape of proj:', proj.shape) # >>> (4, 2)
 print('Shape of Xr:', Xr.shape) # >>> (150, 2) 150个样本，2个特征
 print(60*'-')
-
 
 ''' 2. 分解步骤 '''
 # Step 1: 计算样本的协方差矩阵
