@@ -75,6 +75,7 @@
 &nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_recur.py)
 * **数据降维：** 
 [PCA](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_PCA.py)
+&nbsp; [KernelPCA](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_KPCA.py)
 
 ### 2.3 建模
 #### 2.3.1 Sklearn
