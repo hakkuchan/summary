@@ -8,9 +8,11 @@ from sklearn import decomposition
 iris = datasets.load_iris()
 X = iris.data
 print('Shape of X:', X.shape) # >>> (150, 4) 150个样本，4个特征
-# KernelPCA方法
+
+# KernelPCA降维
 kpca = decomposition.KernelPCA(n_components=2, kernel='rbf') # 设置降维后的维度，核函数类型
 Xr = kpca.fit_transform(X) # 降维
+
 # 由于 KernelPCA方法 无法直接获得投影矩阵，投影矩阵需要间接计算
 # 方法：Xr = Xm @ proj  →  proj = Xm.I @ Xr    
 Xm = np.matrix(X - np.mean(X, axis=0)) # 样本去中心化
