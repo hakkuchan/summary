@@ -81,10 +81,10 @@
 &nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
 &nbsp; [流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
 * **聚类：**
-[简介 & K均值聚类]()
-&nbsp; [密度聚类]()
-&nbsp; [层次聚类]()
-&nbsp; [混合高斯模型]()
+[简介 & K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_kmeans.py)
+&nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_DBSCAN.py)
+&nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_agglo.py)
+&nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_mix_gauss.py)
 
 ### 2.3 建模
 #### 2.3.1 Sklearn
