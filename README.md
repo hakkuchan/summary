@@ -80,6 +80,11 @@
 [主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_PCA.py)
 &nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
 &nbsp; [流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
+* **聚类：**
+[Kmeans]()
+&nbsp; [DBSCAN]()
+&nbsp; [AgglomerativeClustering]()
+&nbsp; [MixtureGaussian]()
 
 ### 2.3 建模
 #### 2.3.1 Sklearn
