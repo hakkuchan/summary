@@ -17,6 +17,7 @@
 &nbsp; [生成器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E7%94%9F%E6%88%90%E5%99%A8.py)
 &nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
 &nbsp; [例外](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96.py)
+
 ### 1.2 基本模块 & 操作
 * **模块：**
 [datetime](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_datetime.py)
@@ -34,6 +35,7 @@
 &nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%9B%E5%BA%A6%E6%8F%90%E7%A4%BA.py)
 &nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
 &nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E6%89%93%E5%8C%85%E7%A8%8B%E5%BA%8F.txt)
+
 ### 1.3 数据结构 & 算法
 * **数据结构：**
 [栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E6%A0%88.py)
@@ -48,6 +50,7 @@
 &nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%8E%92%E5%BA%8F.py)
 &nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
 <br/>
+
 
 ## 2. 数据分析
 ### 2.1 基本模块
@@ -74,8 +77,9 @@
 &nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_model.py)
 &nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_recur.py)
 * **数据降维：** 
-[PCA](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_PCA.py)
-&nbsp; [KernelPCA](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_KPCA.py)
+[主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_PCA.py)
+&nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
+&nbsp; [流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
 
 ### 2.3 建模
 #### 2.3.1 Sklearn
