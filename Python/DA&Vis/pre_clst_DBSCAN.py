@@ -1,6 +1,6 @@
 """ 密度聚类 (Density-based spatial clustering of applications with noise, DBSCAN)
 
-    · 思想：把紧密程度高于阈值的样本划为同类簇
+    · 原理：把紧密程度高于阈值的样本划为同类簇
     · 步骤：
       Step 1: 随机选择一个对象p，检查p的邻域e内是否至少包含MinPts个样本
       Step 2: 若不包含，p被标记为噪声，不参与之后的聚类；
