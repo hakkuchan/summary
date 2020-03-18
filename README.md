@@ -100,7 +100,7 @@
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [朴素贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 &nbsp; [集成模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_ensemble.py)
-* **模型处理：**
+* **操作：**
 [性能度量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_metrics.py)
 &nbsp; [比较模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_CompareModel.py)
 &nbsp; [调节超参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_TuneHyperparam.py)
