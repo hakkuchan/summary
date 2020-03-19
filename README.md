@@ -65,13 +65,6 @@
 &nbsp; [常用统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 
 ### 2.2 预处理
-* **常用操作：**
-[范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_rescale.py)
-&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
-&nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_FeatureCoding.py)
-&nbsp; [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_nan.py)
-&nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_abnorm.py)
-&nbsp; [流水线](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_pipeline.py)
 * **特征选择：** 
 [过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_filter.py)
 &nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_model.py)
@@ -85,6 +78,13 @@
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_DBSCAN.py)
 &nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_agglo.py)
 &nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_mix_gauss.py)
+* **常用操作：**
+[范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_rescale.py)
+&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
+&nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_FeatureCoding.py)
+&nbsp; [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_nan.py)
+&nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_abnorm.py)
+&nbsp; [流水线](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_pipeline.py)
 
 ### 2.3 建模
 #### 2.3.1 Sklearn
