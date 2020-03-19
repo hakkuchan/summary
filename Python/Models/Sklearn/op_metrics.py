@@ -37,11 +37,11 @@ print(metrics.precision_score(real, pred)) # >>> 0.5
 print(metrics.recall_score(real, pred)) # >>> 0.3333333333333333
 
 # (4) 查准率和查全率的调和值
-#  a. FB值 (注：B设定的越大，查全率的贡献率越大)：
+#  a. f_β值 (注：β越大，查全率的贡献率越大)：
 #     fbeta_score = 1 / {1/[(1+B^2)*precision] + B^2/[(1+B^2)*precision]}
 print(metrics.fbeta_score(real, pred, beta=10))  # >>> 0.3344370860927152
 print(metrics.fbeta_score(real, pred, beta=100)) # >>> 0.3344370860927152    
-#  b. F1值  f1_score = 2 / (1/precision + 1/recall)
+#  b. f_1值  f1_score = 2 / (1/precision + 1/recall)
 print(metrics.f1_score(real, pred)) # >>> 0.4
 
 # Data 2：Iris
