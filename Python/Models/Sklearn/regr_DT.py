@@ -1,17 +1,22 @@
+""" 决策树回归：
+    
+    · 思想：根据划分准则选择特征，不断划分训练集数据集，直至形成叶节点（具体取值）
+    针对测试集数据，逐层向下，最终落到某一取值(附近)
+"""
+
 import numpy as np
 import pandas as pd
 from sklearn import tree
 from sklearn import datasets
-from sklearn import model_selection
+from sklearn import model_selection, metrics
 from sklearn.tree import export_graphviz
 import pydotplus
 
-''' 准备数据 '''
-db = datasets.load_diabetes()
-X = db.data
-y = db.target
+# Data：Boston housing price
+X = datasets.load_boston().data
+y = datasets.load_boston().target
 
-''' 建立决策树模型 '''
+# Modeling
 model = tree.DecisionTreeRegressor(
                                    criterion='mse', # 设置划分准则
                                    splitter='best', # 设置划分原则 
@@ -26,21 +31,13 @@ model = tree.DecisionTreeRegressor(
                                    presort=False  # 是否提前排序数据，从而加速寻找最优划分的过程（而对于大样本量的数据集，排序过程慢，不建议使用）
                                   )
 
-''' 学习及预测 '''
-print('|{:>10s}|{:>10s}|'.format('Batch', 'R^2'))
-kfold = model_selection.KFold(n_splits=10, random_state=1)
-batch = 1
-for train,test in kfold.split(X):
-    X_train, X_test = X[train], X[test]
-    y_train, y_test = y[train], y[test]
-    model.fit(X_train,y_train)
-    print(f'|{batch:>10.0f}|{model.score(X_test, y_test):>10.4f}|')
-    batch += 1
-out = model_selection.cross_val_score(model, X, y, cv=kfold)
-print(f'Mean R^2：{out.mean():.4f} ± {out.std():.4f}')
+# Train & Test
+mse = metrics.make_scorer(metrics.mean_squared_error)
+results = model_selection.cross_val_score(model, X, y, cv=10, scoring=mse)
+print(f'RMSE of DT : {results.mean()**0.5:.2f}')
 
-''' 生成决策树图 '''
+# 生成决策树图
 model.fit(X,y)
 dot_data = tree.export_graphviz(model, out_file=None) 
 graph = pydotplus.graph_from_dot_data(dot_data) 
-graph.write_png('E:\Work\Jupyter\Data\Out/DT_diabetes.png')
+graph.write_png('E:\Work\Jupyter\Data\Out/DT_Boston.png')
