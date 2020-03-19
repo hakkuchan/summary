@@ -96,8 +96,8 @@
 &nbsp; [集成模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_ensemble.py)
 * **分类：**
 [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
-&nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
 &nbsp; [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
+&nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [集成模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_ensemble.py)
 &nbsp; [朴素贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
