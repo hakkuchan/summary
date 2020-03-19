@@ -53,7 +53,6 @@ r2 = metrics.make_scorer(metrics.r2_score)
 out = model_selection.cross_val_score(model, X, y, cv=kfold, scoring=r2)
 print(f'R^2 = {out.mean():.4f} ± {out.std():.4f}')
 
-
 ''' Example 3: 病态问题
 
     多元线性回归可能存在多个使均方误差最小化的解，
@@ -67,6 +66,8 @@ model = linear_model.LinearRegression()
 print(model.fit(X1, y).coef_)  # >>> [0.5 0.5]
 print(model.fit(X2, y).coef_)  # >>> [1.00000000e+00 2.11962482e-15]
 
+
+
 """ 2. 正则化的线性回归模型
     
     · 由于普通线性回归模型的病态问题
@@ -75,7 +76,6 @@ print(model.fit(X2, y).coef_)  # >>> [1.00000000e+00 2.11962482e-15]
     
     · 根据正则化项形式的不同，衍生出三种线性回归模型：Ridge，Lasso，ElasticNet
 """
-
 
 ''' 2.1 Ridge '''
 # Toy data
