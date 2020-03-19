@@ -92,8 +92,8 @@
 [线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py) 
 &nbsp; [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
-&nbsp; [集成](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_ensemble.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
+&nbsp; [集成](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_ensemble.py)
 * **分类模型：**
 [线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
