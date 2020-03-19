@@ -92,14 +92,15 @@
 [线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_DT.py) 
 &nbsp; [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
+&nbsp; [集成](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_ensemble.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_SVM.py)
 * **分类模型：**
 [线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_linear.py)
 &nbsp; [决策树](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_DT.py)
 &nbsp; [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_KNN.py)
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
-&nbsp; [贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 &nbsp; [集成](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_ensemble.py)
+&nbsp; [贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
 * **常用操作：**
 [性能度量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_metrics.py)
 &nbsp; [比较模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_CompareModel.py)
