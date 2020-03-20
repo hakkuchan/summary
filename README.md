@@ -115,9 +115,9 @@
 &nbsp; [functional](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_functional.py) 
 &nbsp; [Loss](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_loss.py)
 &nbsp; [optimizer](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optimizer.py) 
-* **搭建ANN：**
-[入门](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Intro.py)
-&nbsp; [搭建模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
+&nbsp; [综合实例:线性回归](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Intro.py)
+* **ANN：**
+[搭建ANN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
 &nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Init.py)
 &nbsp; [训练和测试](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_TrainTest.py)
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
@@ -169,4 +169,4 @@
 &nbsp; [折线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E6%8A%98%E7%BA%BF%E5%9B%BE.py)
 &nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E8%BE%85%E5%8A%A9%E6%A0%87%E6%B3%A8.py)
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E7%89%B9%E6%AE%8A%E5%9D%90%E6%A0%87%E8%BD%B4.py)
-&nbsp; [多图表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
+&nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/bokeh_%E5%A4%9A%E5%9B%BE%E8%A1%A8.py)
