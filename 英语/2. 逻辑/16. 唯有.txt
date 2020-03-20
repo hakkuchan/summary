@@ -1,6 +1,0 @@
-only if
-
-含义：只有、唯有，强调必要条件
-例句：
-	The context menu should be shown only if we select two elements in the list.
-	The client will send a certificate to the server only if the server requests one
