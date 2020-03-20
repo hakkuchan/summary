@@ -129,6 +129,12 @@ print(t[1:3])
 print(t[:,0])
 print(t[:,[0,2]])
 
+# 数据类型转换
+t = torch.tensor([[1,2,3], [4,5,6]])
+print(t.type()) # >>> torch.LongTensor  长整型
+t = torch.tensor([[1,2,3], [4,5,6]]).float()
+print(t.type()) # >>> torch.FloatTensor 浮点型
+
 
 ''' 2.3 基本运算 '''
 t = torch.tensor([[1.,2.,3.], [4.,5.,6.]])
