@@ -109,8 +109,8 @@
 
 #### 2.3.2 Pytorch
 * **基础：**
-[张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E5%BC%A0%E9%87%8F.py)
-&nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basics_%E8%87%AA%E5%8A%A8%E6%B1%82%E5%AF%BC.py)
+[张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_tensor.py)
+&nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_autograd.py)
 * **层：**
 [Linear](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_Linear.py)
 & [示例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.py)
