@@ -117,8 +117,9 @@
 &nbsp; [optimizer](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optimizer.py) 
 * **搭建ANN：**
 [入门](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Intro.py)
-&nbsp; [搭建ANN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
+&nbsp; [搭建模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
 &nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Init.py)
+&nbsp; [训练和测试](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_TrainTest.py)
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
 &nbsp; [tensorboardX](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_tensorboardX.py)
 * **典型模型：**
