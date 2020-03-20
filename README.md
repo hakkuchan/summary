@@ -105,7 +105,7 @@
 [性能度量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_metrics.py)
 &nbsp; [比较模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_CompareModel.py)
 &nbsp; [调节超参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_TuneHyperparam.py)
-&nbsp; [保存加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
+&nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
 
 #### 2.3.2 Pytorch
 * **基础：**
@@ -119,9 +119,9 @@
 [入门](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Intro.py)
 &nbsp; [搭建ANN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
 &nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Init.py)
-&nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
+&nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
 &nbsp; [tensorboardX](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_tensorboardX.py)
-* **典型ANN：**
+* **典型模型：**
 [BPNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_BPNN.py)
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
