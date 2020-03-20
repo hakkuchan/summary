@@ -115,7 +115,7 @@
 &nbsp; [functional](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_functional.py) 
 &nbsp; [Loss](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_loss.py)
 &nbsp; [optimizer](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optimizer.py) 
-&nbsp; [综合实例:线性回归](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Intro.py)
+&nbsp; [综合实例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Intro.py)
 * **ANN：**
 [搭建ANN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
 &nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Init.py)
