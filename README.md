@@ -111,7 +111,7 @@
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_tensor.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_autograd.py)
-&nbsp; [Layer](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_layer.py)
+&nbsp; [层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_layer.py)
 &nbsp; [functional]() 
 &nbsp; [Loss]()
 &nbsp; [optimizer]() 
