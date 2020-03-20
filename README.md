@@ -120,7 +120,7 @@
 &nbsp; [搭建ANN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
 &nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Init.py)
 &nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
-&nbsp; [tensorboardX](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/op_tensorboardX.py)
+&nbsp; [tensorboardX](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_tensorboardX.py)
 * **典型ANN：**
 [BPNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_BPNN.py)
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
