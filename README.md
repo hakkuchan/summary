@@ -121,7 +121,7 @@
 &nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Init.py)
 &nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
 &nbsp; [tensorboardX](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/op_tensorboardX.py)
-* **常见NN：**
+* **典型ANN：**
 [BPNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_BPNN.py)
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
