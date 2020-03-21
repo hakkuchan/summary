@@ -113,7 +113,7 @@
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_autograd.py)
 &nbsp; [层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_layer.py)
 &nbsp; [functional](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_functional.py) 
-&nbsp; [Loss](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_loss.py)
+&nbsp; [loss](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_loss.py)
 &nbsp; [optimizer](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optimizer.py) 
 &nbsp; [综合实例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_review.py)
 * **ANN：**
