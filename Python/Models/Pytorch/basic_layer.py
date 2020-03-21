@@ -10,7 +10,7 @@
     |
     |—— 1. 自定义层
     |
-    |—— 2. Linear
+    |—— 2. Linear & 参数初始化
     |
     |—— 3. 激活函数层
     |
@@ -40,8 +40,8 @@ import torch.nn as nn
 class MyLinear(nn.Module):  # 继承基类 nn.Module
     def __init__(self, in_dim, out_dim):  # 初始化函数(__init__)中定义层涉及的参数
         super(MyLinear, self).__init__()  # 调用构造函数 super(类名, self).__init__()
-        self.weight = nn.Parameter(torch.ones(in_dim, out_dim)) # 初始化 weight，并封装为 nn.Parameter
-        self.bias = nn.Parameter(torch.ones(out_dim))           # 初始化 bias，并封装为 nn.Parameter     
+        self.weight = nn.Parameter(torch.ones(in_dim, out_dim)) # 初始化 weight 为 1，并封装为 nn.Parameter
+        self.bias = nn.Parameter(torch.ones(out_dim))           # 初始化 bias 为 1，并封装为 nn.Parameter     
     def forward(self, x):
         # 定义前向传播运算
         y = x.mm(self.weight) + self.bias
@@ -58,7 +58,7 @@ print('Weight:', param['weight'].t().numpy())
 print('Bias:', param['bias'].numpy())
 
 
-""" 2. Linear
+""" 2. Linear & 参数初始化
 
     · torch.nn.Linear 实现数据的线性转化：y = AX + b
     · 完整形式：nn.Linear(in_features, out_features, bias=True)

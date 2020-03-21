@@ -44,6 +44,29 @@ layer = nn.Sequential(
 y = layer(X)
 print(y)
 
+""" Sequential 权值初始化 """
+def init_weight(m):
+    if type(m) == nn.Linear:
+        torch.nn.init.constant_(m.weight,1)
+        m.bias.data.fill_(1)
+
+class Model(nn.Module):
+    def __init__(self, n_input, n_hidden, n_output):
+        super(Model, self).__init__()
+        self.layer1 = nn.Sequential(nn.Linear(n_input, n_hidden), nn.LeakyReLU())
+        self.layer2 = nn.Linear(n_hidden, n_output)
+    def forward(self, x):
+        x = self.layer1(x)
+        x = self.layer2(x)
+        return x
+
+model = Model(1,10,2)
+model.apply(init_weight)
+
+param = model.state_dict()
+print(param['layer1.0.weight'], param['layer1.0.bias'])
+print(param['layer2.weight'], param['layer2.bias'])
+
 
 class Model(nn.Module):
     def __init__(self):
