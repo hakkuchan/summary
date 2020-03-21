@@ -28,7 +28,8 @@ import torch.nn as nn
     
     · 注意事项：
       (1) 层的数据结构为"类"，自定义层时需先继承基类 nn.Module
-      (2) 在初始化函数(__init__)中定义层涉及的参数，并调用构造函数 super(类名, self).__init__()
+      (2) 在初始化函数(__init__)中定义层涉及的参数(需设定初始值，即参数初始化)，
+          调用构造函数 super(类名, self).__init__()
           把需要学习的参数封装成 nn.Parameter，使参数能够被自动检测和学习
       (3) forward()函数实现自定义层的具体运算 (前向传播过程);
       (4) 无需写反向传播函数，nn.Module能够利用autograd自动实现反向传播。
@@ -70,7 +71,7 @@ print('Bias:', param['bias'].numpy())
 X = torch.tensor([[1,2,3], [4,5,6]]).float()
 # 实例化 torch.nn.Linear 层
 layer = nn.Linear(3,1, bias=True)
-# 初始化 layer 的 weight 和 bias
+# 初始化参数：对于内置层，可以省去；但对于自定义层，必须初始化参数
 nn.init.constant_(layer.weight, 1)
 nn.init.constant_(layer.bias, 2)
 # 计算结果
