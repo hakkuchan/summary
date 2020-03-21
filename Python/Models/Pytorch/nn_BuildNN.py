@@ -24,13 +24,9 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
-""" 1. Sequential() """
+""" 1. Sequential """
 
-''' 1.1 容器
-    
-    nn.Sequential() 可以理解为一个容器，里面依次列出各个操作
-    输入这个容器的 X 会依次执行操作，最终输出结果
-'''
+''' 1.1 容器 (Sequential可以理解为一个容器，里面依次列出层，依序执行) '''
 # Toy data：3个样本，4个特征
 X = torch.randn(3, 4)
 # 实例化 nn.Sequential，直接在其中添加层
@@ -119,7 +115,6 @@ class MLP(nn.Module):
         self.layer1 = nn.Sequential(nn.Linear(in_dim, n_hidden),
                                     nn.BatchNorm1d(n_hidden),
                                     nn.ReLU(True))
-
         self.layer2 = nn.Linear(n_hidden, out_dim)
     def forward(self, x):
         x = self.layer1(x)
