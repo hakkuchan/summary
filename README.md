@@ -114,11 +114,10 @@
 &nbsp; [层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_layer.py)
 &nbsp; [functional](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_functional.py) 
 &nbsp; [loss](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_loss.py)
-&nbsp; [optimizer](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optimizer.py) 
+&nbsp; [optim](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optim.py) 
 &nbsp; [综合实例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_review.py)
 * **ANN：**
 [搭建](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
-&nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_Init.py)
 &nbsp; [训练和测试](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_TrainTest.py)
 &nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
 &nbsp; [可视化](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_tensorboardX.py)
