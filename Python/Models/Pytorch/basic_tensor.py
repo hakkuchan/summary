@@ -135,6 +135,12 @@ print(t.type()) # >>> torch.LongTensor  长整型
 t = torch.tensor([[1,2,3], [4,5,6]]).float()
 print(t.type()) # >>> torch.FloatTensor 浮点型
 
+# 深拷贝
+t = torch.tensor([1.,2.], requires_grad=True)
+print(id(t))
+t = t.clone()
+print(id(t))
+
 
 ''' 2.3 基本运算 '''
 t = torch.tensor([[1.,2.,3.], [4.,5.,6.]])
