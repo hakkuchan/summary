@@ -131,6 +131,24 @@
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
 ### 2.4 数学基础 & 科学计算
+* **微积分：**
+[微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_differential.py)
+&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_integration.py)
+&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_ode.py)
+&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_odes.py)
+* **线性代数：**
+[特征值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_evd.py)
+&nbsp; [奇异值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_svd.py)
+
+* **概率论与统计：**
+[协方差](https://github.com/ZBTGL/summary/blob/master/Python/Math/stats_cov.py)
+
+* **科学计算：**
+[线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/alg_LinearEqs.py)
+&nbsp [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/alg_NonlinearEqs.py)
+&nbsp [优化(通用)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_General.py)
+&nbsp; [优化(曲线拟合)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_General.py)
+&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/random_MentoCarlo.py)
 <br/>
 
 
