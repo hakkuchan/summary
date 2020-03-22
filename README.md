@@ -133,7 +133,7 @@
 ### 2.4 数学基础 & 科学计算
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_differential.py)
-&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_integration.py)
+&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_Integration.py)
 &nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_ode.py)
 &nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_odes.py)
 * **线性代数：**
