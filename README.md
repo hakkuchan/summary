@@ -128,21 +128,6 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-#### 2.3.3 科学计算
-* **微积分：**
-[微分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Differential.py)
-&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Integration.py)
-&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODE.py)
-&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/ODEs.py)
-* **最优化：**
-[通用方法](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Optimization.py)
-&nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Curve_fitting.py)
-* **其它：**
-[排列组合](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Combination.py)
-&nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Linear_Eqs.py)
-&nbsp; [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Nonlinear_Eqs.py)
-&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Models/Math/Monte_Carlo.py)
-
 ### 2.4 可视化
 * **Matplotlib I：** 
 [基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/mpl_%E5%9F%BA%E7%A1%80%E5%8F%8A%E7%82%B9%E7%BA%BF%E5%9B%BE.py)
