@@ -139,14 +139,12 @@
 * **线性代数：**
 [特征值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_evd.py)
 &nbsp; [奇异值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_svd.py)
-
 * **概率论与统计：**
 [协方差](https://github.com/ZBTGL/summary/blob/master/Python/Math/stats_cov.py)
-
 * **科学计算：**
 [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/alg_LinearEqs.py)
-&nbsp [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/alg_NonlinearEqs.py)
-&nbsp [优化(通用)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_General.py)
+&nbsp; [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/alg_NonlinearEqs.py)
+&nbsp; [优化(通用)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_General.py)
 &nbsp; [优化(曲线拟合)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_General.py)
 &nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/random_MentoCarlo.py)
 <br/>
