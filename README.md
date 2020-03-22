@@ -123,7 +123,7 @@
 &nbsp; [保存和加载](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoad.py)
 &nbsp; [可视化](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_tensorboardX.py)
 * **典型模型：**
-[BPNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_BPNN.py)
+[MLP](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_MLP.py)
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
