@@ -145,8 +145,8 @@
 [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/alg_LinearEqs.py)
 &nbsp; [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/alg_NonlinearEqs.py)
 &nbsp; [优化(通用)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_General.py)
-&nbsp; [优化(曲线拟合)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_General.py)
-&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/random_MentoCarlo.py)
+&nbsp; [优化(曲线拟合)](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_CurveFit.py)
+&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/random_MonteCarlo.py)
 <br/>
 
 
