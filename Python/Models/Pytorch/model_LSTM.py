@@ -18,23 +18,11 @@ num_epochs = 2     # 迭代轮数
 learning_rate = 0.01  # 学习率
 
 # MNIST dataset
-train_dataset = torchvision.datasets.MNIST(root='E:\Work\Jupyter\data',
-                                           train=True, 
-                                           transform=transforms.ToTensor(),
-                                           download=False)
-
-test_dataset = torchvision.datasets.MNIST(root='E:\Work\Jupyter\data',
-                                          train=False, 
-                                          transform=transforms.ToTensor())
-
+train_dataset = torchvision.datasets.MNIST(root='E:\Work\Jupyter\Data\MNIST', train=True, transform=transforms.ToTensor(), download=True)
+test_dataset = torchvision.datasets.MNIST(root='E:\Work\Jupyter\Data\MNIST', train=False, transform=transforms.ToTensor())
 # Data loader
-train_loader = torch.utils.data.DataLoader(dataset=train_dataset,
-                                           batch_size=batch_size, 
-                                           shuffle=True)
-
-test_loader = torch.utils.data.DataLoader(dataset=test_dataset,
-                                          batch_size=batch_size, 
-                                          shuffle=False)
+train_loader = torch.utils.data.DataLoader(dataset=train_dataset, batch_size=batch_size, shuffle=True)
+test_loader = torch.utils.data.DataLoader(dataset=test_dataset, batch_size=batch_size, shuffle=False)
 
 # Recurrent neural network (many-to-one)
 class RNN(nn.Module):
