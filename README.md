@@ -122,7 +122,7 @@
 [数据集](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_datasets.py)
 &nbsp; [搭建](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
 &nbsp; [训练/测试](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_TrainTest.py)
-&nbsp; [保存/加载/模型参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoadParam.py)
+&nbsp; [模型参数(保存/加载/提取)](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoadParam.py)
 &nbsp; [可视化](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_tensorboardX.py)
 * **典型模型：**
 [MLP](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_MLP.py)
