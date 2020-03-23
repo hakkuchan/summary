@@ -73,7 +73,8 @@ for i, data in enumerate(train_loader, 1):
       (1) torch 至今(2020.3.22)没有直接提供 cross validation (CV) 接口，用上述方法实现 CV 会比较麻烦
       (2) torchvision.transform 接口所提供的数据转换方法主要用于处理图片数据，归一化等操作需自定义
     
-    · 因此针对其它数据集，不妨以 sklearn 的接口进行操作，下例示意了这一过程：
+    · 因此针对其它数据集，不妨以 sklearn 的接口进行操作
+	  下例示意了这一过程（batch_size功能需要进一步开发）：
 """
 
 from sklearn import datasets, model_selection, preprocessing # 不可放在本文件开头，datasets会冲突
