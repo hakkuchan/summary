@@ -3,7 +3,6 @@ from torch import nn
 from torch.nn import functional as F
 from tensorboardX import SummaryWriter
 
-
 """ 实现子module: Residual Block """
 class ResidualBlock(nn.Module):
     def __init__(self, inchannel, outchannel, stride=1, shortcut=None):
@@ -22,26 +21,22 @@ class ResidualBlock(nn.Module):
         out = F.relu(out)
         return out
 
-
 """ 实现 ResNet34: 包含多个layer，每个layer又包含多个 Residual block """
 class ResNet34(nn.Module):
     def __init__(self, num_classes=2):
         super(ResNet34, self).__init__()
-        self.model_name = 'resnet34'
-        
+        self.model_name = 'resnet34'        
         # 前几层: 图像转换
         self.pre = nn.Sequential(
             nn.Conv2d(3, 64, 7, 2, 3, bias=False),
             nn.BatchNorm2d(64),
             nn.ReLU(inplace=True),
             nn.MaxPool2d(3, 2, 1))
-
         # 重复的 layer，分别有 3，4，6，3 个residual block
         self.layer1 = self._make_layer(64, 128, 3)
         self.layer2 = self._make_layer(128, 256, 4, stride=2)
         self.layer3 = self._make_layer(256, 512, 6, stride=2)
         self.layer4 = self._make_layer(512, 512, 3, stride=2)
-
         # 分类用的全连接
         self.fc = nn.Linear(512, num_classes)
 
@@ -60,19 +55,16 @@ class ResNet34(nn.Module):
 
     def forward(self, x):
         x = self.pre(x)
-
         x = self.layer1(x)
         x = self.layer2(x)
         x = self.layer3(x)
         x = self.layer4(x)
-
         x = F.avg_pool2d(x, 7)
         x = x.view(x.size(0), -1)
         return self.fc(x)
 
 X = torch.randn(1, 3, 244, 244)
 model = ResNet34()
-
 writer = SummaryWriter('E:\Work\Jupyter\Data\Log')  # 创建日志文件夹
 writer.add_graph(model, (X,))
 writer.close()
