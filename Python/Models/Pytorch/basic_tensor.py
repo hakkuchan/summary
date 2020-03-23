@@ -141,6 +141,9 @@ print(id(t))
 t = t.clone()
 print(id(t))
 
+# 随机种子
+torch.manual_seed(1)
+
 
 ''' 2.3 基本运算 '''
 t = torch.tensor([[1.,2.,3.], [4.,5.,6.]])
