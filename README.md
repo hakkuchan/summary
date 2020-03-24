@@ -81,14 +81,13 @@
 [过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_filter.py)
 &nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_model.py)
 &nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_recur.py)
-* **[降维 II (因子/成分分析)]()：** 
+* **[降维 II (投影分析)]()：** 
+[流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
+&nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
+* **[降维 III (成分/因子分析)]()：** 
 [因子分析]()
 &nbsp; [主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_PCA.py)
 &nbsp; [独立成分分析]()
-* **[降维 III (投影分析)]()：** 
-[流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
-&nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
-
 * **[聚类]()：**
 [K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_intro_kmeans.py)
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_DBSCAN.py)
@@ -99,9 +98,8 @@
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
 &nbsp; [流水线](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_pipeline.py)
 
-
-### 2.3 机器学习
-#### 2.3.1 Sklearn
+### 2.4 机器学习
+#### 2.4.1 Sklearn
 * **回归：**
 [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
@@ -121,7 +119,7 @@
 &nbsp; [调节超参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_TuneHyperparam.py)
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
 
-#### 2.3.2 Pytorch
+#### 2.4.2 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_tensor.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_autograd.py)
@@ -142,7 +140,7 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-### 2.4 数学基础 & 科学计算
+### 2.5 数学基础 & 科学计算
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_differential.py)
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_Integration.py)
