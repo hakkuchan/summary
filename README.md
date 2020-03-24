@@ -66,35 +66,35 @@
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
 
 ### 2.2 数据探索
-* **质量分析：**
+* **[质量分析]()：**
 [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_nan.py)
 &nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_abnorm.py)
 &nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_FeatureCoding.py)
-* **统计分析：**
+* **[统计分析]()：**
 [统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 &nbsp; [分组统计]()
 &nbsp; [透视表]()
 &nbsp; [apply](h)
 
 ### 2.3 预处理
-* **降维 I (特征选择)：** 
+* **[降维 I (特征选择)]()：** 
 [过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_filter.py)
 &nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_model.py)
 &nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_recur.py)
-* **降维 II (因子/成分/判别分析)：** 
+* **[降维 II (因子/成分/判别分析)]()：** 
 [因子分析]()
 &nbsp; [主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_PCA.py)
 &nbsp; [独立成分分析]()
 &nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
-* **降维 III (流形学习)：** 
+* **[降维 III (流形学习)]()：** 
 [流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
 
 * **[聚类]()：**
-[简介 & K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_intro_kmeans.py)
+[K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_intro_kmeans.py)
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_DBSCAN.py)
 &nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_agglo.py)
 &nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_mix_gauss.py)
-* **基础：**
+* **操作：**
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_rescale.py)
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
 &nbsp; [流水线](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_pipeline.py)
@@ -115,7 +115,7 @@
 &nbsp; [支持向量机](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_SVM.py)
 &nbsp; [集成模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_ensemble.py)
 &nbsp; [朴素贝叶斯](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/clf_NB.py)
-* **常用操作：**
+* **操作：**
 [性能度量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_metrics.py)
 &nbsp; [比较模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_CompareModel.py)
 &nbsp; [调节超参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_TuneHyperparam.py)
