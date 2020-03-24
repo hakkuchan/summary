@@ -71,21 +71,24 @@
 &nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_abnorm.py)
 &nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_FeatureCoding.py)
 * **统计分析：**
-[统计量](ttps://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
+[统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 &nbsp; [分组统计]()
 &nbsp; [透视表]()
 &nbsp; [apply](h)
 
 ### 2.3 预处理
-* **降维：** 
+* **降维 I (特征选择)：** 
 [过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_filter.py)
 &nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_model.py)
 &nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_recur.py)
+* **降维 II (因子/成分/判别分析)：** 
 [因子分析]()
 &nbsp; [主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_PCA.py)
 &nbsp; [独立成分分析]()
-[流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
 &nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
+* **降维 III (流形学习)：** 
+[流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
+
 * **聚类：**
 [简介 & K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_intro_kmeans.py)
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_DBSCAN.py)
