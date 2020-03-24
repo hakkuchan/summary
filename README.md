@@ -96,7 +96,7 @@
 * **操作：**
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_rescale.py)
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
-&nbsp; [流水线](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_pipeline.py)
+&nbsp; [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_pipeline.py)
 
 ### 2.4 机器学习
 #### 2.4.1 Sklearn
