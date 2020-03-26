@@ -88,8 +88,8 @@
 [主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_PCA.py)
 &nbsp; [独立成分分析]()
 &nbsp; [因子分析]()
-* **[聚类]()：**
-[K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_intro_kmeans.py)
+* **[聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_intro.txt)：**
+[K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_kmeans.py)
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_DBSCAN.py)
 &nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_agglo.py)
 &nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_mix_gauss.py)
