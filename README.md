@@ -69,12 +69,12 @@
 * **[质量分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_intro.txt)：**
 [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_null.py)
 &nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_abnorm.py)
-&nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_FeatureCoding.py)
-* **[统计分析]：**
-[统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
-&nbsp; [分组统计]()
-&nbsp; [透视表]()
-&nbsp; [apply]()
+&nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_featureCoding.py)
+* **统计分析：**
+[统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_statVal.py)
+&nbsp; [分组统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_group.py)
+&nbsp; [透视表](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_pivot.py)
+&nbsp; [apply](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_apply.py)
 
 ### 2.3 预处理
 * **[降维 I (特征选择)]()：** 
@@ -92,7 +92,7 @@
 [K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_kmeans.py)
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_DBSCAN.py)
 &nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_agglo.py)
-&nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_mix_gauss.py)
+&nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_mixGauss.py)
 * **操作：**
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/op_rescale.py)
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/op_split.py)
