@@ -28,6 +28,7 @@
     |   |—— 2.2 因子分析
 """
 
+
 import numpy as np
 import pandas as pd
 import factor_analyzer
@@ -35,7 +36,6 @@ from sklearn import datasets
 import seaborn as sns
 import matplotlib.pyplot as plt
 %matplotlib inline
-
 
 # Data: Boston housing price
 X = datasets.load_boston().data 
