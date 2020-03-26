@@ -9,6 +9,8 @@
     |—— 2. 等度量映射 (Isometric Mapping, Isomap)
     |
     |—— 3. 局部线性嵌入 (Locally Linear Embedding, LLE)
+	|
+	|—— 4. T分布邻域嵌入 (T-distributed Stochastic Neighbor Embedding, TSNE)
 """
 
 
@@ -63,5 +65,20 @@ iris = datasets.load_iris()
 X = iris.data
 # LLE降维
 lle = manifold.LocallyLinearEmbedding(n_neighbors=3, n_components=2) # 设置 Top K 近邻 和 降维后的维度
+Xr = lle.fit_transform(X)  # 转换 X
+print(Xr.shape) # >>> (150, 2)
+
+
+
+""" 4. T分布邻域嵌入 (T-distributed Stochastic Neighbor Embedding, TSNE)
+
+    · TSNE在降维时会先计算高维数据间的距离，并把距离转换为条件概率，并使降维后数据的条件概率分布与降维前相同
+      其核心思想依然是：在高维空间中靠近的样本，降至低维空间后依然使其靠近，反之亦然
+"""
+# Data: Iris
+iris = datasets.load_iris()
+X = iris.data
+# TSNE降维
+lle = manifold.TSNE(n_components=2) # 设置降维后的维度
 Xr = lle.fit_transform(X)  # 转换 X
 print(Xr.shape) # >>> (150, 2)

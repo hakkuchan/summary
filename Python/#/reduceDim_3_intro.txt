@@ -1,0 +1,6 @@
+流形学习
+Isomap
+TSNE
+UMap
+……
+"""
