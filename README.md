@@ -79,8 +79,8 @@
 &nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/select_recur.py)
 * **降维：** 
 [主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_PCA.py)
-&nbsp; [独立成分分析]()
-&nbsp; [因子分析]()
+&nbsp; [独立成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_ICA.py)
+&nbsp; [因子分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_factorAnalysis.py)
 &nbsp; [流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_manifold.py)
 &nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_LDA.py)
 * **聚类：**
