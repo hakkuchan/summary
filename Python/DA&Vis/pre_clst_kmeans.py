@@ -1,15 +1,4 @@
-""" 1. 聚类(Clustering)简介
-
-    · 聚类试图根据样本的数据特征将样本划分为若干个尽可能不相交的子集 (或称为"簇")
-    · 一方面，聚类可用于探索数据分布特征：
-      例如，通过对医保卡消费数据进行聚类分析，可分为"正常卡"和"骗保卡"
-    · 另一方面，聚类可作为预测模型的前驱过程：
-      例如，基于聚类分析得到的"正常卡"和"骗保卡"，建立消费行为与卡类型的预测模型
-"""
-
-
-
-""" 2. K均值聚类 (Kmeans) 
+""" 1. K均值聚类 (Kmeans) 
     
     · 原理：把N个样本划分到K个簇中，使每个样本点到簇均值的距离最小
     · 步骤：
@@ -26,9 +15,11 @@ from sklearn import datasets
 from sklearn import cluster
 %matplotlib inline
 
+
 ''' Data: Iris '''
 X = datasets.load_iris().data # 150个样本，4个特征（萼长、萼宽、瓣长、瓣宽）
 X = X[:,(0,2)] # 只考虑 萼长 和 瓣长
+
 
 ''' Kmeans模型 '''
 clst = cluster.KMeans(
@@ -36,6 +27,7 @@ clst = cluster.KMeans(
                       init='k-means++' # 设定初始化策略，'k-means++'表示初始向量相距较远，'random'表示随机选择
                      )
 labels = clst.fit_predict(X) # 训练Kmeans模型并输出每个样本所属的簇
+
 
 ''' 可视化 '''
 # (1) 绘制 (萼长,瓣长) 数据的原始分布图
