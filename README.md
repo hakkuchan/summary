@@ -66,10 +66,10 @@
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
 
 ### 2.2 数据探索
-* **[质量分析]()：**
-[缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_nan.py)
-&nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_abnorm.py)
-&nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_FeatureCoding.py)
+* **[质量分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_null.py)：**
+[缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_null.py)
+&nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_abnorm.py)
+&nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_FeatureCoding.py)
 * **[统计分析]()：**
 [统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 &nbsp; [分组统计]()
@@ -78,25 +78,25 @@
 
 ### 2.3 预处理
 * **[降维 I (特征选择)]()：** 
-[过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_filter.py)
-&nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_model.py)
-&nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_select_recur.py)
+[过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/select_filter.py)
+&nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/select_model.py)
+&nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/elect_recur.py)
 * **[降维 II (基于投影)]()：** 
-[流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_manifold.py)
-&nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_LDA.py)
+[流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_manifold.py)
+&nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_LDA.py)
 * **[降维 III (基于成分/因子)]()：** 
-[主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_decomp_PCA.py)
+[主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_PCA.py)
 &nbsp; [独立成分分析]()
 &nbsp; [因子分析]()
-* **[聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_intro.txt)：**
-[K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_kmeans.py)
-&nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_DBSCAN.py)
-&nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_agglo.py)
-&nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_clst_mix_gauss.py)
+* **[聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_intro.txt)：**
+[K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_kmeans.py)
+&nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_DBSCAN.py)
+&nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_agglo.py)
+&nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_mix_gauss.py)
 * **操作：**
-[范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_rescale.py)
-&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_split.py)
-&nbsp; [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pre_pipeline.py)
+[范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/op_rescale.py)
+&nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/op_split.py)
+&nbsp; [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/op_pipeline.py)
 
 ### 2.4 机器学习
 #### 2.4.1 Sklearn
