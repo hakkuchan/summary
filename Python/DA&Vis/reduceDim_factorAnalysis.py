@@ -27,7 +27,7 @@
 
 import numpy as np
 import pandas as pd
-import factor_analyzer
+import factor_analyzer as FA
 from sklearn import datasets
 
 # Data: Boston housing price
