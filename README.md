@@ -1,4 +1,5 @@
-## 1. Python基础
+1. Python基础
+======
 ### 1.1 数据类型 & 语法
 * **数据类型：**
 [数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
@@ -70,7 +71,7 @@
 [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_null.py)
 &nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_abnorm.py)
 &nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_FeatureCoding.py)
-* **[统计分析]()：**
+* **[统计分析]：**
 [统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 &nbsp; [分组统计]()
 &nbsp; [透视表]()
