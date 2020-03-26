@@ -76,17 +76,16 @@
 &nbsp; [分组统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/stat_group.py)
 
 ### 2.3 预处理
-* **降维 (特征选择)：** 
+* **特征选择：** 
 [过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/select_filter.py)
 &nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/select_model.py)
 &nbsp; [循环式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/elect_recur.py)
-* **降维 (基于投影)：** 
-[流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_manifold.py)
-&nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_LDA.py)
-* **降维 (基于成分/因子)：** 
+* **降维：** 
 [主成分分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_PCA.py)
 &nbsp; [独立成分分析]()
 &nbsp; [因子分析]()
+&nbsp; [流形学习](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_manifold.py)
+&nbsp; [线性判别分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/reduceDim_LDA.py)
 * **聚类：**
 [K均值聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_kmeans.py)
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/clst_DBSCAN.py)
