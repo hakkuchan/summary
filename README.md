@@ -1,5 +1,4 @@
-1. Python基础
-======
+## 1. Python基础
 ### 1.1 数据类型 & 语法
 * **数据类型：**
 [数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
