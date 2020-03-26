@@ -66,7 +66,7 @@
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
 
 ### 2.2 数据探索
-* **[质量分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_null.py)：**
+* **[质量分析](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_intro.py)：**
 [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_null.py)
 &nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_abnorm.py)
 &nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_FeatureCoding.py)
@@ -74,7 +74,7 @@
 [统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_%E7%BB%9F%E8%AE%A1.py)
 &nbsp; [分组统计]()
 &nbsp; [透视表]()
-&nbsp; [apply](h)
+&nbsp; [apply]()
 
 ### 2.3 预处理
 * **[降维 I (特征选择)]()：** 
