@@ -66,16 +66,13 @@
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_timestamp.py)
 &nbsp; [apply](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/pd_apply.py)
 
-### 2.2 数据探索
-* **质量分析：** 
+### 2.2 预处理
+* **数据探索：** 
 [缺失值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_null.py)
 &nbsp; [异常值](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_abnorm.py)
 &nbsp; [特征编码](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/quality_featureCoding.py)
-* **统计分析** 
 &nbsp; [统计量](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/stat_index.py)
 &nbsp; [分组统计](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/stat_group.py)
-
-### 2.3 预处理
 * **特征选择：** 
 [过滤式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/select_filter.py)
 &nbsp; [嵌入式](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/select_model.py)
@@ -96,8 +93,8 @@
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/op_split.py)
 &nbsp; [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/DA%26Vis/op_pipeline.py)
 
-### 2.4 机器学习
-#### 2.4.1 Sklearn
+### 2.3 机器学习
+#### 2.3.1 Sklearn
 * **回归：**
 [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
@@ -117,7 +114,7 @@
 &nbsp; [调节超参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_TuneHyperparam.py)
 &nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
 
-#### 2.4.2 Pytorch
+#### 2.3.2 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_tensor.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_autograd.py)
@@ -138,7 +135,7 @@
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 
-### 2.5 数学基础 & 科学计算
+### 2.4 数学基础 & 科学计算
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_differential.py)
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculous_Integration.py)
