@@ -3,26 +3,36 @@ import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-""" 1. df直接绘制箱线图 """
-fig, axes = plt.subplots(2,1,figsize=(10,6))
+
+
+""" 1. Dataframe直接绘制箱线图 """
+# Toy data
 df = pd.DataFrame(np.random.rand(10, 5), columns=['A', 'B', 'C', 'D', 'E'])
-color = dict(boxes='DarkGreen',     # boxes → 箱线
-             whiskers='DarkOrange', # whiskers → 分位数与error bar横线之间竖线的颜色
-             medians='DarkBlue',    # medians → 中位数线颜色
-             caps='Gray'            # caps → error bar横线颜色
-            )  
-df.plot.box(ylim=[0,1.2], grid = True, color = color, ax = axes[0])
-df.plot.box(vert=False, # vert：是否垂直，默认True
-            positions=[1, 4, 5, 6, 8], # position：箱型图占位
-            ax = axes[1],
-            grid = True,
-            color = color)
+# 生成画布
+fig, axes = plt.subplots(2,1,figsize=(10,6))
+# 箱线图配色要以字典形式传入
+color = dict(boxes='Black',      # boxes → 箱线
+             whiskers='DarkRed', # whiskers → 分位数与error bar横线之间竖线的颜色
+             medians='Red',      # medians → 中位数线颜色
+             caps='Blue')        # caps → error bar横线颜色
+# 绘图 1
+df.plot.box(ylim=[-0.2,1.2], # Y轴范围
+            grid=False,      # 底纹
+            color=color,     # 配色
+            ax=axes[0])      # 子图 0
+# 绘图 2
+df.plot.box(vert=False,      # 是否垂直，默认True
+            grid=True,       # 底纹
+            color=color,     # 配色
+            ax=axes[1])      # 子图 1
 plt.show()
 
 
-""" 2. bodplot()绘制箱线图 """
-df = pd.DataFrame(np.random.rand(10, 5), columns=['A', 'B', 'C', 'D', 'E']) # 创建数据
 
+""" 2. bodplot()绘制箱线图 """
+# Toy data
+df = pd.DataFrame(np.random.rand(10, 5), columns=['A', 'B', 'C', 'D', 'E'])
+# 设置画布
 plt.figure(figsize=(10,4))
 f = df.boxplot(sym = 'o',    # 异常点形状，参考marker
                vert = True,  # 是否垂直
@@ -47,6 +57,7 @@ for median in f['medians']:    # medians, 中位值的横线,
 for flier in f['fliers']:      # fliers, 异常值
     flier.set(marker='o', color='y', alpha=0.5)
 plt.show()
+
 
 
 """ 3. 分组绘制箱线图 """
