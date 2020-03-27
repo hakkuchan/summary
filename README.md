@@ -155,18 +155,17 @@
 
 
 ## 3. 可视化
-* **Matplotlib A：** 
+* **Matplotlib：** 
 [基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_basic_scatter_plot.py)
 &nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_style.py)
-&nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_subplot.py)
-&nbsp; [窗口设置](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_window.py)
-* **Matplotlib B：** 
-[饼状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
+&nbsp; [子图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_subplot.py)
+&nbsp; [窗口](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_window.py)
+&nbsp; [饼状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
 &nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
 &nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_%E7%AE%B1%E7%BA%BF%E5%9B%BE.py)
 &nbsp; [雷达图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_%E9%9B%B7%E8%BE%BE%E5%9B%BE.py)
-&nbsp; [柱状/堆叠图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
-&nbsp; [面积/填充面积图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_(%E5%A1%AB%E5%85%85)%E9%9D%A2%E7%A7%AF%E5%9B%BE.py)
+&nbsp; [柱状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%92%8C%E5%A0%86%E5%8F%A0%E5%9B%BE.py)
+&nbsp; [面积图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_(%E5%A1%AB%E5%85%85)%E9%9D%A2%E7%A7%AF%E5%9B%BE.py)
 &nbsp; [3D图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_3D%E5%9B%BE.py)
 * **Seaborn：** 
 [柱状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/sns_%E6%9F%B1%E7%8A%B6%E5%9B%BE.py)
