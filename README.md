@@ -8,15 +8,15 @@
 &nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_dict.py)
 &nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_set.py)
 * **语法：** 
-[赋值与拷贝](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
-&nbsp; [控制流](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
-&nbsp; [函数](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E5%87%BD%E6%95%B0.py)
-&nbsp; [类](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E7%B1%BB.py)
-&nbsp; [模块与包](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E6%A8%A1%E5%9D%97%E4%B8%8E%E5%8C%85.py)
-&nbsp; [推导式](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E6%8E%A8%E5%AF%BC%E5%BC%8F.py)
-&nbsp; [生成器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E7%94%9F%E6%88%90%E5%99%A8.py)
-&nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%A3%85%E9%A5%B0%E5%99%A8.py)
-&nbsp; [例外](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E4%BE%8B%E5%A4%96.py)
+[赋值与拷贝](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_assign_copy.py)
+&nbsp; [控制流](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_controlFlow.py) 
+&nbsp; [函数](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_func.py)
+&nbsp; [类](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_class.py)
+&nbsp; [模块与包](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_module_package.py)
+&nbsp; [推导式](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_derivative.py)
+&nbsp; [生成器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_generator.py)
+&nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_decorator.py)
+&nbsp; [例外](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_exception.py)
 
 ### 1.2 基本模块 & 操作
 * **模块：**
@@ -30,12 +30,12 @@
 &nbsp; [requests](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_requests.py)
 &nbsp; [BeautifulSoup](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_BeautifulSoup.py)
 * **操作：**
-[输入与输出](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BE%93%E5%85%A5%E4%B8%8E%E8%BE%93%E5%87%BA.py)
-&nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6.py)
-&nbsp; [动态变量](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E5%8A%A8%E6%80%81%E5%8F%98%E9%87%8F.py)
-&nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%9B%E5%BA%A6%E6%8F%90%E7%A4%BA.py)
-&nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E8%BF%90%E8%A1%8C%E6%97%B6%E9%97%B4.py)
-&nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_%E6%89%93%E5%8C%85%E7%A8%8B%E5%BA%8F.txt)
+[输入与输出](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_input_output.py)
+&nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_read_write.py)
+&nbsp; [动态变量](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_dynamicVariable.py)
+&nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_progress.py)
+&nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_timeSpan.py)
+&nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_exe.txt)
 
 
 ### 1.3 数据结构 & 算法
