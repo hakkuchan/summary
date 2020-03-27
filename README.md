@@ -158,15 +158,15 @@
 * **Matplotlib A：** 
 [基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_basic_scatter_plot.py)
 &nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_style.py)
-&nbsp; [子图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_subplot.py)
-&nbsp; [窗口](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_window.py)
+&nbsp; [子图设置](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_subplot.py)
+&nbsp; [窗口设置](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_window.py)
 * **Matplotlib B：** 
 [饼状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_pie.py)
-&nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_hist.py)
 &nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_box.py)
 &nbsp; [雷达图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_radar.py)
 &nbsp; [柱状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_bar.py)
 &nbsp; [面积图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_area.py)
+&nbsp; [密度直方图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_hist.py)
 &nbsp; [3D图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_3D.py)
 * **Seaborn：** 
 [柱状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/sns_bar.py)
@@ -180,4 +180,4 @@
 &nbsp; [折线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_plot.py)
 &nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_notation.py)
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_specialAxis.py)
-&nbsp; [子图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_subplot.py)
+&nbsp; [子图设置](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_subplot.py)
