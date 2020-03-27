@@ -41,7 +41,7 @@
 ### 1.3 数据结构 & 算法
 * **数据结构：**
 [栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_stack.py)
-&nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_sequence.py)
+&nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_queue.py)
 &nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_deque.py)
 &nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_chain.py)
 &nbsp; [二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_binTree.py)
