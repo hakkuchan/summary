@@ -155,12 +155,13 @@
 
 
 ## 3. 可视化
-* **Matplotlib：** 
+* **Matplotlib A：** 
 [基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_basic_scatter_plot.py)
 &nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_style.py)
 &nbsp; [子图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_subplot.py)
 &nbsp; [窗口](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_window.py)
-&nbsp; [饼状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_pie.py)
+* **Matplotlib B：** 
+[饼状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_pie.py)
 &nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_hist.py)
 &nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_box.py)
 &nbsp; [雷达图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_radarpy)
@@ -179,4 +180,4 @@
 &nbsp; [折线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_plot.py)
 &nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_notation.py)
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_specialAxis.py)
-&nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_subplot.py)
+&nbsp; [子图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_subplot.py)
