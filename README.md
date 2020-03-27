@@ -40,17 +40,17 @@
 
 ### 1.3 数据结构 & 算法
 * **数据结构：**
-[栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E6%A0%88.py)
-&nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%98%9F%E5%88%97.py)
-&nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97.py)
-&nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_linear_%E9%93%BE%E8%A1%A8.py)
-&nbsp; [二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_tree_%E4%BA%8C%E5%8F%89%E6%A0%91.py)
-&nbsp; [二叉堆](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_tree_%E4%BA%8C%E5%8F%89%E5%A0%86.py)
+[栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_stack.py)
+&nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_sequence.py)
+&nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_deque.py)
+&nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_chain.py)
+&nbsp; [二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_binTree.py)
+&nbsp; [二叉堆](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_binHeap.py)
 * **算法：**
-[递归](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E9%80%92%E5%BD%92.py)
-&nbsp; [查找](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%9F%A5%E6%89%BE.py)
-&nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E6%8E%92%E5%BA%8F.py)
-&nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_%E5%A4%8D%E6%9D%82%E5%BA%A6.py)
+[递归](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_recur.py)
+&nbsp; [查找](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_search.py)
+&nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_rank.py)
+&nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_complex.py)
 <br/>
 
 
