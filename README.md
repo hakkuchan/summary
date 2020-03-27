@@ -1,12 +1,12 @@
 ## 1. Python基础
 ### 1.1 数据类型 & 语法
 * **数据类型：**
-[数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E6%95%B0%E5%80%BC.py)
-&nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%80%BB%E8%BE%91%E5%80%BC.py)
-&nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%AD%97%E7%AC%A6%E4%B8%B2.py) 
-&nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%88%97%E8%A1%A8%E4%B8%8E%E5%85%83%E7%BB%84.py)
-&nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E5%AD%97%E5%85%B8.py)
-&nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_%E9%9B%86%E5%90%88.py)
+[数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_number.py)
+&nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_logicals.py)
+&nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_str.py) 
+&nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_list_tuple.py)
+&nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_dict.py)
+&nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_set.py)
 * **语法：** 
 [赋值与拷贝](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E8%B5%8B%E5%80%BC%E4%B8%8E%E6%8B%B7%E8%B4%9D.py)
 &nbsp; [控制流](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_%E6%8E%A7%E5%88%B6%E6%B5%81.py) 
