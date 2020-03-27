@@ -3,8 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-
-
 """ 1. Dataframe直接绘制箱线图 """
 # Toy data
 df = pd.DataFrame(np.random.rand(10, 5), columns=['A', 'B', 'C', 'D', 'E'])
