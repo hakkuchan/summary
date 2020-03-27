@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 %matplotlib inline 
 
-""" 1. linestyle参数 —— 设置线形 """
+""" 1. linestyle设置线形 """
 plt.plot([i**2 for i in range(100)],
         linestyle = '-.')
 # '-'       solid line style
@@ -12,7 +12,7 @@ plt.plot([i**2 for i in range(100)],
 # ':'       dotted line style
 plt.show()
 
-""" 2. marker参数 —— 设置点形 """
+""" 2. marker点形 """
 s = pd.Series(np.random.randn(100).cumsum())
 s.plot(marker = 's')
 # '.'       point marker
