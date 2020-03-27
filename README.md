@@ -156,10 +156,10 @@
 
 ## 3. 可视化
 * **Matplotlib A：** 
-[基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_%E5%9F%BA%E7%A1%80%E5%8F%8A%E7%82%B9%E7%BA%BF%E5%9B%BE.py)
-&nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_%E7%82%B9%E7%BA%BF%E6%A0%B7%E5%BC%8F.py)
-&nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_%E5%A4%9A%E5%AD%90%E5%9B%BE.py)
-&nbsp; [窗口设置](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_%E7%AA%97%E5%8F%A3%E8%AE%BE%E7%BD%AE.py)
+[基础/点线图](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_basic_scatter_plot.py)
+&nbsp; [点线样式](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_style.py)
+&nbsp; [多子图](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_subplot.py)
+&nbsp; [窗口设置](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_window.py)
 * **Matplotlib B：** 
 [饼状图](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_%E9%A5%BC%E7%8A%B6%E5%9B%BE.py)
 &nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/Python/VIS/mpl_%E7%9B%B4%E6%96%B9%E5%9B%BE.py)
