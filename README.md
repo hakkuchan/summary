@@ -164,7 +164,7 @@
 [饼状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_pie.py)
 &nbsp; [直方图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_hist.py)
 &nbsp; [箱线图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_box.py)
-&nbsp; [雷达图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_radarpy)
+&nbsp; [雷达图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_radar.py)
 &nbsp; [柱状图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_bar.py)
 &nbsp; [面积图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_area.py)
 &nbsp; [3D图](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/mpl_3D.py)
