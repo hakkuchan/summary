@@ -1,12 +1,12 @@
 ## 1. Python基础
 ### 1.1 数据类型 & 语法
 * **数据类型：**
-[数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_number.py)
-&nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_logicals.py)
-&nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_str.py) 
-&nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_list_tuple.py)
-&nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_dict.py)
-&nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Python/Basics/obj_set.py)
+[数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_number.py)
+&nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_logicals.py)
+&nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_str.py) 
+&nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_list_tuple.py)
+&nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_dict.py)
+&nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_set.py)
 * **语法：** 
 [赋值与拷贝](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_assign_copy.py)
 &nbsp; [控制流](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_controlFlow.py) 
