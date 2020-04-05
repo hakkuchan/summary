@@ -1,6 +1,6 @@
-""" · 目录
+""" · 逻辑值
     |
-    |—— 1. 逻辑值概述
+    |—— 1. 概述
     |
     |—— 2. 和、或、否
     |
@@ -11,42 +11,40 @@
 
 
 
-""" 1. 逻辑值概述
+""" 1. 概述
     
-    · 逻辑值（bool型）：True 和 False
-    · bool型是int型的子类
-    · bool(0), bool(""), bool([]), bool({}) >>> False 
-    · bool(任何非零数、非空容器) >>> True
+    · 逻辑值：True 和 False (bool型数据，int型的子类):
+
+    · bool(任何非零数、非空容器) 为 True，反之为 False
 """
 
 
 
-""" 2. 和、或、否 """
-i = 1
-j = 4
-m = [1, 2, 3]
+""" 2. 和(and)、或(or)、否(not) """
+i, j = 1, 4
+lst = [1, 2, 3]
 # and 和
-print((i in m) and (j in m)) # >>> False
+print((i in lst) and (j in lst)) # >>> False
 # or  或
-print((i in m) or (j in m))  # >>> True
+print((i in lst) or (j in lst))  # >>> True
 # not 否
-print(i not in m)  # >>> False
+print(i not in lst)  # >>> False
 
 
 
-""" 3. 成员运算 """
+""" 3. 成员运算 (in / not in)
+    
+    · 用in代替or的技巧，例如：
+      if (x==1) or (x==2) or (x==3)
+      等价于 
+      if x in (1,2,3)
+"""
 i = 1
-m = [1, 2, 3]
+lst = [1, 2, 3]
 # in
-print(i in m)  # >>> True
+print(i in lst)  # >>> True
 # not in
-print(i not in m)  # >>> False
-
-''' 技巧：用 in 代替 or，例如： 
-    if (x == 1) or (x == 2) or (x == 3):
-    等价于
-    if x in (1, 2, 3):
-'''
+print(i not in lst)  # >>> False
 
 
 
@@ -64,7 +62,7 @@ print(6 >= 5)  # >>> True
 # <= 小于等于
 print(5 <= 5)  # >>> True
 
-''' 重要：.any() 和 .all() 在 ndarray 数据比较中的作用 '''
+''' ndarray的比较运算：any() 和 all() 的作用 '''
 import numpy as np
 a = np.array([1, 2, 3])
 b = np.array([1, 2, 4])
