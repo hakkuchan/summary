@@ -150,10 +150,10 @@
 * **优化：**
 [通用](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_general.py)
 &nbsp; [最小二乘法](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_leastsq.py)
-&nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_curveFit.py)
+&nbsp; [多项式拟合](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_curveFit.py)
 * **待分类：**
 [非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_nonlinearEqs.py)
-&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_nonlinearEqs.py)
+&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_Monte_Carlo.py)
 <br/>
 
 ## 3. 可视化
