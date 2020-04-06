@@ -146,7 +146,7 @@
 &nbsp; [奇异值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_SVD.py)
 &nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_linearEqs.py)
 * **概率论：**
-&nbsp; [协方差](https://github.com/ZBTGL/summary/blob/master/Python/Math/stat_covariance.py)
+[协方差](https://github.com/ZBTGL/summary/blob/master/Python/Math/stat_covariance.py)
 * **优化：**
 [通用](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_general.py)
 &nbsp; [最小二乘法](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_leastsq.py)
