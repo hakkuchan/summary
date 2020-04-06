@@ -135,6 +135,15 @@
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 <br/>
 
+### 2.4 数学基础 & 建模
+#### 2.4.1 基础
+* **微积分：**
+[微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_differential.py)
+&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_integration.py)
+* **线性代数：**
+* **概率论：**
+#### 2.4.2 建模
+
 
 ## 3. 可视化
 * **Matplotlib A：** 
