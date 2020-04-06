@@ -133,17 +133,28 @@
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
-<br/>
 
-### 2.4 数学基础 & 建模
-#### 2.4.1 基础
+### 2.4 数学基础
 * **微积分：**
 [微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_differential.py)
 &nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_integration.py)
+&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_ODE.py)
+&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_ODEs.py)
 * **线性代数：**
+[基本运算](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_basic.py)
+&nbsp; [特征值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_EVD.py)
+&nbsp; [奇异值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_SVD.py)
+&nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_linearEqs.py)
 * **概率论：**
-#### 2.4.2 建模
-
+&nbsp; [协方差](https://github.com/ZBTGL/summary/blob/master/Python/Math/stat_covariance.py)
+* **优化：**
+[通用](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_general.py)
+&nbsp; [最小二乘法](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_leastsq.py)
+&nbsp; [曲线拟合](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_curveFit.py)
+* **待分类：**
+[非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_nonlinearEqs.py)
+&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_nonlinearEqs.py)
+<br/>
 
 ## 3. 可视化
 * **Matplotlib A：** 
