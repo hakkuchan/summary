@@ -64,7 +64,7 @@ print(m.keys())   # .keys() 提取 key
 print(m.values()) # .values() 提取 value
 print(m.items())  # .items() 提取键值对
 
-# 技巧：用字典取代多个 elif
+''' 8) 技巧：用字典取代多个elif '''
 def fun(x):
     if x == 1:
         print('one')
