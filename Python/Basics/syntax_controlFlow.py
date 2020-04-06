@@ -16,13 +16,13 @@
     
     
     4. break 和 continue 语句：
-    · break 用于终止最近的 for 或 while 循环，执行之后的代码; 
-    · continue 跳过当前 for 或 while 循环的剩余语句，然后继续进行下一轮循环。
-    · 慎用break和continue。
+    · break 用于终止最近的 for 或 while 循环，执行之后的代码
+    · continue 跳过当前 for 或 while 循环的剩余语句，然后继续进行下一轮循环
+    · 慎用break和continue
 
 
     5. pass 语句：
-    · 当语法上需要一个语句，但需要程序不做任何操作时，可以使用 pass。
+    · 当语法上需要一个语句，但需要程序不做任何操作时，可以使用 pass
 """
 
 '''  两种特殊for循环 '''
