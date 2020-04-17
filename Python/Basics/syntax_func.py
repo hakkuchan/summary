@@ -41,10 +41,10 @@ def f():
 print('函数内的 m 和 n：',f())  # >>> (3, 4)
 print('函数外的 m 和 n：', (m, n))  # >>> (1, 2)
 
-''' global关键字 '''
+# global关键字：局部变量 → 全局变量
 m, n = 1, 2 
 def f():
-    global m, n  # global 把函数内的局部变量变成全局变量
+    global m, n  # global把函数内的局部变量变成全局变量
     m, n = 3, 4
     return m, n
 print('函数内的 m 和 n：',f())      # >>> (3, 4)
