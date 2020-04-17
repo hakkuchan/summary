@@ -1,4 +1,4 @@
-""" · 逻辑值：
+""" · 逻辑值
       True 和 False (bool型数据，是int型的子类)
       bool(任何非零数、非空容器) 为 True，反之为 False
     
