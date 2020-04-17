@@ -79,10 +79,10 @@ student_grade(**{'Jack':98, 'Mike':99, 'Lily':97})
 
 
 """ 5. 传递函数：调用函数时，函数名后不加括号，函数就不会被执行，而可以被传递 """
-
+# 定义函数
 def fn(a,b):
     return a + b
-
+# 传递函数
 fn1 = fn
 fn2 = fn
 fn3 = fn
