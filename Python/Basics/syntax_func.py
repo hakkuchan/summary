@@ -53,7 +53,6 @@ print('函数外的 m 和 n：', (m, n))  # >>> (3, 4)
 
 
 """ 3. * 的作用 """
-
 ''' (1) 使用函数时，如果函数有多个参数，可用 fun(*[参数列表]) 的形式传入参数 '''
 def f(a, b):
     return a + b
@@ -71,7 +70,6 @@ print(out)  # >>> 10
 
 
 """ 4. ** 的作用 """
-
 # 定义函数时，使用 **参数 可以把字典作为参数传递给一个函数。
 def student_grade(**kwargs):
     for key, value in kwargs.items():
@@ -93,10 +91,9 @@ print(fn1(1,2), fn2(3,4), fn(5,6))  # >>> 3, 7, 11
 
 
 """ 6. 匿名函数：lambda表达式 """
-
-f = lambda x: 2 * x  # 其中，“lambda x” 表示设定 x 为自变量；“:” 之后设定函数体，即 “ 2 * x ” 
+# 下式，“lambda x” 表示设定 x 为自变量；“:” 之后为函数体，即 “ 2 * x ” 
+f = lambda x: 2 * x
 print(f(2))   
-
 # 等价于：
 def g(x):
     return 2 * x
@@ -115,24 +112,21 @@ print(f(2,3))
 """
 
 ''' (1) map() 把输入列表的所有元素依次代入函数进行运算 '''
-
 # 标准用法：
 nums = [1,2,3,4,5,6]
 def fn(x):
     return x ** 2
 print(list(map(fn, nums)))  # nums中的元素被依次带入fn并返回结果
-
+# 也可用lambda表达式定义函数：
+print(list(map(lambda x: x**2, nums)))
 # 等价于推导式（推荐）：
 print(list(x**2 for x in nums))
-
-# 函数也可用lambda表达式定义：
-print(list(map(lambda x: x**2, nums)))
 
 
 ''' (2) filter() 过滤列表中的元素，并且返回一个由所有符合要求的元素构成的列表 '''
 nums = range(-5, 5)
 print(list(filter((lambda x: x < 0), nums)))
-# 等价推导式（推荐）：
+# 等价于推导式（推荐）：
 print([x for x in nums if x < 0])
 
 
@@ -146,9 +140,7 @@ print(fibo)
 
 """ 8. ufunc函数：针对ndarray数据类型，可将普通函数转换为"ufunc函数"，详见numpy部分
 
-
     9. apply函数：针对DataFrame中的数据，可将普通函数转换为"apply函数"，详见pandas部分 
-      
       
     10. 说明文档
     · 若函数复杂，其第一部分应该是说明文档，内容和格式如下：
@@ -157,14 +149,12 @@ print(fibo)
       第3行起：描述函数的调用约定、示例、副作用等； 
       最后一行：3个引号结尾
 
-    
     11. 函数标注
     · 函数标注以字典的形式存放在函数的 __annotations__ 属性，函数标注不会影响函数的任何其他部分
       位置参数标注：参数名称后加上冒号，后跟标注
       关键字参数标注：参数名称后加上冒号，后跟标注，再接等号，给关键字参数赋值
       返回值标注：加上一个组合符号 ->，后跟标注，该标注位于形参列表和表示 def 语句结束的冒号之间。
 """
-
 # 例：函数标注
 def f(sys: int, unit: str = 'bits') -> str:
     print("Annotations:", f.__annotations__)
