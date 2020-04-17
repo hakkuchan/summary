@@ -30,7 +30,7 @@ print(i in lst)  # >>> True
 # not in
 print(i not in lst)  # >>> False
 
-''' 用in代替or的技巧：if (x==1) or (x==2) or (x==3) 等价于 if x in (1,2,3) '''
+''' * 用in代替or的技巧：if (x==1) or (x==2) or (x==3) 等价于 if x in (1,2,3) '''
 
 
 """ 3. 比较运算 """
