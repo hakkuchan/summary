@@ -4,15 +4,15 @@
 [数值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_number.py)
 &nbsp; [逻辑值](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_logicals.py)
 &nbsp; [字符串](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_str.py) 
-&nbsp; [列表与元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_list_tuple.py)
+&nbsp; [列表/元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_list_tuple.py)
 &nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_dict.py)
 &nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_set.py)
 * **语法：** 
-[赋值与拷贝](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_assign_copy.py)
+[赋值/拷贝](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_assign_copy.py)
 &nbsp; [控制流](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_controlFlow.py) 
 &nbsp; [函数](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_func.py)
 &nbsp; [类](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_class.py)
-&nbsp; [模块与包](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_module_package.py)
+&nbsp; [模块/包](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_module_package.py)
 &nbsp; [推导式](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_derivative.py)
 &nbsp; [生成器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_generator.py)
 &nbsp; [装饰器](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_decorator.py)
@@ -20,7 +20,7 @@
 
 ### 1.2 基本模块 & 操作
 * **模块：**
-[time & date](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_time_date.py)
+[time/date](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_time_date.py)
 &nbsp; [os](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_os.py)
 &nbsp; [random](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_random.py)
 &nbsp; [itertools](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_itertools.py)
@@ -109,7 +109,7 @@
 [性能度量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_metrics.py)
 &nbsp; [比较模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_CompareModel.py)
 &nbsp; [调节超参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_TuneHyperparam.py)
-&nbsp; [保存和加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
+&nbsp; [保存/加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
 
 #### 2.3.2 Pytorch
 * **基础：**
@@ -124,7 +124,7 @@
 [数据集](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_datasets.py)
 &nbsp; [搭建](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
 &nbsp; [训练/测试](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_TrainTest.py)
-&nbsp; [模型参数(保存/加载/提取)](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoadParam.py)
+&nbsp; [保存/加载/提取模型参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_SaveLoadParam.py)
 &nbsp; [可视化](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_tensorboardX.py)
 * **典型模型：**
 [MLP](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_MLP.py)
