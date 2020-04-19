@@ -28,8 +28,8 @@
 &nbsp; [requests](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_requests.py)
 &nbsp; [BeautifulSoup](https://github.com/ZBTGL/summary/blob/master/Python/Basics/module_BeautifulSoup.py)
 * **操作：**
-[输入与输出](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_input_output.py)
-&nbsp; [读写文件](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_read_write.py)
+[输入/输出](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_input_output.py)
+&nbsp; [读取/写入](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_read_write.py)
 &nbsp; [动态变量](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_dynamicVariable.py)
 &nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_progress.py)
 &nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_timeSpan.py)
