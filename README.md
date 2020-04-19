@@ -34,21 +34,6 @@
 &nbsp; [进度提示](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_progress.py)
 &nbsp; [运行时间](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_timeSpan.py)
 &nbsp; [打包程序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/op_exe.txt)
-
-
-### 1.3 数据结构 & 算法
-* **数据结构：**
-[栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_stack.py)
-&nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_queue.py)
-&nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_deque.py)
-&nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_chain.py)
-&nbsp; [二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_binTree.py)
-&nbsp; [二叉堆](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_binHeap.py)
-* **算法：**
-[递归](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_recur.py)
-&nbsp; [查找](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_search.py)
-&nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_rank.py)
-&nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_complex.py)
 <br/>
 
 
@@ -131,27 +116,6 @@
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
-
-### 2.4 数值分析
-* **微积分：**
-[微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_differential.py)
-&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_integration.py)
-&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_ODE.py)
-&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_ODEs.py)
-* **线性代数：**
-[基本运算](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_basic.py)
-&nbsp; [特征值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_EVD.py)
-&nbsp; [奇异值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_SVD.py)
-&nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_linearEqs.py)
-* **概率论：**
-[协方差](https://github.com/ZBTGL/summary/blob/master/Python/Math/stat_covariance.py)
-* **优化：**
-[通用](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_general.py)
-&nbsp; [最小二乘法](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_leastsq.py)
-&nbsp; [多项式拟合](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_curveFit.py)
-* **待分类：**
-[非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_nonlinearEqs.py)
-&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_Monte_Carlo.py)
 <br/>
 
 ## 3. 可视化
@@ -181,3 +145,40 @@
 &nbsp; [辅助标注](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_notation.py)
 &nbsp; [特殊坐标轴](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_specialAxis.py)
 &nbsp; [子图设置](https://github.com/ZBTGL/summary/blob/master/Python/Visualization/bokeh_subplot.py)
+<br/>
+
+## 4. 基础知识
+### 4.1 数据结构 & 算法
+* **数据结构：**
+[栈](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_stack.py)
+&nbsp; [队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_queue.py)
+&nbsp; [双端队列](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_deque.py)
+&nbsp; [链表](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_chain.py)
+&nbsp; [二叉树](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_binTree.py)
+&nbsp; [二叉堆](https://github.com/ZBTGL/summary/blob/master/Python/Basics/DS_binHeap.py)
+* **算法：**
+[递归](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_recur.py)
+&nbsp; [查找](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_search.py)
+&nbsp; [排序](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_rank.py)
+&nbsp; [复杂度](https://github.com/ZBTGL/summary/blob/master/Python/Basics/algr_complex.py)
+
+### 4.2 数值分析
+* **微积分：**
+[微分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_differential.py)
+&nbsp; [积分](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_integration.py)
+&nbsp; [常微分方程](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_ODE.py)
+&nbsp; [常微分方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/calculus_ODEs.py)
+* **线性代数：**
+[基本运算](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_basic.py)
+&nbsp; [特征值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_EVD.py)
+&nbsp; [奇异值分解](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_SVD.py)
+&nbsp; [线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/linalg_linearEqs.py)
+* **概率论：**
+[协方差](https://github.com/ZBTGL/summary/blob/master/Python/Math/stat_covariance.py)
+* **优化：**
+[通用](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_general.py)
+&nbsp; [最小二乘法](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_leastsq.py)
+&nbsp; [多项式拟合](https://github.com/ZBTGL/summary/blob/master/Python/Math/optim_curveFit.py)
+* **待分类：**
+[非线性方程组](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_nonlinearEqs.py)
+&nbsp; [蒙特卡洛](https://github.com/ZBTGL/summary/blob/master/Python/Math/other_Monte_Carlo.py)
