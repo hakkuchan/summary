@@ -70,7 +70,7 @@
 &nbsp; [密度聚类](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/clst_DBSCAN.py)
 &nbsp; [层次聚类](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/clst_agglo.py)
 &nbsp; [混合高斯模型](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/clst_mixGauss.py)
-* **操作：**
+* **其它操作：**
 [范围调整](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/op_rescale.py)
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/op_split.py)
 &nbsp; [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/op_pipeline.py)
