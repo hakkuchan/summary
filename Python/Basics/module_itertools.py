@@ -1,4 +1,3 @@
-import numpy as np
 import itertools
 
 # 有序排列
