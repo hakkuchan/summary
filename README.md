@@ -75,8 +75,7 @@
 &nbsp; [数据分割](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/op_split.py)
 &nbsp; [Pipeline](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/op_pipeline.py)
 
-### 2.3 机器学习
-#### 2.3.1 Sklearn
+### 2.3 Sklearn
 * **回归：**
 [K近邻](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_KNN.py)
 &nbsp; [线性模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/regr_linear.py)
@@ -96,7 +95,7 @@
 &nbsp; [调节超参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_TuneHyperparam.py)
 &nbsp; [保存/加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
 
-#### 2.3.2 Pytorch
+### 2.4 Pytorch
 * **基础：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_tensor.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_autograd.py)
