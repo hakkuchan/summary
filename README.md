@@ -113,7 +113,7 @@
 * **典型模型：**
 [MLP](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_MLP.py)
 &nbsp; [CNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_CNN.py)
-&nbsp; [RNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
+&nbsp; [RNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_RNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
 <br/>
