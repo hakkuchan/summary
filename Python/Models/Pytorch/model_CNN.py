@@ -1,3 +1,13 @@
+""" · 目录
+    |
+    |—— 1. 卷积层：(1) 单个卷积层；(2) 多个卷积层
+    |
+    |—— 2. 池化层：(1) 最大池化；(2) 平均池化
+    |
+    |—— 3. CNN实例：MNIST
+"""
+
+
 import torch 
 import torch.nn as nn
 import torchvision
@@ -6,22 +16,67 @@ from torchvision import datasets, transforms
 torch.manual_seed(1)
 
 
-""" 设置处理器 """
+""" 1. 卷积层 """
+x = torch.tensor([[[[1., 1., 1., 0., 0., 0.],
+                    [1., 1., 1., 0., 0., 0.],
+                    [1., 1., 1., 0., 0., 0.],
+                    [0., 0., 0., 0., 0., 0.],
+                    [0., 0., 0., 0., 0., 0.],
+                    [0., 0., 0., 0., 0., 0.]]]])
+
+''' (1) 单个卷积核 '''
+layer = nn.Conv2d(in_channels=1,  # 黑白图片: in_channels=1; RGB彩色图片: in_channels=3
+                  out_channels=1, # 卷积核的个数：用多少个卷积核扫描图片
+                  kernel_size=3,  # 卷积核的大小，也可以是(m,n)形式 
+                  stride=1,       # 表示扫描速度：每次移动的像素点数
+                  padding=0)      # 宽卷积：边缘补充几层 0
+nn.init.constant_(layer.weight, 1.)
+nn.init.constant_(layer.bias, 0.)
+print(layer(x))
+
+''' (2) 多个卷积核 '''
+layer = nn.Conv2d(in_channels=1, out_channels=3, kernel_size=3, stride=1, padding=0)
+nn.init.constant_(layer.weight, 1.)
+nn.init.constant_(layer.bias, 0.)
+print(layer(x))
+
+
+
+
+""" 2. 池化层 """
+x = torch.tensor([[[[6., 1., 2.],
+                    [3., 5., 4.],
+                    [2., 2., 0.]]]])
+
+''' (1) 最大池化 '''
+layer = nn.MaxPool2d(kernel_size=2, stride=1)
+print(layer(x))
+
+''' (2) 平均池化 '''
+layer = nn.AvgPool2d(kernel_size=2, stride=1)
+print(layer(x))
+
+
+
+
+""" 3. CNN实例：MNIST """
+
+''' 设置处理器 '''
 device = torch.device('cuda:0')
 device = torch.device('cpu')
 
-""" 设定超参数 """
+''' 设定超参数 '''
 n_epoch = 1
 batch_size = 100
 lr = 1e-3
 
-""" 准备数据集 """
+''' 准备数据集 '''
 train_dataset = datasets.MNIST(root='E:\Work\Jupyter\Data\MNIST', train=True, transform=transforms.ToTensor())
 test_dataset = datasets.MNIST(root='E:\Work\Jupyter\Data\MNIST', train=False, transform=transforms.ToTensor())
 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-""" 搭建 ANN """
+''' 搭建 ANN '''
 class CNN(nn.Module):
     def __init__(self, n_class=10): # n_classes=10 表示最后分为 10 类
         super(CNN, self).__init__()
@@ -60,12 +115,12 @@ class CNN(nn.Module):
         x = self.layer3(x)
         return x
 
-""" 初始化：实例化CNN / 定义损失函数 / 优化算法 """
+''' 初始化：实例化CNN / 定义损失函数 / 优化算法 '''
 model = CNN().to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
-""" 训练 ANN """
+''' 训练 ANN '''
 total_step = len(train_loader)
 for epoch in range(n_epoch):
     for i, (images, labels) in enumerate(train_loader):
@@ -81,7 +136,7 @@ for epoch in range(n_epoch):
         if (i+1) % 100 == 0:
             print(f'Epoch [{epoch+1}/{n_epoch}], Step [{i+1}/{total_step}], Loss: {loss.item():.4f}')
 
-""" 测试 ANN """
+''' 测试 ANN '''
 model.eval()
 n_correct = 0
 n_total = 0
