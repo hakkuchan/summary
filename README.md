@@ -111,6 +111,8 @@
 &nbsp; [卷积层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_conv.py)
 &nbsp; [池化层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_pool.py)
 &nbsp; [循环层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_recurrent.py)
+&nbsp; [初始化参数](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_init.py)
+
 * **ANN：**
 [数据集](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_datasets.py)
 &nbsp; [搭建](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
