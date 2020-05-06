@@ -1,13 +1,3 @@
-""" · 目录
-    |
-    |—— 1. 卷积层：(1) 单个卷积层；(2) 多个卷积层
-    |
-    |—— 2. 池化层：(1) 最大池化；(2) 平均池化
-    |
-    |—— 3. CNN实例：MNIST
-"""
-
-
 import torch 
 import torch.nn as nn
 import torchvision
@@ -15,51 +5,6 @@ from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
 torch.manual_seed(1)
 
-
-""" 1. 卷积层 """
-x = torch.tensor([[[[1., 1., 1., 0., 0., 0.],
-                    [1., 1., 1., 0., 0., 0.],
-                    [1., 1., 1., 0., 0., 0.],
-                    [0., 0., 0., 0., 0., 0.],
-                    [0., 0., 0., 0., 0., 0.],
-                    [0., 0., 0., 0., 0., 0.]]]])
-
-''' (1) 单个卷积核 '''
-layer = nn.Conv2d(in_channels=1,  # 黑白图片: in_channels=1; RGB彩色图片: in_channels=3
-                  out_channels=1, # 卷积核的个数：用多少个卷积核扫描图片
-                  kernel_size=3,  # 卷积核的大小，也可以是(m,n)形式 
-                  stride=1,       # 表示扫描速度：每次移动的像素点数
-                  padding=0)      # 宽卷积：边缘补充几层 0
-nn.init.constant_(layer.weight, 1.)
-nn.init.constant_(layer.bias, 0.)
-print(layer(x))
-
-''' (2) 多个卷积核 '''
-layer = nn.Conv2d(in_channels=1, out_channels=3, kernel_size=3, stride=1, padding=0)
-nn.init.constant_(layer.weight, 1.)
-nn.init.constant_(layer.bias, 0.)
-print(layer(x))
-
-
-
-
-""" 2. 池化层 """
-x = torch.tensor([[[[6., 1., 2.],
-                    [3., 5., 4.],
-                    [2., 2., 0.]]]])
-
-''' (1) 最大池化 '''
-layer = nn.MaxPool2d(kernel_size=2, stride=1)
-print(layer(x))
-
-''' (2) 平均池化 '''
-layer = nn.AvgPool2d(kernel_size=2, stride=1)
-print(layer(x))
-
-
-
-
-""" 3. CNN实例：MNIST """
 
 ''' 设置处理器 '''
 device = torch.device('cuda:0')
