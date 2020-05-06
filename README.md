@@ -96,14 +96,20 @@
 &nbsp; [保存/加载模型](https://github.com/ZBTGL/summary/blob/master/Python/Models/Sklearn/op_SaveLoad.py)
 
 ### 2.4 Pytorch
-* **基础：**
+* **基础 I：**
 [张量](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_tensor.py)
 &nbsp; [自动求导](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_autograd.py)
-&nbsp; [层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_layer.py)
+&nbsp; [Module](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_Module.py)
 &nbsp; [functional](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_functional.py) 
 &nbsp; [loss](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_loss.py)
 &nbsp; [optim](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optim.py) 
 &nbsp; [综合实例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_review.py)
+* **基础 II (内置层)：**
+[线性](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_linear.py)
+&nbsp; [激活](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_activ.py)
+&nbsp; [批标准化](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_batchnorm.py)
+&nbsp; [卷积/池化](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_conv_pool.py)
+&nbsp; [循环层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_recurrent.py)
 * **ANN：**
 [数据集](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_datasets.py)
 &nbsp; [搭建](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/nn_BuildNN.py)
