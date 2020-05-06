@@ -104,7 +104,7 @@
 &nbsp; [loss](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_loss.py)
 &nbsp; [optim](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_optim.py) 
 &nbsp; [综合实例](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/basic_review.py)
-* **内置层：**
+* **层：**
 [线性层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_linear.py)
 &nbsp; [激活层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_activ.py)
 &nbsp; [批标准化层](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/layer_batchnorm.py)
