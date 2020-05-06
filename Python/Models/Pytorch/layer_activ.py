@@ -1,7 +1,7 @@
+""" 激活函数层对输入数据进行非线性转换，包括 nn.ReLU(), nn.Sigmoid(), nn.Tanh() 等 """
+
 import torch
 import torch.nn as nn
-
-""" 激活函数层对输入数据进行非线性转换，包括 nn.ReLU(), nn.Sigmoid(), nn.Tanh() 等 """
 
 # 实例化ReLU层
 layer = nn.ReLU()
