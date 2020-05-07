@@ -4,39 +4,14 @@ from torch import nn
 import matplotlib.pyplot as plt
 torch.manual_seed(1)
 
-
-""" 1. RNN层 """
-
-''' (1) 假定以下3个样本分别为t=0,1,2时的、前后相关的序列数据 '''
-x = torch.tensor([[[3.,3.],   # t=0
-                   [6.,6.],   # t=1 
-                   [9.,9.]]]) # t=2 
-                 
-''' (2) RNN层预测t时刻的样本时，输入变量除了t时刻样本的特征，还包括t-1时刻样本的隐藏层输出 '''
-layer = nn.RNN(input_size=2,  # 输入变量的维度
-               hidden_size=6, # 隐藏层节点数
-               num_layers=1,  # RNN的层数
-               nonlinearity='tanh', # 设置激活函数
-               batch_first=True) 
-
-''' (3) RNN层的计算结果有两项 '''
-# 第一项 layer(x)[0] 是所有样本在隐藏层的输出 
-print(layer(x)[0].data)
-# 第二项 layer(x)[1] 是序列中最后一个样本的隐藏层输出
-print(layer(x)[1].data)
-
-
-
-""" 2. RNN回归实例 """
-
-''' (1) 训练集：共100个样本，x为sin(step)，y为cos(step) '''
+''' 训练集：共100个样本，x为sin(step)，y为cos(step) '''
 step = np.linspace(0.5*np.pi, np.pi, 100)
 x = np.sin(step).astype('float32')
 x = torch.from_numpy(x[np.newaxis, :, np.newaxis])
 y = np.cos(step).astype('float32')
 y = torch.from_numpy(y[np.newaxis, :, np.newaxis])
 
-''' (2) 搭建RNN '''
+''' 搭建RNN '''
 class RNN(nn.Module):
     def __init__(self, in_dim, n_hidden, n_layer, out_dim):
         super(RNN, self).__init__()
@@ -48,12 +23,12 @@ class RNN(nn.Module):
         return y, s
 
 
-''' (3) 初始化：实例化 RNN / 定义损失函数和优化器 '''
+''' 初始化：实例化 RNN / 定义损失函数和优化器 '''
 model = RNN(1, 20, 2, 1)
 optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
 loss_func = nn.MSELoss()
 
-''' (4) 训练RNN '''
+''' 训练RNN '''
 s = None
 for epoch in range(1000):
     # 向前传播
@@ -72,7 +47,7 @@ plt.plot(step, y_pred.data.numpy().flatten(), 'b-', label='y_pred')
 plt.legend(loc='best')
 plt.show()
 
-''' (5) 测试 RNN '''
+''' 测试 RNN '''
 # 准备测试集数据 (样本个数显著影响预测结果。这是因为RNN预测当前样本时，要以上一样本的隐藏层输出为输入)
 step = np.linspace(2.5*np.pi, 3*np.pi, 100)
 x_test = np.sin(step).astype('float32')
