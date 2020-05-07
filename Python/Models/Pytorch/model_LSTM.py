@@ -3,34 +3,6 @@ import torch.nn as nn
 import torchvision
 from  torchvision import transforms, datasets
 
-import torch 
-import torch.nn as nn
-import torchvision
-from torchvision import transforms, datasets
-
-
-""" 1. LSTM层 """
-
-''' (1) 假定以下3个样本分别为t=0,1,2时的、前后相关的序列数据 '''
-x = torch.tensor([[[3.,3.],   # t=0
-                   [6.,6.],   # t=1 
-                   [9.,9.]]]) # t=2 
-                 
-''' (2) LSTM层预测t时刻的样本时，输入变量除了t时刻样本的特征，还包括t-1时刻样本的隐藏层输出 '''
-layer = nn.LSTM(input_size=2,  # 输入变量的维度
-                hidden_size=6, # 隐藏层节点数
-                num_layers=1,  # LSTM的层数
-                batch_first=True) 
-
-''' (3) LSTM层的计算结果有三项 '''
-# 第一项 layer(x)[0] 是所有样本在隐藏层的输出
-print(layer(x)[0].data)
-# 第二项 layer(x)[1][0] 是序列中最后一个样本的隐藏层输出
-print(layer(x)[1][0].data)
-# 第三项 layer(x)[1][1] 是隐藏层节点中的长期记忆单元
-print(layer(x)[1][1].data)
-
-
 
 """ 设置处理器 """
 device = torch.device('cuda:0')
