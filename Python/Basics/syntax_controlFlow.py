@@ -12,7 +12,7 @@
     3. for 迭代循环
     · for i in range(num)
     · for i in [1, 2, 3]
-	· for i, j in zip(['a', 'b'], [1, 2])  # 取出多个容器的元素
+    · for i, j in zip(['a', 'b'], [1, 2])  # 取出多个容器的元素
     · for i, j in enumerate(['a', 'b'])    # 取出索引和元素
     · for i, j in enumerate(['a', 'b'], 2) # 索引起始值从2开始
     
