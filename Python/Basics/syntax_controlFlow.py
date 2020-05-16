@@ -12,7 +12,9 @@
     3. for 迭代循环
     · for i in range(num)
     · for i in [1, 2, 3]
-    · 两种特殊for循环见最后
+	· for i, j in zip(['a', 'b'], [1, 2])  # 取出多个容器的元素
+    · for i, j in enumerate(['a', 'b'])    # 取出索引和元素
+    · for i, j in enumerate(['a', 'b'], 2) # 索引起始值从2开始
     
     
     4. break 和 continue 语句：
@@ -24,17 +26,3 @@
     5. pass 语句：
     · 当语法上需要一个语句，但需要程序不做任何操作时，可以使用 pass
 """
-
-'''  两种特殊for循环 '''
-# (1) enumerate()取出索引和元素
-for i, j in enumerate(['a', 'b', 'c']):
-    print(i, j)
-
-for i, j in enumerate(['a', 'b', 'c'], 3): # 索引起始值从3开始
-    print(i, j)
-    
-# (2) zip()同时取出多个容器的元素
-item = ['name:', 'age:']
-info = ['Michael', '27']
-for m, n in zip(item, info):
-    print(m, n)
