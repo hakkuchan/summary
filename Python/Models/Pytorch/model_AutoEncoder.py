@@ -3,9 +3,6 @@ import torch.nn as nn
 import torchvision
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms
-import matplotlib
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 torch.manual_seed(1)
 
 ''' 设置处理器 '''
