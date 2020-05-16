@@ -42,12 +42,12 @@
 * **numpy：**
 [array](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/np_array.py)
 &nbsp; [matrix](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/np_matrix.py)
-&nbsp; [ufunc](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/np_ufunc.py)
+&nbsp; [ufunc函数](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/np_ufunc.py)
 * **pandas：**
 [Series](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/pd_series.py)
 &nbsp; [Dataframe](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/pd_dataframe.py)
 &nbsp; [Timestamp](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/pd_timestamp.py)
-&nbsp; [apply](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/pd_apply.py)
+&nbsp; [apply函数](https://github.com/ZBTGL/summary/blob/master/Python/DataAnalysis/pd_apply.py)
 
 ### 2.2 预处理
 * **数据探索：** 
@@ -124,6 +124,7 @@
 &nbsp; [RNN](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_RNN.py)
 &nbsp; [LSTM](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_LSTM.py)
 &nbsp; [ResNet34](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_ResNet34.py)
+&nbsp; [AutoEncoder](https://github.com/ZBTGL/summary/blob/master/Python/Models/Pytorch/model_AutoEncoder.py)
 <br/>
 
 ## 3. 可视化
