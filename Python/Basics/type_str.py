@@ -7,7 +7,7 @@
     |
     |—— 1. 通用操作：索引&切片、拼接、成员、内置函数
     |
-    |—— 2. 特殊操作：大小写、删除空格、对齐、替换、分割、合并、类型判断、原始字符串
+    |—— 2. 特殊操作：大小写、删除空格、对齐、替换、分割、合并、类型判断、换行符、制表符、原始字符串
     |
     |—— 3. eval()函数 ：把字符串转换为对象或表达式
 """
@@ -62,7 +62,13 @@ print(text)  # >>> AB
 print('python'.isalpha())    # 判断字符串是否全部由字母构成  >>> True
 print('123'.isdigit())       # 判断字符串是否全部由数字构成  >>> True
 print('python123'.isalnum()) # 判断字符串是否仅包含字母和数字  >>> True
-# 输出原始字符串
+# \n 换行符
+print('''Line1\nLine2\nLine3''')
+# \t 制表符
+print('''Name\tAge\tGrade''')    
+print('''Bob\t28\t98''')
+print('''Julia\t27\t100''')
+# 原始字符串
 print('C:\some\name')  # '\'会转义
 print(r'C:\some\name') # 原始字符串
 
