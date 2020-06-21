@@ -7,6 +7,7 @@
 &nbsp; [列表/元组](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_list_tuple.py)
 &nbsp; [字典](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_dict.py)
 &nbsp; [集合](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_set.py)
+&nbsp; [可变/不可变类型](https://github.com/ZBTGL/summary/blob/master/Python/Basics/type_im_mutable.py)
 * **语法：** 
 [赋值/拷贝](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_assign_copy.py)
 &nbsp; [控制流](https://github.com/ZBTGL/summary/blob/master/Python/Basics/syntax_controlFlow.py) 
