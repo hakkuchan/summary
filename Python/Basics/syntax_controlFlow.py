@@ -6,7 +6,8 @@
 
 
     2. while 条件循环
-    · while <逻辑表达式，布尔条件>
+    · while <逻辑表达式>
+    · while <布尔条件>
     · while…… else……
     
     
