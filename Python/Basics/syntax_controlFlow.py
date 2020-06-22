@@ -20,9 +20,8 @@
     
     
     4. break 和 continue 语句：
-    · break 用于终止最近的 for 或 while 循环，执行之后的代码
-    · continue 跳过当前 for 或 while 循环的剩余语句，然后继续进行下一轮循环
-    · 慎用break和continue
+    · break 用于终止循环，执行循环之后的代码
+    · continue 跳过当前循环的剩余语句，然后进行下一轮循环
 
 
     5. pass 语句：
