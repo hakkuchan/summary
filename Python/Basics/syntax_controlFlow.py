@@ -22,6 +22,9 @@
     4. break 和 continue 语句：
     · break 用于终止循环，执行循环之后的代码
     · continue 跳过当前循环的剩余语句，然后进行下一轮循环
+    · break 和 continue 语句通常必须配合if语句使用
+    · 慎用break和continue语句，因为它们会造成代码执行逻辑分叉过多，易出错
+    · 大多数循环可通过改写循环条件或修改循环逻辑，代替break和continue语句
 
 
     5. pass 语句：
