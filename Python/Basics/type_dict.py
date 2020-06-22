@@ -1,5 +1,6 @@
 """ · 字典
-      字典中包含着一系列"键(key)值(value)对"，通过 key 索引 value
+      字典中包含着一系列"键(key)-值(value)对"，通过 key 索引 value
+      字典查找和插入的速度极快，不会随着key的增加而变慢。但字典需要占用大量的内存。
       字典是可变类型，但其中的 key 必须是不可变类型（数值、逻辑值、字符串、元组），value 可以是任何数据类型
 
     · 操作：创建、嵌套、添加、合并、大小、删除(del, pop, clear)、提取(get, keys, values, items)  
@@ -7,10 +8,18 @@
 
 
 """ 1. 创建 """
-r = {'Jack': 98, 'Mike': 99}          # 直接创建法
-s = dict(Jack = 98, Mike = 99)        # dict函数创建法 1
-t = dict([('Jack',98), ('Mike',99)])  # dict构造创建法 2
-print(r == s == t) # >>> True
+# 创建方法 1
+a = {'Jack': 98, 'Mike': 99}          
+# 创建方法 2
+b = dict(Jack = 98, Mike = 99)
+# 创建方法 3
+c = dict([('Jack',98), ('Mike',99)])
+# 创建方法 4
+d = {}  
+d['Jack'] = 98
+d['Mike'] = 99
+
+print(r == s == t == u) # >>> True
 
 
 """ 2. 嵌套 """
