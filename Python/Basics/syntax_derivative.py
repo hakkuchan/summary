@@ -22,8 +22,19 @@ print({v+100:k for k,v in adict.items()})
 
 
 """ 3. 生成器推导式 """
+''' (1) 用()创建generator '''
 x = -1
 out = (0 if x < 0 else x) # <generator object>
 print(out)
 # 等价于：
 print(0 if x < 0 else x)
+
+''' (2) 把列表生成式的[]改成()创建generator '''
+a = (x**2 for x in range(10))
+# a. 用next提取生成器中的元素
+print(next(a))  # >>> 0
+print(next(a))  # >>> 1
+print(next(a))  # >>> 4
+# b. 循环提取生成器中的元素
+for n in a:
+    print(n)
