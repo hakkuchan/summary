@@ -102,7 +102,7 @@ mycar.describe_car()  # >>> My car is made by BYD.
 
 
 
-""" 3. 继承
+""" 4. 继承
     
     · 一个类（也称子类、派生类）继承另一个类（也称：父类、基类、超类）时，
       子类自动拥有父类的属性和方法，
@@ -113,7 +113,7 @@ mycar.describe_car()  # >>> My car is made by BYD.
     · 一般情况下，一个子类只有一个父类 
 """
 
-# 例：继承
+# 例：继承Car类并增加方法 —— 显示剩余电量
 class ElecCar(Car):
     def show_battery(self, batt):
         self.battery = batt
