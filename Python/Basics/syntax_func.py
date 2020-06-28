@@ -31,6 +31,9 @@ def fn(a, b):
     out = a ** b
     return out
 
+def fn(a, b):
+    print(a**b)
+
 
 
 """ 2. 变量的作用域 """
