@@ -71,6 +71,37 @@ car2.read_odometer()  # >>> The car has 15000 km on it.
 
 
 
+""" 3. 限制访问：禁止属性被修改 """
+
+''' 示例：修改实例的属性 '''
+class Car:  
+    def __init__(self, maker):  # 属性
+        self.maker = maker
+    def describe_car(self):  # 方法：描述汽车基本参数
+        print('My car is made by %s.' %str(self.maker))
+
+mycar = Car('BYD')
+mycar.describe_car()  # >>> My car is made by BYD.
+# 修改属性
+mycar.maker = 'Audi'
+mycar.describe_car()  # >>> My car is made by Audi.
+
+
+''' 如果不让属性被修改(限制访问)，可以把属性的名称前加上两个下划线__ '''
+class Car:  
+    def __init__(self, maker):  # 属性
+        self.__maker = maker
+    def describe_car(self):  # 方法：描述汽车基本参数
+        print('My car is made by %s.' %str(self.__maker))
+
+mycar = Car('BYD')
+mycar.describe_car()  # >>> My car is made by BYD.
+# 此时无法修改属性
+mycar.__maker = 'Audi'
+mycar.describe_car()  # >>> My car is made by BYD.
+
+
+
 """ 3. 继承
     
     · 一个类（也称子类、派生类）继承另一个类（也称：父类、基类、超类）时，
