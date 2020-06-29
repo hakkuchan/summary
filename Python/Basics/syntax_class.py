@@ -9,9 +9,11 @@
     |
     |—— 3. 继承
     |
-    |—— 4. 限制访问
+    |—— 4. 多重继承
     |
-    |—— 5. 动态扩充属性和方法
+    |—— 5. 限制访问
+    |
+    |—— 6. 动态扩充属性和方法
 """
 
 
@@ -81,8 +83,6 @@ car2.read_odometer()  # >>> The car has 15000 km on it.
       在此基础上还能改写旧对象、增加新对象
     
     · 继承方法: class <子类名>(<父类名>)
-    
-    · 一般情况下，一个子类只有一个父类 
 """
 
 # 例：继承Car类并增加方法 —— 显示剩余电量
@@ -98,7 +98,44 @@ elec_car.show_battery(50) # >>> Battery remain: 50%
 
 
 
-""" 4. 限制访问：禁止属性被修改 """
+""" 4. 多重继承
+
+    · 在设计类的时候，可通过多重继承组合多个功能，避免设计多层次的继承关系 
+    
+    · 多重继承方法: class <子类名>(<父类1名>, <父类2名>, ...)
+"""
+class Car:
+    def __init__(self, car_type):
+        self.car_type = car_type
+    def show_car(self):
+        print('This is a(n) %s, ' %self.car_type, end='')
+        
+class Electric:
+    def show_power(self):
+        print('which is electric-power.')
+        
+class Gasoline:
+    def show_power(self):
+        print('which is gasoline-power.')
+
+        
+# 例 1：多重继承 Car 和 Electric 类
+class NewCar(Car, Electric):
+    pass
+s1 = NewCar('jeep')
+s1.show_car()
+s1.show_power()
+
+# 例 2：多重继承 Car 和 Gasoline 类
+class NewCar(Car, Gasoline):
+    pass
+s2 = NewCar('bus')
+s2.show_car()
+s2.show_power()
+
+
+
+""" 5. 限制访问：禁止属性被修改 """
 
 ''' 示例：修改实例的属性 '''
 class Car:  
@@ -129,7 +166,7 @@ mycar.describe_car()  # >>> My car is made by BYD.
 
 
 
-""" 5. 动态扩充属性和方法 """
+""" 6. 动态扩充属性和方法 """
 
 class Car:
     pass
