@@ -11,9 +11,11 @@
     |
     |—— 4. 多重继承
     |
-    |—— 5. 限制访问
+    |—— 5. super()的作用
     |
-    |—— 6. 动态扩充属性和方法
+    |—— 6. 限制访问
+    |
+    |—— 7. 动态扩充属性和方法
 """
 
 
@@ -135,7 +137,53 @@ s2.show_power()
 
 
 
-""" 5. 限制访问：禁止属性被修改 """
+""" 5. super()的作用：调用父类的属性、方法 """
+
+''' (1) 当子类继承父类时，如果要使用父类的属性，并增加新属性，需用 super() 调用父类的初始化方法 '''
+class ReadOdometer:
+    def __init__(self, odometer):
+        self.odometer = odometer
+    def show_odometer(self):
+        print('This car has %i km on it.' %self.odometer)
+
+class UpdateOdometer(ReadOdometer):
+    def __init__(self, odometer, new_odometer):
+        super().__init__(odometer) # 调用父类的初始化方法 
+        self.new_odometer = new_odometer
+    def plus_odometer(self):
+        print('This car added %i km on it.' %(self.new_odometer - self.odometer))
+
+odometer = UpdateOdometer(1000, 1200)
+odometer.plus_odometer()
+
+
+''' (2) 当子类继承父类时，如果子类方法与父类方法重名，子类方法会覆盖后者，需用 super() 调用父类的方法'''
+class Car:
+    def __init__(self, maker):
+        self.maker = maker
+    def show_info(self):
+        print('This is a %s car.' %self.maker, end=' ')
+
+# a. 子类 ElectricCar 的方法 show_info 与其继承的、父类的方法同名
+class ElectricCar(Car):
+    def show_info(self):
+        print('This car is electric-power.')
+
+mycar = ElectricCar('BYD')
+mycar.show_info()  # 父类的 show_info 被覆盖  >>> This car is electric-power.
+
+# b. 重写子类 ElectricCar，利用 super() 调用父类的 show_info 方法
+class ElectricCar(Car):
+    def show_info(self):
+        super().show_info() # 调用父类的方法 
+        print('This car is electric-power.')
+        
+mycar = ElectricCar('BYD')
+mycar.show_info()  # >>> This is a BYD car. This car is electric-power.
+
+
+
+""" 6. 限制访问：禁止属性被修改 """
 
 ''' 示例：修改实例的属性 '''
 class Car:  
@@ -166,7 +214,7 @@ mycar.describe_car()  # >>> My car is made by BYD.
 
 
 
-""" 6. 动态扩充属性和方法 """
+""" 7. 动态扩充属性和方法 """
 
 class Car:
     pass
